@@ -3,7 +3,7 @@ info:
   version: 1.0.0
   title: OMG.LOL API
 servers:
-  - url: 'https://omg.lol/api'
+  - url: 'https://alpha.omg.lol/api'
 paths:
   /availability:
     get:
@@ -21,7 +21,7 @@ paths:
             example: 'desired-address'
       responses:
         '200':
-          description: 'Details about the availability of an address'
+          description: 'Returns details about the availability of an address'
           content:
             application/json:
               schema:
