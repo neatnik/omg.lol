@@ -1,0 +1,40 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: OMG.LOL API
+servers:
+  - url: 'https://omg.lol/api/'
+paths:
+  /availability:
+    get:
+      summary: 'Returns information about the availability of an address'
+      operationId: listUser
+      tags:
+        - user
+      parameters:
+        - name: address
+          in: path
+          description: 'Address to check'
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'Details about the availability of an address'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                    success:
+                        type: boolean
+                    code:
+                        type: integer
+                    address:
+                        type: string
+                    availability:
+                        type: string
+                    available:
+                        type: boolean
+                    message:
+                        type: string
