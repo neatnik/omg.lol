@@ -39,10 +39,3 @@ paths:
                     type: boolean
                   message:
                     type: string
-              example:
-                success: true
-                code: 200
-                address: 'available-address'
-                availability: 'available'
-                available: true
-                message: 'This address is available.'
