@@ -7,7 +7,7 @@ servers:
 paths:
   /availability:
     get:
-      summary: 'Returns information about the availability of an address'
+      summary: '/availability: Returns information about the availability of an address'
       operationId: listUser
       tags:
         - user
