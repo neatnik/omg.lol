@@ -7,7 +7,7 @@ servers:
 paths:
   /availability:
     get:
-      summary: 'Returns information about the availability of an address'
+      summary: '/availability'
       operationId: listUser
       tags:
         - user
@@ -18,7 +18,7 @@ paths:
           required: true
           schema:
             type: string
-            example: yourname
+            example: 'desired-address'
       responses:
         '200':
           description: 'Details about the availability of an address'
@@ -42,6 +42,7 @@ paths:
               example:
                 success: true
                 code: 200
+                address: 'available-address'
                 availability: 'available'
                 available: true
                 message: 'This address is available.'
