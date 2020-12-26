@@ -18,6 +18,7 @@ paths:
           required: true
           schema:
             type: string
+            example: yourname
       responses:
         '200':
           description: 'Details about the availability of an address'
@@ -26,15 +27,21 @@ paths:
               schema:
                 type: object
                 properties:
-                    success:
-                        type: boolean
-                    code:
-                        type: integer
-                    address:
-                        type: string
-                    availability:
-                        type: string
-                    available:
-                        type: boolean
-                    message:
-                        type: string
+                  success:
+                    type: boolean
+                  code:
+                    type: integer
+                  address:
+                    type: string
+                  availability:
+                    type: string
+                  available:
+                    type: boolean
+                  message:
+                    type: string
+              example:
+                success: true
+                code: 200
+                availability: 'available'
+                available: true
+                message: 'This address is available.'
