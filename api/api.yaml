@@ -3,25 +3,25 @@ info:
   version: 1.0.0
   title: OMG.LOL API
 servers:
-  - url: 'https://omg.lol/api'
+  - url: 'https://alpha.omg.lol/api'
 paths:
   /availability:
     get:
-      summary: 'Returns information about the availability of an address'
+      summary: '/availability'
       operationId: listUser
       tags:
         - user
       parameters:
         - name: address
-          in: path
+          in: query
           description: 'Address to check'
           required: true
           schema:
             type: string
-            example: yourname
+            example: 'desired-address'
       responses:
         '200':
-          description: 'Details about the availability of an address'
+          description: 'Returns details about the availability of an address'
           content:
             application/json:
               schema:
@@ -39,9 +39,3 @@ paths:
                     type: boolean
                   message:
                     type: string
-              example:
-                success: true
-                code: 200
-                availability: 'available'
-                available: true
-                message: 'This address is available.'
