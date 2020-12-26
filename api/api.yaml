@@ -3,7 +3,7 @@ info:
   version: 1.0.0
   title: OMG.LOL API
 servers:
-  - url: 'https://omg.lol/api/'
+  - url: 'https://omg.lol/api'
 paths:
   /availability:
     get:
