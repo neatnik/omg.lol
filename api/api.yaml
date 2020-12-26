@@ -13,7 +13,7 @@ paths:
         - user
       parameters:
         - name: address
-          in: path
+          in: query
           description: 'Address to check'
           required: true
           schema:
