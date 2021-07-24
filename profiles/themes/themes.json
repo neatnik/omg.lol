@@ -8,5 +8,9 @@
 			"name": "Minimal",
 			"url": "https://raw.githubusercontent.com/wongmjane/omglol-style/main/style.css"
 		}
+		"dark": {
+			"name": "Dark",
+			"url": "https://raw.githubusercontent.com/neatnik/omg.lol/main/profiles/themes/dark.css"
+		}
 	}
 }
