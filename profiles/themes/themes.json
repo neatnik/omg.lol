@@ -1,0 +1,12 @@
+{
+	"themes": {
+		"default": {
+			"name": "Default",
+			"url": "https://meta.omg.lol/meta/css/profile/profile.css"
+		},
+		"minimal": {
+			"name": "Minimal",
+			"url": "https://raw.githubusercontent.com/wongmjane/omglol-style/main/style.css"
+		}
+	}
+}
