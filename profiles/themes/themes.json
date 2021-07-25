@@ -3,8 +3,10 @@
 		"default": {
 			"name": "Default",
 			"author": "OMG.LOL",
+			"author_url": "https://omg.lol",
 			"version": "1.0",
 			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
 			"description": "A friendly, simple look for your amazing profile.",
 			"url": "https://meta.omg.lol/meta/css/profile/profile.css",
 			"repo": "https://github.com/neatnik/omg.lol/tree/main/profiles/themes"
@@ -12,8 +14,10 @@
 		"minimal": {
 			"name": "Minimal",
 			"author": "Jane Manchun Wong (@wongmjane)",
+			"author_url": "https://jane.omg.lol",
 			"version": "1.0",
 			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
 			"description": "A minimal theme with automatic light/dark mode detection.",
 			"url": "https://raw.githubusercontent.com/wongmjane/omglol-style/main/style.css",
 			"repo": "https://github.com/wongmjane/omglol-style"
@@ -22,8 +26,10 @@
 		"dark": {
 			"name": "Dark",
 			"author": "OMG.LOL",
+			"author_url": "https://omg.lol",
 			"version": "1.0",
 			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
 			"description": "It’s super dark!",
 			"url": "https://raw.githubusercontent.com/neatnik/omg.lol/main/profiles/themes/dark.css",
 			"repo": "https://github.com/neatnik/omg.lol/tree/main/profiles/themes"
