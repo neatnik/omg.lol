@@ -11,18 +11,6 @@
 			"url": "https://meta.omg.lol/meta/css/profile/profile.css",
 			"repo": "https://github.com/neatnik/omg.lol/tree/main/profiles/themes"
 		},
-		"minimal": {
-			"name": "Minimal",
-			"author": "Jane Manchun Wong",
-			"author_url": "https://jane.omg.lol",
-			"version": "1.0",
-			"license": "MIT",
-			"license_url": "https://opensource.org/licenses/MIT",
-			"description": "A minimal theme with automatic light/dark mode detection.",
-			"url": "https://raw.githubusercontent.com/wongmjane/omglol-style/main/style.css",
-			"repo": "https://github.com/wongmjane/omglol-style"
-
-		},
 		"dark": {
 			"name": "Dark",
 			"author": "OMG.LOL",
@@ -33,6 +21,28 @@
 			"description": "It’s super dark!",
 			"url": "https://raw.githubusercontent.com/neatnik/omg.lol/main/profiles/themes/dark.css",
 			"repo": "https://github.com/neatnik/omg.lol/tree/main/profiles/themes"
+		},
+		"gradient": {
+			"name": "Gradient",
+			"author": "Trevor Thalacker",
+			"author_url": "https://trevor.omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": " A nice theme with an animated, gradient background.",
+			"url": "https://gitlab.com/trevorthalacker/omg-lol-themes/-/raw/master/gradient.css",
+			"repo": "https://gitlab.com/trevorthalacker/omg-lol-themes"
+		},
+		"minimal": {
+			"name": "Minimal",
+			"author": "Jane Manchun Wong",
+			"author_url": "https://jane.omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "A minimal theme with automatic light/dark mode detection.",
+			"url": "https://raw.githubusercontent.com/wongmjane/omglol-style/main/style.css",
+			"repo": "https://github.com/wongmjane/omglol-style"
 		}
 	}
 }
