@@ -11,6 +11,17 @@
 			"url": "https://meta.omg.lol/meta/css/profile/profile.css",
 			"repo": "https://github.com/neatnik/omg.lol/tree/main/profiles/themes"
 		},
+		"cherry-blossom": {
+			"name": "Cherry Blossom",
+			"author": "OMG.LOL",
+			"author_url": "https://omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "Springtime, but all year long.",
+			"url": "https://raw.githubusercontent.com/neatnik/omg.lol/main/profiles/themes/cherry-blossom.css",
+			"repo": "https://github.com/neatnik/omg.lol/tree/main/profiles/themes"
+		},
 		"dark": {
 			"name": "Dark",
 			"author": "OMG.LOL",
