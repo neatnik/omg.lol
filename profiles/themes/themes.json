@@ -22,17 +22,6 @@
 			"url": "https://raw.githubusercontent.com/neatnik/omg.lol/main/profiles/themes/dark.css",
 			"repo": "https://github.com/neatnik/omg.lol/tree/main/profiles/themes"
 		},
-		"gilded": {
-			"name": "Gilded",
-			"author": "Nima Owji",
-			"author_url": "https://nima.omg.lol",
-			"version": "1.0",
-			"license": "MIT",
-			"license_url": "https://opensource.org/licenses/MIT",
-			"description": " A nice theme with an animated, gradient background.",
-			"url": "https://raw.githubusercontent.com/nimaowji/omglol-style/main/style.css",
-			"repo": "https://github.com/nimaowji/omglol-style"
-		},
 		"gradient": {
 			"name": "Gradient",
 			"author": "Trevor Thalacker",
