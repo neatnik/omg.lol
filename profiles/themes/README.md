@@ -2,6 +2,8 @@
 
 This is a repository of themes for OMG.LOL profile pages. They’re just CSS files! Simple stuff.
 
+## Contributing
+
 If you’d like to submit your own theme for inclusion in the theme list, you can do it a couple of different ways:
 
 1. Submit it here with a pull request.
