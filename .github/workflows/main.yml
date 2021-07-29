@@ -1,0 +1,24 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Install and Build 🔧 
+        run: |
+          echo 'TODO build here'
+      - name: Deploy 🚀
+        env:
+          ACCESS_TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          set -ex
+          git remote set-url origin https://newbold:${ACCESS_TOKEN}@github.com/neatnik/omg.lol.git
+          git push origin `git subtree split --prefix status.omg.lol master`:gh-pages --force
