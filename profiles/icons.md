@@ -17,7 +17,7 @@ Want to add an icon? Update this page with a pull request.
 | Example                      | fa-solid fa-font-awesome                | example.com                        |
 | Facebook                     | fa-brands fa-facebook                   | facebook.com                       |
 | Geocaching                   | fa-solid fa-magnifying-glass-location   | geocaching.com                     |
-| Geoguessr                    | fa-solid -map-marked-alt                | geoguessr.com                      |
+| Geoguessr                    | fa-solid fa-map-marked-alt              | geoguessr.com                      |
 | GitHub                       | fa-brands fa-github                     | github.com                         |
 | GitLab                       | fa-brands fa-gitlab                     | gitlab.com                         |
 | Goodreads                    | fa-brands fa-goodreads                  | goodreads.com                      |
