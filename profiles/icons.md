@@ -20,6 +20,7 @@ Want to add an icon? Update this page with a pull request.
 | Geoguessr                    | fa-solid -map-marked-alt                | geoguessr.com                      |
 | GitHub                       | fa-brands fa-github                     | github.com                         |
 | GitLab                       | fa-brands fa-gitlab                     | gitlab.com                         |
+| Goodreads                    | fa-brands fa-goodreads                  | goodreads.com                      |
 | Google                       | fa-brands fa-google                     | google.com                         |
 | Honk                         | fa-solid fa-comment-dots                | honk.me                            |
 | Instagram                    | fa-brands fa-instagram                  | instagram.com                      |
@@ -29,11 +30,13 @@ Want to add an icon? Update this page with a pull request.
 | Last.fm                      | fa-brands fa-lastfm                     | last.fm                            |
 | LinkedIn                     | fa-brands fa-linkedin                   | linkedin.com                       |
 | Mastodon                     | fa-brands fa-mastodon                   | mastodon.social, mastodon.online   |
+| Medium                       | fa-brands fa-medium                     | medium.com                         |
 | Messenger                    | fa-brands fa-facebook-messenger         | m.me                               |
 | OGS                          | fa-solid fa-circle-half-stroke          | online-go.com                      |
 | osu!                         | fa-solid fa-list-music                  | osu.ppy.sh                         |
 | Patreon                      | fa-brands fa-patreon                    | patreon.com                        |
 | Polywork                     | fa-solid fa-id-badge                    | polywork.com                       |
+| Product Hunt                 | fa-brands fa-product-hunt               | producthunt.com                    |
 | Rainbow                      | fa-solid fa-rainbow                     | rainbow.me                         |
 | Reddit                       | fa-brands fa-reddit                     | reddit.com                         |
 | Soundcloud                   | fa-brands fa-soundcloud                 | soundcloud.com                     |
