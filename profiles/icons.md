@@ -54,7 +54,7 @@ Want to add an icon? Update this page with a pull request.
 | PayPal                     | fa-brands fa-paypal                   | paypal.me                                             |
 | Pinterest                  | fa-brands fa-pinterest                | pinterest.com                                         |
 | Podcast                    | fa-solid fa-podcast                   | podcast://                                            |
-| Polywork                   | fa-solid fa-id-badge                  | polywork.com                                          |
+| Polywork                   | omg-icon polywork                     | polywork.com                                          |
 | Product Hunt               | fa-brands fa-product-hunt             | producthunt.com                                       |
 | Rainbow                    | fa-solid fa-rainbow                   | rainbow.me                                            |
 | Reddit                     | fa-brands fa-reddit                   | reddit.com                                            |
