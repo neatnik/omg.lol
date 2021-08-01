@@ -18,7 +18,7 @@ Want to add an icon? Update this page with a pull request.
 | Cloudspotting              | fa-solid fa-cloud                     | cloudspotting.be                                      |
 | Cloud Appreciation Society | fa-solid fa-cloud                     | cloudappreciationsociety.org                          |
 | Clubhouse                  | fa-solid fa-hand-wave                 | clubhouse.com                                         |
-| Codepen                    | fa-branda fa-codepen                  | codepen.io                                            |
+| Codepen                    | fa-brands fa-codepen                  | codepen.io                                            |
 | Discord                    | fa-brands fa-discord                  | discord.com, discord.gg, discord://                   |
 | Dog                        | fa-solid fa-dog                       | dog://                                                |
 | Dribbble                   | fa-brands fa-dribbble                 | dribbble.com                                          |
