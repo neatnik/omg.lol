@@ -36,7 +36,18 @@ a:active {
 	border-radius: 100%;
 }
 
-.fa-li, .fas, .omg-icon {
+.fa-li, .fas {
 	color: #b53c54;
-	fill: #b53c54;
+}
+
+/* For the XMPP icon to look more pinkish */
+/* Generated using: https://codepen.io/sosuke/pen/Pjoqqp */
+.omg-icon {
+	display: inline-block;
+	border: 0px solid red;
+	width: 1em;
+	position: absolute;
+	top: -0.1em;
+	left: -1.5em;
+	filter: invert(36%) sepia(7%) saturate(6042%) hue-rotate(302deg) brightness(90%) contrast(95%);
 }
