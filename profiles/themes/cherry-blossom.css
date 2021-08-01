@@ -36,6 +36,7 @@ a:active {
 	border-radius: 100%;
 }
 
-.fa-li, .fas {
+.fa-li, .fas, .omg-icon {
 	color: #b53c54;
+	fill: #b53c54;
 }
