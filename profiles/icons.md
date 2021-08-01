@@ -11,6 +11,7 @@ Want to add an icon? Update this page with a pull request.
 | Bandcamp                   | fa-brands fa-bandcamp                 | bandcamp.com                                          |
 | Bēhance                    | fa-brands fa-behance                  | behance.net                                           |
 | Bird                       | fa-solid fa-crow                      | bird://                                               |
+| Bitcoin                    | fa-brands fa-bitcoin                  | bitcoin://                                            |
 | Book                       | fa-solid fa-book                      | book://, reading://                                   |
 | Buy Me A Coffee            | fa-regular fa-coffee-togo             | buymeacoffee.com                                      |
 | Cat                        | fa-solid fa-cat                       | cat://                                                |
