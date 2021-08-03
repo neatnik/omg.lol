@@ -14,6 +14,7 @@ Want to add an icon? Update this page with a pull request.
 | Bitcoin                    | fa-brands fa-bitcoin                  | bitcoin://                                            |
 | Book                       | fa-solid fa-book                      | book://, reading://                                   |
 | Buy Me A Coffee            | fa-regular fa-coffee-togo             | buymeacoffee.com                                      |
+| Calendly                   | fa-solid fa-calendar-pen              | calendly.com                                          |
 | Cat                        | fa-solid fa-cat                       | cat://                                                |
 | Cloudspotting              | fa-solid fa-cloud                     | cloudspotting.be                                      |
 | Cloud Appreciation Society | fa-solid fa-cloud                     | cloudappreciationsociety.org                          |
@@ -59,6 +60,7 @@ Want to add an icon? Update this page with a pull request.
 | Product Hunt               | fa-brands fa-product-hunt             | producthunt.com                                       |
 | Rainbow                    | fa-solid fa-rainbow                   | rainbow.me                                            |
 | Reddit                     | fa-brands fa-reddit                   | reddit.com                                            |
+| Rep.ly                     | fa-solid fa-message-dots              | rep.ly                                                |
 | Snapchat                   | fa-brands fa-snapchat                 | snapchat.com                                          |
 | SoundCloud                 | fa-brands fa-soundcloud               | soundcloud.com                                        |
 | Spotify                    | fa-brands fa-spotify                  | spotify.com, open.spotify.com                         |
