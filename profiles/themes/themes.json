@@ -65,6 +65,17 @@
 			"description": "A minimal theme with automatic light/dark mode detection.",
 			"url": "https://meta.omg.lol/meta/profiles/themes/minimal.css",
 			"repo": "https://github.com/wongmjane/omglol-style"
+		},
+		"naked": {
+			"name": "Naked",
+			"author": "OMG.LOL",
+			"author_url": "https://omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "No style at all, for those who want to do their own thing!",
+			"url": "https://meta.omg.lol/meta/css/profile/naked.css",
+			"repo": "https://github.com/neatnik/omg.lol/tree/main/profiles/themes"
 		}
 	}
 }
