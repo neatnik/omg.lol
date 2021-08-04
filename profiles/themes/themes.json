@@ -19,7 +19,7 @@
 			"license": "MIT",
 			"license_url": "https://opensource.org/licenses/MIT",
 			"description": "Springtime, but all year long.",
-			"url": "https://raw.githubusercontent.com/neatnik/omg.lol/main/profiles/themes/cherry-blossom.css",
+			"url": "https://meta.omg.lol/meta/profiles/themes/cherry-blossom.css",
 			"repo": "https://github.com/neatnik/omg.lol/tree/main/profiles/themes"
 		},
 		"dark": {
@@ -30,7 +30,7 @@
 			"license": "MIT",
 			"license_url": "https://opensource.org/licenses/MIT",
 			"description": "It’s super dark!",
-			"url": "https://raw.githubusercontent.com/neatnik/omg.lol/main/profiles/themes/dark.css",
+			"url": "https://meta.omg.lol/meta/profiles/themes/dark.css",
 			"repo": "https://github.com/neatnik/omg.lol/tree/main/profiles/themes"
 		},
 		"gilded": {
@@ -41,7 +41,7 @@
 			"license": "MIT",
 			"license_url": "https://opensource.org/licenses/MIT",
 			"description": "Bold and dark with a touch of gold.",
-			"url": "https://raw.githubusercontent.com/nimaowji/omglol-style/main/style.css",
+			"url": "https://meta.omg.lol/meta/profiles/themes/gilded.css",
 			"repo": "https://github.com/nimaowji/omglol-style"
 		},
 		"gradient": {
@@ -63,7 +63,7 @@
 			"license": "MIT",
 			"license_url": "https://opensource.org/licenses/MIT",
 			"description": "A minimal theme with automatic light/dark mode detection.",
-			"url": "https://raw.githubusercontent.com/wongmjane/omglol-style/main/style.css",
+			"url": "https://meta.omg.lol/meta/profiles/themes/minimal.css",
 			"repo": "https://github.com/wongmjane/omglol-style"
 		}
 	}
