@@ -59,6 +59,7 @@ Want to add an icon? Update this page with a pull request.
 | Polywork                   | omg-icon polywork                     | polywork.com                                          |
 | Product Hunt               | fa-brands fa-product-hunt             | producthunt.com                                       |
 | Rainbow                    | fa-solid fa-rainbow                   | rainbow.me                                            |
+| Rarible                    | omg-icon rarible                      | rarible.com                                           |
 | Reddit                     | fa-brands fa-reddit                   | reddit.com                                            |
 | Rep.ly                     | fa-solid fa-message-dots              | rep.ly                                                |
 | Snapchat                   | fa-brands fa-snapchat                 | snapchat.com                                          |
