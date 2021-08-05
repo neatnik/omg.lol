@@ -36,7 +36,7 @@ Want to add an icon? Update this page with a pull request.
 | GitLab                     | fa-brands fa-gitlab                   | gitlab.com                                            |
 | Goodreads                  | fa-brands fa-goodreads                | goodreads.com                                         |
 | Google                     | fa-brands fa-google                   | google.com                                            |
-| Honk                       | fa-solid fa-comment-dots              | honk.me                                               |
+| Honk                       | omg-icon honk                         | honk.me                                               |
 | Instagram                  | fa-brands fa-instagram                | instagram.com                                         |
 | Itch                       | fa-brands fa-itch-io                  | itch.io                                               |
 | Keybase                    | fa-brands fa-keybase                  | keybase.io                                            |
@@ -45,7 +45,7 @@ Want to add an icon? Update this page with a pull request.
 | Liberapay                  | omg-icon liberapay                    | liberapay.com                                         |
 | LinkedIn                   | fa-brands fa-linkedin                 | linkedin.com                                          |
 | Mastodon                   | fa-brands fa-mastodon                 | mastodon.social, mastodon.online, mas.to, mastodon:// |
-| Matrix                     | fa-solid fa-comments                  | matrix://                                             |
+| Matrix                     | omg-icon matrix                       | matrix://                                             |
 | Medium                     | fa-brands fa-medium                   | medium.com                                            |
 | Messenger                  | fa-brands fa-facebook-messenger       | m.me                                                  |
 | Movie                      | fa-solid fa-camera-movie              | movie://                                              |
@@ -58,7 +58,7 @@ Want to add an icon? Update this page with a pull request.
 | Podcast                    | fa-solid fa-podcast                   | podcast://                                            |
 | Polywork                   | omg-icon polywork                     | polywork.com                                          |
 | Product Hunt               | fa-brands fa-product-hunt             | producthunt.com                                       |
-| Rainbow                    | fa-solid fa-rainbow                   | rainbow.me                                            |
+| Rainbow                    | omg-icon rainbow-me                   | rainbow.me                                            |
 | Rarible                    | omg-icon rarible                      | rarible.com                                           |
 | Reddit                     | fa-brands fa-reddit                   | reddit.com                                            |
 | Rep.ly                     | fa-solid fa-message-dots              | rep.ly                                                |
