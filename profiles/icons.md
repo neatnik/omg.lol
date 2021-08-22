@@ -69,6 +69,7 @@ Want to add an icon? Update this page with a pull request.
 | Steam Community            | fa-brands fa-steam                    | steamcommunity.com                                    |
 | Telegram                   | fa-brands fa-telegram                 | t.me                                                  |
 | TikTok                     | fa-brands fa-tiktok                   | tiktok.com                                            |
+| Toss                       | omg-icon toss                         | toss.me                                               |
 | Tumblr                     | fa-brands fa-tumblr                   | tumblr.com                                            |
 | TV                         | fa-solid fa-tv-retro                  | tv://                                                 |
 | Twitch                     | fa-brands fa-twitch                   | twitch.tv                                             |
