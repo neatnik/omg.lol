@@ -48,6 +48,7 @@ Want to add an icon? Update this page with a pull request.
 | Matrix                     | omg-icon matrix                       | matrix://                                             |
 | Medium                     | fa-brands fa-medium                   | medium.com                                            |
 | Messenger                  | fa-brands fa-facebook-messenger       | m.me                                                  |
+| Micro.bog                  | fa-brands fa-microblog                | micro.blog                                            |
 | Movie                      | fa-solid fa-camera-movie              | movie://                                              |
 | Music                      | fa-solid fa-headphones-simple         | music://                                              |
 | OGS                        | fa-solid fa-circle-half-stroke        | online-go.com                                         |
