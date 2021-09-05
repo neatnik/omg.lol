@@ -46,14 +46,14 @@
 		},
 		"gradient": {
 			"name": "Gradient",
-			"author": "Trevor Thalacker",
-			"author_url": "https://trevor.omg.lol",
+			"author": "Jamie Thalacker",
+			"author_url": "https://jamiethalacker.omg.lol",
 			"version": "1.0",
 			"license": "MIT",
 			"license_url": "https://opensource.org/licenses/MIT",
 			"description": "A nice theme with an animated, gradient background.",
-			"url": "https://gitlab.com/trevorthalacker/omg-lol-themes/-/raw/master/gradient.css",
-			"repo": "https://gitlab.com/trevorthalacker/omg-lol-themes"
+			"url": "https://gitlab.com/jamiethalacker/omg-lol-themes/-/raw/master/gradient.css",
+			"repo": "https://gitlab.com/jamiethalacker/omg-lol-themes"
 		},
 		"minimal": {
 			"name": "Minimal",
