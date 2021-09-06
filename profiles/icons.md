@@ -65,6 +65,7 @@ Want to add an icon? Update this page with a pull request.
 | Rep.ly                     | fa-solid fa-message-dots              | rep.ly                                                |
 | Snapchat                   | fa-brands fa-snapchat                 | snapchat.com                                          |
 | SoundCloud                 | fa-brands fa-soundcloud               | soundcloud.com                                        |
+| SpaceHey                   | omg-icon spacehey                     | spacehey.com, blog.spacehey.com                       |
 | Spotify                    | fa-brands fa-spotify                  | spotify.com, open.spotify.com                         |
 | Stack Overflow             | fa-brands fa-stack-overflow           | stackoverflow.com                                     |
 | Steam Community            | fa-brands fa-steam                    | steamcommunity.com                                    |
