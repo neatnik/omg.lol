@@ -79,7 +79,7 @@ Want to add an icon? Update this page with a pull request.
 | Vimeo                      | fa-brands fa-vimeo                    | vimeo.com                                             |
 | VK                         | fa-brands fa-vk                       | vk.com                                                |
 | Waze                       | fa-brands fa-waze                     | waze.com                                              |
-| WhatsApp                   | fa-brands fa-whatsapp                 | whatsapp.com
+| WhatsApp                   | fa-brands fa-whatsapp                 | whatsapp.com, wa.me                                   |
 | WordPress                  | fa-brands fa-wordpress                | wordpress.com                                         |
 | XMPP                       | omg-icon xmpp                         | xmpp://                                               |
 | YouTube                    | fa-brands fa-youtube                  | youtube.com                                           |
