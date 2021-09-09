@@ -41,7 +41,7 @@ Want to add an icon? Update this page with a pull request.
 | Itch                       | fa-brands fa-itch-io                  | itch.io                                               |
 | Keybase                    | fa-brands fa-keybase                  | keybase.io                                            |
 | Ko-Fi                      | fa-solid fa-coffee-togo               | ko-fi.com                                             |
-| Last.fm                    | fa-brands fa-lastfm                   | last.fm                                               |
+| Last.fm                    | fa-brands fa-lastfm                   | last.fm, www.last.fm                                  |
 | Liberapay                  | omg-icon liberapay                    | liberapay.com                                         |
 | LinkedIn                   | fa-brands fa-linkedin                 | linkedin.com                                          |
 | Mastodon                   | fa-brands fa-mastodon                 | mastodon.social, mastodon.online, mas.to, mastodon:// |
