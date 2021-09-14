@@ -63,7 +63,7 @@ Want to add an icon? Update this page with a pull request.
 | Rarible                    | omg-icon rarible                      | rarible.com                                           |
 | Reddit                     | fa-brands fa-reddit                   | reddit.com                                            |
 | Rep.ly                     | fa-solid fa-message-dots              | rep.ly                                                |
-| Signal                     | omg-icon signal                       | signal.org, signal://, sgnl://                        |
+| Signal                     | omg-icon signal                       | signal.org, signal.group, signal://, sgnl://          |
 | Snapchat                   | fa-brands fa-snapchat                 | snapchat.com                                          |
 | SoundCloud                 | fa-brands fa-soundcloud               | soundcloud.com                                        |
 | SpaceHey                   | omg-icon spacehey                     | spacehey.com                                          |
