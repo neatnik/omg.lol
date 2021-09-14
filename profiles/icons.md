@@ -41,7 +41,7 @@ Want to add an icon? Update this page with a pull request.
 | Itch                       | fa-brands fa-itch-io                  | itch.io                                               |
 | Keybase                    | fa-brands fa-keybase                  | keybase.io                                            |
 | Ko-Fi                      | fa-solid fa-coffee-togo               | ko-fi.com                                             |
-| Last.fm                    | fa-brands fa-lastfm                   | last.fm, www.last.fm                                  |
+| Last.fm                    | fa-brands fa-lastfm                   | last.fm                                               |
 | Liberapay                  | omg-icon liberapay                    | liberapay.com                                         |
 | LinkedIn                   | fa-brands fa-linkedin                 | linkedin.com                                          |
 | Mastodon                   | fa-brands fa-mastodon                 | mastodon.social, mastodon.online, mas.to, mastodon:// |
@@ -63,6 +63,7 @@ Want to add an icon? Update this page with a pull request.
 | Rarible                    | omg-icon rarible                      | rarible.com                                           |
 | Reddit                     | fa-brands fa-reddit                   | reddit.com                                            |
 | Rep.ly                     | fa-solid fa-message-dots              | rep.ly                                                |
+| Signal                     | omg-icon signal                       | signal.org, signal://, sgnl://                        |
 | Snapchat                   | fa-brands fa-snapchat                 | snapchat.com                                          |
 | SoundCloud                 | fa-brands fa-soundcloud               | soundcloud.com                                        |
 | SpaceHey                   | omg-icon spacehey                     | spacehey.com                                          |
