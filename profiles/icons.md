@@ -79,6 +79,7 @@ Want to add an icon? Update this page with a pull request.
 | Twitter                    | fa-brands fa-twitter                  | twitter.com                                           |
 | Vimeo                      | fa-brands fa-vimeo                    | vimeo.com                                             |
 | VK                         | fa-brands fa-vk                       | vk.com                                                |
+| Wattpad                    | omg-icon wattpad                      | wattpad.com                                           |
 | Waze                       | fa-brands fa-waze                     | waze.com                                              |
 | WhatsApp                   | fa-brands fa-whatsapp                 | whatsapp.com, wa.me                                   |
 | WordPress                  | fa-brands fa-wordpress                | wordpress.com                                         |
