@@ -36,6 +36,7 @@ Want to add an icon? Update this page with a pull request.
 | GitLab                     | fa-brands fa-gitlab                   | gitlab.com                                            |
 | Goodreads                  | fa-brands fa-goodreads                | goodreads.com                                         |
 | Google                     | fa-brands fa-google                   | google.com                                            |
+| Gumroad                    | omg-icon gumroad                      | gumroad.com                                           |
 | Honk                       | omg-icon honk                         | honk.me                                               |
 | Instagram                  | fa-brands fa-instagram                | instagram.com                                         |
 | Itch                       | fa-brands fa-itch-io                  | itch.io                                               |
