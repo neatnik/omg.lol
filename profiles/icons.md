@@ -46,6 +46,7 @@ Want to add an icon? Update this page with a pull request.
 | Last.fm                    | fa-brands fa-lastfm                   | last.fm                                               |
 | Letterboxd                 | omg-icon letterboxd                   | letterboxd.com                                        |
 | Liberapay                  | omg-icon liberapay                    | liberapay.com                                         |
+| Lichess                    | omg-icon lichess                      | lichess.org                                           |
 | LinkedIn                   | fa-brands fa-linkedin                 | linkedin.com                                          |
 | Mastodon                   | fa-brands fa-mastodon                 | mastodon.social, mastodon.online, mas.to, mastodon:// |
 | Matrix                     | omg-icon matrix                       | matrix://                                             |
@@ -54,13 +55,14 @@ Want to add an icon? Update this page with a pull request.
 | Micro.bog                  | fa-brands fa-microblog                | micro.blog                                            |
 | Movie                      | fa-solid fa-camera-movie              | movie://                                              |
 | Music                      | fa-solid fa-headphones-simple         | music://                                              |
+| Notion                     | omg-icon notion                       | notion.so                                             |
 | OGS                        | fa-solid fa-circle-half-stroke        | online-go.com                                         |
 | osu!                       | fa-solid fa-list-music                | osu.ppy.sh                                            |
 | Patreon                    | fa-brands fa-patreon                  | patreon.com                                           |
 | PayPal                     | fa-brands fa-paypal                   | paypal.me                                             |
 | Pinterest                  | fa-brands fa-pinterest                | pinterest.com                                         |
 | Podcast                    | fa-solid fa-podcast                   | podcast://                                            |
-| Polywork                   | omg-icon polywork                     | polywork.com                                          |
+| Polywork                   | omg-icon polywork                     | polywork.com, poly.work                               |
 | Product Hunt               | fa-brands fa-product-hunt             | producthunt.com                                       |
 | Rainbow                    | omg-icon rainbow-me                   | rainbow.me                                            |
 | Rarible                    | omg-icon rarible                      | rarible.com                                           |
@@ -87,5 +89,6 @@ Want to add an icon? Update this page with a pull request.
 | Waze                       | fa-brands fa-waze                     | waze.com                                              |
 | WhatsApp                   | fa-brands fa-whatsapp                 | whatsapp.com, wa.me                                   |
 | WordPress                  | fa-brands fa-wordpress                | wordpress.com                                         |
+| Write.as                   | omg-icon write-as                     | write.as                                              |
 | XMPP                       | omg-icon xmpp                         | xmpp://                                               |
 | YouTube                    | fa-brands fa-youtube                  | youtube.com                                           |
