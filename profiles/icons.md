@@ -55,7 +55,7 @@ Want to add an icon? Update this page with a pull request.
 | Micro.bog                  | fa-brands fa-microblog                | micro.blog                                            |
 | Movie                      | fa-solid fa-camera-movie              | movie://                                              |
 | Music                      | fa-solid fa-headphones-simple         | music://                                              |
-| Notion                     | omg-icon notion                       | notion.so                                             |
+| Notion                     | omg-icon notion                       | notion.so, notion.site                                |
 | OGS                        | fa-solid fa-circle-half-stroke        | online-go.com                                         |
 | osu!                       | fa-solid fa-list-music                | osu.ppy.sh                                            |
 | Patreon                    | fa-brands fa-patreon                  | patreon.com                                           |
