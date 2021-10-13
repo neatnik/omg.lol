@@ -1,0 +1,56 @@
+/* 
+Copyright (c) 2021 Matse Van Horebeek. All rights reserved.
+
+Theme: hacker
+Author: Matse Van Horebeek (@matsevh)
+License: MIT
+Version: 1.0
+Description: Let your page look like a hacker environment
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --background: rgb(5, 5, 5);
+  --black: #000000;
+  --green: #0daf00;
+  --dark-green: #115e0d;
+  --green-overlay: #0caf0060;
+  --font: "Roboto Mono", monospace;
+}
+
+body {
+  background: var(--background);
+  font-family: var(--font);
+}
+
+main {
+  border-radius: 10px !important;
+  background: var(--black);
+}
+
+main,
+#pronouns,
+#footer,
+li,
+a {
+  color: var(--green) !important;
+}
+
+.fa-badge-check {
+  color: var(--green) !important;
+}
+
+a:hover,
+.fa-badge-check:hover {
+  color: var(--dark-green) !important;
+  text-decoration-color: var(--dark-green) !important;
+}
+
+#pfp_preview {
+  border-radius: 10px !important;
+}
+
+#footer {
+  margin-top: 1em;
+}
