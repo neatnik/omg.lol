@@ -28,6 +28,7 @@ Want to add an icon? Update this page with a pull request.
 | Etsy                       | fa-brands fa-etsy                     | etsy.com                                              |
 | Example                    | fa-solid fa-font-awesome              | example.com                                           |
 | Facebook                   | fa-brands fa-facebook                 | facebook.com                                          |
+| Fastmail                   | omg-icon fastmail                     | fastmail.com, fastmail.fm                             |
 | Film                       | fa-solid fa-film                      | film://                                               |
 | Flickr                     | fa-brands fa-flickr                   | flickr.com                                            |
 | Game                       | fa-solid fa-gamepad-modern            | game://                                               |
