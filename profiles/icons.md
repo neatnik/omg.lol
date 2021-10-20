@@ -12,7 +12,7 @@ Want to add an icon? Update this page with a pull request.
 | Bēhance                    | fa-brands fa-behance                  | behance.net                                           |
 | Bird                       | fa-solid fa-crow                      | bird://                                               |
 | Bitcoin                    | fa-brands fa-bitcoin                  | bitcoin://                                            |
-| Blog                       | fa-solid fa-blog                      | blog://                                               |
+| Blog                       | fa-solid fa-typewriter                | blog://                                               |
 | Book                       | fa-solid fa-book                      | book://, reading://                                   |
 | Buy Me A Coffee            | fa-regular fa-coffee-togo             | buymeacoffee.com                                      |
 | Calendly                   | fa-solid fa-calendar-pen              | calendly.com                                          |
