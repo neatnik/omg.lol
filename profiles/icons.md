@@ -57,6 +57,7 @@ Want to add an icon? Update this page with a pull request.
 | Micro.bog                  | fa-brands fa-microblog                | micro.blog                                            |
 | Movie                      | fa-solid fa-camera-movie              | movie://                                              |
 | Music                      | fa-solid fa-headphones-simple         | music://                                              |
+| MyAnimeList                |                                       | myanimelist.net/profile/
 | Notion                     | omg-icon notion                       | notion.so, notion.site                                |
 | OGS                        | fa-solid fa-circle-half-stroke        | online-go.com                                         |
 | OpenSea                    | omg-icon opensea                      | opensea.io                                            |
