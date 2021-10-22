@@ -86,6 +86,7 @@ Want to add an icon? Update this page with a pull request.
 | TV                         | fa-solid fa-tv-retro                  | tv://                                                 |
 | Twitch                     | fa-brands fa-twitch                   | twitch.tv                                             |
 | Twitter                    | fa-brands fa-twitter                  | twitter.com                                           |
+| Unsplash                   | fa-brands fa-unsplash                 | unsplash.com                                          |
 | Vimeo                      | fa-brands fa-vimeo                    | vimeo.com                                             |
 | VK                         | fa-brands fa-vk                       | vk.com                                                |
 | Wattpad                    | omg-icon wattpad                      | wattpad.com                                           |
