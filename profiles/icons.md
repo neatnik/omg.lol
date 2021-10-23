@@ -22,6 +22,7 @@ Want to add an icon? Update this page with a pull request.
 | Clubhouse                  | fa-solid fa-hand-wave                 | clubhouse.com                                         |
 | Codepen                    | fa-brands fa-codepen                  | codepen.io                                            |
 | Deezer                     | fa-brands fa-deezer                   | deezer.com                                            |
+| DeviantArt                 | fa-brands fa-deviantart               | deviantart.com                                        |
 | Discord                    | fa-brands fa-discord                  | discord.com, discord.gg, discord://                   |
 | Dog                        | fa-solid fa-dog                       | dog://                                                |
 | Dribbble                   | fa-brands fa-dribbble                 | dribbble.com                                          |
