@@ -73,7 +73,7 @@ Want to add an icon? Update this page with a pull request.
 | Reddit                     | fa-brands fa-reddit                   | reddit.com                                            |
 | Rep.ly                     | fa-solid fa-message-dots              | rep.ly                                                |
 | Revue                      | omg-icon revue                        | getrevue.co                                           |
-| Roblox                     | omg-icon roblox                       | roblox.com                                            |
+| Roblox                     | omg-icon roblox                       | roblox.com, web.roblox.com                            |
 | Signal                     | omg-icon signal                       | signal.org, signal.group, signal://, sgnl://          |
 | Snapchat                   | fa-brands fa-snapchat                 | snapchat.com                                          |
 | SoundCloud                 | fa-brands fa-soundcloud               | soundcloud.com                                        |
