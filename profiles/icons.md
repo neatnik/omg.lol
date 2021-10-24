@@ -57,7 +57,7 @@ Want to add an icon? Update this page with a pull request.
 | Medium                     | fa-brands fa-medium                   | medium.com                                            |
 | Messenger                  | fa-brands fa-facebook-messenger       | m.me                                                  |
 | Micro.bog                  | fa-brands fa-microblog                | micro.blog                                            |
-| Movie                      | fa-brands fa-monero                   | monero://, xmr://                                     |
+| Monero                     | fa-brands fa-monero                   | monero://, xmr://                                     |
 | Movie                      | fa-solid fa-camera-movie              | movie://                                              |
 | Music                      | fa-solid fa-headphones-simple         | music://                                              |
 | Notion                     | omg-icon notion                       | notion.so, notion.site                                |
