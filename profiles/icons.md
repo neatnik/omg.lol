@@ -27,6 +27,7 @@ Want to add an icon? Update this page with a pull request.
 | Dog                        | fa-solid fa-dog                       | dog://                                                |
 | Dribbble                   | fa-brands fa-dribbble                 | dribbble.com                                          |
 | eBay                       | fa-brands fa-ebay                     | ebay.com                                              |
+| Ethereum                   | fa-brands fa-ethereum                 | ethereum://                                           |
 | Etsy                       | fa-brands fa-etsy                     | etsy.com                                              |
 | Example                    | fa-solid fa-font-awesome              | example.com                                           |
 | Facebook                   | fa-brands fa-facebook                 | facebook.com                                          |
@@ -56,6 +57,7 @@ Want to add an icon? Update this page with a pull request.
 | Medium                     | fa-brands fa-medium                   | medium.com                                            |
 | Messenger                  | fa-brands fa-facebook-messenger       | m.me                                                  |
 | Micro.bog                  | fa-brands fa-microblog                | micro.blog                                            |
+| Monero                     | fa-brands fa-monero                   | monero://                                             |
 | Movie                      | fa-solid fa-camera-movie              | movie://                                              |
 | Music                      | fa-solid fa-headphones-simple         | music://                                              |
 | Musicboard                 | omg-icon musicboard                   | musicboard.app                                        |
