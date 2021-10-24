@@ -12,7 +12,7 @@ Want to add an icon? Update this page with a pull request.
 | Bēhance                    | fa-brands fa-behance                  | behance.net                                           |
 | Bird                       | fa-solid fa-crow                      | bird://                                               |
 | Bitcoin                    | fa-brands fa-bitcoin                  | bitcoin://                                            |
-| Blog                       | fa-solid fa-blog                      | blog://                                               |
+| Blog                       | fa-solid fa-typewriter                | blog://                                               |
 | Book                       | fa-solid fa-book                      | book://, reading://                                   |
 | Buy Me A Coffee            | fa-regular fa-coffee-togo             | buymeacoffee.com                                      |
 | Calendly                   | fa-solid fa-calendar-pen              | calendly.com                                          |
@@ -22,10 +22,12 @@ Want to add an icon? Update this page with a pull request.
 | Clubhouse                  | fa-solid fa-hand-wave                 | clubhouse.com                                         |
 | Codepen                    | fa-brands fa-codepen                  | codepen.io                                            |
 | Deezer                     | fa-brands fa-deezer                   | deezer.com                                            |
+| DeviantArt                 | fa-brands fa-deviantart               | deviantart.com                                        |
 | Discord                    | fa-brands fa-discord                  | discord.com, discord.gg, discord://                   |
 | Dog                        | fa-solid fa-dog                       | dog://                                                |
 | Dribbble                   | fa-brands fa-dribbble                 | dribbble.com                                          |
 | eBay                       | fa-brands fa-ebay                     | ebay.com                                              |
+| Ethereum                   | fa-brands fa-ethereum                 | ethereum://                                           |
 | Etsy                       | fa-brands fa-etsy                     | etsy.com                                              |
 | Example                    | fa-solid fa-font-awesome              | example.com                                           |
 | Facebook                   | fa-brands fa-facebook                 | facebook.com                                          |
@@ -55,24 +57,29 @@ Want to add an icon? Update this page with a pull request.
 | Medium                     | fa-brands fa-medium                   | medium.com                                            |
 | Messenger                  | fa-brands fa-facebook-messenger       | m.me                                                  |
 | Micro.bog                  | fa-brands fa-microblog                | micro.blog                                            |
+| Monero                     | fa-brands fa-monero                   | monero://                                             |
 | Movie                      | fa-solid fa-camera-movie              | movie://                                              |
 | Music                      | fa-solid fa-headphones-simple         | music://                                              |
-| MyAnimeList                |                                       | myanimelist.net/profile/
+| MyAnimeList                | omg-icon myanimelist                  | myanimelist.net                                       |
+| Musicboard                 | omg-icon musicboard                   | musicboard.app                                        |
 | Notion                     | omg-icon notion                       | notion.so, notion.site                                |
+| NPM                        | fa-brands fa-npm                      | npmjs.com                                             |
 | OGS                        | fa-solid fa-circle-half-stroke        | online-go.com                                         |
 | OpenSea                    | omg-icon opensea                      | opensea.io                                            |
 | osu!                       | fa-solid fa-list-music                | osu.ppy.sh                                            |
 | Patreon                    | fa-brands fa-patreon                  | patreon.com                                           |
 | PayPal                     | fa-brands fa-paypal                   | paypal.me                                             |
-| Pinterest                  | fa-brands fa-pinterest                | pinterest.com                                         |
+| Pinterest                  | fa-brands fa-pinterest                | pinterest.com, pinterest.co.uk                        |
 | Podcast                    | fa-solid fa-podcast                   | podcast://                                            |
 | Polywork                   | omg-icon polywork                     | polywork.com, poly.work                               |
+| Procreate                  | fa-solid fa-rectangle-pro             | procreate.art                                         |
 | Product Hunt               | fa-brands fa-product-hunt             | producthunt.com                                       |
 | Rainbow                    | omg-icon rainbow-me                   | rainbow.me                                            |
 | Rarible                    | omg-icon rarible                      | rarible.com                                           |
 | Reddit                     | fa-brands fa-reddit                   | reddit.com                                            |
 | Rep.ly                     | fa-solid fa-message-dots              | rep.ly                                                |
 | Revue                      | omg-icon revue                        | getrevue.co                                           |
+| Roblox                     | omg-icon roblox                       | roblox.com, web.roblox.com                            |
 | Signal                     | omg-icon signal                       | signal.org, signal.group, signal://, sgnl://          |
 | Snapchat                   | fa-brands fa-snapchat                 | snapchat.com                                          |
 | SoundCloud                 | fa-brands fa-soundcloud               | soundcloud.com                                        |
@@ -87,6 +94,7 @@ Want to add an icon? Update this page with a pull request.
 | TV                         | fa-solid fa-tv-retro                  | tv://                                                 |
 | Twitch                     | fa-brands fa-twitch                   | twitch.tv                                             |
 | Twitter                    | fa-brands fa-twitter                  | twitter.com                                           |
+| Unsplash                   | fa-brands fa-unsplash                 | unsplash.com                                          |
 | Vimeo                      | fa-brands fa-vimeo                    | vimeo.com                                             |
 | VK                         | fa-brands fa-vk                       | vk.com                                                |
 | Wattpad                    | omg-icon wattpad                      | wattpad.com                                           |
