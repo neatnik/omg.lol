@@ -7,6 +7,7 @@ Want to add an icon? Update this page with a pull request.
 | Item                       | Icon                                  | Usage                                                 |
 |----------------------------|---------------------------------------|-------------------------------------------------------|
 | Amazon                     | fa-brands fa-amazon                   | amazon.com                                            |
+| Anilist                    | omg-icon anilist                      | anilist.co                                            |
 | Apple Music                | fa-brands fa-itunes-note              | music.apple.com                                       |
 | Bandcamp                   | fa-brands fa-bandcamp                 | bandcamp.com                                          |
 | Bēhance                    | fa-brands fa-behance                  | behance.net                                           |
