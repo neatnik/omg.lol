@@ -11,7 +11,7 @@ Want to add an icon? Update this page with a pull request.
 | Bandcamp                   | fa-brands fa-bandcamp                 | bandcamp.com                                          |
 | Bēhance                    | fa-brands fa-behance                  | behance.net                                           |
 | Bird                       | fa-solid fa-crow                      | bird://                                               |
-| Bitcoin                    | fa-brands fa-bitcoin                  | bitcoin://                                            |
+| Bitcoin                    | fa-brands fa-bitcoin                  | bitcoin://, btc://                                    |
 | Blog                       | fa-solid fa-typewriter                | blog://                                               |
 | Book                       | fa-solid fa-book                      | book://, reading://                                   |
 | Buy Me A Coffee            | fa-regular fa-coffee-togo             | buymeacoffee.com                                      |
@@ -27,6 +27,7 @@ Want to add an icon? Update this page with a pull request.
 | Dog                        | fa-solid fa-dog                       | dog://                                                |
 | Dribbble                   | fa-brands fa-dribbble                 | dribbble.com                                          |
 | eBay                       | fa-brands fa-ebay                     | ebay.com                                              |
+| Ethereum                   | fa-brands fa-ethereum                 | ethereum://, eth://                                   |
 | Etsy                       | fa-brands fa-etsy                     | etsy.com                                              |
 | Example                    | fa-solid fa-font-awesome              | example.com                                           |
 | Facebook                   | fa-brands fa-facebook                 | facebook.com                                          |
