@@ -64,7 +64,7 @@ Want to add an icon? Update this page with a pull request.
 | osu!                       | fa-solid fa-list-music                | osu.ppy.sh                                            |
 | Patreon                    | fa-brands fa-patreon                  | patreon.com                                           |
 | PayPal                     | fa-brands fa-paypal                   | paypal.me                                             |
-| Pinterest                  | fa-brands fa-pinterest                | pinterest.com                                         |
+| Pinterest                  | fa-brands fa-pinterest                | pinterest.com, pinterest.co.uk                        |
 | Podcast                    | fa-solid fa-podcast                   | podcast://                                            |
 | Polywork                   | omg-icon polywork                     | polywork.com, poly.work                               |
 | Product Hunt               | fa-brands fa-product-hunt             | producthunt.com                                       |
