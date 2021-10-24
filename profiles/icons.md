@@ -68,6 +68,7 @@ Want to add an icon? Update this page with a pull request.
 | Pinterest                  | fa-brands fa-pinterest                | pinterest.com, pinterest.co.uk                        |
 | Podcast                    | fa-solid fa-podcast                   | podcast://                                            |
 | Polywork                   | omg-icon polywork                     | polywork.com, poly.work                               |
+| Procreate                  | fa-solid fa-rectangle-pro             | procreate.art                                         |
 | Product Hunt               | fa-brands fa-product-hunt             | producthunt.com                                       |
 | Rainbow                    | omg-icon rainbow-me                   | rainbow.me                                            |
 | Rarible                    | omg-icon rarible                      | rarible.com                                           |
