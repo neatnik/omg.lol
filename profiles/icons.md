@@ -11,7 +11,7 @@ Want to add an icon? Update this page with a pull request.
 | Bandcamp                   | fa-brands fa-bandcamp                 | bandcamp.com                                          |
 | Bēhance                    | fa-brands fa-behance                  | behance.net                                           |
 | Bird                       | fa-solid fa-crow                      | bird://                                               |
-| Bitcoin                    | fa-brands fa-bitcoin                  | bitcoin://, btc://                                    |
+| Bitcoin                    | fa-brands fa-bitcoin                  | bitcoin://                                            |
 | Blog                       | fa-solid fa-typewriter                | blog://                                               |
 | Book                       | fa-solid fa-book                      | book://, reading://                                   |
 | Buy Me A Coffee            | fa-regular fa-coffee-togo             | buymeacoffee.com                                      |
@@ -27,7 +27,7 @@ Want to add an icon? Update this page with a pull request.
 | Dog                        | fa-solid fa-dog                       | dog://                                                |
 | Dribbble                   | fa-brands fa-dribbble                 | dribbble.com                                          |
 | eBay                       | fa-brands fa-ebay                     | ebay.com                                              |
-| Ethereum                   | fa-brands fa-ethereum                 | ethereum://, eth://                                   |
+| Ethereum                   | fa-brands fa-ethereum                 | ethereum://                                           |
 | Etsy                       | fa-brands fa-etsy                     | etsy.com                                              |
 | Example                    | fa-solid fa-font-awesome              | example.com                                           |
 | Facebook                   | fa-brands fa-facebook                 | facebook.com                                          |
@@ -57,7 +57,7 @@ Want to add an icon? Update this page with a pull request.
 | Medium                     | fa-brands fa-medium                   | medium.com                                            |
 | Messenger                  | fa-brands fa-facebook-messenger       | m.me                                                  |
 | Micro.bog                  | fa-brands fa-microblog                | micro.blog                                            |
-| Monero                     | fa-brands fa-monero                   | monero://, xmr://                                     |
+| Monero                     | fa-brands fa-monero                   | monero://                                             |
 | Movie                      | fa-solid fa-camera-movie              | movie://                                              |
 | Music                      | fa-solid fa-headphones-simple         | music://                                              |
 | Notion                     | omg-icon notion                       | notion.so, notion.site                                |
