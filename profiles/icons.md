@@ -60,8 +60,8 @@ Want to add an icon? Update this page with a pull request.
 | Monero                     | fa-brands fa-monero                   | monero://                                             |
 | Movie                      | fa-solid fa-camera-movie              | movie://                                              |
 | Music                      | fa-solid fa-headphones-simple         | music://                                              |
-| MyAnimeList                | omg-icon myanimelist                  | myanimelist.net                                       |
 | Musicboard                 | omg-icon musicboard                   | musicboard.app                                        |
+| MyAnimeList                | omg-icon myanimelist                  | myanimelist.net                                       |
 | Notion                     | omg-icon notion                       | notion.so, notion.site                                |
 | NPM                        | fa-brands fa-npm                      | npmjs.com                                             |
 | OGS                        | fa-solid fa-circle-half-stroke        | online-go.com                                         |
