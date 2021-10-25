@@ -33,6 +33,7 @@ Want to add an icon? Update this page with a pull request.
 | Example                    | fa-solid fa-font-awesome              | example.com                                           |
 | Facebook                   | fa-brands fa-facebook                 | facebook.com                                          |
 | Fastmail                   | omg-icon fastmail                     | fastmail.com, fastmail.fm                             |
+| Figma                      | fa-brands fa-figma                    | figma.com                                             |
 | Film                       | fa-solid fa-film                      | film://                                               |
 | Flickr                     | fa-brands fa-flickr                   | flickr.com                                            |
 | Game                       | fa-solid fa-gamepad-modern            | game://                                               |
@@ -44,7 +45,7 @@ Want to add an icon? Update this page with a pull request.
 | Google                     | fa-brands fa-google                   | google.com                                            |
 | Gumroad                    | omg-icon gumroad                      | gumroad.com                                           |
 | Honk                       | omg-icon honk                         | honk.me                                               |
-| Instagram                  | fa-brands fa-instagram                | instagram.com                                         |
+| Instagram                  | fa-brands fa-instagram                | instagram.com, instagr.am                             |
 | Itch                       | fa-brands fa-itch-io                  | itch.io                                               |
 | Keybase                    | fa-brands fa-keybase                  | keybase.io                                            |
 | Ko-Fi                      | fa-solid fa-coffee-togo               | ko-fi.com                                             |
@@ -95,7 +96,7 @@ Want to add an icon? Update this page with a pull request.
 | TV                         | fa-solid fa-tv-retro                  | tv://                                                 |
 | Twitch                     | fa-brands fa-twitch                   | twitch.tv                                             |
 | Twitter                    | fa-brands fa-twitter                  | twitter.com                                           |
-| Unsplash                   | fa-brands fa-unsplash                 | unsplash.com/@                                        |
+| Unsplash                   | fa-brands fa-unsplash                 | unsplash.com                                          |
 | Vimeo                      | fa-brands fa-vimeo                    | vimeo.com                                             |
 | VK                         | fa-brands fa-vk                       | vk.com                                                |
 | Wattpad                    | omg-icon wattpad                      | wattpad.com                                           |
