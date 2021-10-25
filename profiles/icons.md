@@ -58,6 +58,7 @@ Want to add an icon? Update this page with a pull request.
 | Liberapay                  | omg-icon liberapay                    | liberapay.com                                         |
 | Lichess                    | omg-icon lichess                      | lichess.org                                           |
 | LinkedIn                   | fa-brands fa-linkedin                 | linkedin.com                                          |
+| Literal                    | omg-icon literal                      | literal.club                                          |
 | Mastodon                   | fa-brands fa-mastodon                 | mastodon.social, mastodon.online, mas.to, mastodon:// |
 | Matrix                     | omg-icon matrix                       | matrix://                                             |
 | Medium                     | fa-brands fa-medium                   | medium.com                                            |
