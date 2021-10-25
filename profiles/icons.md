@@ -11,6 +11,7 @@ Want to add an icon? Update this page with a pull request.
 | Apple Music                | fa-brands fa-itunes-note              | music.apple.com                                       |
 | Archive of Our Own         | omg-icon archiveofourown              | archiveofourown.org                                   |
 | Bandcamp                   | fa-brands fa-bandcamp                 | bandcamp.com                                          |
+| Backloggery                | fa-solid fa-bold                      | backloggery.com                                       |
 | Bēhance                    | fa-brands fa-behance                  | behance.net                                           |
 | Bird                       | fa-solid fa-crow                      | bird://                                               |
 | Bitcoin                    | fa-brands fa-bitcoin                  | bitcoin://                                            |
@@ -38,6 +39,7 @@ Want to add an icon? Update this page with a pull request.
 | Figma                      | fa-brands fa-figma                    | figma.com                                             |
 | Film                       | fa-solid fa-film                      | film://                                               |
 | Flickr                     | fa-brands fa-flickr                   | flickr.com                                            |
+| freeCodeCamp               | fa-brands fa-flickr                   | freecodecamp.com                                      |
 | Game                       | fa-solid fa-gamepad-modern            | game://                                               |
 | Geocaching                 | fa-solid fa-magnifying-glass-location | geocaching.com                                        |
 | Geoguessr                  | fa-solid fa-location-question         | geoguessr.com                                         |
