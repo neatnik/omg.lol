@@ -44,7 +44,7 @@ Want to add an icon? Update this page with a pull request.
 | Google                     | fa-brands fa-google                   | google.com                                            |
 | Gumroad                    | omg-icon gumroad                      | gumroad.com                                           |
 | Honk                       | omg-icon honk                         | honk.me                                               |
-| Instagram                  | fa-brands fa-instagram                | instagram.com                                         |
+| Instagram                  | fa-brands fa-instagram                | instagram.com, instagr.am                             |
 | Itch                       | fa-brands fa-itch-io                  | itch.io                                               |
 | Keybase                    | fa-brands fa-keybase                  | keybase.io                                            |
 | Ko-Fi                      | fa-solid fa-coffee-togo               | ko-fi.com                                             |
