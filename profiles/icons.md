@@ -9,6 +9,7 @@ Want to add an icon? Update this page with a pull request.
 | Amazon                     | fa-brands fa-amazon                   | amazon.com                                            |
 | Anilist                    | omg-icon anilist                      | anilist.co                                            |
 | Apple Music                | fa-brands fa-itunes-note              | music.apple.com                                       |
+| Archive of Our Own         | omg-icon archiveofourown              | archiveofourown.org                                   |
 | Bandcamp                   | fa-brands fa-bandcamp                 | bandcamp.com                                          |
 | Bēhance                    | fa-brands fa-behance                  | behance.net                                           |
 | Bird                       | fa-solid fa-crow                      | bird://                                               |
@@ -22,6 +23,7 @@ Want to add an icon? Update this page with a pull request.
 | Cloud Appreciation Society | fa-solid fa-cloud                     | cloudappreciationsociety.org                          |
 | Clubhouse                  | fa-solid fa-hand-wave                 | clubhouse.com                                         |
 | Codepen                    | fa-brands fa-codepen                  | codepen.io                                            |
+| Coindrop                   | omg-icon coindrop                     | coindrop.to                                           |
 | Deezer                     | fa-brands fa-deezer                   | deezer.com                                            |
 | DeviantArt                 | fa-brands fa-deviantart               | deviantart.com                                        |
 | Discord                    | fa-brands fa-discord                  | discord.com, discord.gg, discord://                   |
