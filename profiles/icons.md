@@ -39,7 +39,7 @@ Want to add an icon? Update this page with a pull request.
 | Figma                      | fa-brands fa-figma                    | figma.com                                             |
 | Film                       | fa-solid fa-film                      | film://                                               |
 | Flickr                     | fa-brands fa-flickr                   | flickr.com                                            |
-| freeCodeCamp               | fa-brands fa-flickr                   | freecodecamp.com                                      |
+| freeCodeCamp               | fa-brands fa-free-code-camp           | freecodecamp.org                                      |
 | Game                       | fa-solid fa-gamepad-modern            | game://                                               |
 | Geocaching                 | fa-solid fa-magnifying-glass-location | geocaching.com                                        |
 | Geoguessr                  | fa-solid fa-location-question         | geoguessr.com                                         |
