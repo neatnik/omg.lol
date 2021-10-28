@@ -19,6 +19,7 @@ Want to add an icon? Update this page with a pull request.
 | Book                       | fa-solid fa-book                      | book://, reading://                                   |
 | Buy Me A Coffee            | fa-regular fa-coffee-togo             | buymeacoffee.com                                      |
 | Calendly                   | fa-solid fa-calendar-pen              | calendly.com                                          |
+| Cash App                   | omg-icon cash-app                     | cash.app                                              |
 | Cat                        | fa-solid fa-cat                       | cat://                                                |
 | Cloudspotting              | fa-solid fa-cloud                     | cloudspotting.be                                      |
 | Cloud Appreciation Society | fa-solid fa-cloud                     | cloudappreciationsociety.org                          |
