@@ -59,6 +59,7 @@ Want to add an icon? Update this page with a pull request.
 | Liberapay                  | omg-icon liberapay                    | liberapay.com                                         |
 | Lichess                    | omg-icon lichess                      | lichess.org                                           |
 | LinkedIn                   | fa-brands fa-linkedin                 | linkedin.com                                          |
+| Litecoin                   | omg-icon litecoin                     | ltc://                                                |
 | Literal                    | omg-icon literal                      | literal.club                                          |
 | Mastodon                   | fa-brands fa-mastodon                 | mastodon.social, mastodon.online, mas.to, mastodon:// |
 | Matrix                     | omg-icon matrix                       | matrix://                                             |
@@ -84,6 +85,7 @@ Want to add an icon? Update this page with a pull request.
 | Product Hunt               | fa-brands fa-product-hunt             | producthunt.com                                       |
 | Rainbow                    | omg-icon rainbow-me                   | rainbow.me                                            |
 | Rarible                    | omg-icon rarible                      | rarible.com                                           |
+| Ravencoin                  | omg-icon ravencoin                    | rvn://                                                |
 | Reddit                     | fa-brands fa-reddit                   | reddit.com                                            |
 | Rep.ly                     | fa-solid fa-message-dots              | rep.ly                                                |
 | Revue                      | omg-icon revue                        | getrevue.co                                           |
