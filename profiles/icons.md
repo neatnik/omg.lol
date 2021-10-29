@@ -6,7 +6,7 @@ Want to add an icon? Update this page with a pull request.
 
 | Item                       | Icon                                  | Usage                                                 |
 |----------------------------|---------------------------------------|-------------------------------------------------------|
-| Amazon                     | fa-brands fa-amazon                   | amazon.com                                            |
+| Amazon                     | fa-brands fa-amazon                   | amazon.com, amazon.de                                 |
 | Anilist                    | omg-icon anilist                      | anilist.co                                            |
 | Apple Music                | fa-brands fa-itunes-note              | music.apple.com                                       |
 | Archive of Our Own         | omg-icon archiveofourown              | archiveofourown.org                                   |
