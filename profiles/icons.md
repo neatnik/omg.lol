@@ -98,7 +98,7 @@ Want to add an icon? Update this page with a pull request.
 | SpaceHey                   | omg-icon spacehey                     | spacehey.com                                          |
 | Spotify                    | fa-brands fa-spotify                  | spotify.com, open.spotify.com                         |
 | Stack Overflow             | fa-brands fa-stack-overflow           | stackoverflow.com                                     |
-| Status                     | fa-solid fa-stack-heatbeat            | uptimerobot.com, statuspage.io, status://             |
+| Status                     | fa-solid fa-heartbeat                 | uptimerobot.com, statuspage.io, status://             |
 | Steam Community            | fa-brands fa-steam                    | steamcommunity.com                                    |
 | Telegram                   | fa-brands fa-telegram                 | telegram.me, t.me                                     |
 | TikTok                     | fa-brands fa-tiktok                   | tiktok.com                                            |
