@@ -11,6 +11,7 @@ Want to add an icon? Update this page with a pull request.
 | Apple Music                | fa-brands fa-itunes-note              | music.apple.com                                       |
 | Archive of Our Own         | omg-icon archiveofourown              | archiveofourown.org                                   |
 | Bandcamp                   | fa-brands fa-bandcamp                 | bandcamp.com                                          |
+| Basic Attention Token      | omg-icon basic-attention-token        | bat://                                                |
 | Backloggery                | fa-solid fa-bold                      | backloggery.com                                       |
 | Bēhance                    | fa-brands fa-behance                  | behance.net                                           |
 | Bird                       | fa-solid fa-crow                      | bird://                                               |
