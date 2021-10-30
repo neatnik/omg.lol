@@ -4,9 +4,9 @@ OMG.LOL uses a combination of [Font Awesome](https://fontawesome.com) and custom
 
 Want to add an icon? Update this page with a pull request.
 
-| Item                       | Icon                                  | Usage                                                 |
+| Item                       | Icon                                  | Domain / Usage                                        |
 |----------------------------|---------------------------------------|-------------------------------------------------------|
-| Amazon                     | fa-brands fa-amazon                   | amazon.com, amazon.de                                 |
+| Amazon                     | fa-brands fa-amazon                   | amazon.                                               |
 | Anilist                    | omg-icon anilist                      | anilist.co                                            |
 | Apple Music                | fa-brands fa-itunes-note              | music.apple.com                                       |
 | Archive of Our Own         | omg-icon archiveofourown              | archiveofourown.org                                   |
@@ -16,6 +16,7 @@ Want to add an icon? Update this page with a pull request.
 | Bird                       | fa-solid fa-crow                      | bird://                                               |
 | Bitcoin                    | fa-brands fa-bitcoin                  | bitcoin://                                            |
 | Blog                       | fa-solid fa-typewriter                | blog://                                               |
+| Blogger                    | fa-brands fa-blogger                  | blogger.com                                           |
 | Book                       | fa-solid fa-book                      | book://, reading://                                   |
 | Buy Me A Coffee            | fa-regular fa-coffee-togo             | buymeacoffee.com                                      |
 | Calendly                   | fa-solid fa-calendar-pen              | calendly.com                                          |
@@ -29,6 +30,7 @@ Want to add an icon? Update this page with a pull request.
 | Deezer                     | fa-brands fa-deezer                   | deezer.com                                            |
 | DeviantArt                 | fa-brands fa-deviantart               | deviantart.com                                        |
 | Discord                    | fa-brands fa-discord                  | discord.com, discord.gg, discord://                   |
+| Discourse                  | fa-brands fa-discourse                | discourse.org, discourse://                           |
 | Dog                        | fa-solid fa-dog                       | dog://                                                |
 | Dribbble                   | fa-brands fa-dribbble                 | dribbble.com                                          |
 | eBay                       | fa-brands fa-ebay                     | ebay.com                                              |
@@ -96,6 +98,7 @@ Want to add an icon? Update this page with a pull request.
 | SpaceHey                   | omg-icon spacehey                     | spacehey.com                                          |
 | Spotify                    | fa-brands fa-spotify                  | spotify.com, open.spotify.com                         |
 | Stack Overflow             | fa-brands fa-stack-overflow           | stackoverflow.com                                     |
+| Status                     | fa-solid fa-heartbeat                 | uptimerobot.com, statuspage.io, status://             |
 | Steam Community            | fa-brands fa-steam                    | steamcommunity.com                                    |
 | Telegram                   | fa-brands fa-telegram                 | telegram.me, t.me                                     |
 | TikTok                     | fa-brands fa-tiktok                   | tiktok.com                                            |
@@ -113,5 +116,6 @@ Want to add an icon? Update this page with a pull request.
 | WhatsApp                   | fa-brands fa-whatsapp                 | whatsapp.com, wa.me                                   |
 | WordPress                  | fa-brands fa-wordpress                | wordpress.com                                         |
 | Write.as                   | omg-icon write-as                     | write.as                                              |
+| Xbox                       | fa-brands fa-xbox                     | xbox.com, xbox://                                     |
 | XMPP                       | omg-icon xmpp                         | xmpp://                                               |
 | YouTube                    | fa-brands fa-youtube                  | youtube.com                                           |
