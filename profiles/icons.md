@@ -111,6 +111,7 @@ Want to add an icon? Update this page with a pull request.
 | Twitch                     | fa-brands fa-twitch                   | twitch.tv                                             |
 | Twitter                    | fa-brands fa-twitter                  | twitter.com                                           |
 | Unsplash                   | fa-brands fa-unsplash                 | unsplash.com                                          |
+| Venmo                      | omg-icon venmo                        | venmo.com                                             |
 | Vimeo                      | fa-brands fa-vimeo                    | vimeo.com                                             |
 | VK                         | fa-brands fa-vk                       | vk.com                                                |
 | Wattpad                    | omg-icon wattpad                      | wattpad.com                                           |
