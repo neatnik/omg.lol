@@ -65,6 +65,7 @@ Want to add an icon? Update this page with a pull request.
 | LinkedIn                   | fa-brands fa-linkedin                 | linkedin.com                                          |
 | Litecoin                   | omg-icon litecoin                     | ltc://                                                |
 | Literal                    | omg-icon literal                      | literal.club                                          |
+| Lobsters                   | omg-icon lobsters                     | lobste.rs                                             |
 | Mastodon                   | fa-brands fa-mastodon                 | mastodon.social, mastodon.online, mas.to, mastodon:// |
 | Matrix                     | omg-icon matrix                       | matrix://                                             |
 | Medium                     | fa-brands fa-medium                   | medium.com                                            |
