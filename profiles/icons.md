@@ -106,7 +106,7 @@ Want to add an icon? Update this page with a pull request.
 | Status                     | fa-solid fa-heartbeat                 | uptimerobot.com, statuspage.io, status://             |
 | Steam Community            | fa-brands fa-steam                    | steamcommunity.com                                    |
 | Telegram                   | fa-brands fa-telegram                 | telegram.me, t.me                                     |
-| tetr.io                    | omg-icon osk                          | tetr.io, ch.tetr.io                                   |
+| tetr.io                    | omg-icon tetrio                       | tetr.io, ch.tetr.io                                   |
 | TikTok                     | fa-brands fa-tiktok                   | tiktok.com                                            |
 | Tinyletter                 | omg-icon tinyletter                   | tinyletter.com                                        |
 | Toss                       | omg-icon toss                         | toss.me                                               |
