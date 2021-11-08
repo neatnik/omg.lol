@@ -6,6 +6,7 @@ Want to add an icon? Update this page with a pull request.
 
 | Item                       | Icon                                  | Domain / Usage                                        |
 |----------------------------|---------------------------------------|-------------------------------------------------------|
+| 9GAG                       | omg-icon 9gag                         | 9gag.com                                              |
 | Amazon                     | fa-brands fa-amazon                   | amazon.                                               |
 | Anilist                    | omg-icon anilist                      | anilist.co                                            |
 | Apple Music                | fa-brands fa-itunes-note              | music.apple.com                                       |
@@ -105,6 +106,7 @@ Want to add an icon? Update this page with a pull request.
 | Status                     | fa-solid fa-heartbeat                 | uptimerobot.com, statuspage.io, status://             |
 | Steam Community            | fa-brands fa-steam                    | steamcommunity.com                                    |
 | Telegram                   | fa-brands fa-telegram                 | telegram.me, t.me                                     |
+| tetr.io                    | omg-icon osk                          | tetr.io, ch.tetr.io                                   |
 | TikTok                     | fa-brands fa-tiktok                   | tiktok.com                                            |
 | Tinyletter                 | omg-icon tinyletter                   | tinyletter.com                                        |
 | Toss                       | omg-icon toss                         | toss.me                                               |
