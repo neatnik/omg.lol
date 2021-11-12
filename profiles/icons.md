@@ -122,7 +122,7 @@ Want to add an icon? Update this page with a pull request.
 | Waze                       | fa-brands fa-waze                     | waze.com                                              |
 | WhatsApp                   | fa-brands fa-whatsapp                 | whatsapp.com, wa.me                                   |
 | WordPress                  | fa-brands fa-wordpress                | wordpress.com                                         |
-| Write.as                   | omg-icon write-as                     | write.as                                              |
+| Write.as                   | omg-icon write-as                     | write.as, writeas.com                                 |
 | Xbox                       | fa-brands fa-xbox                     | xbox.com, xbox://                                     |
 | XMPP                       | omg-icon xmpp                         | xmpp://                                               |
 | YouTube                    | fa-brands fa-youtube                  | youtube.com                                           |
