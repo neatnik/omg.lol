@@ -49,6 +49,7 @@ Want to add an icon? Update this page with a pull request.
 | Game                       | fa-solid fa-gamepad-modern            | game://                                               |
 | Geocaching                 | fa-solid fa-magnifying-glass-location | geocaching.com                                        |
 | Geoguessr                  | fa-solid fa-location-question         | geoguessr.com                                         |
+| Giphy                      | omg-icon giphy                        | giphy.com                                             |
 | GitHub                     | fa-brands fa-github                   | github.com                                            |
 | GitLab                     | fa-brands fa-gitlab                   | gitlab.com                                            |
 | Goodreads                  | fa-brands fa-goodreads                | goodreads.com                                         |
