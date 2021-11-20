@@ -78,6 +78,7 @@ Want to add an icon? Update this page with a pull request.
 | Music                      | fa-solid fa-headphones-simple         | music://                                              |
 | Musicboard                 | omg-icon musicboard                   | musicboard.app                                        |
 | MyAnimeList                | omg-icon myanimelist                  | myanimelist.net                                       |
+| Newsletter                 | fa-solid fa-newspaper                 | newsletter://                                         |
 | Notion                     | omg-icon notion                       | notion.so, notion.site                                |
 | NPM                        | fa-brands fa-npm                      | npmjs.com                                             |
 | OGS                        | fa-solid fa-circle-half-stroke        | online-go.com                                         |
