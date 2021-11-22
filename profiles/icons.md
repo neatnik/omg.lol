@@ -52,6 +52,7 @@ Want to add an icon? Update this page with a pull request.
 | Giphy                      | omg-icon giphy                        | giphy.com                                             |
 | GitHub                     | fa-brands fa-github                   | github.com                                            |
 | GitLab                     | fa-brands fa-gitlab                   | gitlab.com                                            |
+| Glass                      | fa-solid fa-camera                    | glass.photo                                           |
 | Goodreads                  | fa-brands fa-goodreads                | goodreads.com                                         |
 | Google                     | fa-brands fa-google                   | google.com                                            |
 | Gumroad                    | omg-icon gumroad                      | gumroad.com                                           |
