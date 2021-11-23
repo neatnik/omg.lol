@@ -40,6 +40,7 @@ Want to add an icon? Update this page with a pull request.
 | Ethereum                   | fa-brands fa-ethereum                 | ethereum://                                           |
 | Etsy                       | fa-brands fa-etsy                     | etsy.com                                              |
 | Example                    | fa-solid fa-font-awesome              | example.com                                           |
+| EyeEm                      | omg-icon eyeem                        | eyeem.com                                             |
 | Facebook                   | fa-brands fa-facebook                 | facebook.com                                          |
 | Fastmail                   | omg-icon fastmail                     | fastmail.com, fastmail.fm                             |
 | Figma                      | fa-brands fa-figma                    | figma.com                                             |
