@@ -92,6 +92,7 @@ Want to add an icon? Update this page with a pull request.
 | Plutonium                  | omg-icon plutonium                    | forum.plutonium.pw                                    |
 | Podcast                    | fa-solid fa-podcast                   | podcast://                                            |
 | Polywork                   | omg-icon polywork                     | polywork.com, poly.work                               |
+| Postype                    | omg-icon postype                      | postype.com                                           |
 | Procreate                  | fa-solid fa-rectangle-pro             | procreate.art                                         |
 | Product Hunt               | fa-brands fa-product-hunt             | producthunt.com                                       |
 | Rainbow                    | omg-icon rainbow-me                   | rainbow.me                                            |
