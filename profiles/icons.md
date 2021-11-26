@@ -61,6 +61,7 @@ Want to add an icon? Update this page with a pull request.
 | Instagram                  | fa-brands fa-instagram                | instagram.com, instagr.am                             |
 | Itch                       | fa-brands fa-itch-io                  | itch.io                                               |
 | Keybase                    | fa-brands fa-keybase                  | keybase.io                                            |
+| Keyoxide                   | omg-icon keyoxide                     | keyoxide.org                                          |
 | Ko-Fi                      | fa-solid fa-coffee-togo               | ko-fi.com                                             |
 | Last.fm                    | fa-brands fa-lastfm                   | last.fm                                               |
 | Letterboxd                 | omg-icon letterboxd                   | letterboxd.com                                        |
