@@ -1,0 +1,236 @@
+{
+  "info": {
+    "_postman_id": "ddad4e93-0bee-47da-b595-bb2e20200454",
+    "name": "Address",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Check address availability",
+      "_postman_id": "d8534a24-b244-4cbd-b315-c8be5f4e05ea",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://{{base_url}}/address/availability/:address",
+          "protocol": "https",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "address",
+            "availability",
+            ":address"
+          ],
+          "variable": [
+            {
+              "key": "address",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        },
+        "description": "# Check the availability of an address"
+      },
+      "response": [
+        {
+          "id": "e7ba917f-abb0-4117-8f5b-49509bb0a24e",
+          "name": "Address is available",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://{{base_url}}/address/availability/:address",
+              "protocol": "https",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "address",
+                "availability",
+                ":address"
+              ],
+              "variable": [
+                {
+                  "key": "address",
+                  "value": "available-address"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Sun, 28 Nov 2021 22:03:48 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Apache"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Content-Length",
+              "value": "259"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5, max=100"
+            },
+            {
+              "key": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "key": "Content-Type",
+              "value": "text/json;charset=UTF-8"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"available-address\",\n        \"available\": true,\n        \"availability\": \"available\",\n        \"message\": \"This address is available.\"\n    }\n}"
+        },
+        {
+          "id": "2c95d849-1de1-4b69-8171-4a51e0f98164",
+          "name": "Address is not available",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://{{base_url}}/address/availability/:address",
+              "protocol": "https",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "address",
+                "availability",
+                ":address"
+              ],
+              "variable": [
+                {
+                  "key": "address",
+                  "value": "penelope"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Sun, 28 Nov 2021 22:21:04 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Apache"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Content-Length",
+              "value": "257"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5, max=100"
+            },
+            {
+              "key": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "key": "Content-Type",
+              "value": "text/json;charset=UTF-8"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"penelope\",\n        \"available\": false,\n        \"availability\": \"unavailable\",\n        \"message\": \"This address is not available.\"\n    }\n}"
+        },
+        {
+          "id": "19e209ca-23af-4fb8-a0dc-48495bb4f187",
+          "name": "Address is available, but requires encoding",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://{{base_url}}/address/availability/:address",
+              "protocol": "https",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "address",
+                "availability",
+                ":address"
+              ],
+              "variable": [
+                {
+                  "key": "address",
+                  "value": "🥰"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Sun, 28 Nov 2021 22:21:35 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Apache"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Content-Length",
+              "value": "336"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5, max=100"
+            },
+            {
+              "key": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "key": "Content-Type",
+              "value": "text/json;charset=UTF-8"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"🥰\",\n        \"available\": true,\n        \"availability\": \"available\",\n        \"message\": \"This address is available, but must be registered in Punycode (as xn--js9h).\",\n        \"punycode\": \"xn--js9h\"\n    }\n}"
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "id": "cc77c0a5-7d0b-4ece-a9f2-1be18e6328e4",
+      "key": "base_url",
+      "value": "new.api.omg.lol",
+      "type": "string"
+    }
+  ]
+}
