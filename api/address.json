@@ -223,7 +223,7 @@
         },
         {
           "id": "b59c900c-3a0f-45df-9489-181170b626cc",
-          "name": "Check address availability",
+          "name": "Address is not valid",
           "originalRequest": {
             "method": "GET",
             "header": [],
@@ -282,13 +282,75 @@
           "cookie": [],
           "responseTime": null,
           "body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"invalid^address\",\n        \"available\": false,\n        \"availability\": \"unavailable\",\n        \"message\": \"That address is not valid because it cannot be used as a subdomain or an email address.\"\n    }\n}"
+        },
+        {
+          "id": "e3f020e7-cb20-4bd1-96ef-e4a679571a35",
+          "name": "Check address availability",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://{{base_url}}/address/availability/:address",
+              "protocol": "https",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "address",
+                "availability",
+                ":address"
+              ],
+              "variable": [
+                {
+                  "key": "address",
+                  "value": ""
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Sun, 28 Nov 2021 23:05:50 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Apache"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Content-Length",
+              "value": "321"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5, max=100"
+            },
+            {
+              "key": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "key": "Content-Type",
+              "value": "text/json;charset=UTF-8"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"invalid^address\",\n        \"available\": false,\n        \"availability\": \"unavailable\",\n        \"message\": \"That address is not valid because it cannot be used as a subdomain or an email address.\"\n    }\n}"
         }
       ]
     }
   ],
   "variable": [
     {
-      "id": "e6cafff8-6307-4768-88b7-eaae85dfae2e",
+      "id": "e2dbf3eb-0e59-4ea1-8231-7c5c86984e7b",
       "key": "base_url",
       "value": "new.api.omg.lol"
     }
