@@ -7,7 +7,7 @@
   "item": [
     {
       "name": "Check address availability",
-      "_postman_id": "d8534a24-b244-4cbd-b315-c8be5f4e05ea",
+      "id": "d8534a24-b244-4cbd-b315-c8be5f4e05ea",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -28,8 +28,7 @@
           "variable": [
             {
               "key": "address",
-              "value": "",
-              "type": "string"
+              "value": ""
             }
           ]
         },
@@ -99,6 +98,68 @@
           "body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"available-address\",\n        \"available\": true,\n        \"availability\": \"available\",\n        \"message\": \"This address is available.\"\n    }\n}"
         },
         {
+          "id": "19e209ca-23af-4fb8-a0dc-48495bb4f187",
+          "name": "Address is available, but requires encoding",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://{{base_url}}/address/availability/:address",
+              "protocol": "https",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "address",
+                "availability",
+                ":address"
+              ],
+              "variable": [
+                {
+                  "key": "address",
+                  "value": "🥰"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Sun, 28 Nov 2021 22:21:35 GMT"
+            },
+            {
+              "key": "Server",
+              "value": "Apache"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Content-Length",
+              "value": "336"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5, max=100"
+            },
+            {
+              "key": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "key": "Content-Type",
+              "value": "text/json;charset=UTF-8"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"🥰\",\n        \"available\": true,\n        \"availability\": \"available\",\n        \"message\": \"This address is available, but must be registered in Punycode (as xn--js9h).\",\n        \"punycode\": \"xn--js9h\"\n    }\n}"
+        },
+        {
           "id": "2c95d849-1de1-4b69-8171-4a51e0f98164",
           "name": "Address is not available",
           "originalRequest": {
@@ -161,8 +222,8 @@
           "body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"penelope\",\n        \"available\": false,\n        \"availability\": \"unavailable\",\n        \"message\": \"This address is not available.\"\n    }\n}"
         },
         {
-          "id": "19e209ca-23af-4fb8-a0dc-48495bb4f187",
-          "name": "Address is available, but requires encoding",
+          "id": "b59c900c-3a0f-45df-9489-181170b626cc",
+          "name": "Check address availability",
           "originalRequest": {
             "method": "GET",
             "header": [],
@@ -180,7 +241,7 @@
               "variable": [
                 {
                   "key": "address",
-                  "value": "🥰"
+                  "value": "invalid^address"
                 }
               ]
             }
@@ -191,7 +252,7 @@
           "header": [
             {
               "key": "Date",
-              "value": "Sun, 28 Nov 2021 22:21:35 GMT"
+              "value": "Sun, 28 Nov 2021 23:05:50 GMT"
             },
             {
               "key": "Server",
@@ -203,7 +264,7 @@
             },
             {
               "key": "Content-Length",
-              "value": "336"
+              "value": "321"
             },
             {
               "key": "Keep-Alive",
@@ -220,17 +281,16 @@
           ],
           "cookie": [],
           "responseTime": null,
-          "body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"🥰\",\n        \"available\": true,\n        \"availability\": \"available\",\n        \"message\": \"This address is available, but must be registered in Punycode (as xn--js9h).\",\n        \"punycode\": \"xn--js9h\"\n    }\n}"
+          "body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"invalid^address\",\n        \"available\": false,\n        \"availability\": \"unavailable\",\n        \"message\": \"That address is not valid because it cannot be used as a subdomain or an email address.\"\n    }\n}"
         }
       ]
     }
   ],
   "variable": [
     {
-      "id": "cc77c0a5-7d0b-4ece-a9f2-1be18e6328e4",
+      "id": "77cae5d1-bed3-4661-934a-038328b3857f",
       "key": "base_url",
-      "value": "new.api.omg.lol",
-      "type": "string"
+      "value": "new.api.omg.lol"
     }
   ]
 }
