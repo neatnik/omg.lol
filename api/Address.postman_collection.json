@@ -2,6 +2,7 @@
 	"info": {
 		"_postman_id": "32e63336-671f-4196-8377-e7f5d021f3e3",
 		"name": "Address",
+		"description": "Obtain information about and make changes to addresses.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
