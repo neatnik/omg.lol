@@ -32,7 +32,7 @@
 						}
 					]
 				},
-				"description": "Checks the availability of an address and responds with relevant information."
+				"description": "Provides information about the availability of an address."
 			},
 			"response": [
 				{
@@ -274,6 +274,214 @@
 					],
 					"cookie": [],
 					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"penelope\",\n        \"available\": false,\n        \"availability\": \"unavailable\",\n        \"message\": \"This address is not available.\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Expiration",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/expiration/:address",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						"expiration",
+						":address"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": ""
+						}
+					]
+				},
+				"description": "Provides the expiration date for an address."
+			},
+			"response": [
+				{
+					"name": "Address expires in the future",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/expiration/:address",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								"expiration",
+								":address"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "penelope"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 30 Nov 2021 15:37:58 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "392"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"expiration\": {\n        \"address\": \"penelope\",\n        \"message\": \"This address expires in 21 years.\",\n        \"unix_epoch_time\": \"2300941010\",\n        \"iso_8601_time\": \"2042-11-30T06:16:50+00:00\",\n        \"rfc_2822_time\": \"Sun, 30 Nov 2042 06:16:50 +0000\",\n        \"relative_time\": \"21 years from now\"\n    }\n}"
+				},
+				{
+					"name": "Address does not expire",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/expiration/:address",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								"expiration",
+								":address"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "lifetime-address"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 30 Nov 2021 15:29:01 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "195"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"expiration\": {\n        \"address\": \"lifetime-address\",\n        \"message\": \"This address does not expire.\"\n    }\n}"
+				},
+				{
+					"name": "Address has expired",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/expiration/:address",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								"expiration",
+								":address"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "expired-address"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 30 Nov 2021 15:36:59 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "397"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"expiration\": {\n        \"address\": \"expired-address\",\n        \"message\": \"This address expired 4 minutes ago.\",\n        \"unix_epoch_time\": \"1638286377\",\n        \"iso_8601_time\": \"2021-11-30T15:32:57+00:00\",\n        \"rfc_2822_time\": \"Tue, 30 Nov 2021 15:32:57 +0000\",\n        \"relative_time\": \"4 minutes ago\"\n    }\n}"
 				}
 			]
 		}
