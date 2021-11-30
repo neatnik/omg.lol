@@ -7,8 +7,11 @@
 	},
 	"item": [
 		{
-			"name": "Check availability of an address",
+			"name": "Availability",
 			"request": {
+				"auth": {
+					"type": "noauth"
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -29,7 +32,7 @@
 						}
 					]
 				},
-				"description": "# Availability\n\nChecks the availability of an address and responds with relevant information."
+				"description": "Checks the availability of an address and responds with relevant information."
 			},
 			"response": [
 				{
@@ -150,7 +153,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"invalid^address\",\n        \"available\": false,\n        \"availability\": \"unavailable\",\n        \"message\": \"This address is not valid because it contains characters are not valid for subdomains or email addresses.\",\n        \"see-also\": [\n            \"https://www.omg.lol/info/addresses\",\n            \"https://datatracker.ietf.org/doc/html/rfc1034\",\n            \"https://datatracker.ietf.org/doc/html/rfc5321\"\n        ]\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"invalid^address\",\n        \"available\": false,\n        \"availability\": \"unavailable\",\n        \"message\": \"This address is not valid because it contains characters that are not valid for subdomains or email addresses.\",\n        \"see-also\": [\n            \"https://www.omg.lol/info/addresses\",\n            \"https://datatracker.ietf.org/doc/html/rfc1034\",\n            \"https://datatracker.ietf.org/doc/html/rfc5321\"\n        ]\n    }\n}"
 				},
 				{
 					"name": "Address is available but requires encoding",
