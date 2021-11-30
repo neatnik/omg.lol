@@ -6,6 +6,7 @@ Want to add an icon? Update this page with a pull request.
 
 | Item                       | Icon                                  | Domain / Usage                                        |
 |----------------------------|---------------------------------------|-------------------------------------------------------|
+| 500px                      | fa-brands fa-500px                    | 500px.com                                             |
 | 9GAG                       | omg-icon 9gag                         | 9gag.com                                              |
 | Amazon                     | fa-brands fa-amazon                   | amazon.                                               |
 | Anilist                    | omg-icon anilist                      | anilist.co                                            |
