@@ -114,6 +114,7 @@ Want to add an icon? Update this page with a pull request.
 | Steam Community            | fa-brands fa-steam                    | steamcommunity.com                                    |
 | Telegram                   | fa-brands fa-telegram                 | telegram.me, t.me                                     |
 | tetr.io                    | omg-icon tetrio                       | tetr.io, ch.tetr.io                                   |
+| Threema                    | omg-icon threema                      | threema.id                                            |
 | TikTok                     | fa-brands fa-tiktok                   | tiktok.com                                            |
 | Tinyletter                 | omg-icon tinyletter                   | tinyletter.com                                        |
 | Toss                       | omg-icon toss                         | toss.me                                               |
