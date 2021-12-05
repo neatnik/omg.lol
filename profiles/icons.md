@@ -108,6 +108,7 @@ Want to add an icon? Update this page with a pull request.
 | Snapchat                   | fa-brands fa-snapchat                 | snapchat.com                                          |
 | SoundCloud                 | fa-brands fa-soundcloud               | soundcloud.com                                        |
 | SpaceHey                   | omg-icon spacehey                     | spacehey.com                                          |
+| Spark AR                   | omg-icon sparkar                      | facebook.com/sparkarhub                               |
 | Spotify                    | fa-brands fa-spotify                  | spotify.com, open.spotify.com                         |
 | Stack Overflow             | fa-brands fa-stack-overflow           | stackoverflow.com                                     |
 | Status                     | fa-solid fa-heartbeat                 | uptimerobot.com, statuspage.io, status://             |
