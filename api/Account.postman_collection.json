@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "7d197171-6678-4842-a661-a5504d55efa1",
+		"name": "Account",
+		"description": "Obtain information about and make changes to your account.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Info",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/account/info/:email",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						"info",
+						":email"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": "person@example.com"
+						}
+					]
+				},
+				"description": "Get information about your account."
+			},
+			"response": [
+				{
+					"name": "Account information",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/account/info/:email",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								"info",
+								":email"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 05 Dec 2021 17:16:53 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "129"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "Array\n(\n    [email] => person@example.com\n    [name] => Example Person\n    [created] => 1638724323\n    [communication_preferences] => email_ok\n)\n"
+				}
+			]
+		}
+	]
+}
