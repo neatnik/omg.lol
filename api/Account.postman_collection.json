@@ -43,7 +43,7 @@
 			},
 			"response": [
 				{
-					"name": "Account information",
+					"name": "Account info",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
@@ -68,23 +68,15 @@
 					},
 					"status": "OK",
 					"code": 200,
-					"_postman_previewlanguage": "html",
+					"_postman_previewlanguage": "json",
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sun, 05 Dec 2021 17:16:53 GMT"
+							"value": "Mon, 06 Dec 2021 00:51:03 GMT"
 						},
 						{
 							"key": "Server",
 							"value": "Apache"
-						},
-						{
-							"key": "Vary",
-							"value": "Accept-Encoding"
-						},
-						{
-							"key": "Content-Encoding",
-							"value": "gzip"
 						},
 						{
 							"key": "Access-Control-Allow-Origin",
@@ -92,7 +84,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "129"
+							"value": "541"
 						},
 						{
 							"key": "Keep-Alive",
@@ -104,11 +96,11 @@
 						},
 						{
 							"key": "Content-Type",
-							"value": "text/html; charset=UTF-8"
+							"value": "text/json;charset=UTF-8"
 						}
 					],
 					"cookie": [],
-					"body": "Array\n(\n    [email] => person@example.com\n    [name] => Example Person\n    [created] => 1638724323\n    [communication_preferences] => email_ok\n)\n"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"info\": {\n        \"message\": \"Here is the account info that you requested.\",\n        \"email\": \"person@example.com\",\n        \"communication_preferences\": \"email_ok\",\n        \"name\": \"Example Person\",\n        \"created\": {\n            \"unix_epoch_time\": \"1638724323\",\n            \"iso_8601_time\": \"2021-12-05T17:12:03+00:00\",\n            \"rfc_2822_time\": \"Sun, 05 Dec 2021 17:12:03 +0000\",\n            \"relative_time\": \"7 hours, 39 minutes ago\"\n        }\n    }\n}"
 				}
 			]
 		}
