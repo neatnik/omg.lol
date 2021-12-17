@@ -1,0 +1,603 @@
+{
+	"info": {
+		"_postman_id": "32e63336-671f-4196-8377-e7f5d021f3e3",
+		"name": "Address",
+		"description": "Obtain information about and make changes to addresses.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Availability",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/availability/:address",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						"availability",
+						":address"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": ""
+						}
+					]
+				},
+				"description": "Provides information about the availability of an address."
+			},
+			"response": [
+				{
+					"name": "Address is available",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/availability/:address",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								"availability",
+								":address"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "available-address"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 29 Nov 2021 00:03:40 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "259"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"available-address\",\n        \"available\": true,\n        \"availability\": \"available\",\n        \"message\": \"This address is available.\"\n    }\n}"
+				},
+				{
+					"name": "Address is invalid",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/availability/:address",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								"availability",
+								":address"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "invalid^address"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 29 Nov 2021 00:03:55 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "557"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"invalid^address\",\n        \"available\": false,\n        \"availability\": \"unavailable\",\n        \"message\": \"This address is not valid because it contains characters that are not valid for subdomains or email addresses.\",\n        \"see-also\": [\n            \"https://www.omg.lol/info/addresses\",\n            \"https://datatracker.ietf.org/doc/html/rfc1034\",\n            \"https://datatracker.ietf.org/doc/html/rfc5321\"\n        ]\n    }\n}"
+				},
+				{
+					"name": "Address is available but requires encoding",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/availability/:address",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								"availability",
+								":address"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "🥰"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 29 Nov 2021 00:04:15 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "488"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"🥰\",\n        \"available\": true,\n        \"availability\": \"available\",\n        \"message\": \"This address is available, but it must be encoded in Punycode (as xn--js9h).\",\n        \"punycode\": \"xn--js9h\",\n        \"see-also\": [\n            \"https://www.omg.lol/info/addresses\",\n            \"https://datatracker.ietf.org/doc/html/rfc3492\"\n        ]\n    }\n}"
+				},
+				{
+					"name": "Address is not available",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/availability/:address",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								"availability",
+								":address"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "penelope"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 29 Nov 2021 00:04:34 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "257"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"penelope\",\n        \"available\": false,\n        \"availability\": \"unavailable\",\n        \"message\": \"This address is not available.\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Expiration",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/expiration/:address",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						"expiration",
+						":address"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": ""
+						}
+					]
+				},
+				"description": "Provides the expiration date for an address."
+			},
+			"response": [
+				{
+					"name": "Address expires in the future",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/expiration/:address",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								"expiration",
+								":address"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "penelope"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 30 Nov 2021 15:37:58 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "392"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"expiration\": {\n        \"address\": \"penelope\",\n        \"message\": \"This address expires in 21 years.\",\n        \"unix_epoch_time\": \"2300941010\",\n        \"iso_8601_time\": \"2042-11-30T06:16:50+00:00\",\n        \"rfc_2822_time\": \"Sun, 30 Nov 2042 06:16:50 +0000\",\n        \"relative_time\": \"21 years from now\"\n    }\n}"
+				},
+				{
+					"name": "Address does not expire",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/expiration/:address",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								"expiration",
+								":address"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "lifetime-address"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 30 Nov 2021 15:29:01 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "195"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"expiration\": {\n        \"address\": \"lifetime-address\",\n        \"message\": \"This address does not expire.\"\n    }\n}"
+				},
+				{
+					"name": "Address has expired",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/expiration/:address",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								"expiration",
+								":address"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "expired-address"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 30 Nov 2021 15:36:59 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "397"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"expiration\": {\n        \"address\": \"expired-address\",\n        \"message\": \"This address expired 4 minutes ago.\",\n        \"unix_epoch_time\": \"1638286377\",\n        \"iso_8601_time\": \"2021-11-30T15:32:57+00:00\",\n        \"rfc_2822_time\": \"Tue, 30 Nov 2021 15:32:57 +0000\",\n        \"relative_time\": \"4 minutes ago\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Info",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/info/:address",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						"info",
+						":address"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": ""
+						}
+					]
+				},
+				"description": "Provides information about an address."
+			},
+			"response": [
+				{
+					"name": "Information about an address",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/info/:address",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								"info",
+								":address"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "penelope"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 30 Nov 2021 19:29:13 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "714"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"info\": {\n        \"address\": \"penelope\",\n        \"message\": \"This address was registered 3 years ago and expires in 21 years.\",\n        \"registration\": {\n            \"unix_epoch_time\": \"1553358201\",\n            \"iso_8601_time\": \"2019-03-23T16:23:21+00:00\",\n            \"rfc_2822_time\": \"Sat, 23 Mar 2019 16:23:21 +0000\",\n            \"relative_time\": \"3 years ago\"\n        },\n        \"expiration\": {\n            \"unix_epoch_time\": \"2300941010\",\n            \"iso_8601_time\": \"2042-11-30T06:16:50+00:00\",\n            \"rfc_2822_time\": \"Sun, 30 Nov 2042 06:16:50 +0000\",\n            \"relative_time\": \"21 years from now\"\n        }\n    }\n}"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

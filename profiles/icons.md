@@ -6,6 +6,7 @@ Want to add an icon? Update this page with a pull request.
 
 | Item                       | Icon                                  | Domain / Usage                                        |
 |----------------------------|---------------------------------------|-------------------------------------------------------|
+| 500px                      | fa-brands fa-500px                    | 500px.com                                             |
 | 9GAG                       | omg-icon 9gag                         | 9gag.com                                              |
 | Amazon                     | fa-brands fa-amazon                   | amazon.                                               |
 | Anilist                    | omg-icon anilist                      | anilist.co                                            |
@@ -40,6 +41,7 @@ Want to add an icon? Update this page with a pull request.
 | Ethereum                   | fa-brands fa-ethereum                 | ethereum://                                           |
 | Etsy                       | fa-brands fa-etsy                     | etsy.com                                              |
 | Example                    | fa-solid fa-font-awesome              | example.com                                           |
+| EyeEm                      | omg-icon eyeem                        | eyeem.com                                             |
 | Facebook                   | fa-brands fa-facebook                 | facebook.com                                          |
 | Fastmail                   | omg-icon fastmail                     | fastmail.com, fastmail.fm                             |
 | Figma                      | fa-brands fa-figma                    | figma.com                                             |
@@ -54,12 +56,13 @@ Want to add an icon? Update this page with a pull request.
 | GitLab                     | fa-brands fa-gitlab                   | gitlab.com                                            |
 | Glass                      | fa-solid fa-camera                    | glass.photo                                           |
 | Goodreads                  | fa-brands fa-goodreads                | goodreads.com                                         |
-| Google                     | fa-brands fa-google                   | google.com                                            |
+| Google                     | fa-brands fa-google                   | google.com, g.dev                                     |
 | Gumroad                    | omg-icon gumroad                      | gumroad.com                                           |
 | Honk                       | omg-icon honk                         | honk.me                                               |
 | Instagram                  | fa-brands fa-instagram                | instagram.com, instagr.am                             |
 | Itch                       | fa-brands fa-itch-io                  | itch.io                                               |
 | Keybase                    | fa-brands fa-keybase                  | keybase.io                                            |
+| Keyoxide                   | omg-icon keyoxide                     | keyoxide.org                                          |
 | Ko-Fi                      | fa-solid fa-coffee-togo               | ko-fi.com                                             |
 | Last.fm                    | fa-brands fa-lastfm                   | last.fm                                               |
 | Letterboxd                 | omg-icon letterboxd                   | letterboxd.com                                        |
@@ -91,6 +94,7 @@ Want to add an icon? Update this page with a pull request.
 | Plutonium                  | omg-icon plutonium                    | forum.plutonium.pw                                    |
 | Podcast                    | fa-solid fa-podcast                   | podcast://                                            |
 | Polywork                   | omg-icon polywork                     | polywork.com, poly.work                               |
+| Postype                    | omg-icon postype                      | postype.com                                           |
 | Procreate                  | fa-solid fa-rectangle-pro             | procreate.art                                         |
 | Product Hunt               | fa-brands fa-product-hunt             | producthunt.com                                       |
 | Rainbow                    | omg-icon rainbow-me                   | rainbow.me                                            |
@@ -104,12 +108,14 @@ Want to add an icon? Update this page with a pull request.
 | Snapchat                   | fa-brands fa-snapchat                 | snapchat.com                                          |
 | SoundCloud                 | fa-brands fa-soundcloud               | soundcloud.com                                        |
 | SpaceHey                   | omg-icon spacehey                     | spacehey.com                                          |
+| Spark AR                   | omg-icon sparkar                      | facebook.com/sparkarhub                               |
 | Spotify                    | fa-brands fa-spotify                  | spotify.com, open.spotify.com                         |
 | Stack Overflow             | fa-brands fa-stack-overflow           | stackoverflow.com                                     |
 | Status                     | fa-solid fa-heartbeat                 | uptimerobot.com, statuspage.io, status://             |
 | Steam Community            | fa-brands fa-steam                    | steamcommunity.com                                    |
 | Telegram                   | fa-brands fa-telegram                 | telegram.me, t.me                                     |
 | tetr.io                    | omg-icon tetrio                       | tetr.io, ch.tetr.io                                   |
+| Threema                    | omg-icon threema                      | threema.id                                            |
 | TikTok                     | fa-brands fa-tiktok                   | tiktok.com                                            |
 | Tinyletter                 | omg-icon tinyletter                   | tinyletter.com                                        |
 | Toss                       | omg-icon toss                         | toss.me                                               |

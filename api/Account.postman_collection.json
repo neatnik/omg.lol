@@ -1,0 +1,435 @@
+{
+	"info": {
+		"_postman_id": "7d197171-6678-4842-a661-a5504d55efa1",
+		"name": "Account",
+		"description": "Obtain information about and make changes to your account.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Info",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/account/info/:email",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						"info",
+						":email"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": "person@example.com"
+						}
+					]
+				},
+				"description": "Get information about your account."
+			},
+			"response": [
+				{
+					"name": "Account info",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/account/info/:email",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								"info",
+								":email"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 06 Dec 2021 00:51:03 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "541"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"info\": {\n        \"message\": \"Here is the account info that you requested.\",\n        \"email\": \"person@example.com\",\n        \"communication_preferences\": \"email_ok\",\n        \"name\": \"Example Person\",\n        \"created\": {\n            \"unix_epoch_time\": \"1638724323\",\n            \"iso_8601_time\": \"2021-12-05T17:12:03+00:00\",\n            \"rfc_2822_time\": \"Sun, 05 Dec 2021 17:12:03 +0000\",\n            \"relative_time\": \"7 hours, 39 minutes ago\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Addresses",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/account/addresses/:email",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						"addresses",
+						":email"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": "adam@neatnik.net"
+						}
+					]
+				},
+				"description": "Get all addresses associated with your account."
+			},
+			"response": [
+				{
+					"name": "Addresses",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/account/addresses/:email",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								"addresses",
+								":email"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 07 Dec 2021 05:18:05 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2706"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"addresses\": [\n        {\n            \"address\": \"penelope\",\n            \"message\": \"This address was registered 2 years and 8 months ago and expires in 21 years and 3 months.\",\n            \"registration\": {\n                \"unix_epoch_time\": \"1553358201\",\n                \"iso_8601_time\": \"2019-03-23T16:23:21+00:00\",\n                \"rfc_2822_time\": \"Sat, 23 Mar 2019 16:23:21 +0000\",\n                \"relative_time\": \"2 years and 8 months ago\"\n            },\n            \"expired\": false,\n            \"expiration\": {\n                \"unix_epoch_time\": \"2300941010\",\n                \"iso_8601_time\": \"2042-11-30T06:16:50+00:00\",\n                \"rfc_2822_time\": \"Sun, 30 Nov 2042 06:16:50 +0000\",\n                \"relative_time\": \"21 years and 3 months\"\n            }\n        },\n        {\n            \"address\": \"lifetime-address\",\n            \"message\": \"This address was registered 6 days, 14 hours, 8 minutes and 18 seconds ago and does not expire.\",\n            \"registration\": {\n                \"unix_epoch_time\": \"1638284987\",\n                \"iso_8601_time\": \"2021-11-30T15:09:47+00:00\",\n                \"rfc_2822_time\": \"Tue, 30 Nov 2021 15:09:47 +0000\",\n                \"relative_time\": \"6 days, 14 hours, 8 minutes and 18 seconds ago\"\n            },\n            \"lifetime\": true\n        },\n        {\n            \"address\": \"expired-address\",\n            \"message\": \"This address was registered 1 week, 2 days, 17 hours and 1 minute ago and expired 6 days, 13 hours, 45 minutes and 8 seconds ago.\",\n            \"registration\": {\n                \"unix_epoch_time\": \"1638015377\",\n                \"iso_8601_time\": \"2021-11-27T12:16:17+00:00\",\n                \"rfc_2822_time\": \"Sat, 27 Nov 2021 12:16:17 +0000\",\n                \"relative_time\": \"1 week, 2 days, 17 hours and 1 minute ago\"\n            },\n            \"expired\": true,\n            \"expiration\": {\n                \"unix_epoch_time\": \"1638286377\",\n                \"iso_8601_time\": \"2021-11-30T15:32:57+00:00\",\n                \"rfc_2822_time\": \"Tue, 30 Nov 2021 15:32:57 +0000\",\n                \"relative_time\": \"6 days, 13 hours, 45 minutes and 8 seconds ago\"\n            }\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Sessions",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/account/sessions/:email",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						"sessions",
+						":email"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": null
+						}
+					]
+				},
+				"description": "Get all sessions associated with the account."
+			},
+			"response": [
+				{
+					"name": "Get sessions",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/account/sessions/:email",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								"sessions",
+								":email"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 09 Dec 2021 03:36:36 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "834"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"sessions\": [\n        {\n            \"session_id\": \"8138f2c3e845d5a094ec2a5b2ac0ab04\",\n            \"user_agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15\",\n            \"created_ip\": \"10.0.0.1\",\n            \"created_on\": \"1638815612\",\n            \"expires_on\": \"1670351612\"\n        },\n        {\n            \"session_id\": \"d4144930b4309d8e949c1a3e9bddc24f\",\n            \"user_agent\": \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Mobile Safari/537.36\",\n            \"created_ip\": \"10.0.0.2\",\n            \"created_on\": \"1638886102\",\n            \"expires_on\": \"1670422102\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Sessions",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/account/sessions/:email/:session_id",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						"sessions",
+						":email",
+						":session_id"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": "adam@neatnik.net"
+						},
+						{
+							"key": "session_id",
+							"value": "8138f2c3e845d5a094ec2a5b2ac0ab04"
+						}
+					]
+				},
+				"description": "Delete a session."
+			},
+			"response": [
+				{
+					"name": "Delete a session",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/account/sessions/:email/:session_id",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								"sessions",
+								":email",
+								":session_id"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								},
+								{
+									"key": "session_id",
+									"value": "90d189291cac8ba0dd8052322ff0ef1d"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 09 Dec 2021 04:19:18 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "154"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"sessions\": {\n        \"message\": \"The session has been deleted.\"\n    }\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
