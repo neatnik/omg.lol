@@ -58,6 +58,7 @@ Want to add an icon? Update this page with a pull request.
 | Goodreads                  | fa-brands fa-goodreads                | goodreads.com                                         |
 | Google                     | fa-brands fa-google                   | google.com, g.dev                                     |
 | Gumroad                    | omg-icon gumroad                      | gumroad.com                                           |
+| Hack Club                  | fa-solid fa-address-book              | scrapbook.hackclub.com                                |
 | Honk                       | omg-icon honk                         | honk.me                                               |
 | Instagram                  | fa-brands fa-instagram                | instagram.com, instagr.am                             |
 | Itch                       | fa-brands fa-itch-io                  | itch.io                                               |
