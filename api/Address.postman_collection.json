@@ -15,20 +15,20 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://{{base_url}}/address/availability/:address",
+					"raw": "https://{{base_url}}/address/:address/availability",
 					"protocol": "https",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
 						"address",
-						"availability",
-						":address"
+						":address",
+						"availability"
 					],
 					"variable": [
 						{
 							"key": "address",
-							"value": ""
+							"value": "penelope"
 						}
 					]
 				},
@@ -41,15 +41,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{base_url}}/address/availability/:address",
+							"raw": "https://{{base_url}}/address/:address/availability",
 							"protocol": "https",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"address",
-								"availability",
-								":address"
+								":address",
+								"availability"
 							],
 							"variable": [
 								{
@@ -65,7 +65,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Mon, 29 Nov 2021 00:03:40 GMT"
+							"value": "Sun, 12 Dec 2021 22:51:52 GMT"
 						},
 						{
 							"key": "Server",
@@ -77,7 +77,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "259"
+							"value": "255"
 						},
 						{
 							"key": "Keep-Alive",
@@ -93,7 +93,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"available-address\",\n        \"available\": true,\n        \"availability\": \"available\",\n        \"message\": \"This address is available.\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"This address is available.\",\n        \"address\": \"available-address\",\n        \"available\": true,\n        \"availability\": \"available\"\n    }\n}"
 				},
 				{
 					"name": "Address is invalid",
@@ -101,15 +101,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{base_url}}/address/availability/:address",
+							"raw": "https://{{base_url}}/address/:address/availability",
 							"protocol": "https",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"address",
-								"availability",
-								":address"
+								":address",
+								"availability"
 							],
 							"variable": [
 								{
@@ -125,7 +125,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Mon, 29 Nov 2021 00:03:55 GMT"
+							"value": "Sun, 12 Dec 2021 22:52:22 GMT"
 						},
 						{
 							"key": "Server",
@@ -137,7 +137,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "557"
+							"value": "585"
 						},
 						{
 							"key": "Keep-Alive",
@@ -153,7 +153,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"invalid^address\",\n        \"available\": false,\n        \"availability\": \"unavailable\",\n        \"message\": \"This address is not valid because it contains characters that are not valid for subdomains or email addresses.\",\n        \"see-also\": [\n            \"https://www.omg.lol/info/addresses\",\n            \"https://datatracker.ietf.org/doc/html/rfc1034\",\n            \"https://datatracker.ietf.org/doc/html/rfc5321\"\n        ]\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"This address is not valid because it contains characters that are not valid for subdomains or email addresses.\",\n        \"address\": \"invalid^address\",\n        \"available\": false,\n        \"availability\": \"unavailable\",\n        \"invalid\": \"true\",\n        \"see-also\": [\n            \"https://www.omg.lol/info/addresses\",\n            \"https://datatracker.ietf.org/doc/html/rfc1034\",\n            \"https://datatracker.ietf.org/doc/html/rfc5321\"\n        ]\n    }\n}"
 				},
 				{
 					"name": "Address is available but requires encoding",
@@ -161,15 +161,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{base_url}}/address/availability/:address",
+							"raw": "https://{{base_url}}/address/:address/availability",
 							"protocol": "https",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"address",
-								"availability",
-								":address"
+								":address",
+								"availability"
 							],
 							"variable": [
 								{
@@ -185,7 +185,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Mon, 29 Nov 2021 00:04:15 GMT"
+							"value": "Sun, 12 Dec 2021 22:52:55 GMT"
 						},
 						{
 							"key": "Server",
@@ -197,7 +197,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "488"
+							"value": "484"
 						},
 						{
 							"key": "Keep-Alive",
@@ -213,7 +213,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"🥰\",\n        \"available\": true,\n        \"availability\": \"available\",\n        \"message\": \"This address is available, but it must be encoded in Punycode (as xn--js9h).\",\n        \"punycode\": \"xn--js9h\",\n        \"see-also\": [\n            \"https://www.omg.lol/info/addresses\",\n            \"https://datatracker.ietf.org/doc/html/rfc3492\"\n        ]\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"This address is available, but it must be encoded in Punycode (as xn--js9h).\",\n        \"punycode\": \"xn--js9h\",\n        \"see-also\": [\n            \"https://www.omg.lol/info/addresses\",\n            \"https://datatracker.ietf.org/doc/html/rfc3492\"\n        ],\n        \"address\": \"🥰\",\n        \"available\": true,\n        \"availability\": \"available\"\n    }\n}"
 				},
 				{
 					"name": "Address is not available",
@@ -221,15 +221,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{base_url}}/address/availability/:address",
+							"raw": "https://{{base_url}}/address/:address/availability",
 							"protocol": "https",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"address",
-								"availability",
-								":address"
+								":address",
+								"availability"
 							],
 							"variable": [
 								{
@@ -245,7 +245,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Mon, 29 Nov 2021 00:04:34 GMT"
+							"value": "Sun, 12 Dec 2021 22:53:17 GMT"
 						},
 						{
 							"key": "Server",
@@ -257,7 +257,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "257"
+							"value": "253"
 						},
 						{
 							"key": "Keep-Alive",
@@ -273,7 +273,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"availability\": {\n        \"address\": \"penelope\",\n        \"available\": false,\n        \"availability\": \"unavailable\",\n        \"message\": \"This address is not available.\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"This address is not available.\",\n        \"address\": \"penelope\",\n        \"available\": false,\n        \"availability\": \"unavailable\"\n    }\n}"
 				}
 			]
 		},
@@ -286,20 +286,20 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://{{base_url}}/address/expiration/:address",
+					"raw": "https://{{base_url}}/address/:address/expiration",
 					"protocol": "https",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
 						"address",
-						"expiration",
-						":address"
+						":address",
+						"expiration"
 					],
 					"variable": [
 						{
 							"key": "address",
-							"value": ""
+							"value": null
 						}
 					]
 				},
@@ -497,20 +497,20 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://{{base_url}}/address/info/:address",
+					"raw": "https://{{base_url}}/address/:address/info",
 					"protocol": "https",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
 						"address",
-						"info",
-						":address"
+						":address",
+						"info"
 					],
 					"variable": [
 						{
 							"key": "address",
-							"value": ""
+							"value": "penelope"
 						}
 					]
 				},
@@ -518,20 +518,20 @@
 			},
 			"response": [
 				{
-					"name": "Information about an address",
+					"name": "Get information about an address",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{base_url}}/address/info/:address",
+							"raw": "https://{{base_url}}/address/:address/info",
 							"protocol": "https",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"address",
-								"info",
-								":address"
+								":address",
+								"info"
 							],
 							"variable": [
 								{
@@ -547,7 +547,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Tue, 30 Nov 2021 19:29:13 GMT"
+							"value": "Sun, 12 Dec 2021 22:53:57 GMT"
 						},
 						{
 							"key": "Server",
@@ -559,7 +559,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "714"
+							"value": "998"
 						},
 						{
 							"key": "Keep-Alive",
@@ -575,7 +575,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"info\": {\n        \"address\": \"penelope\",\n        \"message\": \"This address was registered 3 years ago and expires in 21 years.\",\n        \"registration\": {\n            \"unix_epoch_time\": \"1553358201\",\n            \"iso_8601_time\": \"2019-03-23T16:23:21+00:00\",\n            \"rfc_2822_time\": \"Sat, 23 Mar 2019 16:23:21 +0000\",\n            \"relative_time\": \"3 years ago\"\n        },\n        \"expiration\": {\n            \"unix_epoch_time\": \"2300941010\",\n            \"iso_8601_time\": \"2042-11-30T06:16:50+00:00\",\n            \"rfc_2822_time\": \"Sun, 30 Nov 2042 06:16:50 +0000\",\n            \"relative_time\": \"21 years from now\"\n        }\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"address\": \"penelope\",\n        \"message\": \"This address was registered 2 years and 9 months ago and expires in 7 months, 3 days and 3 hours.\",\n        \"registration\": {\n            \"message\": \"This address was registered 2 years and 9 months ago.\",\n            \"unix_epoch_time\": \"1553358201\",\n            \"iso_8601_time\": \"2019-03-23T16:23:21+00:00\",\n            \"rfc_2822_time\": \"Sat, 23 Mar 2019 16:23:21 +0000\",\n            \"relative_time\": \"2 years and 9 months ago\"\n        },\n        \"expiration\": {\n            \"message\": \"This address expires in 7 months, 3 days and 3 hours.\",\n            \"expired\": false,\n            \"will_expire\": true,\n            \"unix_epoch_time\": \"1657766111\",\n            \"iso_8601_time\": \"2022-07-14T02:35:11+00:00\",\n            \"rfc_2822_time\": \"Thu, 14 Jul 2022 02:35:11 +0000\",\n            \"relative_time\": \"7 months, 3 days and 3 hours\"\n        }\n    }\n}"
 				}
 			]
 		}
