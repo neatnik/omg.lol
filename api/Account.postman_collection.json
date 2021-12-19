@@ -342,7 +342,7 @@
 			},
 			"response": [
 				{
-					"name": "Delete a session",
+					"name": "Session deleted",
 					"originalRequest": {
 						"method": "DELETE",
 						"header": [],
@@ -543,11 +543,11 @@
 						}
 					]
 				},
-				"description": "Get the name associated with the account."
+				"description": "Update the name associated with the account."
 			},
 			"response": [
 				{
-					"name": "Change name",
+					"name": "Name changed",
 					"originalRequest": {
 						"method": "POST",
 						"header": [],
