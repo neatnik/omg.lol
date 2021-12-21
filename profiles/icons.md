@@ -24,7 +24,7 @@ Want to add an icon? Update this page with a pull request.
 | Bookshop                   | omg-icon bookshop                     | bookshop.org, uk.bookshop.org                         |
 | Buy Me A Coffee            | fa-regular fa-coffee-togo             | buymeacoffee.com                                      |
 | Calendly                   | fa-solid fa-calendar-pen              | calendly.com                                          |
-| Callsign                   | fa-solid fa-broadcast-tower           | callsign://                                           |
+| Callsign                   | fa-solid fa-broadcast-tower           | callsign://, ham://                                   |
 | Cash App                   | omg-icon cash-app                     | cash.app                                              |
 | Cat                        | fa-solid fa-cat                       | cat://                                                |
 | Cloudspotting              | fa-solid fa-cloud                     | cloudspotting.be                                      |
