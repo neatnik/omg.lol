@@ -94,6 +94,7 @@ Want to add an icon? Update this page with a pull request.
 | Patreon                    | fa-brands fa-patreon                  | patreon.com                                           |
 | PayPal                     | fa-brands fa-paypal                   | paypal.me                                             |
 | Pinterest                  | fa-brands fa-pinterest                | pinterest.com, pinterest.co.uk                        |
+| Playstation                | fa-brands fa-playstation              | psn://                                                |      
 | Plutonium                  | omg-icon plutonium                    | forum.plutonium.pw                                    |
 | Podcast                    | fa-solid fa-podcast                   | podcast://                                            |
 | Polywork                   | omg-icon polywork                     | polywork.com, poly.work                               |
@@ -116,6 +117,7 @@ Want to add an icon? Update this page with a pull request.
 | Stack Overflow             | fa-brands fa-stack-overflow           | stackoverflow.com                                     |
 | Status                     | fa-solid fa-heartbeat                 | uptimerobot.com, statuspage.io, status://             |
 | Steam Community            | fa-brands fa-steam                    | steamcommunity.com                                    |
+| Nintendo Switch            | fa-solid fa-columns                   | switch://                                             |
 | Telegram                   | fa-brands fa-telegram                 | telegram.me, t.me                                     |
 | tetr.io                    | omg-icon tetrio                       | tetr.io, ch.tetr.io                                   |
 | Threema                    | omg-icon threema                      | threema.id                                            |
