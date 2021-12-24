@@ -88,5 +88,18 @@
 			"url": "https://meta.omg.lol/meta/profiles/themes/monokai.css",
 			"repo": "https://github.com/dcchambers/omg.lol/tree/main/profiles/themes"
 		}
+		
+		},
+		"nothing_but_red": {
+			"name": "Nothing but Red",
+			"author": "Laker Turner",
+			"author_url": "https://laker.gay",
+			"version": "1.0",
+			"license": "Public Domain",
+			"license_url": "https://creativecommons.org/share-your-work/public-domain/",
+			"description": " What happens when you put the cherry blossom theme through a dark mode extension.",
+			"url": "https://github.com/PurpleHeartLabs/omg.lol/blob/main/profiles/themes/Nothing%20but%20Red.css",
+			"repo": "https://github.com/PurpleHeartLabs/omg.lol/tree/main/profiles/themes"
+		}
 	}
 }
