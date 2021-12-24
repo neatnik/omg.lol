@@ -676,6 +676,210 @@
 					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"address\": \"penelope\",\n        \"message\": \"This address was registered 2 years and 9 months ago and expires in 7 months, 3 days and 3 hours.\",\n        \"registration\": {\n            \"message\": \"This address was registered 2 years and 9 months ago.\",\n            \"unix_epoch_time\": \"1553358201\",\n            \"iso_8601_time\": \"2019-03-23T16:23:21+00:00\",\n            \"rfc_2822_time\": \"Sat, 23 Mar 2019 16:23:21 +0000\",\n            \"relative_time\": \"2 years and 9 months ago\"\n        },\n        \"expiration\": {\n            \"message\": \"This address expires in 7 months, 3 days and 3 hours.\",\n            \"expired\": false,\n            \"will_expire\": true,\n            \"unix_epoch_time\": \"1657766111\",\n            \"iso_8601_time\": \"2022-07-14T02:35:11+00:00\",\n            \"rfc_2822_time\": \"Thu, 14 Jul 2022 02:35:11 +0000\",\n            \"relative_time\": \"7 months, 3 days and 3 hours\"\n        },\n        \"owner\": \"person@example.com\"\n    }\n}"
 				}
 			]
+		},
+		{
+			"name": "Web",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/web",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"web"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "haydenmatsui"
+						}
+					]
+				},
+				"description": "Retrieve web content and information for an address."
+			},
+			"response": [
+				{
+					"name": "Get web content",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/web",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"web"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "haydenmatsui"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 24 Dec 2021 16:35:54 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "402"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here is the web content for haydenmatsui.\",\n        \"content\": \"# Hayden Matsui\\n\\n| Pronouns: they/them\\n| Location: Fiji\\n| Occupation: Arborist\\n\\nI take care of trees!\\n\\n--- Profile Items ---\\n\\n- [Twitter](https://twitter.com)\\n- [Instagram](https://instagram.com)\\n\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Web",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"content\": \"# Hayden Matsui\\n\\n| Pronouns: they/them\\n| Location: Fiji\\n| Occupation: Arborist\\n\\nI take care of trees!\\n\\n--- Profile Items ---\\n\\n- [Twitter](https://twitter.com)\\n- [Instagram](https://instagram.com)\\n\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/web",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"web"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "haydenmatsui"
+						}
+					]
+				},
+				"description": "Retrieve web content and information for an address."
+			},
+			"response": [
+				{
+					"name": "Update web content",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"content\": \"# Hayden Matsui\\n\\n| Pronouns: they/them\\n| Location: Fiji\\n| Occupation: Arborist\\n\\nI take care of trees!\\n\\n--- Profile Items ---\\n\\n- [Twitter](https://twitter.com)\\n- [Instagram](https://instagram.com)\\n\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/web",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"web"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "haydenmatsui"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 24 Dec 2021 16:37:12 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "171"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your web content has been saved and published.\"\n    }\n}"
+				}
+			]
 		}
 	],
 	"event": [
