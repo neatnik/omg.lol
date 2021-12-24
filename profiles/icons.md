@@ -136,6 +136,7 @@ Want to add an icon? Update this page with a pull request.
 | VK                         | fa-brands fa-vk                       | vk.com                                                |
 | Wattpad                    | omg-icon wattpad                      | wattpad.com                                           |
 | Waze                       | fa-brands fa-waze                     | waze.com                                              |
+| WELL                       | omg-icon well                         | people.well.com                                       |
 | WhatsApp                   | fa-brands fa-whatsapp                 | whatsapp.com, wa.me                                   |
 | WordPress                  | fa-brands fa-wordpress                | wordpress.com                                         |
 | Write.as                   | omg-icon write.as                     | write.as, writeas.com                                 |
