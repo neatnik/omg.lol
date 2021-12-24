@@ -60,6 +60,8 @@ Want to add an icon? Update this page with a pull request.
 | Google                     | fa-brands fa-google                   | google.com, g.dev                                     |
 | Gumroad                    | omg-icon gumroad                      | gumroad.com                                           |
 | Hack Club                  | fa-solid fa-address-book              | scrapbook.hackclub.com                                |
+| HackerOne                  | omg-icon hackerone                    | hackerone.com                                         |
+| HAM Radio Callsign         | fa-solid fa-broadcast-tower           | callsign://                                           |
 | Honk                       | omg-icon honk                         | honk.me                                               |
 | Instagram                  | fa-brands fa-instagram                | instagram.com, instagr.am                             |
 | Itch                       | fa-brands fa-itch-io                  | itch.io                                               |
@@ -84,8 +86,8 @@ Want to add an icon? Update this page with a pull request.
 | Music                      | fa-solid fa-headphones-simple         | music://                                              |
 | Musicboard                 | omg-icon musicboard                   | musicboard.app                                        |
 | MyAnimeList                | omg-icon myanimelist                  | myanimelist.net                                       |
-| HAM Radio Callsign         | fa-solid fa-broadcast-tower           | callsign://                                           |
 | Newsletter                 | fa-solid fa-newspaper                 | newsletter://                                         |
+| Nintendo Switch            | omg-icon nintendo-switch              | switch://                                             |
 | Notion                     | omg-icon notion                       | notion.so, notion.site                                |
 | NPM                        | fa-brands fa-npm                      | npmjs.com                                             |
 | OGS                        | fa-solid fa-circle-half-stroke        | online-go.com                                         |
@@ -94,7 +96,7 @@ Want to add an icon? Update this page with a pull request.
 | Patreon                    | fa-brands fa-patreon                  | patreon.com                                           |
 | PayPal                     | fa-brands fa-paypal                   | paypal.me                                             |
 | Pinterest                  | fa-brands fa-pinterest                | pinterest.com, pinterest.co.uk                        |
-| Playstation                | fa-brands fa-playstation              | psn://                                                |      
+| Playstation                | fa-brands fa-playstation              | psn://                                                |
 | Plutonium                  | omg-icon plutonium                    | forum.plutonium.pw                                    |
 | Podcast                    | fa-solid fa-podcast                   | podcast://                                            |
 | Polywork                   | omg-icon polywork                     | polywork.com, poly.work                               |
@@ -117,7 +119,6 @@ Want to add an icon? Update this page with a pull request.
 | Stack Overflow             | fa-brands fa-stack-overflow           | stackoverflow.com                                     |
 | Status                     | fa-solid fa-heartbeat                 | uptimerobot.com, statuspage.io, status://             |
 | Steam Community            | fa-brands fa-steam                    | steamcommunity.com                                    |
-| Nintendo Switch            | fa-solid fa-columns                   | switch://                                             |
 | Telegram                   | fa-brands fa-telegram                 | telegram.me, t.me                                     |
 | tetr.io                    | omg-icon tetrio                       | tetr.io, ch.tetr.io                                   |
 | Threema                    | omg-icon threema                      | threema.id                                            |
