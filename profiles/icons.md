@@ -95,6 +95,7 @@ Want to add an icon? Update this page with a pull request.
 | osu!                       | fa-solid fa-list-music                | osu.ppy.sh                                            |
 | Patreon                    | fa-brands fa-patreon                  | patreon.com                                           |
 | PayPal                     | fa-brands fa-paypal                   | paypal.me                                             |
+| Pinboard                   | omg-icon pinboard                     | pinboard.in                                           |
 | Pinterest                  | fa-brands fa-pinterest                | pinterest.com, pinterest.co.uk                        |
 | Playstation                | fa-brands fa-playstation              | psn://                                                |
 | Plutonium                  | omg-icon plutonium                    | forum.plutonium.pw                                    |
