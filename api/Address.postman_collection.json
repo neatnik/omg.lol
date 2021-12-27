@@ -312,15 +312,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{base_url}}/address/expiration/:address",
+							"raw": "https://{{base_url}}/address/:address/expiration",
 							"protocol": "https",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"address",
-								"expiration",
-								":address"
+								":address",
+								"expiration"
 							],
 							"variable": [
 								{
@@ -372,20 +372,20 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{base_url}}/address/expiration/:address",
+							"raw": "https://{{base_url}}/address/:address/expiration",
 							"protocol": "https",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"address",
-								"expiration",
-								":address"
+								":address",
+								"expiration"
 							],
 							"variable": [
 								{
 									"key": "address",
-									"value": "lifetime-address"
+									"value": null
 								}
 							]
 						}
@@ -432,15 +432,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{base_url}}/address/expiration/:address",
+							"raw": "https://{{base_url}}/address/:address/expiration",
 							"protocol": "https",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"address",
-								"expiration",
-								":address"
+								":address",
+								"expiration"
 							],
 							"variable": [
 								{
