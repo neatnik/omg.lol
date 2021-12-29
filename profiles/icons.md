@@ -22,7 +22,7 @@ Want to add an icon? Update this page with a pull request.
 | Blogger                    | fa-brands fa-blogger                  | blogger.com                                           |
 | Book                       | fa-solid fa-book                      | book://, reading://                                   |
 | Bookshop                   | omg-icon bookshop                     | bookshop.org, uk.bookshop.org                         |
-| Buy Me A Coffee            | fa-regular fa-coffee-togo             | buymeacoffee.com                                      |
+| Buy Me A Coffee            | omg-icon buymeacoffee                 | buymeacoffee.com                                      |
 | Calendly                   | fa-solid fa-calendar-pen              | calendly.com                                          |
 | Callsign                   | fa-solid fa-broadcast-tower           | callsign://, ham://                                   |
 | Cash App                   | omg-icon cash-app                     | cash.app                                              |
