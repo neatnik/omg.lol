@@ -1,0 +1,9013 @@
+{
+.appVersion = "3108";
+.formatVersion = 3;
+customParameters = (
+{
+name = vendorID;
+value = NEAT;
+},
+{
+name = panose;
+value = (
+2,
+0,
+9,
+3,
+0,
+0,
+0,
+0,
+0,
+0
+);
+},
+{
+name = unicodeRanges;
+value = (
+0,
+60
+);
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+exclamation,
+hashtag,
+"dollar-sign",
+percent,
+asterisk,
+plus,
+"0",
+"1",
+"2",
+"3",
+"4",
+"5",
+"6",
+"7",
+"8",
+"9",
+"less-than",
+equals,
+"greater-than",
+question,
+at,
+a,
+b,
+c,
+d,
+e,
+f,
+g,
+h,
+i,
+j,
+k,
+l,
+m,
+n,
+o,
+p,
+q,
+r,
+s,
+t,
+u,
+v,
+w,
+x,
+y,
+z,
+faucet,
+trailer,
+bacteria,
+bacterium,
+"box-tissue",
+"hand-holding-medical",
+"hand-sparkles",
+"hands-bubbles",
+"handshake-simple-slash",
+"handshake-slash",
+"head-side-cough",
+"head-side-cough-slash",
+"head-side-mask",
+"head-side-virus",
+"house-chimney-user",
+"house-laptop",
+"lungs-virus",
+"people-arrows-left-right",
+"plane-slash",
+"pump-medical",
+"pump-soap",
+"shield-virus",
+sink,
+soap,
+"stopwatch-20",
+"shop-slash",
+"store-slash",
+"toilet-paper-slash",
+"users-slash",
+virus,
+"virus-slash",
+viruses,
+vest,
+"vest-patches",
+"arrow-trend-down",
+"arrow-trend-up",
+"arrow-up-from-bracket",
+"austral-sign",
+"baht-sign",
+"bitcoin-sign",
+"camera-rotate",
+"cedi-sign",
+"chart-column",
+"chart-gantt",
+clapperboard,
+clover,
+"code-compare",
+"code-fork",
+"code-pull-request",
+"colon-sign",
+"cruzeiro-sign",
+"dong-sign",
+elevator,
+"filter-circle-xmark",
+"florin-sign",
+"franc-sign",
+"guarani-sign",
+gun,
+"hands-clapping",
+"house-user",
+"indian-rupee-sign",
+"kip-sign",
+"lari-sign",
+"litecoin-sign",
+"manat-sign",
+"mask-face",
+"mill-sign",
+"naira-sign",
+panorama,
+"peseta-sign",
+"peso-sign",
+"rupiah-sign",
+stairs,
+timeline,
+"turkish-lira-sign",
+vault,
+"wand-magic-sparkles",
+"house-chimney",
+"house-crack",
+"house-medical",
+"cent-sign",
+"plus-minus",
+sailboat,
+section,
+shrimp,
+"brazilian-real-sign",
+"earth-oceania",
+"martini-glass-empty",
+music,
+"magnifying-glass",
+heart,
+star,
+user,
+film,
+"table-cells-large",
+"table-cells",
+"table-list",
+check,
+xmark,
+"magnifying-glass-plus",
+"magnifying-glass-minus",
+"power-off",
+signal,
+gear,
+house,
+clock,
+road,
+download,
+inbox,
+"arrow-rotate-right",
+"arrows-rotate",
+"rectangle-list",
+lock,
+flag,
+headphones,
+"volume-off",
+"volume-low",
+"volume-high",
+qrcode,
+barcode,
+tag,
+tags,
+book,
+bookmark,
+print,
+camera,
+font,
+bold,
+italic,
+"text-height",
+"text-width",
+"align-left",
+"align-center",
+"align-right",
+"align-justify",
+list,
+outdent,
+indent,
+video,
+image,
+"location-pin",
+"circle-half-stroke",
+droplet,
+"pen-to-square",
+"arrows-up-down-left-right",
+"backward-step",
+"backward-fast",
+backward,
+play,
+pause,
+stop,
+forward,
+"forward-fast",
+"forward-step",
+eject,
+"chevron-left",
+"chevron-right",
+"circle-plus",
+"circle-minus",
+"circle-xmark",
+"circle-check",
+"circle-question",
+"circle-info",
+crosshairs,
+ban,
+"arrow-left",
+"arrow-right",
+"arrow-up",
+"arrow-down",
+share,
+expand,
+compress,
+minus,
+"circle-exclamation",
+gift,
+leaf,
+fire,
+eye,
+"eye-slash",
+"triangle-exclamation",
+plane,
+"calendar-days",
+shuffle,
+comment,
+magnet,
+"chevron-up",
+"chevron-down",
+retweet,
+"cart-shopping",
+folder,
+"folder-open",
+"arrows-up-down",
+"arrows-left-right",
+"chart-bar",
+"camera-retro",
+key,
+gears,
+comments,
+"star-half",
+"arrow-right-from-bracket",
+thumbtack,
+"arrow-up-right-from-square",
+"arrow-right-to-bracket",
+trophy,
+upload,
+lemon,
+phone,
+"square-phone",
+unlock,
+"credit-card",
+rss,
+"hard-drive",
+bullhorn,
+certificate,
+"hand-point-right",
+"hand-point-left",
+"hand-point-up",
+"hand-point-down",
+"circle-arrow-left",
+"circle-arrow-right",
+"circle-arrow-up",
+"circle-arrow-down",
+globe,
+wrench,
+"list-check",
+filter,
+briefcase,
+"up-down-left-right",
+users,
+link,
+cloud,
+flask,
+scissors,
+copy,
+paperclip,
+"floppy-disk",
+square,
+bars,
+"list-ul",
+"list-ol",
+strikethrough,
+underline,
+table,
+"wand-magic",
+truck,
+"money-bill",
+"caret-down",
+"caret-up",
+"caret-left",
+"caret-right",
+"table-columns",
+sort,
+"sort-down",
+"sort-up",
+envelope,
+"arrow-rotate-left",
+gavel,
+bolt,
+sitemap,
+umbrella,
+paste,
+lightbulb,
+"arrow-right-arrow-left",
+"cloud-arrow-down",
+"cloud-arrow-up",
+"user-doctor",
+stethoscope,
+suitcase,
+bell,
+"mug-saucer",
+hospital,
+"truck-medical",
+"suitcase-medical",
+"jet-fighter",
+"beer-mug-empty",
+"square-h",
+"square-plus",
+"angles-left",
+"angles-right",
+"angles-up",
+"angles-down",
+"angle-left",
+"angle-right",
+"angle-up",
+"angle-down",
+laptop,
+"tablet-button",
+"mobile-button",
+"quote-left",
+"quote-right",
+spinner,
+circle,
+"face-smile",
+"face-frown",
+"face-meh",
+gamepad,
+keyboard,
+"flag-checkered",
+terminal,
+code,
+"reply-all",
+"location-arrow",
+crop,
+"code-branch",
+"link-slash",
+info,
+superscript,
+subscript,
+eraser,
+"puzzle-piece",
+microphone,
+"microphone-slash",
+shield,
+calendar,
+"fire-extinguisher",
+rocket,
+"circle-chevron-left",
+"circle-chevron-right",
+"circle-chevron-up",
+"circle-chevron-down",
+anchor,
+"unlock-keyhole",
+bullseye,
+ellipsis,
+"ellipsis-vertical",
+"square-rss",
+"circle-play",
+ticket,
+"square-minus",
+"arrow-turn-up",
+"arrow-turn-down",
+"square-check",
+"square-pen",
+"square-arrow-up-right",
+"share-from-square",
+compass,
+"square-caret-down",
+"square-caret-up",
+"square-caret-right",
+"euro-sign",
+"sterling-sign",
+"rupee-sign",
+"yen-sign",
+"ruble-sign",
+"won-sign",
+file,
+"file-lines",
+"arrow-down-a-z",
+"arrow-up-a-z",
+"arrow-down-wide-short",
+"arrow-up-wide-short",
+"arrow-down-1-9",
+"arrow-up-1-9",
+"thumbs-up",
+"thumbs-down",
+"arrow-down-long",
+"arrow-up-long",
+"arrow-left-long",
+"arrow-right-long",
+"person-dress",
+person,
+sun,
+moon,
+"box-archive",
+bug,
+"square-caret-left",
+"circle-dot",
+wheelchair,
+"lira-sign",
+"shuttle-space",
+"square-envelope",
+bank,
+"graduation-cap",
+language,
+fax,
+building,
+child,
+paw,
+cube,
+cubes,
+recycle,
+car,
+taxi,
+tree,
+database,
+"file-pdf",
+"file-word",
+"file-excel",
+"file-powerpoint",
+"file-image",
+"file-zipper",
+"file-audio",
+"file-video",
+"file-code",
+"life-ring",
+"circle-notch",
+"paper-plane",
+"clock-rotate-left",
+heading,
+paragraph,
+sliders,
+"share-nodes",
+"square-share-nodes",
+bomb,
+futbol,
+tty,
+binoculars,
+plug,
+newspaper,
+wifi,
+calculator,
+"bell-slash",
+trash,
+copyright,
+"eye-dropper",
+"paint-brush",
+"cake-candles",
+"chart-area",
+"chart-pie",
+"chart-line",
+"toggle-off",
+"toggle-on",
+bicycle,
+bus,
+"closed-captioning",
+"shekel-sign",
+"cart-plus",
+"cart-arrow-down",
+diamond,
+ship,
+"user-secret",
+motorcycle,
+"street-view",
+"heart-pulse",
+venus,
+mars,
+mercury,
+"mars-and-venus",
+transgender,
+"venus-double",
+"mars-double",
+"venus-mars",
+"mars-stroke",
+"mars-stroke-up",
+"mars-stroke-right",
+neuter,
+genderless,
+server,
+"user-plus",
+"user-xmark",
+bed,
+train,
+"train-subway",
+"battery-full",
+"battery-three-quarters",
+"battery-half",
+"battery-quarter",
+"battery-empty",
+"arrow-pointer",
+"i-cursor",
+"object-group",
+"object-ungroup",
+"note-sticky",
+clone,
+"scale-balanced",
+"hourglass-start",
+"hourglass-empty",
+"hourglass-end",
+hourglass,
+"hand-back-fist",
+hand,
+"hand-scissors",
+"hand-lizard",
+"hand-spock",
+"hand-pointer",
+"hand-peace",
+trademark,
+registered,
+tv,
+"calendar-plus",
+"calendar-minus",
+"calendar-xmark",
+"calendar-check",
+industry,
+"map-pin",
+"signs-post",
+map,
+message,
+"circle-pause",
+"circle-stop",
+"bag-shopping",
+"basket-shopping",
+"universal-access",
+"person-walking-with-cane",
+"audio-description",
+"phone-volume",
+braille,
+"ear-listen",
+"hands-asl-interpreting",
+"ear-deaf",
+hands,
+"eye-low-vision",
+"font-awesome",
+handshake,
+"envelope-open",
+"address-book",
+"address-card",
+"circle-user",
+"id-badge",
+"id-card",
+"temperature-full",
+"temperature-three-quarters",
+"temperature-half",
+"temperature-quarter",
+"temperature-empty",
+shower,
+bath,
+podcast,
+"window-maximize",
+"window-minimize",
+"window-restore",
+"square-xmark",
+microchip,
+snowflake,
+spoon,
+utensils,
+"rotate-left",
+"trash-can",
+rotate,
+stopwatch,
+"right-from-bracket",
+"right-to-bracket",
+"rotate-right",
+poo,
+images,
+pencil,
+pen,
+"pen-clip",
+"down-long",
+"left-long",
+"right-long",
+"up-long",
+maximize,
+clipboard,
+"left-right",
+"up-down",
+"circle-down",
+"circle-left",
+"circle-right",
+"circle-up",
+"up-right-from-square",
+"square-up-right",
+"right-left",
+repeat,
+"code-commit",
+"code-merge",
+desktop,
+gem,
+"turn-down",
+"turn-up",
+"lock-open",
+"location-dot",
+"microphone-lines",
+"mobile-screen-button",
+"money-bill-1",
+"phone-slash",
+"image-portrait",
+reply,
+"shield-blank",
+"tablet-screen-button",
+"ticket-simple",
+"user-large",
+"rectangle-xmark",
+"down-left-and-up-right-to-center",
+"up-right-and-down-left-from-center",
+baseball,
+basketball,
+"bowling-ball",
+chess,
+"chess-bishop",
+"chess-board",
+"chess-king",
+"chess-knight",
+"chess-pawn",
+"chess-queen",
+"chess-rook",
+dumbbell,
+football,
+"golf-ball-tee",
+"hockey-puck",
+"broom-ball",
+"square-full",
+"table-tennis-paddle-ball",
+volleyball,
+"hand-dots",
+bandage,
+box,
+"boxes-stacked",
+"briefcase-medical",
+"fire-flame-simple",
+capsules,
+"clipboard-check",
+"clipboard-list",
+"person-dots-from-line",
+dna,
+dolly,
+"cart-flatbed",
+"file-medical",
+"file-waveform",
+"kit-medical",
+"circle-h",
+"id-card-clip",
+"notes-medical",
+pallet,
+pills,
+"prescription-bottle",
+"prescription-bottle-medical",
+"bed-pulse",
+"truck-fast",
+smoking,
+syringe,
+tablets,
+thermometer,
+vial,
+vials,
+warehouse,
+"weight-scale",
+"x-ray",
+"box-open",
+"comment-dots",
+"comment-slash",
+couch,
+"circle-dollar-to-slot",
+dove,
+"hand-holding",
+"hand-holding-heart",
+"hand-holding-dollar",
+"hand-holding-droplet",
+"hands-holding",
+"handshake-angle",
+"parachute-box",
+"people-carry-box",
+"piggy-bank",
+ribbon,
+route,
+seedling,
+"sign-hanging",
+"face-smile-wink",
+tape,
+"truck-ramp-box",
+"truck-moving",
+"video-slash",
+"wine-glass",
+"user-large-slash",
+"user-astronaut",
+"user-check",
+"user-clock",
+"user-gear",
+"user-pen",
+"user-group",
+"user-graduate",
+"user-lock",
+"user-minus",
+"user-ninja",
+"user-shield",
+"user-slash",
+"user-tag",
+"user-tie",
+"users-gear",
+"scale-unbalanced",
+"scale-unbalanced-flip",
+blender,
+"book-open",
+"tower-broadcast",
+broom,
+chalkboard,
+"chalkboard-user",
+church,
+coins,
+"compact-disc",
+crow,
+crown,
+dice,
+"dice-five",
+"dice-four",
+"dice-one",
+"dice-six",
+"dice-three",
+"dice-two",
+divide,
+"door-closed",
+"door-open",
+feather,
+frog,
+"gas-pump",
+glasses,
+"greater-than-equal",
+helicopter,
+infinity,
+"kiwi-bird",
+"less-than-equal",
+memory,
+"microphone-lines-slash",
+"money-bill-wave",
+"money-bill-1-wave",
+"money-check",
+"money-check-dollar",
+"not-equal",
+palette,
+"square-parking",
+"diagram-project",
+receipt,
+robot,
+ruler,
+"ruler-combined",
+"ruler-horizontal",
+"ruler-vertical",
+school,
+screwdriver,
+"shoe-prints",
+skull,
+"ban-smoking",
+store,
+shop,
+"bars-staggered",
+stroopwafel,
+toolbox,
+shirt,
+"person-walking",
+wallet,
+"face-angry",
+archway,
+"book-atlas",
+award,
+"delete-left",
+"bezier-curve",
+bong,
+brush,
+"bus-simple",
+cannabis,
+"check-double",
+"martini-glass-citrus",
+"bell-concierge",
+cookie,
+"cookie-bite",
+"crop-simple",
+"tachograph-digital",
+"face-dizzy",
+"compass-drafting",
+drum,
+"drum-steelpan",
+"feather-pointed",
+"file-contract",
+"file-arrow-down",
+"file-export",
+"file-import",
+"file-invoice",
+"file-invoice-dollar",
+"file-prescription",
+"file-signature",
+"file-arrow-up",
+fill,
+"fill-drip",
+fingerprint,
+fish,
+"face-flushed",
+"face-frown-open",
+"martini-glass",
+"earth-africa",
+"earth-americas",
+"earth-asia",
+"face-grimace",
+"face-grin",
+"face-grin-wide",
+"face-grin-beam",
+"face-grin-beam-sweat",
+"face-grin-hearts",
+"face-grin-squint",
+"face-grin-squint-tears",
+"face-grin-stars",
+"face-grin-tears",
+"face-grin-tongue",
+"face-grin-tongue-squint",
+"face-grin-tongue-wink",
+"face-grin-wink",
+grip,
+"grip-vertical",
+"headphones-simple",
+headset,
+highlighter,
+"hot-tub-person",
+hotel,
+joint,
+"face-kiss",
+"face-kiss-beam",
+"face-kiss-wink-heart",
+"face-laugh",
+"face-laugh-beam",
+"face-laugh-squint",
+"face-laugh-wink",
+"cart-flatbed-suitcase",
+"map-location",
+"map-location-dot",
+marker,
+medal,
+"face-meh-blank",
+"face-rolling-eyes",
+monument,
+"mortar-pestle",
+"paint-roller",
+passport,
+"pen-fancy",
+"pen-nib",
+"pen-ruler",
+"plane-arrival",
+"plane-departure",
+prescription,
+"face-sad-cry",
+"face-sad-tear",
+"van-shuttle",
+signature,
+"face-smile-beam",
+"solar-panel",
+spa,
+splotch,
+"spray-can",
+stamp,
+"star-half-stroke",
+"suitcase-rolling",
+"face-surprise",
+swatchbook,
+"person-swimming",
+"water-ladder",
+"droplet-slash",
+"face-tired",
+tooth,
+"umbrella-beach",
+"vector-square",
+"weight-hanging",
+"wine-glass-empty",
+"spray-can-sparkles",
+"apple-whole",
+atom,
+bone,
+"book-open-reader",
+brain,
+"car-rear",
+"car-battery",
+"car-crash",
+"car-side",
+"charging-station",
+"diamond-turn-right",
+"draw-polygon",
+"laptop-code",
+"layer-group",
+"location-crosshairs",
+lungs,
+microscope,
+"oil-can",
+poop,
+shapes,
+"star-of-life",
+gauge,
+"gauge-simple",
+teeth,
+"teeth-open",
+"masks-theater",
+"traffic-light",
+"truck-monster",
+"truck-pickup",
+"rectangle-ad",
+ankh,
+"book-bible",
+"business-time",
+city,
+"comment-dollar",
+"comments-dollar",
+cross,
+dharmachakra,
+"envelope-open-text",
+"folder-minus",
+"folder-plus",
+"filter-circle-dollar",
+gopuram,
+hamsa,
+bahai,
+jedi,
+"book-journal-whills",
+kaaba,
+khanda,
+landmark,
+"envelopes-bulk",
+menorah,
+mosque,
+om,
+"spaghetti-monster-flying",
+peace,
+"place-of-worship",
+"square-poll-vertical",
+"square-poll-horizontal",
+"person-praying",
+"hands-praying",
+"book-quran",
+"magnifying-glass-dollar",
+"magnifying-glass-location",
+socks,
+"square-root-variable",
+"star-and-crescent",
+"star-of-david",
+synagogue,
+"scroll-torah",
+"torii-gate",
+vihara,
+"volume-xmark",
+"yin-yang",
+"blender-phone",
+"book-skull",
+campground,
+cat,
+chair,
+"cloud-moon",
+"cloud-sun",
+"dice-d20",
+"dice-d6",
+dog,
+dragon,
+"drumstick-bite",
+dungeon,
+"file-csv",
+"hand-fist",
+ghost,
+hammer,
+hanukiah,
+"hat-wizard",
+"person-hiking",
+hippo,
+horse,
+"house-chimney-crack",
+"hryvnia-sign",
+mask,
+mountain,
+"network-wired",
+otter,
+ring,
+"person-running",
+scroll,
+"skull-crossbones",
+slash,
+spider,
+"toilet-paper",
+tractor,
+"user-injured",
+"vr-cardboard",
+wind,
+"wine-bottle",
+"cloud-meatball",
+"cloud-moon-rain",
+"cloud-rain",
+"cloud-showers-heavy",
+"cloud-sun-rain",
+democrat,
+"flag-usa",
+meteor,
+"person-booth",
+"poo-storm",
+rainbow,
+republican,
+smog,
+"temperature-high",
+"temperature-low",
+"check-to-slot",
+water,
+baby,
+"baby-carriage",
+biohazard,
+blog,
+"calendar-day",
+"calendar-week",
+"candy-cane",
+carrot,
+"cash-register",
+minimize,
+dumpster,
+"dumpster-fire",
+ethernet,
+gifts,
+"champagne-glasses",
+"whiskey-glass",
+"earth-europe",
+"grip-lines",
+"grip-lines-vertical",
+guitar,
+"heart-crack",
+"holly-berry",
+"horse-head",
+icicles,
+igloo,
+mitten,
+"mug-hot",
+radiation,
+"circle-radiation",
+restroom,
+satellite,
+"satellite-dish",
+"sd-card",
+"sim-card",
+"person-skating",
+"person-skiing",
+"person-skiing-nordic",
+sleigh,
+"comment-sms",
+"person-snowboarding",
+snowman,
+snowplow,
+"tenge-sign",
+toilet,
+"screwdriver-wrench",
+"train-tram",
+"fire-flame-curved",
+bacon,
+"book-medical",
+"bread-slice",
+cheese,
+"house-chimney-medical",
+"comment-medical",
+crutch,
+disease,
+egg,
+"folder-tree",
+burger,
+"hand-middle-finger",
+"helmet-safety",
+"hospital-user",
+hotdog,
+"ice-cream",
+"laptop-medical",
+pager,
+"pepper-hot",
+"pizza-slice",
+"bars-progress",
+"trash-arrow-up",
+"trash-can-arrow-up",
+"user-nurse",
+"wave-square",
+"person-biking",
+"border-all",
+"border-none",
+"border-top-left",
+fan,
+icons,
+"phone-flip",
+"square-phone-flip",
+"photo-film",
+"text-slash",
+"arrow-down-z-a",
+"arrow-up-z-a",
+"arrow-down-short-wide",
+"arrow-up-short-wide",
+"arrow-down-9-1",
+"arrow-up-9-1",
+"spell-check",
+voicemail,
+"hat-cowboy",
+"hat-cowboy-side",
+"computer-mouse",
+"record-vinyl",
+caravan
+);
+}
+);
+date = "2022-01-01 18:00:24 +0000";
+familyName = "omg.lol Icons";
+fontMaster = (
+{
+customParameters = (
+{
+name = typoAscender;
+value = 448;
+},
+{
+name = typoDescender;
+value = -64;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 448;
+},
+{
+name = winDescent;
+value = 64;
+},
+{
+name = hheaAscender;
+value = 448;
+},
+{
+name = hheaDescender;
+value = -64;
+},
+{
+name = strikeoutPosition;
+value = 132;
+},
+{
+name = strikeoutSize;
+value = 25;
+}
+);
+id = m01;
+metricValues = (
+{
+pos = 448;
+},
+{
+pos = 421;
+},
+{
+pos = 313;
+},
+{
+},
+{
+pos = -64;
+},
+{
+}
+);
+name = Black;
+}
+);
+glyphs = (
+{
+glyphname = .notdef;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(356,447,o),
+(370,434,qs),
+(383,420,o),
+(384,400,qs),
+(384,-16,ls),
+(383,-36,o),
+(370,-50,qs),
+(356,-63,o),
+(336,-64,qs),
+(48,-64,ls),
+(28,-63,o),
+(14,-50,qs),
+(1,-36,o),
+(0,-16,qs),
+(0,400,ls),
+(1,420,o),
+(14,434,qs),
+(28,447,o),
+(48,448,qs),
+(336,448,l),
+(336,448,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(103,384,l),
+(192,250,l),
+(282,384,l),
+(282,384,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(64,58,l),
+(154,192,l),
+(64,326,l),
+(64,326,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(282,0,l),
+(192,134,l),
+(103,0,l),
+(103,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(320,326,l),
+(231,192,l),
+(320,58,l),
+(320,58,l)
+);
+}
+);
+width = 384;
+}
+);
+note = ".notdef";
+},
+{
+glyphname = signal;
+lastChange = "2022-01-01 22:12:38 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(397,-60,ls),
+(460,-60,o),
+(512,-8,o),
+(512,56,cs),
+(512,334,ls),
+(512,398,o),
+(460,450,o),
+(397,450,cs),
+(116,450,ls),
+(52,450,o),
+(1,398,o),
+(0,334,cs),
+(0,56,ls),
+(1,-8,o),
+(52,-60,o),
+(116,-60,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(88,19,o),
+(84,21,o),
+(81,25,cs),
+(79,29,o),
+(78,34,o),
+(79,38,cs),
+(87,74,l),
+(104,70,l),
+(96,34,l),
+(131,43,l),
+(135,26,l),
+(100,18,ls),
+(97,17,o),
+(95,17,o),
+(92,18,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(91,89,l),
+(95,107,l),
+(88,121,o),
+(82,136,o),
+(78,151,c),
+(95,155,l),
+(99,139,o),
+(105,124,o),
+(113,110,c),
+(108,85,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(197,21,o),
+(182,26,o),
+(169,34,c),
+(150,30,l),
+(147,46,l),
+(171,52,l),
+(185,44,o),
+(200,38,o),
+(216,34,c),
+(212,17,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(231,31,l),
+(248,28,o),
+(265,28,o),
+(281,31,c),
+(284,14,l),
+(265,11,o),
+(247,11,o),
+(229,14,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(72,186,o),
+(72,204,o),
+(75,223,c),
+(92,220,l),
+(91,212,o),
+(90,203,o),
+(90,195,cs),
+(90,187,o),
+(91,178,o),
+(92,170,c),
+(75,168,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(296,34,l),
+(313,38,o),
+(328,44,o),
+(342,53,c),
+(351,38,l),
+(336,28,o),
+(319,21,o),
+(301,17,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(78,239,l),
+(83,257,o),
+(90,274,o),
+(99,290,c),
+(114,281,l),
+(105,267,o),
+(99,251,o),
+(95,235,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(130,116,l),
+(101,162,o),
+(100,220,o),
+(126,267,cs),
+(152,315,o),
+(202,344,o),
+(256,344,cs),
+(320,344,o),
+(376,304,o),
+(397,244,cs),
+(418,184,o),
+(399,118,o),
+(350,78,cs),
+(300,39,o),
+(231,35,o),
+(177,69,c),
+(116,55,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(109,304,l),
+(120,319,o),
+(133,332,o),
+(147,343,c),
+(158,329,l),
+(144,319,o),
+(133,307,o),
+(123,294,c),
+(122,294,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(355,61,l),
+(368,71,o),
+(380,83,o),
+(390,97,c),
+(404,86,l),
+(393,71,o),
+(380,58,o),
+(365,48,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(161,352,l),
+(177,362,o),
+(194,369,o),
+(212,373,c),
+(216,356,l),
+(200,352,o),
+(185,346,o),
+(170,337,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(399,109,l),
+(407,123,o),
+(414,139,o),
+(418,155,c),
+(434,151,l),
+(430,133,o),
+(423,116,o),
+(413,100,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(421,170,l),
+(422,178,o),
+(423,187,o),
+(423,195,cs),
+(423,203,o),
+(422,212,o),
+(421,220,c),
+(438,222,l),
+(440,204,o),
+(440,186,o),
+(438,167,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(229,376,l),
+(247,379,o),
+(265,379,o),
+(284,376,c),
+(281,359,l),
+(265,362,o),
+(248,362,o),
+(231,359,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(328,346,o),
+(312,352,o),
+(296,356,c),
+(300,373,l),
+(318,369,o),
+(335,362,o),
+(351,352,c),
+(342,337,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(414,251,o),
+(407,267,o),
+(399,281,c),
+(413,290,l),
+(414,290,l),
+(423,274,o),
+(430,257,o),
+(434,239,c),
+(418,235,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(380,307,o),
+(368,319,o),
+(355,329,c),
+(365,343,l),
+(380,332,o),
+(393,319,o),
+(404,304,c),
+(390,294,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57385;
+},
+{
+glyphname = giphy;
+lastChange = "2022-01-01 19:28:49 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(95,7,l),
+(417,7,l),
+(417,313,l),
+(288,313,l),
+(288,440,l),
+(95,440,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(481,-57,l),
+(31,-57,l),
+(31,505,l),
+(352,505,l),
+(352,440,l),
+(417,440,l),
+(417,377,l),
+(481,377,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57346;
+},
+{
+glyphname = gumroad;
+lastChange = "2022-01-01 19:28:38 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(40,-64,o),
+(12,-36,o),
+(12,-5,cs),
+(12,363,ls),
+(12,393,o),
+(39,420,o),
+(70,420,cs),
+(413,420,l),
+(419,436,o),
+(437,448,o),
+(455,448,cs),
+(481,448,o),
+(500,427,o),
+(500,403,cs),
+(500,377,o),
+(481,358,o),
+(455,358,cs),
+(439,358,o),
+(422,366,o),
+(415,381,c),
+(70,381,ls),
+(59,381,o),
+(50,373,o),
+(50,363,cs),
+(50,-5,ls),
+(50,-16,o),
+(59,-26,o),
+(70,-26,cs),
+(437,-26,ls),
+(449,-26,o),
+(457,-16,o),
+(457,-5,cs),
+(457,213,ls),
+(457,225,o),
+(449,234,o),
+(437,234,cs),
+(220,234,ls),
+(207,234,o),
+(197,224,o),
+(197,213,cs),
+(197,145,ls),
+(197,134,o),
+(208,125,o),
+(220,125,cs),
+(298,125,l),
+(305,141,o),
+(321,150,o),
+(337,150,cs),
+(363,150,o),
+(382,129,o),
+(382,105,cs),
+(382,80,o),
+(363,59,o),
+(337,59,cs),
+(319,59,o),
+(303,70,o),
+(295,87,c),
+(220,87,ls),
+(186,87,o),
+(159,113,o),
+(159,145,cs),
+(159,213,ls),
+(159,246,o),
+(186,272,o),
+(220,272,cs),
+(437,272,ls),
+(468,272,o),
+(495,247,o),
+(495,213,cs),
+(495,-5,ls),
+(495,-36,o),
+(468,-64,o),
+(437,-64,cs),
+(70,-64,ls)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(349,83,o),
+(360,93,o),
+(360,105,cs),
+(360,117,o),
+(349,126,o),
+(337,126,cs),
+(326,126,o),
+(316,117,o),
+(316,105,cs),
+(316,93,o),
+(326,83,o),
+(337,83,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(466,381,o),
+(477,389,o),
+(477,403,cs),
+(477,414,o),
+(466,424,o),
+(455,424,cs),
+(443,424,o),
+(434,414,o),
+(434,403,cs),
+(434,389,o),
+(443,381,o),
+(455,381,cs)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57347;
+},
+{
+glyphname = hackerone;
+lastChange = "2022-01-01 19:35:33 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(156,543,o),
+(147,545,o),
+(136,545,cs),
+(123,545,o),
+(113,543,o),
+(106,538,cs),
+(98,533,o),
+(94,526,o),
+(94,518,cs),
+(94,-31,ls),
+(94,-38,o),
+(98,-44,o),
+(106,-50,cs),
+(114,-56,o),
+(124,-60,o),
+(135,-59,cs),
+(145,-59,o),
+(155,-56,o),
+(164,-50,cs),
+(172,-44,o),
+(176,-38,o),
+(176,-31,cs),
+(176,518,l),
+(177,526,o),
+(173,533,o),
+(165,538,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(229,245,o),
+(226,238,o),
+(228,228,cs),
+(229,218,o),
+(233,209,o),
+(241,201,cs),
+(249,192,o),
+(258,187,o),
+(268,184,cs),
+(278,182,o),
+(285,183,o),
+(290,187,c),
+(335,215,l),
+(335,-31,ls),
+(335,-38,o),
+(339,-44,o),
+(346,-50,cs),
+(354,-56,o),
+(364,-59,o),
+(375,-59,cs),
+(387,-59,o),
+(397,-56,o),
+(405,-50,cs),
+(414,-44,o),
+(418,-38,o),
+(418,-31,cs),
+(418,300,ls),
+(418,309,o),
+(414,315,o),
+(405,320,cs),
+(397,325,o),
+(387,327,o),
+(375,327,cs),
+(362,327,o),
+(353,325,o),
+(345,320,cs),
+(234,250,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57348;
+},
+{
+glyphname = honk;
+lastChange = "2022-01-01 19:43:06 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(480,129,o),
+(442,50,o),
+(371,-10,c),
+(318,-55,o),
+(266,-73,o),
+(264,-74,c),
+(260,-75,o),
+(256,-76,o),
+(252,-75,c),
+(248,-75,o),
+(244,-73,o),
+(241,-71,c),
+(238,-69,o),
+(235,-66,o),
+(233,-62,c),
+(232,-59,o),
+(231,-55,o),
+(231,-51,c),
+(231,-5,l),
+(118,7,o),
+(31,103,o),
+(31,219,c),
+(31,343,o),
+(131,443,o),
+(255,443,c),
+(379,443,o),
+(480,343,o),
+(480,219,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(126,213,l),
+(126,142,o),
+(185,85,o),
+(256,85,c),
+(328,85,o),
+(386,142,o),
+(386,213,c),
+(339,213,l),
+(339,168,o),
+(302,131,o),
+(256,131,c),
+(210,131,o),
+(173,168,o),
+(173,213,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(344,258,o),
+(350,256,o),
+(356,256,c),
+(364,256,o),
+(371,259,o),
+(377,265,c),
+(383,270,o),
+(386,278,o),
+(386,286,c),
+(386,292,o),
+(385,298,o),
+(381,303,c),
+(378,308,o),
+(373,312,o),
+(368,314,c),
+(362,317,o),
+(356,317,o),
+(350,316,c),
+(344,315,o),
+(339,312,o),
+(335,308,c),
+(330,304,o),
+(327,298,o),
+(326,293,c),
+(325,287,o),
+(325,281,o),
+(328,275,c),
+(330,269,o),
+(334,265,o),
+(339,261,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(268,315,o),
+(262,317,o),
+(256,317,c),
+(248,317,o),
+(240,314,o),
+(234,308,c),
+(229,302,o),
+(225,294,o),
+(225,286,c),
+(225,280,o),
+(227,274,o),
+(230,269,c),
+(234,264,o),
+(239,261,o),
+(244,258,c),
+(250,256,o),
+(256,255,o),
+(262,256,c),
+(267,258,o),
+(273,260,o),
+(277,265,c),
+(281,269,o),
+(284,274,o),
+(286,280,c),
+(287,286,o),
+(286,292,o),
+(284,298,c),
+(282,303,o),
+(278,308,o),
+(273,311,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(169,315,o),
+(163,317,o),
+(157,317,c),
+(149,317,o),
+(141,314,o),
+(135,308,c),
+(129,302,o),
+(126,294,o),
+(126,286,c),
+(126,280,o),
+(128,274,o),
+(131,269,c),
+(134,264,o),
+(139,261,o),
+(145,258,c),
+(150,256,o),
+(156,255,o),
+(162,256,c),
+(168,258,o),
+(173,260,o),
+(178,265,c),
+(182,269,o),
+(185,274,o),
+(186,280,c),
+(187,286,o),
+(187,292,o),
+(185,298,c),
+(182,303,o),
+(179,308,o),
+(174,311,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57349;
+},
+{
+glyphname = fastmail;
+lastChange = "2022-01-01 18:59:46 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(439,-10,o),
+(356,-56,o),
+(272,-62,c),
+(190,-68,o),
+(101,-32,o),
+(49,48,c),
+(49,48,l),
+(47,48,l),
+(46,49,l),
+(46,49,l),
+(-1,123,o),
+(-10,218,o),
+(31,298,c),
+(74,386,o),
+(156,433,o),
+(241,438,c),
+(324,444,o),
+(412,407,o),
+(464,326,c),
+(464,326,l),
+(464,326,l),
+(515,250,o),
+(519,157,o),
+(482,76,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(91,79,l),
+(94,79,l),
+(95,79,l),
+(95,79,l),
+(133,19,o),
+(200,-13,o),
+(267,-8,c),
+(344,-4,o),
+(402,42,o),
+(431,102,c),
+(461,158,o),
+(461,233,o),
+(420,295,c),
+(420,295,l),
+(420,297,l),
+(420,297,o),
+(418,297,o),
+(418,297,c),
+(418,297,l),
+(418,297,l),
+(402,322,o),
+(379,343,o),
+(353,358,c),
+(290,396,o),
+(215,391,o),
+(156,358,c),
+(101,326,o),
+(58,264,o),
+(58,188,c),
+(58,150,o),
+(71,111,o),
+(91,79,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(374,269,l),
+(374,117,l),
+(374,115,o),
+(374,111,o),
+(372,111,c),
+(371,109,o),
+(368,108,o),
+(366,108,c),
+(139,108,l),
+(135,106,l),
+(135,108,l),
+(133,108,l),
+(135,110,l),
+(135,269,l),
+(256,190,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57345;
+},
+{
+glyphname = keyoxide;
+lastChange = "2022-01-01 19:45:43 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(277,462,o),
+(264,449,o),
+(248,449,c),
+(232,449,o),
+(218,462,o),
+(218,479,c),
+(218,495,o),
+(232,508,o),
+(248,508,c),
+(264,508,o),
+(277,495,o),
+(277,479,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(295,525,o),
+(287,516,o),
+(276,516,c),
+(265,516,o),
+(257,525,o),
+(257,536,c),
+(257,546,o),
+(265,555,o),
+(276,555,c),
+(287,555,o),
+(295,546,o),
+(295,536,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(237,542,o),
+(231,536,o),
+(224,536,c),
+(216,536,o),
+(210,542,o),
+(210,550,c),
+(210,557,o),
+(216,563,o),
+(224,563,c),
+(231,563,o),
+(237,557,o),
+(237,550,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(453,409,o),
+(443,399,o),
+(430,399,c),
+(417,399,o),
+(406,409,o),
+(406,422,c),
+(406,435,o),
+(417,446,o),
+(430,446,c),
+(443,446,o),
+(453,435,o),
+(453,422,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(465,-59,o),
+(427,-97,o),
+(381,-97,c),
+(364,-97,o),
+(347,-91,o),
+(334,-82,c),
+(334,-82,l),
+(214,-2,l),
+(214,-13,l),
+(214,-59,o),
+(176,-96,o),
+(130,-96,c),
+(84,-96,o),
+(47,-59,o),
+(47,-13,c),
+(47,154,l),
+(47,155,o),
+(47,155,o),
+(47,156,c),
+(47,348,l),
+(47,349,o),
+(47,350,o),
+(47,352,c),
+(47,398,o),
+(84,435,o),
+(130,435,c),
+(176,435,o),
+(214,398,o),
+(214,352,c),
+(214,350,o),
+(214,348,o),
+(214,346,c),
+(214,324,l),
+(305,395,l),
+(305,395,o),
+(310,399,o),
+(309,402,c),
+(309,406,o),
+(307,406,o),
+(304,408,c),
+(292,416,o),
+(285,429,o),
+(285,444,c),
+(285,468,o),
+(305,487,o),
+(328,487,c),
+(352,487,o),
+(372,468,o),
+(372,444,c),
+(372,439,o),
+(371,437,o),
+(372,434,c),
+(374,432,o),
+(376,431,o),
+(380,432,c),
+(383,432,o),
+(386,431,o),
+(390,431,c),
+(392,431,o),
+(394,430,o),
+(394,428,c),
+(395,426,o),
+(395,425,o),
+(395,422,c),
+(395,403,o),
+(410,388,o),
+(430,388,c),
+(434,388,o),
+(438,388,o),
+(442,390,c),
+(445,391,o),
+(447,392,o),
+(450,391,c),
+(453,390,o),
+(453,389,o),
+(454,386,c),
+(472,351,o),
+(463,307,o),
+(431,282,c),
+(273,159,l),
+(421,60,l),
+(447,46,o),
+(465,18,o),
+(465,-13,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57350;
+},
+{
+glyphname = letterboxd;
+lastChange = "2022-01-01 19:48:02 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(509,54,o),
+(396,-60,o),
+(256,-60,c),
+(116,-60,o),
+(2,54,o),
+(2,194,c),
+(2,334,o),
+(116,447,o),
+(256,447,c),
+(396,447,o),
+(509,334,o),
+(509,194,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(351,265,o),
+(328,251,o),
+(316,231,c),
+(323,220,o),
+(327,208,o),
+(327,194,c),
+(327,180,o),
+(323,167,o),
+(316,156,c),
+(328,136,o),
+(351,122,o),
+(376,122,c),
+(415,122,o),
+(447,154,o),
+(447,194,c),
+(447,233,o),
+(415,265,o),
+(376,265,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(305,208,o),
+(309,220,o),
+(316,231,c),
+(303,251,o),
+(281,265,o),
+(256,265,c),
+(230,265,o),
+(208,251,o),
+(195,231,c),
+(183,251,o),
+(161,265,o),
+(135,265,c),
+(96,265,o),
+(64,233,o),
+(64,194,c),
+(64,154,o),
+(96,122,o),
+(135,122,c),
+(161,122,o),
+(183,136,o),
+(195,156,c),
+(208,136,o),
+(230,122,o),
+(256,122,c),
+(281,122,o),
+(303,136,o),
+(316,156,c),
+(309,167,o),
+(305,180,o),
+(305,194,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(195,231,o),
+(195,231,o),
+(195,231,c),
+(195,231,o),
+(195,231,o),
+(195,231,c),
+(195,231,o),
+(195,231,o),
+(195,231,c),
+(195,231,o),
+(195,231,o),
+(195,231,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(206,180,o),
+(202,167,o),
+(195,156,c),
+(188,167,o),
+(184,180,o),
+(184,194,c),
+(184,208,o),
+(188,220,o),
+(195,231,c),
+(202,220,o),
+(206,208,o),
+(206,194,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(195,156,o),
+(195,156,o),
+(195,156,c),
+(195,156,o),
+(195,156,o),
+(195,156,c),
+(195,156,o),
+(195,156,o),
+(195,156,c),
+(195,156,o),
+(195,156,o),
+(195,156,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57351;
+},
+{
+glyphname = liberapay;
+lastChange = "2022-01-01 20:14:41 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(512,-15,l),
+(512,-42,o),
+(490,-64,o),
+(463,-64,c),
+(50,-64,l),
+(23,-64,o),
+(1,-42,o),
+(1,-15,c),
+(1,398,l),
+(1,425,o),
+(23,447,o),
+(50,447,c),
+(463,447,l),
+(490,447,o),
+(512,425,o),
+(512,398,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(210,88,l),
+(219,131,l),
+(214,132,o),
+(208,132,o),
+(206,135,c),
+(202,137,o),
+(200,138,o),
+(199,141,c),
+(196,143,o),
+(196,147,o),
+(196,150,c),
+(196,154,o),
+(197,158,o),
+(197,162,c),
+(246,362,l),
+(192,354,l),
+(148,169,l),
+(145,158,o),
+(144,149,o),
+(144,138,c),
+(144,128,o),
+(147,120,o),
+(151,112,c),
+(155,106,o),
+(161,99,o),
+(171,95,c),
+(180,91,o),
+(192,88,o),
+(210,88,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(404,204,l),
+(404,204,o),
+(404,204,o),
+(404,204,c),
+(404,204,o),
+(404,204,o),
+(404,204,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(404,214,o),
+(403,224,o),
+(400,233,c),
+(397,242,o),
+(392,250,o),
+(386,257,c),
+(380,264,o),
+(372,269,o),
+(362,273,c),
+(353,277,o),
+(342,280,o),
+(329,280,c),
+(315,280,o),
+(302,279,o),
+(290,276,c),
+(279,273,o),
+(269,272,o),
+(259,269,c),
+(202,28,l),
+(252,28,l),
+(269,91,l),
+(277,90,o),
+(283,88,o),
+(291,88,c),
+(307,88,o),
+(323,91,o),
+(337,98,c),
+(350,103,o),
+(362,111,o),
+(372,120,c),
+(382,131,o),
+(390,143,o),
+(396,158,c),
+(401,171,o),
+(404,187,o),
+(404,204,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(302,234,l),
+(309,236,o),
+(315,236,o),
+(322,236,c),
+(334,236,o),
+(341,233,o),
+(346,225,c),
+(350,218,o),
+(353,210,o),
+(353,200,c),
+(353,190,o),
+(350,181,o),
+(348,171,c),
+(345,163,o),
+(341,157,o),
+(336,150,c),
+(330,145,o),
+(325,139,o),
+(317,137,c),
+(310,132,o),
+(301,131,o),
+(293,131,c),
+(286,131,o),
+(282,131,o),
+(278,132,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57352;
+},
+{
+glyphname = lichess;
+lastChange = "2022-01-01 20:15:36 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(46,48,o),
+(2,164,o),
+(54,262,cs),
+(105,359,o),
+(196,391,o),
+(296,373,c),
+(320,387,o),
+(347,405,o),
+(372,404,c),
+(355,356,l),
+(481,144,l),
+(477,87,o),
+(427,83,o),
+(427,83,c),
+(422,98,o),
+(411,112,o),
+(379,143,cs),
+(347,174,o),
+(206,244,o),
+(222,304,c),
+(202,235,o),
+(325,163,o),
+(362,128,cs),
+(399,94,o),
+(416,68,o),
+(419,61,c),
+(419,61,o),
+(513,86,o),
+(497,150,c),
+(379,365,l),
+(394,431,l),
+(359,427,o),
+(330,422,o),
+(302,402,c),
+(62,418,o),
+(0,252,o),
+(14,144,cs),
+(42,-63,o),
+(324,-118,o),
+(418,22,c),
+(344,-55,o),
+(226,-65,o),
+(136,-9,cs)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57353;
+},
+{
+glyphname = litecoin;
+lastChange = "2022-01-01 20:15:58 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(256,452,l),
+(115,452,o),
+(0,337,o),
+(0,196,c),
+(0,55,o),
+(115,-60,o),
+(256,-60,c),
+(397,-60,o),
+(512,55,o),
+(512,196,c),
+(512,196,l),
+(512,264,o),
+(485,329,o),
+(438,377,c),
+(390,425,o),
+(325,452,o),
+(257,452,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(260,187,l),
+(234,97,l),
+(376,97,l),
+(378,98,o),
+(380,97,o),
+(381,96,c),
+(383,94,o),
+(384,92,o),
+(384,91,c),
+(384,88,l),
+(371,45,l),
+(370,41,o),
+(366,38,o),
+(362,39,c),
+(144,39,l),
+(180,163,l),
+(139,151,l),
+(149,179,l),
+(190,192,l),
+(241,366,l),
+(242,371,o),
+(246,373,o),
+(250,373,c),
+(305,373,l),
+(307,373,o),
+(309,373,o),
+(311,371,c),
+(312,370,o),
+(313,368,o),
+(313,366,c),
+(313,364,l),
+(270,216,l),
+(310,229,l),
+(302,199,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57360;
+},
+{
+glyphname = literal;
+lastChange = "2022-01-01 20:17:01 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(254,162,l),
+(108,182,l),
+(152,499,l),
+(89,507,l),
+(36,128,l),
+(246,100,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(476,-33,l),
+(468,31,l),
+(59,-27,l),
+(68,-90,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(431,283,l),
+(395,355,l),
+(472,349,l),
+(475,394,l),
+(396,400,l),
+(444,466,l),
+(407,493,l),
+(358,424,l),
+(320,498,l),
+(280,477,l),
+(318,404,l),
+(239,411,l),
+(236,366,l),
+(314,360,l),
+(267,295,l),
+(304,268,l),
+(353,337,l),
+(391,262,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57361;
+},
+{
+glyphname = lobsters;
+lastChange = "2022-01-01 20:17:49 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(0,280,o),
+(0,110,o),
+(0,-61,c),
+(171,-61,o),
+(341,-61,o),
+(512,-61,c),
+(512,110,o),
+(512,280,o),
+(512,451,c),
+(341,451,o),
+(171,451,o),
+(0,451,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(318,21,o),
+(215,21,o),
+(112,21,c),
+(112,24,o),
+(112,27,o),
+(112,30,c),
+(112,34,o),
+(112,37,o),
+(112,41,c),
+(112,44,o),
+(112,44,o),
+(116,44,c),
+(123,45,o),
+(130,45,o),
+(138,47,c),
+(152,49,o),
+(159,56,o),
+(161,71,c),
+(162,76,o),
+(162,81,o),
+(162,85,c),
+(162,157,o),
+(162,229,o),
+(162,301,c),
+(162,307,o),
+(162,312,o),
+(161,318,c),
+(160,328,o),
+(153,334,o),
+(144,337,c),
+(135,341,o),
+(126,341,o),
+(117,342,c),
+(116,342,o),
+(114,342,o),
+(113,342,c),
+(113,343,o),
+(113,343,o),
+(113,344,c),
+(113,350,o),
+(113,356,o),
+(113,362,c),
+(113,365,o),
+(113,365,o),
+(116,365,c),
+(149,365,o),
+(182,365,o),
+(215,365,c),
+(238,365,o),
+(260,365,o),
+(283,365,c),
+(285,365,o),
+(286,365,o),
+(286,362,c),
+(286,356,o),
+(286,351,o),
+(286,344,c),
+(286,343,o),
+(286,343,o),
+(286,342,c),
+(282,342,o),
+(277,342,o),
+(273,341,c),
+(267,340,o),
+(260,339,o),
+(254,338,c),
+(243,334,o),
+(237,327,o),
+(236,316,c),
+(236,311,o),
+(235,306,o),
+(235,302,c),
+(235,233,o),
+(235,165,o),
+(235,97,c),
+(235,88,o),
+(236,80,o),
+(237,71,c),
+(238,62,o),
+(244,56,o),
+(253,53,c),
+(260,50,o),
+(268,49,o),
+(276,49,c),
+(296,48,o),
+(316,49,o),
+(335,54,c),
+(364,61,o),
+(382,79,o),
+(392,106,c),
+(395,115,o),
+(396,125,o),
+(398,134,c),
+(398,135,o),
+(399,136,o),
+(400,136,c),
+(407,136,o),
+(413,136,o),
+(421,136,c),
+(420,97,o),
+(421,59,o),
+(420,21,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57362;
+},
+{
+glyphname = matrix;
+lastChange = "2022-01-01 20:18:06 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(74,451,l),
+(74,424,l),
+(29,424,l),
+(29,-34,l),
+(74,-34,l),
+(74,-61,l),
+(0,-61,l),
+(0,451,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(439,424,l),
+(439,451,l),
+(512,451,l),
+(512,-61,l),
+(439,-61,l),
+(439,-34,l),
+(484,-34,l),
+(484,424,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(97,303,l),
+(161,303,l),
+(163,277,l),
+(179,297,o),
+(200,307,o),
+(226,307,c),
+(254,307,o),
+(273,296,o),
+(283,274,c),
+(298,296,o),
+(320,307,o),
+(348,307,c),
+(393,307,o),
+(415,280,o),
+(417,226,c),
+(417,83,l),
+(348,83,l),
+(348,222,l),
+(348,233,o),
+(346,241,o),
+(342,247,c),
+(338,252,o),
+(331,254,o),
+(321,254,c),
+(308,254,o),
+(298,248,o),
+(291,236,c),
+(291,233,l),
+(291,83,l),
+(222,83,l),
+(222,222,l),
+(222,233,o),
+(220,241,o),
+(217,247,c),
+(213,252,o),
+(206,254,o),
+(196,254,c),
+(182,254,o),
+(172,248,o),
+(166,236,c),
+(166,83,l),
+(97,83,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57363;
+},
+{
+glyphname = musicboard;
+lastChange = "2022-01-01 20:19:43 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(485,22,l),
+(485,174,l),
+(483,174,l),
+(256,296,l),
+(29,174,l),
+(27,174,l),
+(27,174,l),
+(27,22,l),
+(256,-100,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(202,91,l),
+(256,122,l),
+(310,91,l),
+(256,61,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(335,185,o),
+(400,250,o),
+(400,329,cs),
+(400,409,o),
+(335,474,o),
+(256,474,cs),
+(176,474,o),
+(112,409,o),
+(112,329,cs),
+(112,250,o),
+(176,185,o),
+(256,185,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(244,309,o),
+(234,318,o),
+(234,329,cs),
+(234,341,o),
+(244,351,o),
+(256,351,cs),
+(268,351,o),
+(276,341,o),
+(276,329,cs),
+(276,318,o),
+(268,309,o),
+(256,309,cs)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57364;
+},
+{
+glyphname = myanimelist;
+lastChange = "2022-01-01 20:20:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(94,205,l),
+(138,261,l),
+(188,261,l),
+(188,61,l),
+(138,61,l),
+(138,186,l),
+(94,130,l),
+(50,186,l),
+(50,61,l),
+(1,61,l),
+(1,261,l),
+(50,261,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(234,36,l),
+(221,57,o),
+(214,74,q),
+(203,101,o),
+(203,130,q),
+(203,187,o),
+(230,221,q),
+(262,261,o),
+(328,261,q),
+(359,261,l),
+(372,218,l),
+(334,218,l),
+(307,218,o),
+(283,202,q),
+(259,186,o),
+(259,167,q),
+(316,167,l),
+(316,211,l),
+(365,211,l),
+(365,61,l),
+(316,61,l),
+(316,124,l),
+(253,124,l),
+(253,111,o),
+(261,93,q),
+(268,77,o),
+(278,61,q)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(387,61,l),
+(387,261,l),
+(437,261,l),
+(437,105,l),
+(512,105,l),
+(500,61,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57365;
+},
+{
+glyphname = "nintendo-switch";
+lastChange = "2022-01-01 20:21:49 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(59,440,o),
+(18,402,o),
+(5,352,c),
+(0,335,o),
+(0,324,o),
+(0,185,c),
+(1,58,o),
+(1,55,o),
+(3,45,c),
+(15,-8,o),
+(52,-46,o),
+(106,-58,c),
+(113,-60,o),
+(122,-60,o),
+(179,-61,c),
+(239,-61,o),
+(245,-61,o),
+(246,-59,c),
+(248,-58,o),
+(248,-37,o),
+(248,194,c),
+(248,366,o),
+(248,447,o),
+(247,449,c),
+(246,450,o),
+(244,451,o),
+(182,450,c),
+(132,450,o),
+(116,450,o),
+(110,449,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(206,-20,l),
+(162,-19,l),
+(123,-19,o),
+(119,-19,o),
+(111,-17,c),
+(76,-8,o),
+(51,18,o),
+(44,53,c),
+(42,63,o),
+(42,327,o),
+(44,337,c),
+(50,367,o),
+(71,392,o),
+(99,403,c),
+(113,408,o),
+(119,409,o),
+(165,409,c),
+(206,409,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(112,343,o),
+(102,338,o),
+(97,333,c),
+(85,324,o),
+(80,310,o),
+(81,294,c),
+(81,286,o),
+(82,283,o),
+(85,277,c),
+(90,266,o),
+(98,259,o),
+(108,254,c),
+(115,250,o),
+(117,250,o),
+(126,250,c),
+(134,249,o),
+(137,250,o),
+(143,251,c),
+(166,259,o),
+(180,282,o),
+(176,304,c),
+(171,332,o),
+(146,350,o),
+(119,345,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(299,450,o),
+(299,335,o),
+(299,195,c),
+(299,-36,o),
+(299,-60,o),
+(300,-60,c),
+(303,-61,o),
+(386,-61,o),
+(396,-60,c),
+(439,-55,o),
+(477,-29,o),
+(497,10,c),
+(500,15,o),
+(503,23,o),
+(505,28,c),
+(512,48,o),
+(512,43,o),
+(512,195,c),
+(512,317,o),
+(511,335,o),
+(510,343,c),
+(499,398,o),
+(457,439,o),
+(402,449,c),
+(395,450,o),
+(383,451,o),
+(346,451,c),
+(321,451,o),
+(300,450,o),
+(300,450,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(429,215,o),
+(443,202,o),
+(448,186,c),
+(452,176,o),
+(452,162,o),
+(448,152,c),
+(442,136,o),
+(429,124,o),
+(413,120,c),
+(386,113,o),
+(358,129,o),
+(350,155,c),
+(348,163,o),
+(348,177,o),
+(351,185,c),
+(359,211,o),
+(386,226,o),
+(413,219,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57366;
+},
+{
+glyphname = notion;
+lastChange = "2022-01-01 20:28:55 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(99,-69,o),
+(96,-66,o),
+(52,-9,cs),
+(29,20,o),
+(9,48,o),
+(6,54,cs),
+(1,64,l),
+(0,415,l),
+(4,421,l),
+(7,430,o),
+(16,436,o),
+(26,438,c),
+(29,439,o),
+(100,444,o),
+(183,451,cs),
+(266,457,o),
+(342,462,o),
+(351,461,cs),
+(373,461,o),
+(377,459,o),
+(426,425,cs),
+(501,372,o),
+(506,369,o),
+(509,362,c),
+(512,357,o),
+(512,345,o),
+(512,165,cs),
+(511,-48,o),
+(512,-32,o),
+(501,-42,cs),
+(491,-50,o),
+(500,-49,o),
+(337,-59,cs),
+(196,-67,ls),
+(157,-70,o),
+(120,-72,o),
+(115,-71,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(161,17,o),
+(161,22,o),
+(164,28,c),
+(165,31,o),
+(169,33,o),
+(177,35,cs),
+(188,39,l),
+(188,244,l),
+(181,244,ls),
+(168,244,o),
+(162,245,o),
+(162,249,cs),
+(162,255,o),
+(167,263,o),
+(172,266,cs),
+(175,268,o),
+(190,270,o),
+(217,271,cs),
+(239,273,o),
+(257,274,o),
+(258,274,c),
+(310,194,ls),
+(338,151,o),
+(361,115,o),
+(362,115,c),
+(363,114,o),
+(363,142,o),
+(363,184,cs),
+(363,255,l),
+(356,256,l),
+(338,259,o),
+(336,259,o),
+(337,265,cs),
+(337,270,o),
+(340,275,o),
+(346,277,c),
+(348,278,o),
+(364,280,o),
+(382,282,cs),
+(420,283,ls),
+(425,284,o),
+(425,283,o),
+(425,278,cs),
+(425,270,o),
+(421,265,o),
+(410,263,cs),
+(401,261,l),
+(401,147,l),
+(400,33,l),
+(396,31,ls),
+(383,23,o),
+(358,19,o),
+(347,24,cs),
+(339,28,o),
+(332,38,o),
+(279,122,cs),
+(228,201,l),
+(228,124,ls),
+(228,52,o),
+(228,47,o),
+(232,46,c),
+(247,42,ls),
+(255,41,o),
+(260,39,o),
+(260,38,cs),
+(260,37,o),
+(259,35,o),
+(258,32,c),
+(253,23,o),
+(248,22,o),
+(205,20,cs),
+(184,18,o),
+(165,17,o),
+(164,17,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(126,-32,o),
+(459,-13,o),
+(465,-10,cs),
+(469,-9,o),
+(472,-7,o),
+(473,-3,cs),
+(476,0,o),
+(477,10,o),
+(477,159,cs),
+(477,325,l),
+(476,330,o),
+(473,334,o),
+(471,337,cs),
+(466,341,o),
+(467,341,o),
+(366,336,cs),
+(324,333,o),
+(250,328,o),
+(203,326,cs),
+(135,322,o),
+(115,320,o),
+(113,318,c),
+(110,316,o),
+(108,313,o),
+(107,309,cs),
+(106,305,o),
+(105,255,o),
+(106,142,cs),
+(106,-20,l),
+(110,-24,ls),
+(112,-26,o),
+(116,-29,o),
+(120,-30,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(99,-69,o),
+(96,-66,o),
+(52,-9,cs),
+(29,20,o),
+(9,48,o),
+(6,54,cs),
+(1,64,l),
+(0,415,l),
+(4,421,l),
+(7,430,o),
+(16,436,o),
+(26,438,c),
+(29,439,o),
+(100,444,o),
+(183,451,cs),
+(266,457,o),
+(342,462,o),
+(351,461,cs),
+(373,461,o),
+(377,459,o),
+(426,425,cs),
+(501,372,o),
+(506,369,o),
+(509,362,c),
+(512,357,o),
+(512,345,o),
+(512,165,cs),
+(511,-48,o),
+(512,-32,o),
+(501,-42,cs),
+(491,-50,o),
+(500,-49,o),
+(337,-59,cs),
+(196,-67,ls),
+(157,-70,o),
+(120,-72,o),
+(115,-71,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(118,356,o),
+(435,376,o),
+(438,377,c),
+(439,378,o),
+(438,380,o),
+(436,382,c),
+(429,389,o),
+(378,425,o),
+(370,428,cs),
+(360,433,o),
+(342,433,o),
+(284,428,cs),
+(257,426,o),
+(212,423,o),
+(185,421,cs),
+(44,410,o),
+(45,410,o),
+(45,405,cs),
+(45,403,o),
+(81,373,o),
+(96,363,c),
+(99,361,o),
+(105,358,o),
+(109,358,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57367;
+},
+{
+glyphname = opensea;
+lastChange = "2022-01-01 20:29:17 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(397,-61,o),
+(512,54,o),
+(512,195,cs),
+(512,336,o),
+(397,451,o),
+(256,451,cs),
+(115,451,o),
+(0,336,o),
+(0,195,cs),
+(0,54,o),
+(115,-61,o),
+(256,-61,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(126,183,o),
+(125,185,o),
+(126,186,c),
+(194,292,ls),
+(195,294,o),
+(197,294,o),
+(198,292,cs),
+(209,267,o),
+(219,236,o),
+(214,217,cs),
+(212,209,o),
+(207,198,o),
+(201,188,c),
+(200,187,o),
+(200,185,o),
+(199,184,cs),
+(198,183,o),
+(197,183,o),
+(197,183,c),
+(128,183,ls)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(146,65,o),
+(108,103,o),
+(108,150,cs),
+(108,152,ls),
+(108,153,o),
+(109,154,o),
+(110,154,cs),
+(184,154,ls),
+(186,154,o),
+(187,153,o),
+(187,151,cs),
+(186,147,o),
+(187,142,o),
+(189,137,cs),
+(194,128,o),
+(203,123,o),
+(213,123,cs),
+(250,123,l),
+(250,151,l),
+(213,151,ls),
+(211,151,o),
+(210,153,o),
+(211,155,c),
+(213,157,l),
+(216,162,o),
+(221,169,o),
+(226,178,cs),
+(235,196,ls),
+(236,198,o),
+(236,199,o),
+(236,200,c),
+(237,202,o),
+(238,204,o),
+(238,206,c),
+(239,207,o),
+(239,209,o),
+(240,210,c),
+(241,216,o),
+(241,221,o),
+(241,227,cs),
+(241,234,ls),
+(241,237,o),
+(241,239,o),
+(240,242,c),
+(240,244,o),
+(240,246,o),
+(239,248,c),
+(239,252,o),
+(238,255,o),
+(237,258,c),
+(237,260,l),
+(236,262,o),
+(236,264,o),
+(235,266,c),
+(233,274,o),
+(231,281,o),
+(228,287,cs),
+(227,290,o),
+(226,292,o),
+(225,295,cs),
+(221,305,ls),
+(220,307,o),
+(219,308,o),
+(219,309,c),
+(216,314,l),
+(216,315,o),
+(215,316,o),
+(215,317,c),
+(210,325,l),
+(210,327,o),
+(211,328,o),
+(212,328,c),
+(240,320,l),
+(240,320,l),
+(250,317,l),
+(250,334,ls),
+(250,342,o),
+(256,349,o),
+(264,349,cs),
+(268,349,o),
+(272,347,o),
+(274,344,c),
+(277,342,o),
+(278,338,o),
+(278,334,cs),
+(278,309,l),
+(281,308,ls),
+(282,308,o),
+(282,308,o),
+(282,308,c),
+(285,306,ls),
+(286,305,o),
+(287,304,o),
+(289,303,c),
+(292,300,o),
+(295,298,o),
+(298,294,c),
+(299,294,o),
+(300,293,o),
+(301,292,cs),
+(306,288,o),
+(311,283,o),
+(316,277,cs),
+(317,276,o),
+(318,274,o),
+(320,272,cs),
+(321,271,o),
+(323,269,o),
+(324,267,cs),
+(325,265,o),
+(327,263,o),
+(329,260,cs),
+(330,259,o),
+(330,258,o),
+(331,257,cs),
+(337,248,l),
+(337,246,o),
+(338,245,o),
+(339,243,cs),
+(340,239,o),
+(342,235,o),
+(343,231,cs),
+(343,230,o),
+(343,229,o),
+(344,228,c),
+(344,227,l),
+(344,224,ls),
+(344,219,o),
+(344,215,o),
+(343,210,cs),
+(343,209,o),
+(342,207,o),
+(342,205,c),
+(341,203,o),
+(340,201,o),
+(340,199,c),
+(334,189,ls),
+(333,187,o),
+(332,186,o),
+(332,185,c),
+(329,181,ls),
+(328,179,o),
+(327,178,o),
+(325,176,cs),
+(324,175,o),
+(323,173,o),
+(322,172,cs),
+(316,166,ls),
+(315,165,o),
+(314,163,o),
+(313,162,cs),
+(310,159,ls),
+(308,157,o),
+(307,156,o),
+(305,155,c),
+(302,152,l),
+(301,151,l),
+(278,151,l),
+(278,123,l),
+(307,123,ls),
+(313,123,o),
+(319,125,o),
+(324,129,cs),
+(325,130,o),
+(333,137,o),
+(341,146,c),
+(342,146,o),
+(342,147,o),
+(342,147,c),
+(420,169,l),
+(422,170,o),
+(423,169,o),
+(423,167,cs),
+(423,151,ls),
+(423,150,o),
+(423,149,o),
+(422,148,c),
+(417,146,o),
+(399,138,o),
+(392,128,cs),
+(373,102,o),
+(359,65,o),
+(327,65,cs),
+(193,65,ls)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57368;
+},
+{
+glyphname = osk;
+lastChange = "2022-01-01 20:29:31 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(512,81,l),
+(471,81,l),
+(427,169,l),
+(389,126,l),
+(389,81,l),
+(353,81,l),
+(353,278,l),
+(11,278,l),
+(11,312,l),
+(389,312,l),
+(389,169,l),
+(393,173,o),
+(395,176,o),
+(397,179,c),
+(465,252,l),
+(507,252,l),
+(455,196,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(210,127,l),
+(216,113,o),
+(228,107,o),
+(247,107,c),
+(271,107,o),
+(283,114,o),
+(283,128,c),
+(283,132,o),
+(281,136,o),
+(277,139,c),
+(273,142,o),
+(269,144,o),
+(264,145,c),
+(233,151,l),
+(198,157,o),
+(181,174,o),
+(181,201,c),
+(181,217,o),
+(186,229,o),
+(197,240,c),
+(208,251,o),
+(224,256,o),
+(246,256,c),
+(282,256,o),
+(304,243,o),
+(312,216,c),
+(278,209,l),
+(274,222,o),
+(264,228,o),
+(247,228,c),
+(227,228,o),
+(216,222,o),
+(216,209,c),
+(216,200,o),
+(225,194,o),
+(241,191,c),
+(278,183,l),
+(307,177,o),
+(321,161,o),
+(321,134,c),
+(321,115,o),
+(313,101,o),
+(299,91,c),
+(284,82,o),
+(267,78,o),
+(246,78,c),
+(229,78,o),
+(213,81,o),
+(200,88,c),
+(187,95,o),
+(178,106,o),
+(174,120,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(52,78,o),
+(33,87,o),
+(20,105,c),
+(6,123,o),
+(0,144,o),
+(0,167,c),
+(0,193,o),
+(7,214,o),
+(22,231,c),
+(37,247,o),
+(56,256,o),
+(80,256,c),
+(103,256,o),
+(122,248,o),
+(137,231,c),
+(152,215,o),
+(159,194,o),
+(159,167,c),
+(159,140,o),
+(151,119,o),
+(136,102,c),
+(121,86,o),
+(101,78,o),
+(78,78,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(105,109,o),
+(118,129,o),
+(118,168,c),
+(118,185,o),
+(115,199,o),
+(109,209,c),
+(103,219,o),
+(93,224,o),
+(80,224,c),
+(67,224,o),
+(57,219,o),
+(51,208,c),
+(44,198,o),
+(41,184,o),
+(41,167,c),
+(41,148,o),
+(44,134,o),
+(51,124,c),
+(58,114,o),
+(67,109,o),
+(79,109,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57369;
+},
+{
+glyphname = pinboard;
+lastChange = "2022-01-01 20:29:53 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(36,326,o),
+(0,290,o),
+(1,289,c),
+(1,289,o),
+(17,290,o),
+(36,291,c),
+(65,293,o),
+(72,293,o),
+(73,292,c),
+(73,291,o),
+(101,257,o),
+(134,216,c),
+(168,174,o),
+(197,139,o),
+(198,137,c),
+(201,134,l),
+(193,92,l),
+(189,69,o),
+(186,50,o),
+(186,50,c),
+(186,49,o),
+(212,75,o),
+(250,114,c),
+(281,146,l),
+(287,140,l),
+(294,133,o),
+(498,-46,o),
+(500,-49,c),
+(503,-51,o),
+(512,-62,o),
+(404,60,c),
+(352,119,o),
+(309,167,o),
+(308,168,c),
+(307,169,o),
+(313,175,o),
+(356,221,c),
+(383,249,o),
+(405,273,o),
+(405,273,c),
+(404,273,o),
+(383,268,o),
+(358,262,c),
+(311,250,l),
+(308,253,l),
+(306,255,o),
+(272,286,o),
+(232,323,c),
+(159,390,l),
+(159,421,l),
+(159,451,l),
+(79,371,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57376;
+},
+{
+glyphname = plutonium;
+lastChange = "2022-01-01 20:30:09 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(343,45,o),
+(341,45,o),
+(338,46,c),
+(335,32,o),
+(331,19,o),
+(326,5,c),
+(308,-47,o),
+(283,-76,o),
+(256,-76,c),
+(229,-76,o),
+(204,-47,o),
+(185,5,c),
+(181,19,o),
+(177,32,o),
+(174,46,c),
+(171,45,o),
+(169,45,o),
+(166,44,c),
+(131,33,o),
+(101,28,o),
+(75,28,c),
+(36,28,o),
+(20,41,o),
+(13,52,c),
+(2,71,o),
+(8,97,o),
+(30,129,c),
+(35,135,o),
+(40,142,o),
+(46,148,c),
+(51,155,o),
+(56,161,o),
+(62,166,c),
+(70,174,o),
+(78,182,o),
+(86,189,c),
+(85,190,o),
+(84,191,o),
+(82,193,c),
+(71,203,o),
+(60,213,o),
+(50,225,c),
+(13,267,o),
+(0,303,o),
+(13,326,c),
+(20,337,o),
+(36,351,o),
+(75,351,c),
+(100,351,o),
+(131,345,o),
+(166,335,c),
+(168,334,o),
+(170,334,o),
+(171,333,c),
+(172,336,o),
+(172,339,o),
+(173,342,c),
+(176,356,o),
+(181,371,o),
+(185,385,c),
+(204,437,o),
+(229,466,o),
+(256,466,c),
+(283,466,o),
+(308,437,o),
+(326,385,c),
+(331,372,o),
+(335,357,o),
+(338,342,c),
+(339,339,o),
+(340,336,o),
+(340,333,c),
+(342,334,o),
+(344,334,o),
+(345,335,c),
+(380,345,o),
+(411,351,o),
+(437,351,c),
+(476,351,o),
+(492,337,o),
+(498,326,c),
+(512,304,o),
+(500,270,o),
+(466,230,c),
+(464,228,o),
+(463,226,o),
+(461,225,c),
+(454,216,o),
+(446,208,o),
+(438,200,c),
+(434,196,o),
+(430,193,o),
+(426,189,c),
+(430,186,o),
+(434,182,o),
+(438,178,c),
+(446,170,o),
+(454,162,o),
+(461,154,c),
+(462,153,l),
+(463,151,o),
+(465,150,o),
+(466,149,c),
+(500,109,o),
+(512,74,o),
+(498,52,c),
+(492,41,o),
+(476,28,o),
+(437,28,c),
+(437,28,l),
+(411,28,o),
+(380,33,o),
+(345,44,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(165,88,o),
+(162,110,o),
+(160,133,c),
+(159,134,o),
+(158,134,o),
+(157,135,c),
+(157,135,l),
+(150,140,o),
+(143,145,o),
+(137,149,c),
+(122,160,o),
+(107,171,o),
+(93,183,c),
+(92,182,o),
+(91,181,o),
+(90,180,c),
+(88,179,o),
+(86,177,o),
+(84,175,c),
+(74,166,o),
+(65,157,o),
+(57,148,c),
+(52,143,o),
+(48,138,o),
+(44,133,c),
+(19,100,o),
+(11,73,o),
+(21,56,c),
+(30,40,o),
+(55,36,o),
+(74,36,c),
+(99,36,o),
+(130,42,o),
+(165,53,c),
+(167,53,o),
+(169,54,o),
+(172,55,c),
+(171,58,o),
+(170,62,o),
+(169,66,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(352,249,o),
+(352,247,o),
+(352,245,c),
+(353,244,o),
+(354,244,o),
+(355,243,c),
+(367,235,o),
+(378,227,o),
+(390,219,c),
+(399,212,o),
+(407,205,o),
+(416,198,c),
+(416,197,o),
+(417,197,o),
+(418,196,c),
+(418,196,o),
+(418,195,o),
+(419,195,c),
+(421,197,o),
+(423,198,o),
+(424,200,c),
+(431,206,o),
+(438,213,o),
+(445,220,c),
+(452,227,o),
+(460,236,o),
+(466,244,c),
+(492,277,o),
+(501,305,o),
+(491,322,c),
+(481,339,o),
+(456,342,o),
+(437,342,c),
+(437,342,l),
+(413,342,o),
+(381,336,o),
+(347,326,c),
+(345,325,o),
+(344,325,o),
+(342,324,c),
+(347,302,o),
+(350,277,o),
+(352,252,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(304,58,o),
+(281,67,o),
+(258,78,c),
+(257,79,o),
+(256,79,o),
+(256,79,c),
+(255,79,o),
+(254,79,o),
+(254,78,c),
+(231,67,o),
+(208,58,o),
+(184,50,c),
+(183,49,o),
+(182,49,o),
+(182,49,c),
+(185,35,o),
+(189,21,o),
+(194,8,c),
+(211,-41,o),
+(233,-67,o),
+(256,-67,c),
+(279,-67,o),
+(301,-41,o),
+(318,8,c),
+(323,21,o),
+(327,35,o),
+(330,49,c),
+(329,49,o),
+(329,49,o),
+(328,50,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(214,100,o),
+(191,113,o),
+(169,127,c),
+(169,126,o),
+(170,126,o),
+(170,125,c),
+(171,106,o),
+(174,87,o),
+(177,70,c),
+(178,66,o),
+(179,62,o),
+(180,58,c),
+(181,58,o),
+(182,58,o),
+(183,59,c),
+(201,65,o),
+(219,72,o),
+(237,80,c),
+(240,81,o),
+(243,83,o),
+(246,84,c),
+(243,86,o),
+(240,87,o),
+(237,89,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(208,321,o),
+(231,311,o),
+(254,300,c),
+(255,300,o),
+(255,300,o),
+(256,299,c),
+(256,300,o),
+(257,300,o),
+(258,300,c),
+(281,311,o),
+(304,321,o),
+(328,329,c),
+(329,329,o),
+(331,330,o),
+(332,330,c),
+(332,333,o),
+(331,336,o),
+(330,338,c),
+(327,353,o),
+(323,368,o),
+(318,382,c),
+(301,431,o),
+(279,457,o),
+(256,457,c),
+(233,457,o),
+(211,431,o),
+(194,382,c),
+(189,368,o),
+(184,353,o),
+(181,338,c),
+(181,336,o),
+(180,333,o),
+(179,330,c),
+(181,330,o),
+(182,329,o),
+(184,329,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(316,268,o),
+(326,262,o),
+(336,256,c),
+(338,254,o),
+(341,252,o),
+(343,251,c),
+(343,252,l),
+(343,257,o),
+(342,261,o),
+(342,265,c),
+(340,284,o),
+(338,302,o),
+(334,320,c),
+(334,321,o),
+(334,321,o),
+(334,322,c),
+(332,321,o),
+(331,320,o),
+(329,320,c),
+(311,313,o),
+(293,306,o),
+(275,298,c),
+(272,297,o),
+(269,296,o),
+(266,294,c),
+(279,288,o),
+(293,281,o),
+(305,273,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(170,137,l),
+(197,120,o),
+(225,104,o),
+(254,90,c),
+(254,90,o),
+(255,89,o),
+(256,89,c),
+(271,96,o),
+(286,104,o),
+(301,113,c),
+(315,120,o),
+(328,129,o),
+(342,137,c),
+(343,138,l),
+(343,138,o),
+(343,138,o),
+(343,138,c),
+(344,144,l),
+(344,144,l),
+(344,148,l),
+(345,163,o),
+(345,179,o),
+(345,195,c),
+(345,210,o),
+(345,225,o),
+(344,240,c),
+(344,240,o),
+(343,240,o),
+(343,241,c),
+(341,241,l),
+(341,241,l),
+(328,250,o),
+(315,258,o),
+(301,266,c),
+(286,274,o),
+(271,282,o),
+(256,289,c),
+(255,289,o),
+(254,289,o),
+(254,288,c),
+(225,274,o),
+(196,258,o),
+(169,241,c),
+(169,240,o),
+(168,240,o),
+(168,240,c),
+(167,237,o),
+(167,234,o),
+(167,231,c),
+(167,219,o),
+(166,207,o),
+(166,195,c),
+(166,179,o),
+(167,164,o),
+(168,148,c),
+(168,144,l),
+(168,144,l),
+(168,142,o),
+(168,140,o),
+(168,138,c),
+(169,138,o),
+(169,138,o),
+(169,138,c),
+(170,137,l),
+(170,137,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(294,72,o),
+(313,64,o),
+(332,58,c),
+(333,62,o),
+(333,66,o),
+(334,70,c),
+(338,87,o),
+(340,106,o),
+(342,125,c),
+(342,126,o),
+(342,126,o),
+(342,127,c),
+(320,113,o),
+(298,100,o),
+(275,89,c),
+(272,87,o),
+(269,86,o),
+(266,84,c),
+(269,83,o),
+(272,81,o),
+(275,80,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(219,306,o),
+(201,313,o),
+(183,320,c),
+(181,320,o),
+(179,321,o),
+(178,322,c),
+(178,321,o),
+(178,321,o),
+(177,320,c),
+(174,302,o),
+(171,283,o),
+(170,265,c),
+(169,261,o),
+(169,257,o),
+(169,253,c),
+(168,251,l),
+(171,252,o),
+(174,254,o),
+(176,256,c),
+(186,262,o),
+(196,268,o),
+(206,273,c),
+(219,281,o),
+(232,288,o),
+(246,294,c),
+(243,296,o),
+(240,297,o),
+(237,298,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(381,42,o),
+(413,36,o),
+(437,36,c),
+(456,36,o),
+(481,40,o),
+(491,56,c),
+(501,73,o),
+(492,101,o),
+(466,134,c),
+(460,143,o),
+(452,151,o),
+(445,159,c),
+(437,166,o),
+(430,174,o),
+(422,180,c),
+(421,181,o),
+(420,182,o),
+(419,183,c),
+(418,183,o),
+(418,183,o),
+(418,182,c),
+(417,182,o),
+(416,181,o),
+(416,181,c),
+(404,171,o),
+(392,161,o),
+(380,153,c),
+(372,147,o),
+(363,141,o),
+(355,135,c),
+(354,135,o),
+(353,134,o),
+(351,133,c),
+(349,110,o),
+(346,88,o),
+(342,66,c),
+(341,62,o),
+(341,58,o),
+(340,55,c),
+(342,54,o),
+(344,53,o),
+(347,53,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(385,211,o),
+(373,220,o),
+(362,228,c),
+(359,230,o),
+(356,232,o),
+(353,234,c),
+(353,232,o),
+(353,231,o),
+(353,229,c),
+(354,218,o),
+(354,207,o),
+(354,195,c),
+(354,194,l),
+(354,177,o),
+(353,161,o),
+(352,144,c),
+(353,144,o),
+(353,145,o),
+(353,145,c),
+(354,146,l),
+(357,147,o),
+(359,149,o),
+(362,151,c),
+(373,158,o),
+(383,166,o),
+(394,174,c),
+(399,178,o),
+(403,182,o),
+(408,186,c),
+(409,187,o),
+(411,188,o),
+(412,189,c),
+(407,194,o),
+(401,198,o),
+(396,203,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(130,336,o),
+(99,342,o),
+(74,342,c),
+(55,342,o),
+(30,339,o),
+(21,322,c),
+(9,303,o),
+(21,271,o),
+(55,233,c),
+(55,232,l),
+(57,231,l),
+(65,222,o),
+(74,213,o),
+(84,203,c),
+(86,202,o),
+(88,200,o),
+(90,198,c),
+(91,197,o),
+(92,196,o),
+(93,195,c),
+(104,204,o),
+(115,213,o),
+(127,222,c),
+(136,229,o),
+(146,236,o),
+(157,243,c),
+(157,243,l),
+(158,244,o),
+(159,244,o),
+(159,245,c),
+(160,247,o),
+(160,249,o),
+(160,252,c),
+(160,252,l),
+(162,277,o),
+(165,302,o),
+(169,324,c),
+(168,325,o),
+(166,325,o),
+(165,326,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(113,178,o),
+(122,171,o),
+(131,164,c),
+(137,160,o),
+(143,155,o),
+(150,151,c),
+(153,149,o),
+(156,146,o),
+(159,144,c),
+(159,144,o),
+(159,144,o),
+(160,144,c),
+(159,150,o),
+(159,155,o),
+(159,161,c),
+(157,185,o),
+(158,210,o),
+(159,234,c),
+(156,232,o),
+(153,230,o),
+(150,228,c),
+(134,217,o),
+(118,205,o),
+(104,193,c),
+(102,192,o),
+(101,190,o),
+(100,189,c),
+(101,188,o),
+(102,187,o),
+(104,186,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57377;
+},
+{
+glyphname = polywork;
+lastChange = "2022-01-01 20:30:32 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(245,-61,ls),
+(302,-61,o),
+(349,-15,o),
+(349,43,cs),
+(349,96,l),
+(408,96,ls),
+(466,96,o),
+(512,142,o),
+(512,200,cs),
+(512,347,ls),
+(512,405,o),
+(466,451,o),
+(408,451,cs),
+(104,451,ls),
+(46,451,o),
+(0,405,o),
+(0,347,cs),
+(0,43,ls),
+(0,-15,o),
+(46,-61,o),
+(104,-61,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(61,-34,o),
+(26,0,o),
+(26,43,cs),
+(26,93,l),
+(160,93,l),
+(160,-34,l),
+(102,-34,ls)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(26,259,l),
+(160,259,l),
+(160,121,l),
+(26,121,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(189,91,l),
+(322,91,l),
+(322,41,ls),
+(322,0,o),
+(288,-35,o),
+(245,-35,cs),
+(189,-35,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(189,259,l),
+(322,259,l),
+(322,121,l),
+(189,121,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(27,349,ls),
+(27,390,o),
+(61,425,o),
+(104,425,cs),
+(160,425,l),
+(160,289,l),
+(27,289,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(352,259,l),
+(485,259,l),
+(485,198,ls),
+(485,157,o),
+(451,121,o),
+(408,121,cs),
+(352,121,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(189,425,l),
+(322,425,l),
+(322,289,l),
+(189,289,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(352,424,l),
+(408,424,ls),
+(450,424,o),
+(485,390,o),
+(485,347,cs),
+(485,289,l),
+(352,289,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57378;
+},
+{
+glyphname = postype;
+lastChange = "2022-01-01 20:34:20 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(128,-60,l),
+(128,156,l),
+(129,372,l),
+(186,372,l),
+(187,156,l),
+(187,-60,l),
+(255,-60,l),
+(255,8,l),
+(256,75,l),
+(297,76,ls),
+(336,76,o),
+(343,77,o),
+(359,80,cs),
+(383,84,o),
+(420,100,o),
+(432,111,c),
+(438,115,ls),
+(443,118,o),
+(467,142,o),
+(470,147,c),
+(471,150,o),
+(474,153,o),
+(475,154,cs),
+(477,156,o),
+(490,177,o),
+(490,178,cs),
+(490,179,o),
+(491,182,o),
+(493,186,cs),
+(506,211,o),
+(512,250,o),
+(509,279,cs),
+(507,298,o),
+(504,314,o),
+(501,321,c),
+(500,322,o),
+(499,326,o),
+(498,328,cs),
+(497,331,o),
+(495,336,o),
+(493,340,cs),
+(491,343,o),
+(490,347,o),
+(490,347,c),
+(490,352,o),
+(468,381,o),
+(455,394,cs),
+(442,407,o),
+(412,429,o),
+(408,429,cs),
+(407,429,o),
+(404,431,o),
+(400,432,c),
+(397,434,o),
+(391,436,o),
+(389,437,cs),
+(386,438,o),
+(383,440,o),
+(382,440,c),
+(376,443,o),
+(360,446,o),
+(343,448,cs),
+(326,450,o),
+(2,451,o),
+(1,448,c),
+(0,448,o),
+(0,430,o),
+(1,410,cs),
+(1,373,l),
+(59,372,l),
+(60,-60,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(256,263,ls),
+(255,322,o),
+(256,371,o),
+(256,371,c),
+(257,374,o),
+(342,373,o),
+(351,370,cs),
+(355,369,o),
+(360,368,o),
+(362,367,c),
+(367,366,o),
+(388,356,o),
+(390,354,cs),
+(391,353,o),
+(393,351,o),
+(396,349,cs),
+(405,343,o),
+(421,325,o),
+(421,321,c),
+(421,321,o),
+(423,319,o),
+(424,317,c),
+(426,315,o),
+(427,313,o),
+(427,313,c),
+(427,312,o),
+(428,308,o),
+(432,301,cs),
+(440,282,o),
+(439,242,o),
+(430,222,cs),
+(427,215,l),
+(427,214,o),
+(420,204,o),
+(417,199,cs),
+(412,192,o),
+(395,176,o),
+(387,171,cs),
+(381,167,o),
+(376,165,o),
+(364,160,cs),
+(356,156,o),
+(333,155,o),
+(292,155,cs),
+(256,155,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57379;
+},
+{
+glyphname = "rainbow-me";
+lastChange = "2022-01-01 20:35:03 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(0,451,l),
+(282,451,o),
+(512,221,o),
+(512,-61,c),
+(409,-61,l),
+(409,165,o),
+(226,348,o),
+(0,348,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(0,297,l),
+(198,297,o),
+(358,137,o),
+(358,-61,c),
+(256,-61,l),
+(256,80,o),
+(141,195,o),
+(0,195,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(0,144,l),
+(113,144,o),
+(205,52,o),
+(205,-61,c),
+(102,-61,l),
+(102,-5,o),
+(56,41,o),
+(0,41,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57380;
+},
+{
+glyphname = rarible;
+lastChange = "2022-01-01 20:36:23 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(410,451,l),
+(466,451,o),
+(512,405,o),
+(512,349,c),
+(512,41,l),
+(512,-15,o),
+(466,-61,o),
+(410,-61,c),
+(102,-61,l),
+(46,-61,o),
+(0,-15,o),
+(0,41,c),
+(0,349,l),
+(0,405,o),
+(46,451,o),
+(102,451,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(369,201,o),
+(384,213,o),
+(384,237,c),
+(384,278,o),
+(349,287,o),
+(306,287,c),
+(131,287,l),
+(131,105,l),
+(204,105,l),
+(204,167,l),
+(292,167,l),
+(305,167,o),
+(313,162,o),
+(313,148,c),
+(313,105,l),
+(387,105,l),
+(387,151,l),
+(387,176,o),
+(373,191,o),
+(353,197,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(204,216,l),
+(204,234,l),
+(293,234,l),
+(303,234,o),
+(308,233,o),
+(308,225,c),
+(308,217,o),
+(303,216,o),
+(293,216,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57381;
+},
+{
+glyphname = ravencoin;
+lastChange = "2022-01-01 20:36:39 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(512,54,o),
+(397,-61,o),
+(256,-61,c),
+(115,-61,o),
+(0,54,o),
+(0,195,c),
+(0,336,o),
+(115,451,o),
+(256,451,c),
+(397,451,o),
+(512,336,o),
+(512,195,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(204,297,l),
+(141,4,l),
+(241,76,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(243,77,l),
+(304,76,l),
+(206,296,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(309,82,l),
+(356,255,l),
+(338,276,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(287,353,l),
+(210,301,l),
+(322,338,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(277,353,l),
+(230,351,l),
+(223,332,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(323,335,l),
+(212,300,l),
+(335,283,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(306,348,l),
+(313,366,l),
+(277,382,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(316,368,l),
+(324,339,l),
+(371,352,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(336,280,l),
+(208,298,l),
+(306,77,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(283,353,l),
+(222,329,l),
+(208,302,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(246,371,l),
+(230,354,l),
+(281,356,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(272,384,l),
+(248,373,l),
+(303,349,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(300,386,l),
+(274,386,l),
+(314,370,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(314,365,l),
+(308,347,l),
+(321,341,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57382;
+},
+{
+glyphname = revue;
+lastChange = "2022-01-01 20:37:15 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(0,336,o),
+(115,451,o),
+(256,451,c),
+(397,451,o),
+(512,336,o),
+(512,195,c),
+(512,54,o),
+(397,-61,o),
+(256,-61,c),
+(115,-61,o),
+(0,54,o),
+(0,195,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(341,20,l),
+(378,20,o),
+(382,52,o),
+(375,55,c),
+(328,78,o),
+(301,155,o),
+(301,155,c),
+(301,155,o),
+(384,190,o),
+(384,260,c),
+(384,331,o),
+(327,361,o),
+(269,361,c),
+(204,361,o),
+(133,326,o),
+(102,259,c),
+(83,217,o),
+(139,203,o),
+(141,217,c),
+(150,260,o),
+(199,328,o),
+(269,328,c),
+(306,328,o),
+(328,304,o),
+(328,260,c),
+(328,207,o),
+(266,178,o),
+(239,169,c),
+(245,199,l),
+(252,232,o),
+(255,244,o),
+(255,252,c),
+(255,274,o),
+(242,278,o),
+(229,278,c),
+(214,278,o),
+(202,266,o),
+(202,266,c),
+(211,250,o),
+(196,191,o),
+(189,167,c),
+(180,134,o),
+(172,101,o),
+(163,67,c),
+(156,40,o),
+(205,47,o),
+(208,55,c),
+(212,64,o),
+(221,96,o),
+(230,130,c),
+(244,135,o),
+(260,141,o),
+(260,141,c),
+(260,141,o),
+(287,20,o),
+(341,20,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57383;
+},
+{
+glyphname = roblox;
+lastChange = "2022-01-01 20:38:57 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(0,44,l),
+(407,-61,l),
+(512,346,l),
+(105,451,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(206,166,l),
+(227,245,l),
+(306,225,l),
+(286,145,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57384;
+},
+{
+glyphname = spacehey;
+lastChange = "2022-01-01 20:39:17 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(291,-14,ls),
+(413,-14,o),
+(512,86,o),
+(512,208,cs),
+(512,404,l),
+(221,404,ls),
+(99,404,o),
+(0,310,o),
+(0,195,cs),
+(0,80,o),
+(99,-14,o),
+(221,-14,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(106,142,o),
+(101,147,o),
+(101,158,cs),
+(101,276,ls),
+(101,281,o),
+(103,285,o),
+(105,288,c),
+(107,291,o),
+(111,292,o),
+(115,292,cs),
+(119,292,o),
+(122,291,o),
+(125,288,cs),
+(127,285,o),
+(129,281,o),
+(129,276,cs),
+(129,235,l),
+(132,239,o),
+(135,242,o),
+(139,245,cs),
+(142,247,o),
+(146,249,o),
+(149,250,cs),
+(154,251,o),
+(158,252,o),
+(162,252,cs),
+(169,252,o),
+(175,250,o),
+(181,248,cs),
+(186,245,o),
+(190,240,o),
+(193,235,cs),
+(195,232,o),
+(196,228,o),
+(197,224,cs),
+(198,220,o),
+(198,215,o),
+(198,210,cs),
+(198,158,ls),
+(198,153,o),
+(197,148,o),
+(194,146,cs),
+(192,143,o),
+(188,142,o),
+(184,142,cs),
+(176,142,o),
+(171,147,o),
+(171,158,cs),
+(171,204,ls),
+(171,213,o),
+(170,219,o),
+(167,224,cs),
+(165,229,o),
+(160,231,o),
+(152,231,cs),
+(148,231,o),
+(143,230,o),
+(139,227,cs),
+(135,224,o),
+(132,220,o),
+(131,215,cs),
+(129,211,o),
+(128,204,o),
+(128,194,cs),
+(128,158,ls),
+(128,153,o),
+(127,148,o),
+(125,146,cs),
+(122,143,o),
+(119,142,o),
+(115,142,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(258,142,o),
+(244,147,o),
+(235,156,cs),
+(225,166,o),
+(220,180,o),
+(220,197,cs),
+(220,205,o),
+(221,212,o),
+(224,219,cs),
+(226,226,o),
+(230,232,o),
+(234,237,cs),
+(239,242,o),
+(244,246,o),
+(251,248,cs),
+(258,251,o),
+(265,252,o),
+(273,252,cs),
+(284,252,o),
+(293,250,o),
+(301,245,cs),
+(308,241,o),
+(314,235,o),
+(318,228,cs),
+(321,221,o),
+(323,214,o),
+(323,206,cs),
+(323,199,o),
+(321,195,o),
+(317,193,cs),
+(313,191,o),
+(308,190,o),
+(301,190,cs),
+(248,190,l),
+(248,184,o),
+(249,178,o),
+(251,174,cs),
+(254,169,o),
+(257,165,o),
+(261,163,cs),
+(265,161,o),
+(270,159,o),
+(274,159,cs),
+(277,159,o),
+(281,160,o),
+(283,161,c),
+(286,161,o),
+(288,163,o),
+(291,164,c),
+(293,166,o),
+(296,168,o),
+(298,169,c),
+(298,169,l),
+(306,177,ls),
+(308,178,o),
+(309,179,o),
+(312,179,cs),
+(315,179,o),
+(317,178,o),
+(319,176,cs),
+(321,175,o),
+(322,173,o),
+(322,170,cs),
+(322,168,o),
+(321,165,o),
+(319,161,cs),
+(317,158,o),
+(314,155,o),
+(310,152,cs),
+(306,149,o),
+(301,146,o),
+(295,144,cs),
+(290,142,o),
+(283,142,o),
+(275,142,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(297,205,l),
+(296,215,o),
+(294,222,o),
+(289,226,cs),
+(285,231,o),
+(279,233,o),
+(272,233,cs),
+(265,233,o),
+(260,231,o),
+(255,226,cs),
+(251,221,o),
+(249,214,o),
+(248,205,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(345,101,o),
+(339,102,o),
+(335,104,cs),
+(331,105,o),
+(329,109,o),
+(329,113,cs),
+(329,116,o),
+(330,119,o),
+(331,120,cs),
+(333,122,o),
+(336,123,o),
+(340,123,cs),
+(341,123,o),
+(343,123,o),
+(344,122,cs),
+(346,122,o),
+(347,122,o),
+(349,122,cs),
+(352,122,o),
+(354,122,o),
+(356,123,cs),
+(358,124,o),
+(359,126,o),
+(361,128,cs),
+(362,130,o),
+(364,134,o),
+(366,138,cs),
+(368,144,l),
+(335,228,ls),
+(333,233,o),
+(332,237,o),
+(332,239,cs),
+(332,241,o),
+(332,243,o),
+(334,245,cs),
+(335,247,o),
+(336,249,o),
+(338,250,cs),
+(341,251,o),
+(343,252,o),
+(345,252,cs),
+(349,252,o),
+(352,251,o),
+(354,248,cs),
+(356,246,o),
+(358,242,o),
+(359,237,cs),
+(382,170,l),
+(404,233,ls),
+(406,238,o),
+(407,242,o),
+(409,244,c),
+(410,247,o),
+(412,249,o),
+(413,250,c),
+(415,251,o),
+(417,252,o),
+(420,252,cs),
+(422,252,o),
+(424,251,o),
+(425,250,cs),
+(427,249,o),
+(429,248,o),
+(430,246,cs),
+(431,244,o),
+(431,242,o),
+(431,240,c),
+(431,240,l),
+(430,234,l),
+(430,234,l),
+(428,227,l),
+(392,135,ls),
+(389,127,o),
+(386,120,o),
+(384,116,cs),
+(381,111,o),
+(377,107,o),
+(372,105,cs),
+(367,102,o),
+(361,101,o),
+(353,101,cs)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57392;
+},
+{
+glyphname = "spark-ar";
+lastChange = "2022-01-01 20:39:49 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(467,191,l),
+(467,-1,l),
+(256,-97,l),
+(45,-1,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(45,382,l),
+(45,191,l),
+(467,382,l),
+(256,478,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(241,102,l),
+(452,197,l),
+(271,279,l),
+(60,184,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57393;
+},
+{
+glyphname = tetrio;
+lastChange = "2022-01-01 20:40:07 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(256,451,l),
+(256,366,l),
+(171,366,l),
+(171,280,l),
+(85,280,l),
+(85,366,l),
+(0,366,l),
+(0,451,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(85,272,l),
+(171,272,l),
+(171,-61,l),
+(85,-61,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(179,272,l),
+(265,272,l),
+(265,-61,l),
+(179,-61,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(273,272,l),
+(350,272,l),
+(350,349,l),
+(512,349,l),
+(512,101,l),
+(435,101,l),
+(435,24,l),
+(273,24,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(354,107,l),
+(431,107,l),
+(431,266,l),
+(354,266,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57394;
+},
+{
+glyphname = threema;
+lastChange = "2022-01-01 20:40:37 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(423,-1,o),
+(441,-19,o),
+(441,-41,c),
+(441,-64,o),
+(423,-82,o),
+(401,-82,c),
+(379,-82,o),
+(361,-64,o),
+(361,-41,c),
+(361,-19,o),
+(379,-1,o),
+(401,-1,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(133,-1,o),
+(151,-19,o),
+(151,-41,c),
+(151,-64,o),
+(133,-82,o),
+(111,-82,c),
+(88,-82,o),
+(71,-64,o),
+(71,-41,c),
+(70,-19,o),
+(88,-1,o),
+(111,-1,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(278,-1,o),
+(296,-19,o),
+(296,-41,c),
+(296,-64,o),
+(278,-82,o),
+(256,-82,c),
+(233,-82,o),
+(216,-64,o),
+(216,-41,c),
+(215,-19,o),
+(233,-1,o),
+(256,-1,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(387,469,o),
+(492,376,o),
+(492,261,c),
+(492,145,o),
+(387,52,o),
+(256,52,c),
+(219,52,o),
+(184,60,o),
+(152,73,c),
+(34,44,l),
+(59,145,l),
+(34,178,o),
+(19,218,o),
+(19,261,c),
+(19,376,o),
+(125,469,o),
+(256,469,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(219,372,o),
+(189,341,o),
+(189,304,c),
+(189,278,l),
+(186,278,l),
+(180,278,o),
+(175,273,o),
+(175,267,c),
+(175,172,l),
+(175,167,o),
+(180,162,o),
+(186,162,c),
+(326,162,l),
+(331,162,o),
+(336,167,o),
+(336,172,c),
+(336,267,l),
+(336,273,o),
+(331,278,o),
+(326,278,c),
+(323,278,l),
+(323,304,l),
+(323,341,o),
+(293,372,o),
+(256,372,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(278,345,o),
+(296,327,o),
+(296,304,c),
+(296,278,l),
+(215,278,l),
+(215,304,l),
+(215,327,o),
+(233,345,o),
+(256,345,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57395;
+},
+{
+glyphname = tinyletter;
+lastChange = "2022-01-01 20:41:08 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(385,376,l),
+(390,384,o),
+(391,395,o),
+(391,404,c),
+(391,425,o),
+(383,445,o),
+(368,460,c),
+(353,473,o),
+(334,482,o),
+(313,482,c),
+(291,482,o),
+(272,473,o),
+(257,458,c),
+(255,458,l),
+(253,460,l),
+(238,473,o),
+(219,482,o),
+(198,482,c),
+(177,482,o),
+(157,473,o),
+(142,458,c),
+(119,437,o),
+(113,404,o),
+(125,376,c),
+(81,376,l),
+(54,376,o),
+(33,354,o),
+(33,328,c),
+(33,49,l),
+(33,22,o),
+(54,0,o),
+(81,0,c),
+(193,0,l),
+(341,-111,l),
+(341,0,l),
+(432,0,l),
+(458,0,o),
+(479,21,o),
+(479,49,c),
+(479,328,l),
+(479,354,o),
+(458,376,o),
+(430,376,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(174,445,o),
+(186,451,o),
+(199,451,c),
+(211,451,o),
+(223,445,o),
+(232,437,c),
+(257,412,l),
+(282,437,l),
+(290,445,o),
+(302,451,o),
+(315,451,c),
+(328,451,o),
+(340,445,o),
+(349,437,c),
+(357,428,o),
+(362,416,o),
+(362,404,c),
+(362,390,o),
+(357,380,o),
+(349,371,c),
+(257,297,l),
+(166,371,l),
+(147,390,o),
+(147,419,o),
+(166,437,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(149,344,l),
+(257,257,l),
+(364,344,l),
+(432,344,l),
+(441,344,o),
+(449,336,o),
+(449,328,c),
+(449,280,l),
+(255,135,l),
+(65,280,l),
+(65,328,l),
+(65,336,o),
+(71,344,o),
+(81,344,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(446,130,l),
+(374,185,l),
+(446,240,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(65,130,l),
+(65,240,l),
+(137,185,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(309,32,l),
+(309,-47,l),
+(205,32,l),
+(81,32,l),
+(72,32,o),
+(65,40,o),
+(65,49,c),
+(65,90,l),
+(164,165,l),
+(255,95,l),
+(347,165,l),
+(446,90,l),
+(446,49,l),
+(446,40,o),
+(439,32,o),
+(430,32,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57396;
+},
+{
+glyphname = toss;
+lastChange = "2022-01-01 20:41:23 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(512,138,o),
+(489,84,o),
+(449,43,c),
+(409,3,o),
+(354,-20,o),
+(297,-20,c),
+(211,-20,o),
+(136,31,o),
+(102,104,c),
+(66,94,o),
+(31,78,o),
+(0,57,c),
+(11,117,o),
+(33,188,o),
+(69,253,c),
+(113,334,o),
+(181,403,o),
+(282,409,c),
+(295,410,o),
+(308,410,o),
+(320,409,c),
+(428,398,o),
+(512,306,o),
+(512,195,c),
+(512,195,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57397;
+},
+{
+glyphname = venmo;
+lastChange = "2022-01-01 20:41:36 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(503,435,o),
+(512,401,o),
+(512,359,c),
+(512,223,o),
+(396,46,o),
+(302,-78,c),
+(86,-78,l),
+(0,438,l),
+(189,456,l),
+(234,89,l),
+(277,158,o),
+(329,267,o),
+(329,342,c),
+(329,383,o),
+(322,410,o),
+(312,433,c),
+(483,468,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57398;
+},
+{
+glyphname = vero;
+lastChange = "2022-01-01 20:45:20 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(0,414,l),
+(369,414,l),
+(213,144,l),
+(256,68,l),
+(455,415,l),
+(512,415,l),
+(256,-25,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57399;
+},
+{
+glyphname = wattpad;
+lastChange = "2022-01-01 20:46:12 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(143,23,o),
+(155,33,o),
+(164,47,cs),
+(176,65,o),
+(187,85,o),
+(196,105,cs),
+(207,131,o),
+(220,157,o),
+(234,181,c),
+(235,183,o),
+(236,184,o),
+(237,186,c),
+(238,185,l),
+(238,184,o),
+(238,183,o),
+(238,182,cs),
+(239,136,l),
+(241,116,o),
+(247,98,o),
+(259,83,cs),
+(269,69,o),
+(285,59,o),
+(303,57,cs),
+(320,55,o),
+(338,60,o),
+(351,72,cs),
+(363,81,o),
+(373,94,o),
+(380,108,cs),
+(396,140,o),
+(412,172,o),
+(429,204,cs),
+(449,240,o),
+(471,275,o),
+(495,309,cs),
+(500,316,o),
+(504,324,o),
+(507,333,cs),
+(512,354,o),
+(502,371,o),
+(480,374,cs),
+(469,375,o),
+(457,373,o),
+(446,367,cs),
+(431,359,o),
+(417,349,o),
+(405,338,cs),
+(381,317,o),
+(360,293,o),
+(342,268,cs),
+(339,265,l),
+(339,268,ls),
+(342,286,o),
+(342,304,o),
+(340,322,c),
+(339,335,o),
+(335,349,o),
+(329,360,cs),
+(320,376,o),
+(304,386,o),
+(286,386,cs),
+(270,387,o),
+(254,382,o),
+(240,373,cs),
+(223,361,o),
+(207,346,o),
+(193,329,cs),
+(171,302,o),
+(151,274,o),
+(133,244,cs),
+(131,240,l),
+(130,241,o),
+(130,242,o),
+(131,243,cs),
+(133,279,ls),
+(135,296,o),
+(133,314,o),
+(130,331,cs),
+(127,345,o),
+(119,357,o),
+(107,364,cs),
+(82,379,o),
+(51,374,o),
+(32,353,cs),
+(24,343,o),
+(18,332,o),
+(14,320,cs),
+(6,295,o),
+(2,269,o),
+(2,242,cs),
+(0,215,o),
+(1,187,o),
+(3,160,cs),
+(5,136,o),
+(10,112,o),
+(17,89,cs),
+(23,69,o),
+(33,50,o),
+(46,34,cs),
+(67,11,o),
+(100,3,o),
+(129,16,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57400;
+},
+{
+glyphname = well;
+lastChange = "2022-01-01 20:46:29 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(423,373,o),
+(413,360,o),
+(412,351,c),
+(412,345,o),
+(413,344,o),
+(418,346,c),
+(426,350,o),
+(440,349,o),
+(445,343,c),
+(457,331,o),
+(447,297,o),
+(420,254,c),
+(403,228,o),
+(348,152,o),
+(346,153,c),
+(344,156,o),
+(377,279,o),
+(382,286,c),
+(399,309,o),
+(390,326,o),
+(362,326,c),
+(348,326,o),
+(344,325,o),
+(335,317,c),
+(328,311,o),
+(322,302,o),
+(320,295,c),
+(318,287,o),
+(310,275,o),
+(299,263,c),
+(289,252,o),
+(269,229,o),
+(256,212,c),
+(243,195,o),
+(231,181,o),
+(231,181,c),
+(230,179,o),
+(241,234,o),
+(245,249,c),
+(255,287,o),
+(258,293,o),
+(263,293,c),
+(271,293,o),
+(281,302,o),
+(283,312,c),
+(285,318,o),
+(283,322,o),
+(276,329,c),
+(268,337,o),
+(264,338,o),
+(253,338,c),
+(246,338,o),
+(235,336,o),
+(229,334,c),
+(220,331,o),
+(212,330,o),
+(194,333,c),
+(119,343,o),
+(52,316,o),
+(24,265,c),
+(0,220,o),
+(20,171,o),
+(63,171,c),
+(89,171,o),
+(106,186,o),
+(110,214,c),
+(112,229,o),
+(106,237,o),
+(100,228,c),
+(99,226,o),
+(94,223,o),
+(90,221,c),
+(82,219,o),
+(68,231,o),
+(68,242,c),
+(68,253,o),
+(79,272,o),
+(91,283,c),
+(111,301,o),
+(127,306,o),
+(159,306,c),
+(175,306,o),
+(192,305,o),
+(197,304,c),
+(205,302,o),
+(205,302,o),
+(201,291,c),
+(194,275,o),
+(186,243,o),
+(172,175,c),
+(160,117,o),
+(155,101,o),
+(139,64,c),
+(130,42,o),
+(126,12,o),
+(132,5,c),
+(134,2,o),
+(140,0,o),
+(146,0,c),
+(167,0,o),
+(186,28,o),
+(203,82,c),
+(208,99,o),
+(216,115,o),
+(225,127,c),
+(243,152,o),
+(290,210,o),
+(301,220,c),
+(309,227,l),
+(307,220,l),
+(307,215,o),
+(304,204,o),
+(303,194,c),
+(293,142,o),
+(277,84,o),
+(269,72,c),
+(259,55,o),
+(253,35,o),
+(254,21,c),
+(255,12,o),
+(256,11,o),
+(268,10,c),
+(291,8,o),
+(306,23,o),
+(320,60,c),
+(329,86,o),
+(347,111,o),
+(401,175,c),
+(486,278,o),
+(512,331,o),
+(491,364,c),
+(480,382,o),
+(454,389,o),
+(435,379,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57401;
+},
+{
+glyphname = "write-as";
+lastChange = "2022-01-01 20:46:51 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(438,105,o),
+(417,84,o),
+(417,57,c),
+(417,31,o),
+(438,10,o),
+(464,10,c),
+(491,10,o),
+(512,31,o),
+(512,57,c),
+(512,84,o),
+(491,105,o),
+(464,105,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(210,302,l),
+(168,157,l),
+(166,149,o),
+(164,143,o),
+(162,137,c),
+(161,131,o),
+(160,126,o),
+(158,121,c),
+(157,115,o),
+(156,111,o),
+(155,106,c),
+(154,102,o),
+(153,98,o),
+(153,94,c),
+(152,94,l),
+(151,103,o),
+(149,113,o),
+(147,122,c),
+(145,132,o),
+(142,140,o),
+(140,149,c),
+(121,220,l),
+(119,224,o),
+(118,227,o),
+(118,231,c),
+(117,235,o),
+(117,238,o),
+(117,241,c),
+(117,248,o),
+(119,254,o),
+(122,258,c),
+(125,262,o),
+(131,265,o),
+(139,265,c),
+(139,302,l),
+(0,302,l),
+(0,258,l),
+(23,259,l),
+(23,256,o),
+(24,253,o),
+(25,250,c),
+(25,248,o),
+(26,245,o),
+(27,241,c),
+(28,238,o),
+(29,234,o),
+(31,230,c),
+(32,225,o),
+(34,219,o),
+(37,212,c),
+(107,10,l),
+(165,10,l),
+(197,106,l),
+(198,109,o),
+(200,115,o),
+(202,122,c),
+(205,130,o),
+(207,139,o),
+(210,148,c),
+(213,158,o),
+(215,168,o),
+(218,178,c),
+(220,188,o),
+(222,197,o),
+(223,205,c),
+(224,205,l),
+(226,199,o),
+(228,193,o),
+(230,186,c),
+(231,179,o),
+(233,172,o),
+(235,165,c),
+(237,159,o),
+(239,153,o),
+(240,147,c),
+(242,142,o),
+(244,137,o),
+(245,134,c),
+(285,10,l),
+(346,10,l),
+(412,202,l),
+(414,206,o),
+(416,211,o),
+(418,218,c),
+(421,225,o),
+(425,232,o),
+(429,239,c),
+(433,246,o),
+(438,252,o),
+(444,258,c),
+(450,263,o),
+(457,265,o),
+(464,265,c),
+(464,302,l),
+(354,302,l),
+(354,258,l),
+(388,260,l),
+(388,260,l),
+(386,257,o),
+(384,253,o),
+(383,250,c),
+(382,247,o),
+(380,244,o),
+(379,240,c),
+(378,236,o),
+(376,233,o),
+(375,228,c),
+(373,224,o),
+(372,219,o),
+(370,214,c),
+(348,140,l),
+(346,133,o),
+(343,125,o),
+(340,115,c),
+(338,106,o),
+(336,98,o),
+(335,90,c),
+(334,90,l),
+(332,98,o),
+(330,106,o),
+(327,116,c),
+(324,125,o),
+(322,134,o),
+(320,142,c),
+(273,302,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57408;
+},
+{
+glyphname = xmpp;
+lastChange = "2022-01-01 20:48:08 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(512,443,l),
+(509,323,o),
+(410,198,o),
+(290,129,c),
+(318,107,o),
+(349,91,o),
+(383,82,c),
+(383,80,l),
+(383,80,o),
+(383,80,o),
+(383,80,c),
+(383,75,l),
+(347,78,o),
+(313,87,o),
+(281,102,c),
+(274,105,o),
+(266,108,o),
+(259,112,c),
+(251,108,o),
+(244,105,o),
+(236,102,c),
+(205,87,o),
+(171,78,o),
+(134,75,c),
+(134,80,l),
+(134,80,o),
+(134,80,o),
+(134,80,c),
+(134,82,l),
+(168,91,o),
+(199,107,o),
+(227,129,c),
+(108,198,o),
+(8,323,o),
+(5,443,c),
+(77,415,l),
+(99,408,l),
+(164,388,l),
+(164,388,l),
+(164,385,o),
+(163,381,o),
+(163,377,c),
+(163,306,o),
+(199,220,o),
+(259,158,c),
+(318,220,o),
+(354,306,o),
+(354,377,c),
+(354,381,o),
+(354,385,o),
+(354,388,c),
+(354,388,l),
+(419,408,l),
+(440,415,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(3,32,l),
+(37,32,l),
+(63,2,l),
+(90,32,l),
+(123,32,l),
+(84,-11,l),
+(126,-53,l),
+(91,-53,l),
+(63,-22,l),
+(35,-53,l),
+(0,-53,l),
+(42,-11,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(136,32,l),
+(176,32,l),
+(205,-23,l),
+(235,32,l),
+(275,32,l),
+(275,-53,l),
+(250,-53,l),
+(250,8,l),
+(249,8,l),
+(215,-53,l),
+(196,-53,l),
+(161,8,l),
+(161,8,l),
+(161,-53,l),
+(136,-53,l),
+(136,32,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(293,32,l),
+(364,32,l),
+(389,32,o),
+(395,19,o),
+(395,3,c),
+(395,-5,l),
+(395,-17,o),
+(389,-32,o),
+(371,-32,c),
+(319,-32,l),
+(319,-53,l),
+(293,-53,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(319,-11,l),
+(359,-11,l),
+(365,-11,o),
+(368,-7,o),
+(368,-2,c),
+(368,2,l),
+(368,7,o),
+(365,11,o),
+(357,11,c),
+(319,11,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(409,32,l),
+(480,32,l),
+(505,32,o),
+(511,19,o),
+(511,3,c),
+(511,-5,l),
+(511,-17,o),
+(505,-32,o),
+(487,-32,c),
+(435,-32,l),
+(435,-53,l),
+(409,-53,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(435,-11,l),
+(475,-11,l),
+(481,-11,o),
+(484,-7,o),
+(484,-2,c),
+(484,2,l),
+(484,7,o),
+(481,11,o),
+(473,11,c),
+(435,11,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57409;
+},
+{
+glyphname = ninegag;
+lastChange = "2022-01-01 20:48:35 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(291,272,o),
+(326,292,o),
+(361,312,c),
+(256,372,l),
+(222,352,o),
+(187,332,o),
+(152,312,c),
+(187,292,o),
+(222,272,o),
+(256,252,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(256,489,l),
+(342,440,o),
+(427,391,o),
+(512,342,c),
+(512,48,l),
+(427,-1,o),
+(342,-50,o),
+(256,-99,c),
+(171,-50,o),
+(85,-1,o),
+(0,49,c),
+(34,68,o),
+(68,87,o),
+(102,107,c),
+(153,77,o),
+(205,48,o),
+(256,18,c),
+(308,48,o),
+(360,77,o),
+(411,107,c),
+(410,146,o),
+(411,186,o),
+(410,225,c),
+(359,195,o),
+(308,165,o),
+(256,136,c),
+(171,184,o),
+(86,233,o),
+(1,282,c),
+(1,342,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57411;
+},
+{
+glyphname = anilist;
+lastChange = "2022-01-01 20:48:54 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(489,101,l),
+(504,101,o),
+(512,92,o),
+(512,77,c),
+(512,25,l),
+(512,10,o),
+(504,2,o),
+(489,2,c),
+(489,2,o),
+(427,2,o),
+(371,2,c),
+(266,2,l),
+(243,69,l),
+(128,69,l),
+(105,2,l),
+(0,2,l),
+(136,388,l),
+(235,388,l),
+(252,342,l),
+(252,356,o),
+(252,365,o),
+(252,365,c),
+(252,380,o),
+(260,388,o),
+(275,388,c),
+(327,388,l),
+(342,388,o),
+(350,380,o),
+(350,365,c),
+(350,101,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(221,154,l),
+(185,261,l),
+(152,154,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57412;
+},
+{
+glyphname = archiveofourown;
+lastChange = "2022-01-01 20:49:12 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(377,209,o),
+(353,196,o),
+(328,193,c),
+(239,183,o),
+(199,280,o),
+(255,336,c),
+(304,385,o),
+(404,355,o),
+(402,274,c),
+(402,261,o),
+(399,245,o),
+(391,232,c),
+(391,232,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(256,199,o),
+(355,197,o),
+(374,253,c),
+(391,302,o),
+(350,342,o),
+(305,336,c),
+(274,331,o),
+(253,306,o),
+(253,275,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(496,318,o),
+(504,325,o),
+(507,320,c),
+(512,315,o),
+(498,310,o),
+(491,306,c),
+(472,293,o),
+(455,280,o),
+(439,263,c),
+(418,240,o),
+(398,212,o),
+(385,182,c),
+(398,182,o),
+(449,178,o),
+(461,150,c),
+(471,127,o),
+(453,104,o),
+(433,94,c),
+(447,85,o),
+(471,73,o),
+(469,54,c),
+(466,5,o),
+(391,7,o),
+(359,40,c),
+(355,46,o),
+(352,50,o),
+(355,53,c),
+(358,56,o),
+(361,48,o),
+(369,43,c),
+(374,40,o),
+(377,38,o),
+(382,35,c),
+(409,21,o),
+(452,27,o),
+(455,53,c),
+(456,64,o),
+(441,73,o),
+(429,78,c),
+(418,83,o),
+(398,86,o),
+(398,99,c),
+(398,110,o),
+(409,108,o),
+(420,113,c),
+(431,118,o),
+(441,132,o),
+(441,137,c),
+(441,156,o),
+(398,156,o),
+(372,156,c),
+(366,143,o),
+(363,131,o),
+(358,110,c),
+(355,97,o),
+(355,70,o),
+(342,67,c),
+(326,64,o),
+(321,77,o),
+(312,88,c),
+(299,102,o),
+(282,123,o),
+(270,135,c),
+(207,115,o),
+(156,91,o),
+(96,56,c),
+(67,40,o),
+(51,23,o),
+(41,27,c),
+(34,32,o),
+(34,40,o),
+(38,46,c),
+(46,58,o),
+(57,72,o),
+(68,86,c),
+(81,104,o),
+(91,121,o),
+(97,139,c),
+(111,175,o),
+(123,239,o),
+(129,263,c),
+(131,271,o),
+(135,271,o),
+(135,266,c),
+(135,256,o),
+(131,223,o),
+(129,215,c),
+(119,156,o),
+(113,121,o),
+(86,80,c),
+(132,108,o),
+(188,143,o),
+(247,164,c),
+(188,231,o),
+(124,298,o),
+(35,339,c),
+(22,345,o),
+(0,347,o),
+(0,353,c),
+(0,360,o),
+(16,355,o),
+(22,353,c),
+(73,341,o),
+(124,307,o),
+(162,280,c),
+(208,247,o),
+(262,196,o),
+(283,172,c),
+(297,177,o),
+(331,182,o),
+(361,183,c),
+(377,217,o),
+(415,269,o),
+(463,299,c),
+(471,304,o),
+(480,310,o),
+(490,315,c),
+(490,315,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(318,134,o),
+(324,124,o),
+(332,113,c),
+(336,126,o),
+(340,139,o),
+(347,150,c),
+(332,150,o),
+(318,147,o),
+(309,143,c),
+(309,143,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57413;
+},
+{
+glyphname = "basic-attention-token";
+lastChange = "2022-01-01 20:49:26 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(257,415,l),
+(512,-24,l),
+(0,-25,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(256,237,l),
+(151,61,l),
+(362,61,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57414;
+},
+{
+glyphname = bookshop;
+lastChange = "2022-01-01 20:49:51 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(359,-7,l),
+(385,-7,l),
+(388,-7,ls),
+(398,-7,o),
+(407,-6,o),
+(416,-5,cs),
+(422,-4,o),
+(429,-3,o),
+(435,-1,cs),
+(442,1,o),
+(449,5,o),
+(455,9,c),
+(466,14,o),
+(475,22,o),
+(483,30,cs),
+(498,46,o),
+(508,65,o),
+(511,87,cs),
+(511,91,o),
+(512,96,o),
+(512,101,cs),
+(512,106,o),
+(511,111,o),
+(511,115,c),
+(506,144,o),
+(491,169,o),
+(468,185,cs),
+(455,195,l),
+(468,204,ls),
+(491,220,o),
+(507,245,o),
+(511,274,c),
+(511,279,o),
+(512,283,o),
+(512,288,cs),
+(512,293,o),
+(511,298,o),
+(511,303,c),
+(508,324,o),
+(498,344,o),
+(483,359,cs),
+(475,368,o),
+(466,375,o),
+(455,381,cs),
+(449,385,o),
+(442,388,o),
+(434,390,cs),
+(415,395,o),
+(396,397,o),
+(376,397,cs),
+(5,396,ls),
+(2,396,o),
+(0,394,o),
+(0,391,cs),
+(0,376,ls),
+(0,373,o),
+(2,371,o),
+(5,371,cs),
+(8,371,l),
+(11,370,o),
+(14,370,o),
+(17,370,cs),
+(24,370,o),
+(32,369,o),
+(39,368,c),
+(41,367,o),
+(44,366,o),
+(47,364,cs),
+(50,361,o),
+(52,357,o),
+(53,352,cs),
+(54,343,o),
+(54,335,o),
+(54,327,cs),
+(54,255,l),
+(54,240,l),
+(54,240,l),
+(54,227,ls),
+(54,221,o),
+(53,215,o),
+(49,211,c),
+(45,209,o),
+(40,208,o),
+(35,208,cs),
+(34,208,ls),
+(30,208,o),
+(26,208,o),
+(23,208,cs),
+(8,208,l),
+(4,208,l),
+(3,207,o),
+(2,207,o),
+(1,205,cs),
+(0,204,o),
+(0,203,o),
+(0,201,cs),
+(0,186,ls),
+(0,183,o),
+(2,181,o),
+(5,181,cs),
+(8,181,l),
+(21,181,l),
+(40,181,ls),
+(45,181,o),
+(50,180,o),
+(52,174,c),
+(53,173,o),
+(53,171,o),
+(53,169,cs),
+(53,168,ls),
+(53,163,o),
+(54,158,o),
+(54,153,cs),
+(54,140,l),
+(54,92,l),
+(54,82,ls),
+(54,71,o),
+(54,61,o),
+(53,50,cs),
+(53,43,o),
+(50,35,o),
+(45,29,c),
+(39,25,o),
+(32,22,o),
+(25,22,cs),
+(11,22,ls),
+(9,22,o),
+(7,22,o),
+(4,21,cs),
+(3,21,ls),
+(0,21,o),
+(0,19,o),
+(0,18,c),
+(0,18,l),
+(0,15,l),
+(0,-2,ls),
+(0,-3,o),
+(0,-4,o),
+(1,-5,cs),
+(3,-7,o),
+(5,-7,o),
+(7,-7,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(96,22,o),
+(90,24,o),
+(86,28,cs),
+(82,33,o),
+(79,39,o),
+(79,45,cs),
+(79,169,ls),
+(79,175,o),
+(84,180,o),
+(91,180,cs),
+(199,180,l),
+(283,180,l),
+(369,180,l),
+(388,182,o),
+(407,180,o),
+(425,175,cs),
+(441,171,o),
+(455,162,o),
+(466,149,cs),
+(477,136,o),
+(484,119,o),
+(485,101,cs),
+(484,84,o),
+(477,67,o),
+(466,53,cs),
+(459,45,o),
+(451,38,o),
+(442,33,cs),
+(435,29,ls),
+(414,20,o),
+(391,21,o),
+(369,21,cs),
+(102,21,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(85,209,o),
+(79,214,o),
+(79,221,cs),
+(79,297,l),
+(79,352,ls),
+(79,361,o),
+(86,367,o),
+(94,367,cs),
+(228,367,l),
+(263,367,l),
+(264,367,ls),
+(282,367,o),
+(303,367,o),
+(323,367,cs),
+(352,367,ls),
+(364,367,o),
+(376,368,o),
+(388,367,cs),
+(407,367,o),
+(430,365,o),
+(447,353,cs),
+(464,342,o),
+(476,326,o),
+(482,307,cs),
+(484,301,o),
+(485,295,o),
+(485,288,cs),
+(484,270,o),
+(477,254,o),
+(466,240,cs),
+(459,233,o),
+(452,226,o),
+(443,221,cs),
+(423,209,o),
+(398,209,o),
+(380,209,cs),
+(216,209,l),
+(91,209,ls)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57415;
+},
+{
+glyphname = buymeacoffee;
+lastChange = "2022-01-01 20:51:29 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(249,-50,l),
+(250,-50,o),
+(250,-50,o),
+(250,-50,c),
+(250,-50,o),
+(250,-50,o),
+(250,-50,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(334,231,o),
+(345,229,o),
+(355,225,c),
+(332,-12,l),
+(332,-20,o),
+(327,-29,o),
+(321,-35,c),
+(314,-42,o),
+(306,-44,o),
+(296,-44,c),
+(296,-44,o),
+(265,-46,o),
+(254,-46,c),
+(244,-46,o),
+(215,-44,o),
+(215,-44,c),
+(205,-44,o),
+(197,-42,o),
+(190,-35,c),
+(183,-29,o),
+(180,-20,o),
+(179,-12,c),
+(158,202,l),
+(171,199,o),
+(183,198,o),
+(196,198,c),
+(226,198,o),
+(249,207,o),
+(269,216,c),
+(288,224,o),
+(303,231,o),
+(324,231,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(435,278,o),
+(426,275,o),
+(417,273,c),
+(415,273,o),
+(412,272,o),
+(410,270,c),
+(409,267,o),
+(408,266,o),
+(408,263,c),
+(402,214,l),
+(391,105,l),
+(388,72,o),
+(384,39,o),
+(381,5,c),
+(380,-5,o),
+(379,-14,o),
+(378,-24,c),
+(374,-59,o),
+(349,-82,o),
+(316,-88,c),
+(293,-92,o),
+(270,-91,o),
+(247,-91,c),
+(228,-90,o),
+(211,-89,o),
+(193,-88,c),
+(163,-82,o),
+(138,-65,o),
+(135,-33,c),
+(134,-28,o),
+(133,-21,o),
+(132,-15,c),
+(130,15,o),
+(126,46,o),
+(123,77,c),
+(113,184,l),
+(107,236,l),
+(107,245,o),
+(115,252,o),
+(123,252,c),
+(132,252,o),
+(138,244,o),
+(138,236,c),
+(138,235,o),
+(139,233,o),
+(139,233,c),
+(146,162,l),
+(158,54,l),
+(160,34,o),
+(162,15,o),
+(164,-5,c),
+(166,-20,o),
+(167,-37,o),
+(178,-48,c),
+(191,-60,o),
+(212,-61,o),
+(228,-61,c),
+(244,-61,o),
+(260,-62,o),
+(275,-62,c),
+(289,-62,o),
+(303,-60,o),
+(318,-57,c),
+(332,-53,o),
+(342,-43,o),
+(345,-29,c),
+(347,-19,o),
+(347,-9,o),
+(349,1,c),
+(349,10,o),
+(350,21,o),
+(351,30,c),
+(355,66,o),
+(358,100,o),
+(363,136,c),
+(365,169,o),
+(369,203,o),
+(372,236,c),
+(374,252,l),
+(374,254,o),
+(374,257,o),
+(373,259,c),
+(372,259,o),
+(371,261,o),
+(371,262,c),
+(370,264,o),
+(368,265,o),
+(366,266,c),
+(364,266,o),
+(364,266,o),
+(362,266,c),
+(356,266,o),
+(350,265,o),
+(345,264,c),
+(278,258,o),
+(209,259,o),
+(143,267,c),
+(126,269,o),
+(108,272,o),
+(92,274,c),
+(74,278,o),
+(61,292,o),
+(59,311,c),
+(58,319,o),
+(61,327,o),
+(62,335,c),
+(63,343,o),
+(64,351,o),
+(68,359,c),
+(72,366,o),
+(77,372,o),
+(84,376,c),
+(93,381,o),
+(101,381,o),
+(111,380,c),
+(119,379,o),
+(126,377,o),
+(134,376,c),
+(137,375,o),
+(138,375,o),
+(141,375,c),
+(142,375,o),
+(147,374,o),
+(145,375,c),
+(148,374,o),
+(152,374,o),
+(155,373,c),
+(189,369,o),
+(222,368,o),
+(256,367,c),
+(265,367,o),
+(273,368,o),
+(281,368,c),
+(298,368,o),
+(315,369,o),
+(332,370,c),
+(340,371,o),
+(348,372,o),
+(356,373,c),
+(361,373,o),
+(364,374,o),
+(369,375,c),
+(371,375,l),
+(371,375,l),
+(371,375,l),
+(372,375,o),
+(373,375,o),
+(374,375,c),
+(375,375,o),
+(375,376,o),
+(376,377,c),
+(376,378,o),
+(377,379,o),
+(377,380,c),
+(377,380,o),
+(377,381,o),
+(377,381,c),
+(374,392,o),
+(371,402,o),
+(370,412,c),
+(370,412,o),
+(370,412,o),
+(370,413,c),
+(369,417,l),
+(368,420,o),
+(367,424,o),
+(366,426,c),
+(362,438,o),
+(350,438,o),
+(341,440,c),
+(334,441,o),
+(328,442,o),
+(322,443,c),
+(319,444,l),
+(318,444,o),
+(318,444,o),
+(317,444,c),
+(313,445,o),
+(311,445,o),
+(308,446,c),
+(295,446,o),
+(281,447,o),
+(268,448,c),
+(242,448,o),
+(214,448,o),
+(187,445,c),
+(183,445,o),
+(181,444,o),
+(177,444,c),
+(177,444,l),
+(175,443,o),
+(174,443,o),
+(172,443,c),
+(167,442,o),
+(162,441,o),
+(158,440,c),
+(158,440,l),
+(157,440,o),
+(156,440,o),
+(156,440,c),
+(155,439,o),
+(155,439,o),
+(155,438,c),
+(155,437,o),
+(155,436,o),
+(156,436,c),
+(156,435,o),
+(157,435,o),
+(158,435,c),
+(163,433,o),
+(168,433,o),
+(175,433,c),
+(177,432,l),
+(177,432,l),
+(181,432,l),
+(183,431,o),
+(186,431,o),
+(190,430,c),
+(196,430,o),
+(202,429,o),
+(208,428,c),
+(222,427,o),
+(235,427,o),
+(250,427,c),
+(264,427,o),
+(278,427,o),
+(293,429,c),
+(299,429,o),
+(305,430,o),
+(311,431,c),
+(314,431,o),
+(318,432,o),
+(320,432,c),
+(321,432,l),
+(323,432,o),
+(324,433,o),
+(326,433,c),
+(334,433,o),
+(342,430,o),
+(345,420,c),
+(348,413,o),
+(342,402,o),
+(334,401,c),
+(326,400,o),
+(319,399,o),
+(312,398,c),
+(283,395,o),
+(254,395,o),
+(226,395,c),
+(199,396,o),
+(173,399,o),
+(147,404,c),
+(138,406,o),
+(130,409,o),
+(120,413,c),
+(114,416,o),
+(107,420,o),
+(104,426,c),
+(100,436,o),
+(101,447,o),
+(108,454,c),
+(114,460,o),
+(122,463,o),
+(130,465,c),
+(151,473,o),
+(173,476,o),
+(195,478,c),
+(224,480,o),
+(254,481,o),
+(283,479,c),
+(307,478,o),
+(332,476,o),
+(356,470,c),
+(362,468,o),
+(366,466,o),
+(371,465,c),
+(380,461,o),
+(390,455,o),
+(395,446,c),
+(398,440,o),
+(400,431,o),
+(401,423,c),
+(402,413,o),
+(403,404,o),
+(405,395,c),
+(406,391,o),
+(408,386,o),
+(410,381,c),
+(415,379,o),
+(420,378,o),
+(424,376,c),
+(439,371,o),
+(446,357,o),
+(448,343,c),
+(452,327,l),
+(455,312,o),
+(454,297,o),
+(442,285,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(91,317,o),
+(91,316,o),
+(91,315,c),
+(91,316,o),
+(91,317,o),
+(91,317,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(92,310,l),
+(92,310,o),
+(92,310,o),
+(92,309,c),
+(92,310,o),
+(92,310,o),
+(92,310,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(93,307,o),
+(93,308,o),
+(93,309,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(94,307,l),
+(94,307,o),
+(94,307,o),
+(94,306,c),
+(94,307,o),
+(94,307,o),
+(94,307,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(416,310,l),
+(418,311,o),
+(420,314,o),
+(420,318,c),
+(421,325,o),
+(421,334,o),
+(417,342,c),
+(410,350,o),
+(401,348,o),
+(390,346,c),
+(380,343,o),
+(370,342,o),
+(358,341,c),
+(299,333,o),
+(240,332,o),
+(181,337,c),
+(167,339,o),
+(152,341,o),
+(139,342,c),
+(128,344,o),
+(115,350,o),
+(103,348,c),
+(95,347,o),
+(93,339,o),
+(92,333,c),
+(91,326,o),
+(88,314,o),
+(93,309,c),
+(96,305,o),
+(100,304,o),
+(105,304,c),
+(145,298,o),
+(187,294,o),
+(228,292,c),
+(287,291,o),
+(345,295,o),
+(402,304,c),
+(408,304,o),
+(413,305,o),
+(416,310,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57416;
+},
+{
+glyphname = "cash-app";
+lastChange = "2022-01-01 20:50:38 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(334,451,l),
+(385,451,o),
+(411,451,o),
+(439,442,c),
+(469,431,o),
+(493,407,o),
+(504,377,c),
+(512,349,o),
+(512,324,o),
+(512,273,c),
+(512,118,l),
+(512,66,o),
+(512,40,o),
+(504,13,c),
+(493,-17,o),
+(469,-41,o),
+(439,-52,c),
+(411,-61,o),
+(385,-61,o),
+(334,-61,c),
+(179,-61,l),
+(127,-61,o),
+(102,-61,o),
+(74,-52,c),
+(44,-41,o),
+(20,-17,o),
+(9,13,c),
+(0,41,o),
+(0,66,o),
+(0,117,c),
+(0,273,l),
+(0,324,o),
+(0,350,o),
+(9,377,c),
+(20,407,o),
+(44,431,o),
+(74,442,c),
+(102,451,o),
+(128,451,o),
+(179,451,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(340,261,l),
+(344,257,o),
+(351,257,o),
+(354,261,c),
+(374,281,l),
+(379,285,o),
+(378,293,o),
+(374,297,c),
+(358,311,o),
+(340,321,o),
+(320,328,c),
+(327,358,l),
+(328,365,o),
+(323,371,o),
+(316,371,c),
+(278,371,l),
+(273,371,o),
+(268,367,o),
+(267,362,c),
+(262,335,l),
+(210,333,o),
+(167,307,o),
+(167,253,c),
+(167,207,o),
+(203,187,o),
+(241,173,c),
+(277,159,o),
+(296,154,o),
+(296,135,c),
+(296,115,o),
+(277,103,o),
+(249,103,c),
+(223,103,o),
+(196,112,o),
+(176,133,c),
+(171,137,o),
+(165,137,o),
+(161,133,c),
+(139,111,l),
+(135,107,o),
+(135,100,o),
+(139,96,c),
+(156,79,o),
+(177,67,o),
+(202,60,c),
+(196,32,l),
+(194,25,o),
+(199,19,o),
+(206,19,c),
+(245,19,l),
+(250,19,o),
+(254,22,o),
+(255,27,c),
+(261,54,l),
+(323,58,o),
+(360,93,o),
+(360,142,c),
+(360,188,o),
+(323,208,o),
+(277,223,c),
+(251,233,o),
+(228,240,o),
+(228,260,c),
+(228,279,o),
+(250,287,o),
+(271,287,c),
+(298,287,o),
+(323,276,o),
+(340,260,c)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57417;
+},
+{
+glyphname = coindrop;
+lastChange = "2022-01-01 20:50:56 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(188,-57,ls),
+(197,-57,o),
+(205,-49,o),
+(205,-40,cs),
+(205,-9,l),
+(256,-19,o),
+(310,-14,o),
+(358,5,c),
+(358,-40,ls),
+(358,-49,o),
+(366,-57,o),
+(375,-57,cs),
+(427,-57,ls),
+(436,-57,o),
+(444,-49,o),
+(444,-40,cs),
+(444,66,l),
+(461,87,o),
+(473,112,o),
+(477,140,c),
+(478,140,ls),
+(483,140,o),
+(486,136,o),
+(486,131,cs),
+(486,105,ls),
+(486,96,o),
+(494,88,o),
+(503,88,cs),
+(512,88,l),
+(512,105,l),
+(503,105,l),
+(503,131,ls),
+(503,145,o),
+(492,157,o),
+(478,157,c),
+(478,215,o),
+(438,270,o),
+(373,301,c),
+(383,343,o),
+(357,384,o),
+(316,394,cs),
+(275,403,o),
+(234,378,o),
+(224,336,cs),
+(223,333,o),
+(223,329,o),
+(222,325,c),
+(216,324,o),
+(210,324,o),
+(203,322,c),
+(190,346,o),
+(164,361,o),
+(137,361,cs),
+(132,361,o),
+(128,358,o),
+(128,353,cs),
+(128,296,l),
+(97,280,o),
+(71,255,o),
+(53,225,c),
+(17,225,ls),
+(8,225,o),
+(0,217,o),
+(0,208,cs),
+(0,105,ls),
+(0,96,o),
+(8,88,o),
+(17,88,cs),
+(53,88,l),
+(69,61,o),
+(92,38,o),
+(119,22,c),
+(119,-40,ls),
+(119,-49,o),
+(127,-57,o),
+(137,-57,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(147,208,o),
+(162,223,o),
+(162,242,c),
+(145,242,l),
+(145,233,o),
+(137,225,o),
+(128,225,cs),
+(119,225,o),
+(111,233,o),
+(111,242,c),
+(94,242,l),
+(94,223,o),
+(109,208,o),
+(128,208,cs)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(137,27,ls),
+(137,30,o),
+(135,33,o),
+(132,34,c),
+(104,50,o),
+(81,73,o),
+(65,101,c),
+(64,104,o),
+(61,105,o),
+(58,105,cs),
+(17,105,l),
+(17,208,l),
+(58,208,ls),
+(61,208,o),
+(64,210,o),
+(65,212,cs),
+(82,243,o),
+(109,268,o),
+(140,283,cs),
+(143,285,o),
+(145,288,o),
+(145,291,cs),
+(145,344,l),
+(165,341,o),
+(182,328,o),
+(191,309,cs),
+(193,306,o),
+(196,304,o),
+(200,304,c),
+(208,306,o),
+(215,307,o),
+(223,308,c),
+(223,305,ls),
+(223,304,o),
+(224,303,o),
+(224,302,cs),
+(224,300,o),
+(225,299,o),
+(225,297,cs),
+(225,296,o),
+(226,296,o),
+(226,295,c),
+(227,293,o),
+(227,290,o),
+(228,288,c),
+(229,288,o),
+(229,287,o),
+(229,287,c),
+(230,285,o),
+(231,283,o),
+(231,282,c),
+(233,279,ls),
+(234,278,o),
+(234,277,o),
+(235,276,cs),
+(237,273,ls),
+(238,272,o),
+(239,271,o),
+(239,270,c),
+(240,269,o),
+(241,269,o),
+(241,268,c),
+(244,265,ls),
+(245,264,o),
+(246,263,o),
+(246,263,c),
+(249,260,l),
+(250,260,o),
+(250,259,o),
+(251,259,cs),
+(222,259,l),
+(222,242,l),
+(375,242,l),
+(375,259,l),
+(347,259,l),
+(348,260,ls),
+(351,262,o),
+(353,265,o),
+(355,267,c),
+(356,267,o),
+(356,267,o),
+(356,268,c),
+(362,275,l),
+(362,276,o),
+(362,276,o),
+(363,276,c),
+(364,279,o),
+(366,282,o),
+(367,285,c),
+(368,285,l),
+(425,257,o),
+(461,208,o),
+(461,157,cs),
+(460,126,o),
+(449,97,o),
+(429,74,c),
+(427,73,o),
+(427,71,o),
+(427,69,cs),
+(427,-40,l),
+(375,-40,l),
+(375,18,ls),
+(375,23,o),
+(372,27,o),
+(367,27,c),
+(363,26,l),
+(311,3,o),
+(254,-3,o),
+(198,9,cs),
+(194,10,o),
+(189,7,o),
+(188,3,cs),
+(188,1,l),
+(188,-40,l),
+(137,-40,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(196,413,l),
+(196,430,l),
+(179,430,l),
+(179,413,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(213,396,l),
+(213,413,l),
+(196,413,l),
+(196,396,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(263,263,o),
+(240,288,o),
+(239,318,cs),
+(239,319,ls),
+(239,352,o),
+(266,378,o),
+(299,378,cs),
+(332,378,o),
+(358,352,o),
+(358,319,cs),
+(358,312,o),
+(357,306,o),
+(355,299,cs),
+(347,275,o),
+(324,259,o),
+(299,259,cs),
+(293,259,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(213,430,l),
+(213,447,l),
+(196,447,l),
+(196,430,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(230,413,l),
+(230,430,l),
+(213,430,l),
+(213,413,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(393,387,l),
+(393,404,l),
+(375,404,l),
+(375,387,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(410,370,l),
+(410,387,l),
+(393,387,l),
+(393,370,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(469,319,l),
+(469,336,l),
+(452,336,l),
+(452,319,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(486,302,l),
+(486,319,l),
+(469,319,l),
+(469,302,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(410,404,l),
+(410,421,l),
+(393,421,l),
+(393,404,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(427,387,l),
+(427,404,l),
+(410,404,l),
+(410,387,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(486,336,l),
+(486,353,l),
+(469,353,l),
+(469,336,l)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(503,319,l),
+(503,336,l),
+(486,336,l),
+(486,319,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57424;
+},
+{
+glyphname = eyeem;
+lastChange = "2022-01-01 20:51:10 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(512,54,o),
+(397,-61,o),
+(256,-61,c),
+(115,-61,o),
+(0,54,o),
+(0,195,c),
+(0,336,o),
+(115,451,o),
+(256,451,c),
+(397,451,o),
+(512,336,o),
+(512,195,c)
+);
+},
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(223,287,l),
+(345,287,l),
+(345,337,l),
+(165,337,l),
+(165,53,l),
+(347,53,l),
+(347,103,l),
+(223,103,l),
+(223,177,l),
+(347,177,l),
+(347,226,l),
+(223,226,l)
+);
+}
+);
+width = 512;
+}
+);
+note = faucet;
+unicode = 57425;
+}
+);
+instances = (
+{
+customParameters = (
+{
+name = styleMapFamilyName;
+value = Solid;
+}
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Solid;
+properties = (
+{
+key = styleNames;
+values = (
+{
+language = ENG;
+value = Solid;
+}
+);
+},
+{
+key = postscriptFullName;
+value = "omg.lol Icons";
+},
+{
+key = postscriptFontName;
+value = "omg.lol-icons";
+}
+);
+weightClass = 900;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = ENG;
+value = "Copyright (c) omg.lol";
+}
+);
+},
+{
+key = familyNames;
+values = (
+{
+language = ENG;
+value = "omg.lol Icons";
+}
+);
+},
+{
+key = description;
+value = "The web's most popular icon set and toolkit.";
+},
+{
+key = manufacturerURL;
+value = "https://omg.lol";
+}
+);
+settings = {
+disablesAutomaticAlignment = 1;
+disablesNiceNames = 1;
+};
+unitsPerEm = 512;
+versionMajor = 1;
+versionMinor = 0;
+}
