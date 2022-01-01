@@ -9,6 +9,9 @@
 		{
 			"name": "Info",
 			"request": {
+				"auth": {
+					"type": "noauth"
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -48,7 +51,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sat, 01 Jan 2022 06:39:29 GMT"
+							"value": "Sat, 01 Jan 2022 06:51:12 GMT"
 						},
 						{
 							"key": "Server",
@@ -68,7 +71,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "270"
+							"value": "266"
 						},
 						{
 							"key": "Keep-Alive",
@@ -84,7 +87,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"As of 2022-01-01T06:39:29+00:00, omg.lol has 903 members and hosts 1,220 active addresses.\",\n        \"members\": \"903\",\n        \"addresses\": \"1220\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"As of 2022-01-01T06:51:12+00:00, omg.lol has 903 members and hosts 1,220 active addresses.\",\n        \"members\": 903,\n        \"addresses\": 1220\n    }\n}"
 				}
 			]
 		}
