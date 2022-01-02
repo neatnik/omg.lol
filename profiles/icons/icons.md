@@ -29,7 +29,7 @@ Want to add an icon? For an existing Font Awesome icon, just update this file wi
 | Cat                        | fa-solid fa-cat                       | cat://                                                | n/a           |
 | Cloudspotting              | fa-solid fa-cloud                     | cloudspotting.be                                      | n/a           |
 | Cloud Appreciation Society | fa-solid fa-cloud                     | cloudappreciationsociety.org                          | n/a           |
-| Clubhouse                  | fa-solid fa-hand-wave                 | clubhouse.com                                         | n/a           |
+| Clubhouse                  | omg-icon clubhouse                    | clubhouse.com                                         | U+E052        |
 | Codepen                    | fa-brands fa-codepen                  | codepen.io                                            | n/a           |
 | Coindrop                   | omg-icon coindrop                     | coindrop.to                                           | U+E050        |
 | Deezer                     | fa-brands fa-deezer                   | deezer.com                                            | n/a           |
