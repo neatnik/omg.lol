@@ -45,6 +45,7 @@ Want to add an icon? For an existing Font Awesome icon, just update this file wi
 | EyeEm                      | omg-icon eyeem                        | eyeem.com                                             | U+E051        |
 | Facebook                   | fa-brands fa-facebook                 | facebook.com                                          | n/a           |
 | Fastmail                   | omg-icon fastmail                     | fastmail.com, fastmail.fm                             | U+E001        |
+| Fediverse                  | omg-icon fediverse                    | {fediverse}                                           | U+E053        | 
 | Figma                      | fa-brands fa-figma                    | figma.com                                             | n/a           |
 | Film                       | fa-solid fa-film                      | film://                                               | n/a           |
 | Flickr                     | fa-brands fa-flickr                   | flickr.com                                            | n/a           |
