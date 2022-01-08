@@ -203,6 +203,210 @@
 			]
 		},
 		{
+			"name": "Name",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/account/:email/name",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						":email",
+						"name"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": "person@example.com"
+						}
+					]
+				},
+				"description": "Get the name associated with the account."
+			},
+			"response": [
+				{
+					"name": "Get name",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/account/:email/name",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								":email",
+								"name"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 12 Dec 2021 22:41:14 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "202"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"The name on this account is Example Person.\",\n        \"name\": \"Example Person\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Name",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"Example\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/account/:email/name",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						":email",
+						"name"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": "person@example.com"
+						}
+					]
+				},
+				"description": "Update the name associated with the account."
+			},
+			"response": [
+				{
+					"name": "Name changed",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\": \"Example\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/account/:email/name",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								":email",
+								"name"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 12 Dec 2021 22:42:18 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "186"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your name has been set to Example.\",\n        \"name\": \"Example\"\n    }\n}"
+				}
+			]
+		},
+		{
 			"name": "Sessions",
 			"request": {
 				"auth": {
@@ -409,7 +613,7 @@
 			]
 		},
 		{
-			"name": "Name",
+			"name": "Settings",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -424,7 +628,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://{{base_url}}/account/:email/name",
+					"raw": "https://{{base_url}}/account/:email/settings",
 					"protocol": "https",
 					"host": [
 						"{{base_url}}"
@@ -432,7 +636,7 @@
 					"path": [
 						"account",
 						":email",
-						"name"
+						"settings"
 					],
 					"variable": [
 						{
@@ -441,16 +645,16 @@
 						}
 					]
 				},
-				"description": "Get the name associated with the account."
+				"description": "Get settings associated with the account."
 			},
 			"response": [
 				{
-					"name": "Get name",
+					"name": "Get settings",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://{{base_url}}/account/:email/name",
+							"raw": "https://{{base_url}}/account/:email/settings",
 							"protocol": "https",
 							"host": [
 								"{{base_url}}"
@@ -458,7 +662,7 @@
 							"path": [
 								"account",
 								":email",
-								"name"
+								"settings"
 							],
 							"variable": [
 								{
@@ -474,7 +678,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sun, 12 Dec 2021 22:41:14 GMT"
+							"value": "Sat, 08 Jan 2022 02:34:26 GMT"
 						},
 						{
 							"key": "Server",
@@ -485,8 +689,16 @@
 							"value": "*"
 						},
 						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
 							"key": "Content-Length",
-							"value": "202"
+							"value": "343"
 						},
 						{
 							"key": "Keep-Alive",
@@ -502,12 +714,12 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"The name on this account is Example Person.\",\n        \"name\": \"Example Person\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here are the settings for this account.\",\n        \"settings\": {\n            \"owner\": \"person@example.com\",\n            \"communication\": \"email_ok\",\n            \"date_format\": null,\n            \"web_editor\": null\n        }\n    }\n}"
 				}
 			]
 		},
 		{
-			"name": "Name",
+			"name": "Settings",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -521,12 +733,8 @@
 				},
 				"method": "POST",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\"name\": \"Example\"}"
-				},
 				"url": {
-					"raw": "https://{{base_url}}/account/:email/name",
+					"raw": "https://{{base_url}}/account/:email/settings",
 					"protocol": "https",
 					"host": [
 						"{{base_url}}"
@@ -534,7 +742,7 @@
 					"path": [
 						"account",
 						":email",
-						"name"
+						"settings"
 					],
 					"variable": [
 						{
@@ -543,20 +751,20 @@
 						}
 					]
 				},
-				"description": "Update the name associated with the account."
+				"description": "Get settings associated with the account."
 			},
 			"response": [
 				{
-					"name": "Name changed",
+					"name": "Update settings",
 					"originalRequest": {
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"name\": \"Example\"}"
+							"raw": "{\"communication\": \"email_ok\", \"web_editor\": \"advanced\"}"
 						},
 						"url": {
-							"raw": "https://{{base_url}}/account/:email/name",
+							"raw": "https://{{base_url}}/account/:email/settings",
 							"protocol": "https",
 							"host": [
 								"{{base_url}}"
@@ -564,7 +772,7 @@
 							"path": [
 								"account",
 								":email",
-								"name"
+								"settings"
 							],
 							"variable": [
 								{
@@ -580,7 +788,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sun, 12 Dec 2021 22:42:18 GMT"
+							"value": "Sat, 08 Jan 2022 02:37:18 GMT"
 						},
 						{
 							"key": "Server",
@@ -591,8 +799,16 @@
 							"value": "*"
 						},
 						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
 							"key": "Content-Length",
-							"value": "186"
+							"value": "159"
 						},
 						{
 							"key": "Keep-Alive",
@@ -608,7 +824,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your name has been set to Example.\",\n        \"name\": \"Example\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, your settings have been updated.\"\n    }\n}"
 				}
 			]
 		}
