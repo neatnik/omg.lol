@@ -733,6 +733,10 @@
 				},
 				"method": "POST",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"communication\": \"email_ok\", \"web_editor\": \"advanced\"}"
+				},
 				"url": {
 					"raw": "https://{{base_url}}/account/:email/settings",
 					"protocol": "https",
