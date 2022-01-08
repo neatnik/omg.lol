@@ -751,7 +751,7 @@
 						}
 					]
 				},
-				"description": "Get settings associated with the account."
+				"description": "Update settings associated with the account."
 			},
 			"response": [
 				{
