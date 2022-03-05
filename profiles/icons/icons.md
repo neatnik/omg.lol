@@ -96,7 +96,7 @@ Want to add an icon? For an existing Font Awesome icon, just update this file wi
 | OSK                        | omg-icon osk                          | osk.sh                                                | U+E019        |
 | osu!                       | fa-solid fa-list-music                | osu.ppy.sh                                            | n/a           |
 | Patreon                    | fa-brands fa-patreon                  | patreon.com                                           | n/a           |
-| PayPal                     | fa-brands fa-paypal                   | paypal.me                                             | n/a           |
+| PayPal                     | fa-brands fa-paypal                   | paypal.me, paypal.com                                 | n/a           |
 | Pinboard                   | omg-icon pinboard                     | pinboard.in                                           | U+E020        |
 | Pinterest                  | fa-brands fa-pinterest                | pinterest.com, pinterest.co.uk                        | n/a           |
 | Playstation                | fa-brands fa-playstation              | psn://                                                | n/a           |
