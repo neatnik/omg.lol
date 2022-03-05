@@ -812,7 +812,7 @@
 						}
 					]
 				},
-				"description": "Retrieve web content and information for an address."
+				"description": "Update web content for an address."
 			},
 			"response": [
 				{
