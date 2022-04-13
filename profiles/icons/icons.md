@@ -74,6 +74,7 @@ Want to add an icon? For an existing Font Awesome icon, just update this file wi
 | Liberapay                  | omg-icon liberapay                    | liberapay.com                                         | U+E008        |
 | Lichess                    | omg-icon lichess                      | lichess.org                                           | U+E009        |
 | LinkedIn                   | fa-brands fa-linkedin                 | linkedin.com                                          | n/a           |
+| Linux                      | fa-brands fa-linux                    | linux://                                              | n/a           |
 | Litecoin                   | omg-icon litecoin                     | ltc://                                                | U+E010        |
 | Literal                    | omg-icon literal                      | literal.club                                          | U+E011        |
 | Lobsters                   | omg-icon lobsters                     | lobste.rs                                             | U+E012        |
@@ -123,9 +124,11 @@ Want to add an icon? For an existing Font Awesome icon, just update this file wi
 | Status                     | fa-solid fa-heartbeat                 | uptimerobot.com, statuspage.io, status://             | n/a           |
 | Steam Community            | fa-brands fa-steam                    | steamcommunity.com                                    | n/a           |
 | Telegram                   | fa-brands fa-telegram                 | telegram.me, t.me                                     | n/a           |
+| Telephone                  | fa-solid fa-phone                     | tel://                                                | n/a           |
 | tetr.io                    | omg-icon tetrio                       | tetr.io, ch.tetr.io                                   | U+E032        |
 | Threema                    | omg-icon threema                      | threema.id                                            | U+E033        |
 | TikTok                     | fa-brands fa-tiktok                   | tiktok.com                                            | n/a           |
+| Tilde                      | fa-solid fa-tilde                     | tilde://                                              | n/a           |
 | Tinyletter                 | omg-icon tinyletter                   | tinyletter.com                                        | U+E034        |
 | Toss                       | omg-icon toss                         | toss.me                                               | U+E035        |
 | Tumblr                     | fa-brands fa-tumblr                   | tumblr.com                                            | n/a           |
