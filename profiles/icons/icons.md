@@ -35,6 +35,7 @@ Want to add an icon? For an existing Font Awesome icon, just update this file wi
 | Deezer                     | fa-brands fa-deezer                   | deezer.com                                            | n/a                |
 | DeviantArt                 | fa-brands fa-deviantart               | deviantart.com                                        | n/a                |
 | Discord                    | fa-brands fa-discord                  | discord.com, discord.gg, discord://                   | n/a                |
+| Discogs                    | fa-solid fa-album-collection          | discogs.com                                           | n/a                |
 | Discourse                  | fa-brands fa-discourse                | discourse.org, discourse://                           | n/a                |
 | Dog                        | fa-solid fa-dog                       | dog://                                                | n/a                |
 | Dribbble                   | fa-brands fa-dribbble                 | dribbble.com                                          | n/a                |
