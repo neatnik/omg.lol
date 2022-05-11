@@ -66,6 +66,7 @@ Want to add an icon? For an existing Font Awesome icon, just update this file wi
 | HEY World                  | omg-icon hey                          | hey.com                                               | n/a                |
 | Honk                       | omg-icon honk                         | honk.me                                               | U+E005             |
 | Instagram                  | fa-brands fa-instagram                | instagram.com, instagr.am                             | n/a                |
+| Instapaper                 | align-justify                         | instapaper.com                                        | n/a                |
 | Itch                       | fa-brands fa-itch-io                  | itch.io                                               | n/a                |
 | Keybase                    | fa-brands fa-keybase                  | keybase.io                                            | n/a                |
 | Keyoxide                   | omg-icon keyoxide                     | keyoxide.org                                          | U+E006             |
