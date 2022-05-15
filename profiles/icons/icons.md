@@ -66,6 +66,7 @@ Want to add an icon? For an existing Font Awesome icon, just update this file wi
 | HEY World                  | omg-icon hey                          | hey.com                                               | n/a                |
 | Honk                       | omg-icon honk                         | honk.me                                               | U+E005             |
 | Instagram                  | fa-brands fa-instagram                | instagram.com, instagr.am                             | n/a                |
+| Instapaper                 | omg-icon instapaper                   | instapaper.com                                        | n/a                |
 | Itch                       | fa-brands fa-itch-io                  | itch.io                                               | n/a                |
 | Keybase                    | fa-brands fa-keybase                  | keybase.io                                            | n/a                |
 | Keyoxide                   | omg-icon keyoxide                     | keyoxide.org                                          | U+E006             |
@@ -94,6 +95,7 @@ Want to add an icon? For an existing Font Awesome icon, just update this file wi
 | Notion                     | omg-icon notion                       | notion.so, notion.site                                | U+E017             |
 | NPM                        | fa-brands fa-npm                      | npmjs.com                                             | n/a                |
 | OGS                        | fa-solid fa-circle-half-stroke        | online-go.com                                         | n/a                |
+| omg.lol                    | omg-icon omg-lol                      | omg.lol                                               | n/a                |
 | OpenSea                    | omg-icon opensea                      | opensea.io                                            | U+E018             |
 | OSK                        | omg-icon osk                          | osk.sh                                                | U+E019             |
 | osu!                       | fa-solid fa-list-music                | osu.ppy.sh                                            | n/a                |
