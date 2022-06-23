@@ -120,6 +120,7 @@ Want to add an icon? For an existing Font Awesome icon, just update this file wi
 | Signal                     | omg-icon signal                       | signal.org, signal.group, signal://, sgnl://          | U+E029             |
 | Snapchat                   | fa-brands fa-snapchat                 | snapchat.com                                          | n/a                |
 | SoundCloud                 | fa-brands fa-soundcloud               | soundcloud.com                                        | n/a                |
+| sourcehut                  | fa-regular fa-circle                  | sr.ht, hub.sr.ht, git.sr.ht                           | n/a                |
 | SpaceHey                   | omg-icon spacehey                     | spacehey.com, spacehey.blog                           | U+E030             |
 | Spark AR                   | omg-icon spark-ar                     | facebook.com/sparkarhub                               | U+E031             |
 | Spotify                    | fa-brands fa-spotify                  | spotify.com, open.spotify.com                         | n/a                |
