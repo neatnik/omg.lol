@@ -3,7 +3,8 @@
 		"_postman_id": "71cd737d-246e-4125-a421-3188d2ab6670",
 		"name": "Service",
 		"description": "Obtain service information about omg.lol.",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12532425"
 	},
 	"item": [
 		{
@@ -29,7 +30,7 @@
 			},
 			"response": [
 				{
-					"name": "Get service info",
+					"name": "Get service information",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
@@ -51,7 +52,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sun, 06 Mar 2022 02:11:38 GMT"
+							"value": "Thu, 23 Jun 2022 04:53:45 GMT"
 						},
 						{
 							"key": "Server",
@@ -71,7 +72,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "332"
+							"value": "343"
 						},
 						{
 							"key": "Keep-Alive",
@@ -87,7 +88,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"As of 2022-03-06T02:11:38+00:00, omg.lol has 997 members and hosts 1,341 active addresses. Of those, 639 have active profile pages.\",\n        \"members\": 997,\n        \"addresses\": 1341,\n        \"profiles\": 639\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"As of 2022-06-23T04:53:45+00:00, omg.lol has 1,079 members and hosts 1,445 active addresses. Of those, 721 have active profiles or web pages.\",\n        \"members\": 1079,\n        \"addresses\": 1445,\n        \"profiles\": 721\n    }\n}"
 				}
 			]
 		}
