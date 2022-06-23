@@ -3,7 +3,8 @@
 		"_postman_id": "7d197171-6678-4842-a661-a5504d55efa1",
 		"name": "Account",
 		"description": "Obtain information about and make changes to your account.",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12532425"
 	},
 	"item": [
 		{
