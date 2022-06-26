@@ -4,4 +4,4 @@ Welcome to the omg.lol repo! Here you’ll find [profile](https://github.com/nea
 
 You can learn more about omg.lol at https://omg.lol. Thanks for visiting!
 
-![omg.lol](https://static.omg.lol/img/social_card_2022-06-23.png)
+[![omg.lol]([http://www.google.com.au/images/nav_logo7.png](https://static.omg.lol/img/social_card_2022-06-23.png))](https://omg.lol)
