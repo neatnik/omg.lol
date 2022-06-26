@@ -52,6 +52,21 @@
 .omg-well:before { content: "\e039"; }
 .omg-write-as:before { content: "\e040"; }
 .omg-xmpp:before { content: "\e041"; }
+.omg-prami:before { content: "\e042"; }
+.omg-ninegag:before { content: "\e043"; }
+.omg-anilist:before { content: "\e044"; }
+.omg-archiveofourown:before { content: "\e045"; }
+.omg-basic-attention-token:before { content: "\e046"; }
+.omg-bookshop:before { content: "\e047"; }
+.omg-buymeacoffee:before { content: "\e048"; }
+.omg-cash-app:before { content: "\e049"; }
+.omg-coindrop:before { content: "\e050"; }
+.omg-eyeem:before { content: "\e051"; }
+.omg-clubhouse:before { content: "\e052"; }
+.omg-fediverse:before { content: "\e053"; }
+.omg-hey-world:before { content: "\e054"; }
+.omg-instapaper:before { content: "\e055"; }
+.omg-y-combinator:before { content: "\e056"; }
 
 /* omg.lol Icon Type */
 
@@ -84,7 +99,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: block;
-	src: url("https://static.staging-omg.lol/profiles/icons/omg.lol-icons.woff2") format("woff2");
+	src: url("https://static.omg.lol/profiles/icons/omg.lol-icons.woff2") format("woff2");
 }
 
 .omg-icon {
