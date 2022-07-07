@@ -72,6 +72,14 @@
 
 /* omg.lol Icon Type */
 
+@font-face {
+	font-family: 'omg.lol Icons';
+	font-style: normal;
+	font-weight: 900;
+	font-display: block;
+	src: url("https://static.omg.lol/profiles/icons/omg.lol-icons.woff2") format("woff2");
+}
+
 .omg-icon {
 	font-family: "omg.lol Icons";
 	font-weight: 900;
@@ -94,21 +102,4 @@
 
 :root, :host {
 	--omg-font-regular: normal 900 1em/1 "omg.lol Icons";
-}
-
-@font-face {
-	font-family: 'omg.lol Icons';
-	font-style: normal;
-	font-weight: 900;
-	font-display: block;
-	src: url("https://static.omg.lol/profiles/icons/omg.lol-icons.woff2") format("woff2");
-}
-
-.omg-icon {
-	font-family: 'omg.lol Icons';
-	font-weight: 900;
-}
-
-:root, :host {
-	--omg-font-solid: normal 900 1em/1 "omg.lol Icons";
 }
