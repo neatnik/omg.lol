@@ -50,7 +50,7 @@
 .omg-vero:before { content: "\e037"; }
 .omg-wattpad:before { content: "\e038"; }
 .omg-well:before { content: "\e039"; }
-.omg-write-as:before { content: "\e040"; }
+.omg-writeas:before { content: "\e040"; }
 .omg-xmpp:before { content: "\e041"; }
 .omg-prami:before { content: "\e042"; }
 .omg-ninegag:before { content: "\e043"; }
@@ -64,9 +64,11 @@
 .omg-eyeem:before { content: "\e051"; }
 .omg-clubhouse:before { content: "\e052"; }
 .omg-fediverse:before { content: "\e053"; }
-.omg-hey-world:before { content: "\e054"; }
+.omg-hey:before { content: "\e054"; }
 .omg-instapaper:before { content: "\e055"; }
 .omg-osu:before { content: "\e057"; }
+.omg-pronounspage:before { content: "\e058"; }
+.omg-procreate:before { content: "\e059"; }
 
 /* omg.lol Icon Type */
 

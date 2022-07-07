@@ -1715,6 +1715,7 @@ This file contains the icons available in omg.lol profile pages. For more inform
 | procreate                                 | procreate.art                  | omg-icon omg-procreate                                |
 | product-hunt                              | producthunt.com                | fa-brands fa-product-hunt                             |
 | project-diagram                           |                                | fa-solid fa-project-diagram                           |
+| pronounspage                              | pronouns.page                  | omg-icon omg-pronounspage                             |
 | psn                                       |                                | fa-brands fa-playstation                              |
 | pump-medical                              |                                | fa-solid fa-pump-medical                              |
 | pump-soap                                 |                                | fa-solid fa-pump-soap                                 |
@@ -2470,7 +2471,7 @@ This file contains the icons available in omg.lol profile pages. For more inform
 | wpforms                                   |                                | fa-brands fa-wpforms                                  |
 | wpressr                                   |                                | fa-brands fa-wpressr                                  |
 | wrench                                    |                                | fa-solid fa-wrench                                    |
-| writeas                                   | write.as, writeas.com          | omg-icon omg-write.as                                 |
+| writeas                                   | write.as, writeas.com          | omg-icon omg-writeas                                  |
 | wsh                                       |                                | fa-brands fa-wsh                                      |
 | x                                         |                                | fa-solid fa-x                                         |
 | x-ray                                     |                                | fa-solid fa-x-ray                                     |
