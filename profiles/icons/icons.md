@@ -527,7 +527,7 @@ This file contains the icons available in omg.lol profile pages. For more inform
 | cloudspotting                             | cloudspotting.be               | fa-solid fa-cloud                                     |
 | cloudversify                              |                                | fa-brands fa-cloudversify                             |
 | clover                                    |                                | fa-solid fa-clover                                    |
-| clubhouse                                 | clubhouse.com                  | fa-solid fa-hand-wave                                 |
+| clubhouse                                 | clubhouse.com                  | omg-icon omg-clubhouse                                |
 | cmplid                                    |                                | fa-brands fa-cmplid                                   |
 | cny                                       |                                | fa-solid fa-cny                                       |
 | cocktail                                  |                                | fa-solid fa-cocktail                                  |
@@ -765,7 +765,7 @@ This file contains the icons available in omg.lol profile pages. For more inform
 | eye-low-vision                            |                                | fa-solid fa-eye-low-vision                            |
 | eye-slash                                 |                                | fa-solid fa-eye-slash                                 |
 | eyedropper                                |                                | fa-solid fa-eyedropper                                |
-| eyem                                      | eyeem.com                      | omg-icon omg-eyeem                                    |
+| eyeem                                     | eyeem.com                      | omg-icon omg-eyeem                                    |
 | f                                         |                                | fa-solid fa-f                                         |
 | face-angry                                |                                | fa-solid fa-face-angry                                |
 | face-dizzy                                |                                | fa-solid fa-face-dizzy                                |
@@ -1525,7 +1525,7 @@ This file contains the icons available in omg.lol profile pages. For more inform
 | oil-well                                  |                                | fa-solid fa-oil-well                                  |
 | old-republic                              |                                | fa-brands fa-old-republic                             |
 | om                                        |                                | fa-solid fa-om                                        |
-| omglol                                    | omg.lol                        | omg-icon omg-omg-lol                                  |
+| omglol                                    | omg.lol                        | omg-icon omg-prami                                    |
 | opencart                                  |                                | fa-brands fa-opencart                                 |
 | openid                                    |                                | fa-brands fa-openid                                   |
 | opensea                                   | opensea.io                     | omg-icon omg-opensea                                  |
