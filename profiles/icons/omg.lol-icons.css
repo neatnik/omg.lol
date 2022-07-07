@@ -30,7 +30,6 @@
 .omg-notion:before { content: "\e017"; }
 .omg-opensea:before { content: "\e018"; }
 .omg-osk:before { content: "\e019"; }
-.omg-osu:before { content: "\e057"; }
 .omg-pinboard:before { content: "\e020"; }
 .omg-plutonium:before { content: "\e021"; }
 .omg-polywork:before { content: "\e022"; }
@@ -67,7 +66,7 @@
 .omg-fediverse:before { content: "\e053"; }
 .omg-hey-world:before { content: "\e054"; }
 .omg-instapaper:before { content: "\e055"; }
-.omg-y-combinator:before { content: "\e056"; }
+.omg-osu:before { content: "\e057"; }
 
 /* omg.lol Icon Type */
 
@@ -92,20 +91,20 @@
 }
 
 :root, :host {
-	--omg-font-regular: normal 400 1em/1 "omg.lol Icons";
+	--omg-font-regular: normal 900 1em/1 "omg.lol Icons";
 }
 
 @font-face {
 	font-family: 'omg.lol Icons';
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 900;
 	font-display: block;
 	src: url("https://static.omg.lol/profiles/icons/omg.lol-icons.woff2") format("woff2");
 }
 
 .omg-icon {
 	font-family: 'omg.lol Icons';
-	font-weight: 400;
+	font-weight: 900;
 }
 
 :root, :host {
