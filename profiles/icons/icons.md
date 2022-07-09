@@ -246,6 +246,7 @@ This file contains the icons available in omg.lol profile pages. For more inform
 | black-tie                                 |                                | fa-brands fa-black-tie                                |
 | blackberry                                |                                | fa-brands fa-blackberry                               |
 | blackboard                                |                                | fa-solid fa-blackboard                                |
+| blank                                     |                                | omg-icon omg-blank                                    |
 | blender                                   |                                | fa-solid fa-blender                                   |
 | blender-phone                             |                                | fa-solid fa-blender-phone                             |
 | blind                                     |                                | fa-solid fa-blind                                     |
@@ -1333,6 +1334,7 @@ This file contains the icons available in omg.lol profile pages. For more inform
 | list-squares                              |                                | fa-solid fa-list-squares                              |
 | list-ul                                   |                                | fa-solid fa-list-ul                                   |
 | litecoin-sign                             |                                | fa-solid fa-litecoin-sign                             |
+| literal                                   | literal.club                   | omg-icon omg-literal                                  |
 | lobsters                                  | lobste.rs                      | omg-icon omg-lobsters                                 |
 | location                                  |                                | fa-solid fa-location                                  |
 | location-arrow                            |                                | fa-solid fa-location-arrow                            |
