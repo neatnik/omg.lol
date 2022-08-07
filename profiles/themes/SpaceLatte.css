@@ -1,0 +1,50 @@
+/*
+Theme: Space Latte
+Author: Laker J.V Turner (https://laker.tech)
+License: Public domain
+Version: 1.0
+Description: It's Cosmic Latte! As an OMG.LOL theme!! 
+*/
+
+/*
+(laker delete before you push to neatnik/omg.lol thanks)
+
+CL is #FFF8E7
+using #000000 for text + icon readability?
+verification badge:  #91ADB3
+
+*/
+
+body {
+	background: #FFF8E7;
+	color: #000;
+}
+
+main {
+	background: #FFF8E7;
+}
+
+a:link,
+a:visited {
+	color: #000;
+	text-decoration-color: #000;
+	text-decoration: none;
+	border-bottom: 1px dotted #000;
+}
+a:hover,
+a:active {
+	color: #000;
+	text-decoration-color: #000;
+	text-decoration: none;
+	border-bottom: 2px solid #000;
+}
+
+#profile-picture {
+	border-radius: 100%;
+}
+
+.fa-li, .fas, .omg-icon {
+	color: #000;
+	fill: #000;
+	stroke: #000;
+}
