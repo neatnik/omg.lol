@@ -119,6 +119,18 @@
 			"license_url": "https://opensource.org/licenses/MIT",
 			"description": "Cosmic Latte, as an OMG.LOL theme.",
 			"url": "https://meta.omg.lol/meta/profiles/themes/SpaceLatte.css",
-			"repo": "https://github.com/lxjv/omg.lol/blob/main/profiles/themes/SpaceLatte.css"
+			"repo": "https://github.com/lxjv/omg.lol/blob/main/profiles/themes/SpaceLatte.css",
+    },
+		"dracula": {
+			"name": "Dracula",
+			"author": "Bye",
+			"author_url": "https://bye.omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "Dark theme with a touch of purple. Adapted from the Dracula color scheme by @zenorocha",
+			"url": "https://raw.githubusercontent.com/byemc/themes/master/css/profile/dracula.css",
+			"repo": "https://git.byemc.xyz/themes"
+		}
 	}
 }
