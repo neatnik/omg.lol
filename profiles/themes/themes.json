@@ -110,6 +110,17 @@
 			"url": "https://meta.omg.lol/meta/profiles/themes/PurpleGray.css",
 			"repo": "https://github.com/rexulec/omg.lol/tree/main/profiles/themes"
 		},
+		"SpaceLatte": {
+			"name": "Space Latte",
+			"author": "Laker J.V Turner",
+			"author_url": "https://laker.tech",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "Cosmic Latte, as an OMG.LOL theme.",
+			"url": "https://meta.omg.lol/meta/profiles/themes/SpaceLatte.css",
+			"repo": "https://github.com/lxjv/omg.lol/blob/main/profiles/themes/SpaceLatte.css",
+    },
 		"dracula": {
 			"name": "Dracula",
 			"author": "Bye",
