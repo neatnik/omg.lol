@@ -1,0 +1,72 @@
+/*
+
+Theme: Salad
+Author: YukioKoito
+Version: 1.0
+Description: salad theme after the salad.com color scheme
+
+*/
+body {
+  background: #0a2133;
+}
+
+main {
+  border-radius: 60px;
+  background-color: #1f5022;
+}
+
+#profile-picture {
+  border-radius: 50%;
+}
+
+#name {
+  color: #dcebc0;
+}
+
+.fa-badge-check {
+  color: #dcebc0 !important;
+}
+
+.fa-badge-check:hover {
+  color: #53a626 !important;
+}
+
+#pronouns {
+  color: #dcebc0;
+}
+
+#details > .fas {
+  color: #dcebc0;
+}
+
+#details > .fas {
+  color: #dcebc0;
+}
+
+#bio {
+  text-align: center;
+  color: #dcebc0;
+}
+
+a {
+  color: #dcebc0 !important;
+}
+
+a:hover {
+  color: #53a626 !important;
+  text-decoration: underline;
+  text-decoration-color: #53a626;
+}
+
+
+.fa-li {
+  color: #dcebc0 !important;
+}
+
+a:hover > .fa-li {
+  color: #1989ce !important;
+}
+
+#footer {
+  visibility: visible;
+}
