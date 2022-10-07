@@ -79,9 +79,11 @@ osk.sh	osk
 osu.ppy.sh	osu
 patreon.com	patreon
 paypal.*	paypal
+paynym.is	bitcoin
 pinboard.in	pinboard
 pinterest.*	pinterest
 forum.plutonium.pw	plutonium
+podcasts.apple.com	microphone
 polywork.com	polywork
 poly.work	polywork
 postype.com	postype
