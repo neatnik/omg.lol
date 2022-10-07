@@ -14,7 +14,7 @@ There are all kinds of uses. One is as simple as the example above—a “joke o
 
 ## Accessing your PURLs
 
-By default, all of your PURLs work on two domains: `omg.lol` and `url.lol` (which is our [dedicated PURL service domain](/info/persistent-url-service)). This means that for every PURL you create, the following URLs will resolve to it:
+By default, all of your PURLs work on two domains: `omg.lol` and `url.lol` (which is our dedicated PURL service domain). This means that for every PURL you create, the following URLs will resolve to it:
 
 1. `you.omg.lol/purl`
 2. `omg.lol/you/purl`

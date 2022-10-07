@@ -6,11 +6,11 @@ Here are the questions about omg.lol that we hear most often.
 
 ## Can I pay with something other than a credit card?
 
-Absolutely! We can accept PayPal, Venmo, Cash App, and most cryptocurrencies. Just [contact us](mailto:help@omg.lol) to set something up.
+Absolutely! We can accept PayPal, Venmo, and Cash App. Just [contact us](mailto:help@omg.lol) to set something up.
 
 ## What happened to the lifetime plans?
 
-We occasionally offer lifetime plans, but can’t offer them all the time. Keep an eye on our [Twitter](https://twitter.com/omgdotlol) for notices about specials (including lifetime plans).
+We occasionally offer lifetime plans, but can’t offer them all the time. Keep an eye on our [Mastodon](https://social.lol/@omgdotlol) for notices about specials (including lifetime plans).
 
 ## I changed my mind and want a different address? Can you change it?
 
