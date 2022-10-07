@@ -8,7 +8,229 @@
 	},
 	"item": [
 		{
-			"name": "Retrieve a list of PURLs",
+			"name": "Create a new PURL",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"example\", \"url\": \"https://example.com\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/purl",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"purl"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foo"
+						}
+					]
+				},
+				"description": "Create a new PURL"
+			},
+			"response": [
+				{
+					"name": "Create a new PURL",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\": \"example\", \"url\": \"https://example.com\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/purl",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"purl"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foo"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 07 Oct 2022 04:44:28 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "221"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, your PURL has been saved.\",\n        \"name\": \"example\",\n        \"url\": \"https://example.com\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve a specific PURL",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/purl/example",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"purl",
+						"example"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foo"
+						}
+					]
+				},
+				"description": "Retrieve a list of PURLs associated with an address"
+			},
+			"response": [
+				{
+					"name": "Retrieve a specific PURL",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/purl/example",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"purl",
+								"example"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foo"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 07 Oct 2022 04:44:45 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "292"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here’s the PURL you requested.\",\n        \"purl\": {\n            \"name\": \"example\",\n            \"url\": \"https://example.com\",\n            \"counter\": null\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve a list of PURLs for an address",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -44,7 +266,7 @@
 			},
 			"response": [
 				{
-					"name": "Retrieve a list of PURLs",
+					"name": "Retrieve a list of PURLs for an address",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
