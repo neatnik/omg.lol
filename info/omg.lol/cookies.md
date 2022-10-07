@@ -1,0 +1,1 @@
+{"redirect": "legal#cookie-list"}
