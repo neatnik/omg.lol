@@ -1,0 +1,392 @@
+{
+	"info": {
+		"_postman_id": "270ffd19-71a4-4c2d-bb73-2dcb3eb05399",
+		"name": "Email",
+		"description": "Manage the email configuration for omg.lol addresses",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12532425"
+	},
+	"item": [
+		{
+			"name": "Retrieve forwarding address(es)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"destination\": \"adam@neatnik.net\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/email/",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"email",
+						""
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "adam"
+						}
+					]
+				},
+				"description": "Retrieve forwarding address(es)"
+			},
+			"response": [
+				{
+					"name": "List forwarding email address(es)",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"destination\": \"adam@neatnik.net\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/email/",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"email",
+								""
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 10 Jul 2022 07:10:39 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
+							"key": "Content-Length",
+							"value": "380"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=98"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Mail for haydensato@omg.lol will be forwarded to **someone@example.com**.\",\n        \"destination_string\": \"someone@example.com\",\n        \"destination_array\": [\n            \"someone@example.com\"\n        ],\n        \"address\": \"haydensato\",\n        \"email_address\": \"haydensato@omg.lol\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Set forwarding address(es)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"destination\": \"adam@neatnik.net, test@neatnik.net, test@neatnik.net\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/email/",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"email",
+						""
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "adam"
+						}
+					]
+				},
+				"description": "Set forwarding address(es)"
+			},
+			"response": [
+				{
+					"name": "Set a forwarding email address",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"destination\": \"adam@neatnik.net\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/email/",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"email",
+								""
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 10 Jul 2022 04:48:46 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
+							"key": "Content-Length",
+							"value": "378"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Mail for haydensato@omg.lol will be forwarded to **person@example.com**.\",\n        \"destination_string\": \"person@example.com\",\n        \"destination_array\": [\n            \"person@example.com\"\n        ],\n        \"address\": \"haydensato\",\n        \"email_address\": \"haydensato@omg.lol\"\n    }\n}"
+				},
+				{
+					"name": "Set multiple forwarding addresses",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"destination\": \"adam@neatnik.net, adam2@neatnik.net, adam3@neatnik.net\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/email/",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"email",
+								""
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 10 Jul 2022 04:49:18 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
+							"key": "Content-Length",
+							"value": "531"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Mail for haydensato@omg.lol will be forwarded to **person@example.com**, **another_person@example.com**, and **yet_another_person@example.com**.\",\n        \"destination_string\": \"person@example.com, another_person@example.com, yet_another_person@example.com\",\n        \"destination_array\": [\n            \"person@example.com\",\n            \"another_person@example.com\",\n            \"yet_another_person@example.com\"\n        ],\n        \"address\": \"haydensato\",\n        \"email_address\": \"haydensato@omg.lol\"\n    }\n}"
+				},
+				{
+					"name": "Clear a forwarding address",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"destination\": \"\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/email/",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"email",
+								""
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 10 Jul 2022 04:49:38 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
+							"key": "Content-Length",
+							"value": "302"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Mail for haydensato@omg.lol will not be forwarded.\",\n        \"destination_string\": null,\n        \"destination_array\": [],\n        \"address\": \"haydensato\",\n        \"email_address\": \"haydensato@omg.lol\"\n    }\n}"
+				}
+			]
+		}
+	]
+}

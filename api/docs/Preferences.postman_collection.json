@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "92c8ffcc-c0dd-4224-94b8-e1d08e23ecb8",
+		"name": "Preferences",
+		"description": "Manage preferences for omg.lol accounts, addresses, and objects",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12532425"
+	},
+	"item": [
+		{
+			"name": "Save an individual preference",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"item\": \"foo\", \"value\": \"bar\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/preferences/:owner",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"preferences",
+						":owner"
+					],
+					"variable": [
+						{
+							"key": "owner",
+							"value": "adam"
+						}
+					]
+				},
+				"description": "Save a single preference"
+			},
+			"response": [
+				{
+					"name": "Save an individual preference",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"item\": \"foo\", \"value\": \"bar\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/preferences/:owner",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"preferences",
+								":owner"
+							],
+							"variable": [
+								{
+									"key": "owner",
+									"value": "foo"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 05 Oct 2022 03:14:32 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "203"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your preference has been saved.\",\n        \"item\": \"foo\",\n        \"value\": \"bar\"\n    }\n}"
+				}
+			]
+		}
+	]
+}

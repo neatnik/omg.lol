@@ -2,13 +2,13 @@
 	"info": {
 		"_postman_id": "7d197171-6678-4842-a661-a5504d55efa1",
 		"name": "Account",
-		"description": "Obtain information about and make changes to your account.",
+		"description": "Obtain information about and make changes to your account",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "12532425"
 	},
 	"item": [
 		{
-			"name": "Info",
+			"name": "Retrieve account information",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -40,11 +40,11 @@
 						}
 					]
 				},
-				"description": "Get information about your account."
+				"description": "Get information about your account"
 			},
 			"response": [
 				{
-					"name": "Get info",
+					"name": "Retrieve account information",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
@@ -106,7 +106,7 @@
 			]
 		},
 		{
-			"name": "Addresses",
+			"name": "Retrieve addresses for an account",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -142,7 +142,7 @@
 			},
 			"response": [
 				{
-					"name": "Get addresses",
+					"name": "Retrieve addresses for an account",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
@@ -212,7 +212,7 @@
 			]
 		},
 		{
-			"name": "Name",
+			"name": "Retrieve the account name",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -244,11 +244,11 @@
 						}
 					]
 				},
-				"description": "Get the name associated with the account."
+				"description": "Get the name associated with the account"
 			},
 			"response": [
 				{
-					"name": "Get name",
+					"name": "Retrieve the account name",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
@@ -310,7 +310,7 @@
 			]
 		},
 		{
-			"name": "Name",
+			"name": "Set the account name",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -346,11 +346,11 @@
 						}
 					]
 				},
-				"description": "Update the name associated with the account."
+				"description": "Update the name associated with the account"
 			},
 			"response": [
 				{
-					"name": "Name changed",
+					"name": "Set the account name",
 					"originalRequest": {
 						"method": "POST",
 						"header": [],
@@ -416,7 +416,7 @@
 			]
 		},
 		{
-			"name": "Sessions",
+			"name": "Retrieve active sessions",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -448,11 +448,11 @@
 						}
 					]
 				},
-				"description": "Get all sessions associated with the account."
+				"description": "Get all sessions associated with the account"
 			},
 			"response": [
 				{
-					"name": "Get sessions",
+					"name": "Retrieve active sessions",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
@@ -514,7 +514,7 @@
 			]
 		},
 		{
-			"name": "Sessions",
+			"name": "Remove a session",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -551,11 +551,11 @@
 						}
 					]
 				},
-				"description": "Delete a session."
+				"description": "Delete a session"
 			},
 			"response": [
 				{
-					"name": "Session deleted",
+					"name": "Remove a session",
 					"originalRequest": {
 						"method": "DELETE",
 						"header": [],
@@ -622,7 +622,7 @@
 			]
 		},
 		{
-			"name": "Settings",
+			"name": "Retrieve account settings",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -654,11 +654,11 @@
 						}
 					]
 				},
-				"description": "Get settings associated with the account."
+				"description": "Get settings associated with the account"
 			},
 			"response": [
 				{
-					"name": "Get settings",
+					"name": "Retrieve account settings",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
@@ -728,7 +728,7 @@
 			]
 		},
 		{
-			"name": "Settings",
+			"name": "Set account settings",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -764,11 +764,11 @@
 						}
 					]
 				},
-				"description": "Update settings associated with the account."
+				"description": "Update settings associated with the account"
 			},
 			"response": [
 				{
-					"name": "Update settings",
+					"name": "Set account settings",
 					"originalRequest": {
 						"method": "POST",
 						"header": [],

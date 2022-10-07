@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "10d2f2b8-5181-4cc3-8354-a794aa275720",
+		"name": "OAuth",
+		"description": "Endpoints related to omg.lol’s OAuth 2.0 flows",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12532425"
+	},
+	"item": [
+		{
+			"name": "Exchange an authorization code for an access token",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/oauth/?client_id=ea14dafd3e92cbcf93750c35cd81a031&client_secret=ec28b8653f1d98b4eef3f7a20858c43b&redirect_uri=https://neatnik.net/adam/bucket/omgloloauth/&code=f5f07426f08277983eb4010c6a2b10ac&scope=everything",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"oauth",
+						""
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "ea14dafd3e92cbcf93750c35cd81a031",
+							"description": "The client_id of the application requesting authorization"
+						},
+						{
+							"key": "client_secret",
+							"value": "ec28b8653f1d98b4eef3f7a20858c43b",
+							"description": "The client_secret of the application requesting authorization"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://neatnik.net/adam/bucket/omgloloauth/",
+							"description": "The redirect_uri of the application requesting authorization"
+						},
+						{
+							"key": "code",
+							"value": "f5f07426f08277983eb4010c6a2b10ac",
+							"description": "The code given during the user authorization process"
+						},
+						{
+							"key": "scope",
+							"value": "everything",
+							"description": "The scope for the authorization grant"
+						}
+					]
+				},
+				"description": "Take the authorization code provided during the OAuth flow and exchange it for an access token."
+			},
+			"response": [
+				{
+					"name": "Exchange an authorization code for an access token",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/oauth/?client_id=ea14dafd3e92cbcf93750c35cd81a031&client_secret=ec28b8653f1d98b4eef3f7a20858c43b&redirect_uri=https://example.com/&code=f5f07426f08277983eb4010c6a2b10ac&scope=everything",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"oauth",
+								""
+							],
+							"query": [
+								{
+									"key": "client_id",
+									"value": "ea14dafd3e92cbcf93750c35cd81a031",
+									"description": "The client_id of the application requesting authorization"
+								},
+								{
+									"key": "client_secret",
+									"value": "ec28b8653f1d98b4eef3f7a20858c43b",
+									"description": "The client_secret of the application requesting authorization"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "https://example.com/",
+									"description": "The redirect_uri of the application requesting authorization"
+								},
+								{
+									"key": "code",
+									"value": "f5f07426f08277983eb4010c6a2b10ac",
+									"description": "The code given during the user authorization process"
+								},
+								{
+									"key": "scope",
+									"value": "everything",
+									"description": "The scope for the authorization grant"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 06 Oct 2022 23:47:58 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "112"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"access_token\": \"b3086f894a176a3a7e702decd9b97bbc\",\n    \"token_type\": \"Bearer\",\n    \"scope\": \"everything\"\n}"
+				}
+			]
+		}
+	]
+}
