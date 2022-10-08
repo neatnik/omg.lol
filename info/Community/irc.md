@@ -10,26 +10,24 @@ To kick things off, visit your [Account Settings](https://home.omg.lol/account) 
 
 ### Connecting
 
-To use IRC, you need a _client_ that can connect to the _server_. There are [many clients](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) available, but we’re pleased to offer a simple web-based client, hosted on the social.lol server, called The Lounge.
+To use IRC, you need a _client_ that can connect to the _server_. There are [many clients](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) available, all with different features.
 
-As soon as you signed up in the previous step, we created an account for you on our instance of The Lounge (and also registered you with NickServ), and The Lounge brought your connection online a moment later. You can visit https://lounge.social.lol and log in with the username and password that you just received above, and then you’ll be good to go. If you don’t want to use The Lounge as your IRC client, that’s cool—just pop in there and disconnect so you can free up your nick when you connect with another client.
+You can point any client at `irc.social.lol` (port `6667` for plaintext transfer, or port `6697` for a secure connection). Be sure to configure your connection with a server password (using the same password provided above) to authenticate when connecting. If you don’t include a password, you’ll be disconnected. 😟
 
-You can point any client at `irc.social.lol` (port `6667` for plaintext, or port `6697` for a secure connection). Be sure to include your password to automatically authenticate with NickServ (see below). If you don’t include a password, you’ll be disconnected.
+### Hiding your IP address
 
-### Authentication
-
-If you’re using The Lounge, you don’t need to worry about any of this—we’ve taken care of it for you. If you’re using another client, be sure to add your password when setting up your connection (there’s usually a “password” or “server password” field when setting up your connection — use that, and drop in the password that you received above). This will ensure that you’re properly authenticated to the server and will prevent your connection from being dropped.
+If you’d like to hide your connection details, you can request a “vhost” or virtual hostname. Just type `/msg hostserv request [vhost]`, where [vhost] is whatever virtual hostname you’d like to use. You can be creative here, within reason. Once you’ve done that, let Adam know so that he can approve it (`/msg adam please approve my vhost request kthxbai`).
 
 ### Channels
 
 Here are some of the popular channels on the server:
 
-  * **#general**, for general chatter about omg.lol or anything
-  * **#random**, for pretty much anything
+  * **#general**, for general chatter,  about omg.lol or other stuff too
+  * **#random**, for random, off-the-wall stuff
   * **#firehose**, for notices, announcements, inbound webhooks, and other noisy but interesting stuff
   * **#web**, for web development, profile customization, or whatever other webby thing you might want to chat about
-  * **#email**, for discussion of the best part of the internet
-  * **#help**, for when you just need some assistance
+  * **#email**, for discussion of one of the best things about the internet
+  * **#help**, for customer service and support
 
 You can also create your own channels or join some that other have created. To view a list of all channels in use, type `/list`.
 
