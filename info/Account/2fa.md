@@ -1,1 +1,0 @@
-{"redirect": "two-factor-authentication"}

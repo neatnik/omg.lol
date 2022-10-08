@@ -1,1 +1,0 @@
-{"redirect": "legal#terms-of-service"}
