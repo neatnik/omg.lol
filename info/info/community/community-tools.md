@@ -1,7 +1,7 @@
 Description: Fun tools for omg.lol, made by our amazing community  
 Last Updated: 2022-10-08 01:52 AM EDT
 
-# Community tools
+# Community Tools
 
 The omg.lol community makes really cool stuff. Here’s a list of some great things made by our awesome members for omg.lol.
 
