@@ -1,11 +1,13 @@
 Description: social.lol, our Statuslog service  
-Last Updated: 2022-10-08 01:52 AM EDT
+Last Updated: 2022-10-09 01:07 AM EDT
 
 # Statuslog
 
-We run a “statuslog” at [status.lol](https://status.lol) for omg.lol members.
+We run a “statuslog” for omg.lol members at [status.lol](https://status.lol). It’s fun!
 
-(More info coming soon.)
+## What’s a statuslog?
+
+It’s like a weblog, but it’s designed for short status updates. Use it to share what’s happening at the moment: what you’re reading or watching, who you’re hanging out with, what you’re munching on, or maybe how you’re feeling. That kind of thing.
 
 ## Embedding your status elsewhere
 
