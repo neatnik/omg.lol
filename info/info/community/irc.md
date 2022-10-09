@@ -1,5 +1,5 @@
 Description: All about our awesome IRC server  
-Last Updated: 2022-10-08 01:52 AM EDT
+Last Updated: 2022-10-09 12:17 AM EDT
 
 # Internet Relay Chat (IRC)
 
@@ -15,9 +15,15 @@ To use IRC, you need a _client_ that can connect to the _server_. There are [man
 
 You can point any client at `irc.social.lol` (port `6667` for plaintext transfer, or port `6697` for a secure connection). Be sure to configure your connection with a server password (using the same password provided above) to authenticate when connecting. If you don’t include a password, you’ll be disconnected. 😟
 
+<div class="container gray-7-bg gray-1-fg">
+
+We ran a hosted instance of [The Lounge](https://thelounge.chat) through October 8, 2022. If you’re looking for a new IRC client, [there are plenty available](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients)!
+
+</div>
+
 ### Hiding your IP address
 
-If you’d like to hide your connection details, you can request a “vhost” or virtual hostname. Just type `/msg hostserv request [vhost]`, where [vhost] is whatever virtual hostname you’d like to use. You can be creative here, within reason. Once you’ve done that, let Adam know so that he can approve it (`/msg adam please approve my vhost request kthxbai`).
+If you’d like to hide your connection details, you can request a _vhost_ or _virtual hostname_. Just type `/msg hostserv request [vhost]`, where `[vhost]` is whatever virtual hostname you’d like to use. You can be creative here, within reason. Once you’ve done that, let Adam know so that he can approve it (`/msg adam please approve my vhost request kthxbai`).
 
 ### Channels
 
