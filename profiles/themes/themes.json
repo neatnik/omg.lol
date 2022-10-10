@@ -132,5 +132,16 @@
 			"url": "https://raw.githubusercontent.com/byemc/themes/master/css/profile/dracula.css",
 			"repo": "https://git.byemc.xyz/themes"
 		}
-	}
+	},
+		"emerald-isle": {
+			"name": "Emerald Isle",
+			"author": "Bye",
+			"author_url": "https://bye.omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "island lol",
+			"url": "https://raw.githubusercontent.com/byemc/themes/master/css/profile/emerald-isle.css",
+			"repo": "https://git.byemc.xyz/themes"
+		}
 }
