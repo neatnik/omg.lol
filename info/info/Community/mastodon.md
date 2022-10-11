@@ -1,7 +1,7 @@
 Description: Read all about our Mastodon instance  
-Last Updated: 2022-10-08 01:52 AM EDT
+Last Updated: 2022-10-11 12:16 AM EDT
 
-# Our Mastodon instance
+# Mastodon
 
 We run a Mastodon instance on [social.lol](https://social.lol), and all omg.lol members are welcome to join. You can create a new account on your [account settings](/account) page.
 
