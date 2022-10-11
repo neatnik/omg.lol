@@ -1,0 +1,202 @@
+/*
+Theme: Emerald Isle
+Author: Bye (@_byemc)
+License: MIT
+Version: 1.0
+Description: island lol
+*/
+
+@import url('https://cdn-a.omg.lol/css/type.css');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1.2em;
+	margin: 0;
+	padding: 2em;
+	font-family: 'Mint Grotesk', sans-serif;
+	font-weight: 300;
+	background: #00b034;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	overflow-wrap: break-word;
+	color: #ececec;
+}
+
+main {
+	display: block;
+	max-width: 30em;
+	border-radius: 1em;
+	margin: 0 auto;
+	text-align: center;
+	background: #21b121;
+	padding: 2em;
+}
+
+h1 {
+	margin: 0;
+}
+
+#profile-items {
+	/*border-top: 1px solid #666;*/
+	padding: .5em 0 0 0;
+	margin: 1.5em 0 0 0;
+}
+
+#profile-items :is(h1, h2, h3, h4, h5, h6) {
+	text-align: left;
+	margin: 0;
+}
+
+#profile-items h1 { font-size: 1.2em; }
+#profile-items h2 { font-size: 1.2em; }
+#profile-items h3 { font-size: 1.2em; }
+#profile-items h4 { font-size: 1.1em; }
+#profile-items h5 { font-size: 1.1em; }
+#profile-items h6 { font-size: 1.1em; }
+
+#profile-picture-container {
+	margin: auto;
+	margin-bottom: 1em;
+}
+
+#profile-picture {
+	border-radius: 0.25em;
+	height: 8.7em;
+}
+
+#pronouns {
+	margin: 0;
+	font-weight: 400;
+	color: #a7d4a7;
+}
+
+#pronouns a:link,
+#pronouns a:visited,
+#pronouns a:hover,
+#pronouns a:active {
+	color: var(--comment);
+}
+
+#details {
+	margin: 1em 0;
+}
+
+#location {
+	display: inline-block;
+}
+
+#occupation {
+	display: inline-block;
+}
+
+#location, #occupation {
+	margin: .5em;
+	padding: 0 .5em;
+}
+
+#bio {
+	text-align: center;
+	font-size: 110%;
+	line-height: 140%;
+}
+
+#footer {
+	margin: 0;
+	margin-top: 5em;
+	font-size: 90%;
+	font-weight: 300;
+	color: #a7d4a7;
+}
+
+#footer a:link,
+#footer a:visited,
+#footer a:hover,
+#footer a:active {
+	color: #f8e1d4;
+	text-decoration: none;
+	border: 0;
+}
+
+#footer .fa-plug {
+	transform: rotate(0deg);
+	transition: all 0.3s ease;
+}
+
+#footer:hover .fa-plug {
+	transform: rotate(90deg);
+	transition: all 0.3s ease;
+}
+
+ul {
+	text-align: left;
+}
+
+li {
+	line-height: 170%;
+}
+
+a:link,
+a:visited {
+	color: #f8e1d4;
+	border-bottom: 1px dotted #f8e1d4;
+}
+a:hover,
+a:active {
+	color: #f8e1d4;
+	border-bottom: 2px solid #f8e1d4;
+}
+
+.omg-icon-li {
+	position: relative;
+	border: 0px solid #f8e1d4;
+}
+
+.omg-icon {
+	display: inline-block;
+	width: 1em;
+	position: absolute;
+	top: -0.1em;
+	left: -1.5em;
+}
+
+.omg-icon svg {
+	width: 100%;
+	height: 1em;
+	vertical-align: middle;
+}
+
+.omg-icon::before {
+	display: none;
+}
+
+/*
+@media (prefers-color-scheme: dark) {
+	.omg-icon svg {
+		fill: #fff;
+	}
+}
+*/
+
+@media (prefers-color-scheme: dark) {
+	.omg-icon.rainbow-me svg {
+		fill: #f8e1d4;
+	}
+}
+
+@media (max-width: 500px) {
+	body {
+		font-size: 1em;
+		padding: 1em;
+	}
+	main {
+		padding: 1.5em;
+	}
+}
+
+h1#name a i.fa-badge-check {
+	color: #ff965e !important; 
+}
