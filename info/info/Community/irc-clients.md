@@ -1,5 +1,5 @@
 Description: IRC clients used by the community  
-Last Updated: 2022-10-10 10:54 PM EDT
+Last Updated: 2022-10-11 01:03 AM EDT
 
 # IRC Clients
 
@@ -22,3 +22,7 @@ Since IRC has been around for a while, there are [a ton of clients](https://en.w
 ## IRCCloud
 
 [IRCCloud](https://www.irccloud.com/) is a service that offers a persistent cloud connection to the IRC server, a web interface, mobile apps, and a built-in bouncer (so you can also connect with any other client you’d like). It costs $50/year, but configuration is straightforward and the service is slick.
+
+## Convos
+
+[Convos](https://convos.chat/) is a open-source web-based IRC client that offers a persistent connection to the IRC server, video chatting via Jitsi and similar features to IRCCloud. It does require you to provide your own server to host the client, but the configuration is straightforward and should get you started with it within 5-10 minutes.
