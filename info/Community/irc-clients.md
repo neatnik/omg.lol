@@ -26,3 +26,11 @@ Since IRC has been around for a while, there are [a ton of clients](https://en.w
 ## Convos
 
 [Convos](https://convos.chat/) is a open-source web-based IRC client that offers a persistent connection to the IRC server, video chatting via Jitsi and similar features to IRCCloud. It does require you to provide your own server to host the client, but the configuration is straightforward and should get you started with it within 5-10 minutes.
+
+## The Lounge
+
+[The Lounge](https://thelounge.chat) is a web-based IRC client that offers an open-source alternative to IRCCloud. You do need your own server to host it, but some members of the omg.lol community let other members use theirs. Contact [Bye](https://bye.omg.lol) for more details.
+
+### Configuration
+
+On the Connect screen in The Lounge, use `irc.social.lol` as the server, and your IRC password in the *server password* slot. See more on the [IRC help page](/help/irc)
