@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Major Bug Report
+    url: mailto:bugs@omg.lol
+    about: Report critical/major bugs and vulns to the mailbox
