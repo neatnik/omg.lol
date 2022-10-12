@@ -1,4 +1,4 @@
 documentation:
   - any: ['info/**/*.md', '!info/README.md']
-profile:
+Profiles:
   - any: ['profiles/themes/*.css']
