@@ -3,3 +3,6 @@ contact_links:
   - name: Major Bug Report
     url: https://home.omg.lol/info/bugs
     about: Report critical/major bugs or vulnerabilities
+  - name: Feedback and suggestions
+    url: https://github.com/neatnik/omg.lol/discussions/categories/ideas
+    about: Share ideas for omg.lol or feedback on the service
