@@ -15,4 +15,4 @@ We don’t support sending emails directly from your omg.lol address (yourname@o
 
 ## Emailhooks
 
-Soon, you’ll be able to turn over your inbound email to our [Emailhooks](/info/emailhooks) feature, enabling powerful automated processing of emails.
+Soon, you’ll be able to turn over your inbound email to our [mailhooks](/info/mailhooks) feature, enabling powerful automated processing of emails.
