@@ -10,7 +10,7 @@ Description: my eyes (included as a joke in Windows 3.1)
 
 body {
 	background: #f00;
-	color: white;
+	color: black;
 }
 
 main {
@@ -19,21 +19,17 @@ main {
 
 a:link,
 a:visited {
-	color: white;
-	text-decoration-color: white;
+	color: black;
+	text-decoration-color: rgb(20, 20, 20);
 	text-decoration: none;
-	border-bottom: 1px dotted white;
+	border-bottom: 1px dotted rgb(20, 20, 20);
 }
 a:hover,
 a:active {
-	color: whitesmoke;
-	text-decoration-color: whitesmoke;
+	color: rgb(20, 20, 20);
+	text-decoration-color: rgb(20, 20, 20);
 	text-decoration: none;
-	border-bottom: 2px solid whitesmoke;
-}
-
-#profile-picture {
-	border-radius: 100%;
+	border-bottom: 2px solid rgb(20, 20, 20)
 }
 
 .fa-li, .fas, .omg-icon {
