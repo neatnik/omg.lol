@@ -1,0 +1,43 @@
+/*
+my eyes
+
+Theme: Hot Dog Stand
+Author: Bye
+License: Public domain
+Version: 1.0
+Description: my eyes (included as a joke in Windows 3.1)
+*/
+
+body {
+	background: #f00;
+	color: white;
+}
+
+main {
+	background: #ff0;
+}
+
+a:link,
+a:visited {
+	color: white;
+	text-decoration-color: white;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+a:hover,
+a:active {
+	color: whitesmoke;
+	text-decoration-color: whitesmoke;
+	text-decoration: none;
+	border-bottom: 2px solid whitesmoke;
+}
+
+#profile-picture {
+	border-radius: 100%;
+}
+
+.fa-li, .fas, .omg-icon {
+	color: #f00;
+	fill: #f00;
+	stroke: #f00;
+}
