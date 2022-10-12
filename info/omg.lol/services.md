@@ -3,7 +3,7 @@ Last Updated: 2022-10-08 01:52 AM EDT
 
 # Our Services
 
-omg.lol is a fun collection of services! Here’s some info about each of them
+omg.lol is a fun collection of services! Here’s some info about each of them.
 
 ## <i class="fa-duotone fa-fw fa-browser"></i> Website
 

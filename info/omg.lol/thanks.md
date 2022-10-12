@@ -1,5 +1,5 @@
 Description: Thanks to all of the awesome people who have helped us out!  
-Last Updated: 2022-10-08 01:52 AM EDT}
+Last Updated: 2022-10-08 01:52 AM EDT
 
 # Thanks / Hall of Fame
 
