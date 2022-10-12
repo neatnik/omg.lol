@@ -1,5 +1,5 @@
 name: Bugs (non-major)
-description: Report pesky bugs here
+description: Report any problems or pesky bugs
 title: "[Bug] "
 labels: [bug]
 body:

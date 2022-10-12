@@ -1,0 +1,10 @@
+name: Feedback
+description: Share your ideas for improvement or general feedback
+title: "[Feedback] "
+labels: [feedback]
+body:
+- type: textarea
+  attributes:
+	label: Feedback
+  validations:
+	required: true
