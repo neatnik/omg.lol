@@ -1,5 +1,5 @@
 Description: All about our awesome IRC server  
-Last Updated: 2022-10-09 12:17 AM EDT
+Last Updated: 2022-10-10 10:54 PM EDT
 
 # Internet Relay Chat (IRC)
 
@@ -11,19 +11,25 @@ To kick things off, visit your [Account Settings](https://home.omg.lol/account) 
 
 ### Connecting
 
-To use IRC, you need a _client_ that can connect to the _server_. There are [many clients](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) available, all with different features.
+To use IRC, you need a _client_ that can connect to the _server_. There are [many clients](/info/extra/irc-clients) available, all with different features.
 
 You can point any client at `irc.social.lol` (port `6667` for plaintext transfer, or port `6697` for a secure connection). Be sure to configure your connection with a server password (using the same password provided above) to authenticate when connecting. If you don’t include a password, you’ll be disconnected. 😟
 
 <div class="container gray-7-bg gray-1-fg">
 
-We ran a hosted instance of [The Lounge](https://thelounge.chat) through October 8, 2022. If you’re looking for a new IRC client, [there are plenty available](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients)!
+We ran a hosted instance of [The Lounge](https://thelounge.chat) through October 8, 2022. If you’re looking for a new IRC client, [there are plenty available](info/extra/irc-clients)!
+
+</div>
+
+<div class="container cyan-3-bg gray-9-fg">
+
+**If you keep getting disconnected when you join**, be sure to include the correct server password in your client configuration. Also note that you won’t be able to connect from two different clients at the same time (the second connection won’t be able to authenticate because your nick is in use by the first). So if you’re experimenting with clients, be sure to disconnect from one before trying another! 
 
 </div>
 
 ### Hiding your IP address
 
-If you’d like to hide your connection details, you can request a _vhost_ or _virtual hostname_. Just type `/msg hostserv request [vhost]`, where `[vhost]` is whatever virtual hostname you’d like to use. You can be creative here, within reason. Once you’ve done that, let Adam know so that he can approve it (`/msg adam please approve my vhost request kthxbai`).
+If you’d like to hide your connection details, you can request a _vhost_ or _virtual hostname_. Just ask our friendly bot, penelope, in any channel she’s in: `penelope: set my vhost to [vhost]`, where `[vhost]` is whatever virtual hostname you’d like to use. You can be creative here, within reason.
 
 ### Channels
 

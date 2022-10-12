@@ -1,0 +1,15 @@
+name: Bugs (non-major)
+description: Report any problems or pesky bugs
+title: "[Bug] "
+labels: [bug]
+body:
+- type: textarea
+  attributes:
+    label: Bug Description
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Steps to Reproduce
+  validations:
+    required: false
