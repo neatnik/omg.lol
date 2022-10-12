@@ -29,7 +29,7 @@ We ran a hosted instance of [The Lounge](https://thelounge.chat) through October
 
 ### Hiding your IP address
 
-If you’d like to hide your connection details, you can request a _vhost_ or _virtual hostname_. Just type `/msg hostserv request [vhost]`, where `[vhost]` is whatever virtual hostname you’d like to use. You can be creative here, within reason. Once you’ve done that, let Adam know so that he can approve it (`/msg adam please approve my vhost request kthxbai`).
+If you’d like to hide your connection details, you can request a _vhost_ or _virtual hostname_. Just ask our friendly bot, penelope, in any channel she’s in: `peneleope: set my vhost to [vhost]`, where `[vhost]` is whatever virtual hostname you’d like to use. You can be creative here, within reason.
 
 ### Channels
 
