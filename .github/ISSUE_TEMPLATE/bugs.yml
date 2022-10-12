@@ -1,15 +1,15 @@
-name: Suggestions for improvement, ideas, or minor bugs
-description: Share your feedback or bugs/issues here
-title: "[Bug]: "
+name: Bugs (non-major)
+description: Report pesky bugs here
+title: "[Bug] "
 labels: [bug]
 body:
 - type: textarea
   attributes:
-    label: Describe the Bug
+    label: Bug Description
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Reproduction Steps (Optional)
+    label: Steps to Reproduce
   validations:
     required: false
