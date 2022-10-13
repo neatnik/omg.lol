@@ -11,4 +11,4 @@ Minor bugs or common annoyances can also be submitted as an [issue in our GitHub
 
 More significant bugs or security vulnerabilities should be reported via the mailbox above. Thank you for your help with responsibly disclosing such issues.
 
-We maintain a [Hall of Fame](https://meta.omg.lol/info/thanks) page to recognize each person who reports bugs and acknowledge their contributions.
+We maintain a [Hall of Fame](/info/thanks) page to recognize each person who reports bugs and acknowledge their contributions.
