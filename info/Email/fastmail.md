@@ -19,6 +19,7 @@ With Fastmail, you can take your omg.lol service to the next level and actually 
 <div class="box buttoned rounded padded violet-2-bg">
 	<h3>Already a Fastmail customer?</h3>
 	<p>You can start using your omg.lol address with your existing service right now.</p>
+	<p><a class="button violet-7-bg white-fg" href="#setup">Read on below</a></p>
 </div>
 
 </div>
