@@ -61,3 +61,5 @@ ko-fi	e060
 clarus	e061
 session	e062
 verified	e063
+wikimedia-community	e064
+mediawiki	e065
