@@ -3,10 +3,6 @@ Last Updated: 2022-10-08 01:52 AM EDT
 
 # Pastebin
 
-<div class="container rounded yellow-5-bg black-fg">
-<i class="fa-solid fa-flask"></i> <strong>This is a beta feature.</strong> Things might not work perfectly all the time!
-</div>
-
 The internet didn’t ask for another pastebin, and it certainly didn’t _need_ one, but here we are. As is customary around here, we found a cool domain (`paste.lol` in this case) and decided to put it to good use.
 
 Each omg.lol address has its own independently-managed pastebin, accessible at `yourname.paste.lol` and fully managed within omg.lol.
