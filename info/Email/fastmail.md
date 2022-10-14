@@ -1,5 +1,5 @@
 Description: omg.lol loves Fastmail, and you can too  
-Last Updated: 2022-10-08 01:52 AM EDT
+Last Updated: 2022-10-14 3:18 PM EDT
 
 # omg.lol & Fastmail
 
@@ -19,12 +19,13 @@ With Fastmail, you can take your omg.lol service to the next level and actually 
 <div class="box buttoned rounded padded violet-2-bg">
 	<h3>Already a Fastmail customer?</h3>
 	<p>You can start using your omg.lol address with your existing service right now.</p>
+</div>
 
 ## Setup
 
 Fastmail customers enjoy the amazing perk of being able to send email from their omg.lol addresses. It’s so much fun.
 
-If you’re not already a Fastmail customer, you can [fix that in mere seconds](/help/fastmail). If you’re already enjoying their service, read on to learn how to get things up and running. (It looks like a lot of steps, but it’s just a few clicks!)
+If you’re not already a Fastmail customer, you can [fix that in mere seconds](http://fastmail.com/omglol/). If you’re already enjoying their service, read on to learn how to get things up and running. (It looks like a lot of steps, but it’s just a few clicks!)
 
 ### First: Point your omg.lol email to Fastmail
 
