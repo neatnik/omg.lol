@@ -21,6 +21,8 @@ With Fastmail, you can take your omg.lol service to the next level and actually 
 	<p>You can start using your omg.lol address with your existing service right now.</p>
 </div>
 
+</div>
+
 ## Setup
 
 Fastmail customers enjoy the amazing perk of being able to send email from their omg.lol addresses. It’s so much fun.
