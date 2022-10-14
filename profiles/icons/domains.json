@@ -6,8 +6,9 @@
     "archiveofourown.org": "ao3",
     "backloggery.com": "backloggery",
     "bandcamp.com": "bandcamp",
-    "behance.net": "behance",
+    "behance.net": "behance";
     "bitbucket.org": "bitbucket",
+    "bilibili.*": "bilibili",
     "blogger.com": "blogger",
     "bookshop.org": "bookshop",
     "buymeacoffee.com": "buymeacoffee",
@@ -84,6 +85,7 @@
     "paynym.is": "bitcoin",
     "pinboard.in": "pinboard",
     "pinterest.*": "pinterest",
+    "play.google.com": "google-play",
     "forum.plutonium.pw": "plutonium",
     "podcasts.apple.com": "microphone",
     "polywork.com": "polywork",
