@@ -389,7 +389,7 @@ Louisville, KY 40222</p>
 
 
 
-<div class="legal container white-bg black-fg">
+<div class="legal container gray-2-bg black-fg">
 
 <h2 id="privacy-policy">Privacy Policy</h2>
 
@@ -563,7 +563,7 @@ Louisville, KY 40222</p>
 
 
 
-<div class="legal container white-bg black-fg">
+<div class="legal container gray-2-bg black-fg">
 
 <h2 id="dmca-policy">DMCA Policy</h2>
 
@@ -640,7 +640,7 @@ Louisville, KY 40222<br>
 
 
 
-<div class="legal container white-bg black-fg">
+<div class="legal container gray-2-bg black-fg">
 
 <h2 id="acceptable-use-policy">Acceptable Use Policy</h2>
 
@@ -752,7 +752,7 @@ Louisville, KY 40222<br>
 </div>
 
 
-<div class="legal container white-bg black-fg">
+<div class="legal container gray-2-bg black-fg">
 
 <h2 id="cookie-list">Cookie List</h2>
 
