@@ -11,15 +11,15 @@ With Fastmail, you can take your omg.lol service to the next level and actually 
 
 <div class="flex">
 
-<div class="box buttoned rounded padded violet-2-bg">
+<div class="box rounded padded violet-2-bg">
 	<h3>Ready to sign up?</h3>
 	<p>You’re about to enjoy the best email experience of your life.</p>
 	<p><a class="button violet-7-bg white-fg" href="https://www.fastmail.com/omglol/">Let’s do this</a></p>
 </div>
-<div class="box buttoned rounded padded violet-2-bg">
+<div class="box rounded padded violet-2-bg">
 	<h3>Already a Fastmail customer?</h3>
 	<p>You can start using your omg.lol address with your existing service right now.</p>
-	<p><a class="button violet-7-bg white-fg" href="#setup">Read on below</a></p>
+	<p><strong>Read on below!</strong></p>
 </div>
 
 </div>
