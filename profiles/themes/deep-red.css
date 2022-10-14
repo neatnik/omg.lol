@@ -1,0 +1,41 @@
+/*
+Theme: Deep Red
+Author: Laker Turner (https://laker.tech)
+License: Public domain
+Version: 1.0
+Description: What happens when you put the Cherry Blossom theme through a dark mode extension!
+*/
+
+body {
+	background: #4e0313;
+	color: #fff8e7;
+}
+
+main {
+	background: #5e0012;
+}
+
+a:link,
+a:visited {
+	color: #fff8e7;
+	text-decoration-color: #fff8e7;
+	text-decoration: none;
+	border-bottom: 1px dotted #fff8e7;
+}
+a:hover,
+a:active {
+	color: #fff8e7;
+	text-decoration-color: #fff8e7;
+	text-decoration: none;
+	border-bottom: 2px solid #fff8e7;
+}
+
+#profile-picture {
+	border-radius: 100%;
+}
+
+.fa-li, .fas, .omg-icon {
+	color: #fff8e7;
+	fill: #fff8e7;
+	stroke: #fff8e7;
+}

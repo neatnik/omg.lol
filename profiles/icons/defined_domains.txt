@@ -6,6 +6,8 @@ archiveofourown.org	ao3
 backloggery.com	backloggery
 bandcamp.com	bandcamp
 behance.net	behance
+bilibili	bilibili
+bitbucket.org	bitbucket
 blogger.com	blogger
 bookshop.org	bookshop
 buymeacoffee.com	buymeacoffee

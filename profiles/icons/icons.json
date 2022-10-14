@@ -1913,5 +1913,7 @@
     "ko-fi": "omg-icon omg-ko-fi",
     "clarus": "omg-icon omg-clarus",
     "session": "omg-icon omg-session",
-    "verified": "omg-icon omg-verified"
+    "verified": "omg-icon omg-verified",
+    "wikimedia-community": "omg-icon omg-wikimedia-community",
+    "mediawiki": "omg-icon omg-mediawiki"
 }

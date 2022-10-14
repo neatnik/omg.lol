@@ -61,3 +61,5 @@
 .omg-clarus:before { content: "\e061"; }
 .omg-session:before { content: "\e062"; }
 .omg-verified:before { content: "\e063"; }
+.omg-wikimedia-community:before { content: "\e064"; }
+.omg-mediawiki:before { content: "\e065"; }

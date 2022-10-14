@@ -12,12 +12,13 @@ The omg.lol community makes really cool stuff. Here’s a list of some great thi
 
 ## Statuslog updaters
 
-- [Drafts Action](https://actions.getdrafts.com/a/2DT)
-- [Discord Bot](https://github.com/mmattbtw/discord-status.lol)
-- [Telegram Bot](https://t.me/omgdotlolbot)
+- [Statuslog Mobile for Android](https://play.google.com/store/apps/details?id=lol.omg.skelly.statuslog) by [Skelly](https://skelly.omg.lol)
+- [Drafts Action](https://actions.getdrafts.com/a/2DT) by [Jason](https://jason.omg.lol)
+- [Discord Bot](https://github.com/mmattbtw/discord-status.lol) by [mmatt](https://mm.omg.lol)
+- [Telegram Bot](https://t.me/omgdotlolbot) by [Ediz](https://ediz.omg.lol)
 
 ## Found something else out there?
 
-If you've found something great relating to omg.lol, send it to [Laker](https://laker.omg.lol) and she'll add it to this list! Anyone who does will win A Prize!<sup>1</sup>
+If you've found something great relating to omg.lol, Add it [here](https://github.com/neatnik/omg.lol/discussions/242)! Anyone who does will win a prize.<sup>1</sup>
 
-<small><sup>1</sup> probably not, but hey she might!</small>
+<small><sup>1</sup> probably not, but hey we might!</small>
