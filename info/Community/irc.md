@@ -1,5 +1,5 @@
 ---
-Description: All about our awesome IRC server  
+Description: All about our awesome IRC server
 Last Updated: 2022-10-10 10:54 PM EDT
 ---
 
@@ -37,8 +37,9 @@ If you’d like to hide your connection details, you can request a _vhost_ or _
 
 Here are some of the popular channels on the server:
 
-  * **#general**, for general chatter,  about omg.lol or other stuff too
+  * **#general**, for general chatter about anything
   * **#random**, for random, off-the-wall stuff
+  * **omg.lol**, for all things omg.lol
   * **#firehose**, for notices, announcements, inbound webhooks, and other noisy but interesting stuff
   * **#web**, for web development, profile customization, or whatever other webby thing you might want to chat about
   * **#email**, for discussion of one of the best things about the internet
