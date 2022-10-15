@@ -13,8 +13,8 @@ It looks like this:
 
 <div class="box basis rounded yellow-3-bg gray-9-fg" style="flex-grow: 1; padding: .5em;">
 <h2 class="breakable"><i style="font-size: 80%;" class="fa-solid fa-fw fa-at"></i>foobar</h2>
-<p class="gray-9-bg" style="width: 80%">.</p>
-<p class="gray-9-bg" style="width: 70%">.</p>
+<p class="gray-7-bg rounded" style="width: 80%; margin: .5em 0 0 0;">.</p>
+<p class="gray-7-bg rounded" style="width: 60%; margin: .5em 0 0 0;">.</p>
 </div>
 
 <div class="box basis rounded basis pink-2-bg gray-9-fg" style="--basis: 12em; padding: .5em;">
