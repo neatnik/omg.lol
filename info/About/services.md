@@ -1,7 +1,7 @@
 Description: All about what we offer  
 Last Updated: 2022-10-08 01:52 AM EDT
 
-# Our Services
+# Services Overview
 
 omg.lol is a fun collection of services! Here’s some info about each of them.
 
