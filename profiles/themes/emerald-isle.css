@@ -3,10 +3,10 @@ Theme: Emerald Isle
 Author: Bye (@_byemc)
 License: MIT
 Version: 1.0
-Description: island lol
+Description: Based on the country I live in, a green blob surrounded with blue.
 */
 
-@import url('https://cdn-a.omg.lol/css/type.css');
+@import url('https://static.omg.lol/css/type.css');
 
 * {
 	box-sizing: border-box;
