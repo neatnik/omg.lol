@@ -1,11 +1,13 @@
 ---
 Description: Like webhooks, but for email  
-Last Updated: 2022-10-08 01:52 AM EDT
+Last Updated: 2022-10-15 12:59 AM EDT
 ---
 
 # Mailhooks
 
-<div class="message yellow-4-bg"><div class="message-icon"><i class="fa-regular fa-flask"></i></div><div class="message-text">This is an experimental beta feature.</strong> It’s brand new and in pretty rough shape, and it will take time to improve. <a href="/info/contact">Please report any problems</a> so we can make it better!</div></div>
+<div class="container rounded yellow-5-bg black-fg">
+<i class="fa-solid fa-flask"></i> <strong>This feature isn’t ready yet.</strong>
+</div>
 
 A **mailhook** is an email interface to external things, like APIs (think email + webhook). Email comes in on one side, and a structured API request comes out on the other. Mailhooks are a great way to integrate email into a workflow in a structured and repeatable way, moving data from a message into an external system with relative ease. In theory, anyway.
 
