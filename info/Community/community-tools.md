@@ -13,7 +13,7 @@ The omg.lol community makes really cool stuff. Here’s a list of some great thi
 ## Statuslog updaters
 
 - [Statuslog Mobile for Android](https://play.google.com/store/apps/details?id=lol.omg.skelly.statuslog) by [Skelly](https://skelly.omg.lol)
-- [Drafts Action](https://actions.getdrafts.com/a/2DT) by [Jason](https://jason.omg.lol)
+- [Drafts Action](https://actions.getdrafts.com/a/2DT) by [podiboq](https://podiboq.omg.lol)
 - [Discord Bot](https://github.com/mmattbtw/discord-status.lol) by [mmatt](https://mm.omg.lol)
 - [Telegram Bot](https://t.me/omgdotlolbot) by [Ediz](https://ediz.omg.lol)
 
