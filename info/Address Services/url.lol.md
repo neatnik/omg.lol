@@ -1,5 +1,7 @@
+---
 Description: Meet omg.lol’s persistent URL service, url.lol  
 Last Updated: 2022-10-11 12:15 AM EDT
+---
 
 # url.lol
 

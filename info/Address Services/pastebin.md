@@ -1,5 +1,7 @@
+---
 Description: All about paste.lol, omg.lol’s awesome pastebin  
 Last Updated: 2022-10-08 01:52 AM EDT
+---
 
 # Pastebin
 

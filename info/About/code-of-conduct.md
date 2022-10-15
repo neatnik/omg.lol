@@ -1,5 +1,7 @@
+---
 Description: Follow our Code of Conduct to keep our community awesome  
 Last Updated: 2022-10-08 01:52 AM EDT
+---
 
 # Code of Conduct
 

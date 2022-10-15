@@ -1,5 +1,7 @@
+---
 Description: All about our awesome IRC server  
 Last Updated: 2022-10-10 10:54 PM EDT
+---
 
 # Internet Relay Chat (IRC)
 

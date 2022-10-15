@@ -1,5 +1,7 @@
+---
 Description: How much does this stuff cost, anyway?  
 Last Updated: 2022-10-14 9:19 PM EDT
+---
 
 # Pricing
 

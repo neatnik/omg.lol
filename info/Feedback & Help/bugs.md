@@ -1,5 +1,7 @@
+---
 Description: How to report bugs and vulnerabilities responsibly  
 Last Updated: 2022-10-08 01:52 AM EDT
+---
 
 # Responsible Bug Reporting
 

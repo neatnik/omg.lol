@@ -1,5 +1,7 @@
+---
 Description: social.lol, our Statuslog service  
 Last Updated: 2022-10-09 01:07 AM EDT
+---
 
 # Statuslog
 

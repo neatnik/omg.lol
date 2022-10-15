@@ -1,5 +1,7 @@
+---
 Description: How to manage the many beautiful items on your omg.lol profile  
 Last Updated: 2022-10-08 01:52 AM EDT
+---
 
 # Profile Items
 

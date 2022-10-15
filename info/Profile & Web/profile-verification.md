@@ -1,5 +1,7 @@
+---
 Description: Verified profiles are the best profiles  
 Last Updated: 2022-10-08 01:52 AM EDT
+---
 
 # Profile Verification
 

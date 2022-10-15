@@ -1,5 +1,7 @@
+---
 Description: lol @ social stuff  
 Last Updated: 2022-10-08 01:52 AM EDT
+---
 
 # social.lol
 

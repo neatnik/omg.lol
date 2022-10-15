@@ -1,5 +1,7 @@
+---
 Description: The omg.lol origin story and all kinds of other info about the service  
 Last Updated: 2022-10-08 01:52 AM EDT
+---
 
 # About omg.lol
 

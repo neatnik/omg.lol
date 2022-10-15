@@ -1,5 +1,7 @@
+---
 Description: Two-factor authentication (2FA) is a great way to secure your account  
 Last Updated: 2022-10-08 01:52 AM EDT
+---
 
 # Two-factor authentication
 

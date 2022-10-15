@@ -1,5 +1,7 @@
+---
 Description: omg.lol loves Fastmail, and you can too  
 Last Updated: 2022-10-14 3:18 PM EDT
+---
 
 # omg.lol & Fastmail
 

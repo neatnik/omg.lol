@@ -1,5 +1,7 @@
+---
 Description: Everything you could possibly want to know about our awesome API  
 Last Updated: 2022-10-08 01:52 AM EDT
+---
 
 # API
 

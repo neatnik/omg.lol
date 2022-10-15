@@ -1,5 +1,7 @@
+---
 Description: All about profile pages on omg.lol  
 Last Updated: 2022-10-08 01:52 AM EDT
+---
 
 # Profiles
 

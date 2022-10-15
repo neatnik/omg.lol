@@ -1,5 +1,7 @@
+---
 Description: Read all about our Mastodon instance  
 Last Updated: 2022-10-11 12:16 AM EDT
+---
 
 # Mastodon
 

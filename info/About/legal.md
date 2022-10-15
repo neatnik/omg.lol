@@ -1,5 +1,7 @@
+---
 Description: Our Terms of Service, Privacy Policy, DMCA Policy, and Acceptable Use Policy, which you should read carefully  
 Last Updated: 2020-02-01 12:42 PM EST
+---
 
 # Legal
 

@@ -1,5 +1,7 @@
+---
 Description: DNS is complex, but we try to keep it simple  
 Last Updated: 2022-10-08 01:52 AM EDT
+---
 
 # DNS Guide
 

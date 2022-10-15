@@ -1,5 +1,7 @@
+---
 Description: IRC clients used by the community  
 Last Updated: 2022-10-11 01:03 AM EDT
+---
 
 # IRC Clients
 
