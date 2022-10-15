@@ -1,6 +1,6 @@
 ---
 Description: All about your account settings  
-Last Updated: 2022-15-08 12:40 PM EDT
+Last Updated: 2022-10-15 12:40 PM EDT
 ---
 
 # Account Settings
