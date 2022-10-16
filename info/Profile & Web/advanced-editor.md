@@ -9,7 +9,7 @@ Our Advanced web editor is a major improvement over the [Classic editor](/info/c
 
 ## Profile or Web pages
 
-The Advanced editor can be used to edit and publish [Profile](/info/profiles) pages (with the aforementioned Markdown document approach), or to manage a simple web page (just set your **Page type** to **Web**).
+The Advanced editor can be used to edit and publish [Profile](/info/profiles) pages (with the aforementioned Markdown document approach), or to manage a simple web page (just set your **Page type** to **Raw HTML only**).
 
 ## Profile Metadata
 
