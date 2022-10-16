@@ -13,7 +13,7 @@ Profile pages are a fun and easy way to maintain a web presence. You can share a
 
 ## Web Page
 
-If you just want to publish a simple web page of your own design, you can do that by toggling your web page type to **Web page** and using our [Advanced Editor](/info/advanced-editor). When you’re in **Web page** mode, everything you put into the editor is rendered as your web page.
+If you just want to publish a simple web page of your own design, you can do that by toggling your web page type to **Raw HTML only** and using our [Advanced Editor](/info/advanced-editor). When you’re in **Raw HTML only** mode, everything you put into the editor is rendered as your web page.
 
 ## Learn about web development
 
