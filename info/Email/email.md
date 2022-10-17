@@ -1,6 +1,6 @@
 ---
 Description: All about email at omg.lol  
-Last Updated: 2022-10-08 01:52 AM EDT
+Last Updated: 2022-10-16 09:30 AM EDT
 ---
 
 # Email Guide
@@ -13,7 +13,7 @@ To forward your emails, just pull up your address, click **Manage Email**, and e
 
 ## Sending
 
-We don’t support sending emails directly from your omg.lol address (yourname@omg.lol), as it’s intended to be used for forwarding only. But! You’re always in full control over your omg.lol domain name (yourname.omg.lol), so you’re welcome to configure that for use with any email service. Check out our [External Email](/info/external-email) guide for details on how to set that up.
+Aside from our [Fastmail](/info/fastmail) integration, we don’t support sending emails directly from your omg.lol address (yourname@omg.lol), as it’s intended to be used for forwarding only. But! You’re always in full control over your omg.lol domain name (yourname.omg.lol), so you’re welcome to configure that for use with any email service. Check out our [External Email](/info/external-email) guide for details on how to set that up.
 
 ## Emailhooks
 
