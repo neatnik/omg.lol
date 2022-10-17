@@ -42,14 +42,18 @@ To add a domain, just plop it into the field at the bottom of the Switchboard an
 
 ### DNS
 
+<div class="container yellow-3-bg gray-9-fg">
+
+<p><i class="fa-solid fa-fw fa-bone-break"></i> <strong>Heads up!</strong> Be careful when setting up your upstream DNS records to point an external domain to omg.lol. Unless you're using a provider that does CNAME flattening or support `ALIAS`, **do not** create a CNAME record that points directly to your root domain. You’ll break all of your DNS record! Only use a CNAME if you're linking a subdomain (eg: `profile.domain.com`) to omg.lol</p>
+
+</div>
+
 The first step in making an external domain work with omg.lol is to configure its DNS to point to our servers. This is something you’ll need to do with your domain registrar, DNS provider, or whoever is managing your domain. If you’ve never done anything like this before, it can be a little intimidating, but it’s not too bad! If you need help, [just let us know](/help/contact).
 
 There are two ways you can configure your domain’s DNS to point to omg.lol. You only need to do _one_ of these:
 	
 1. Add an **A** record that points to `159.89.247.131`
 2. Or, add a **CNAME** record that points to your address (e.g. `foo.omg.lol`).
-
-**WARNING:** Unless you're using [Cloudflare](https://developers.cloudflare.com/dns/additional-options/cname-flattening/) (or a DNS host that supports [ALIAS](https://support.dnsimple.com/articles/alias-record/)) **DO NOT** create a CNAME at the apex. Only use a CNAME if you're linking a subdomain (eg: `profile.domain.com`) to omg.lol
 
 Either of those will do the trick. Just refresh your Switchboard to see the latest info on what our server sees for your domain. DNS changes can take a while to _propagate_ across the internet, so occasionally you’ll have to wait a bit for our server to see the changes that you’ve made.
 
