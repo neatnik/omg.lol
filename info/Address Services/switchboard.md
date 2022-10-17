@@ -42,7 +42,7 @@ To add a domain, just plop it into the field at the bottom of the Switchboard an
 
 ### DNS
 
-<div class="container yellow-3-bg gray-9-fg">
+<div class="container yellow-4-bg gray-9-fg">
 
 <i class="fa-solid fa-fw fa-bone-break"></i> <strong>Heads up!</strong> Be careful when setting up your upstream DNS records to point an external domain to omg.lol. Unless you're using a provider that does CNAME flattening or support `ALIAS`, **do not** create a CNAME record that points directly to your root domain. You’ll break all of your DNS record! Only use a CNAME if you're linking a subdomain (eg: `profile.domain.com`) to omg.lol
 
