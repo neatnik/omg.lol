@@ -19,7 +19,7 @@ You can point any client at `irc.social.lol` (port `6667` for plaintext transfer
 
 <div class="container gray-7-bg gray-1-fg">
 
-We ran a hosted instance of [The Lounge](https://thelounge.chat) through October 8, 2022. If you’re looking for a new IRC client, [there are plenty available](info/extra/irc-clients)!
+We ran a hosted instance of [The Lounge](https://thelounge.chat) through October 8, 2022. If you’re looking for a new IRC client, [there are plenty available](/info/extra/irc-clients)!
 
 </div>
 
@@ -39,7 +39,7 @@ Here are some of the popular channels on the server:
 
   * **#general**, for general chatter about anything
   * **#random**, for random, off-the-wall stuff
-  * **omg.lol**, for all things omg.lol
+  * **#omg.lol**, for all things omg.lol
   * **#firehose**, for notices, announcements, inbound webhooks, and other noisy but interesting stuff
   * **#web**, for web development, profile customization, or whatever other webby thing you might want to chat about
   * **#email**, for discussion of one of the best things about the internet
