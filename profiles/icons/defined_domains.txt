@@ -37,6 +37,7 @@ flickr.com	flickr
 freecodecamp.org	free-code-camp
 geocaching.com	geocaching
 geoguessr.com	geoguessr
+geotastic.net	geotastic
 giphy.com	giphy
 github.com	github
 gitlab.com	gitlab
@@ -44,7 +45,7 @@ fa-solidfa-camera	glass
 goodreads.com	goodreads
 google.*	google
 g.dev	google
-omg-iconomg-gumroad	gumroad
+gumroad.com	gumroad
 hackclub.com	hack-club
 hackerone.com	hackerone
 hey.com	hey

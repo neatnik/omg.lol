@@ -53,7 +53,7 @@ clubhouse	e052
 fediverse	e053
 hey	e054
 instapaper	e055
-?	e056
+geotastic	e056
 osu	e057
 pronounspage	e058
 procreate	e059
