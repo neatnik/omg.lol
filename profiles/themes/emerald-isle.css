@@ -6,7 +6,7 @@ Version: 1.0
 Description: Based on the country I live in, a green blob surrounded with blue.
 */
 
-@import url('https://static.omg.lol/css/type.css');
+@import url('https://omg.cache.lol/css/type.css');
 
 * {
 	box-sizing: border-box;
