@@ -21,7 +21,7 @@ The Advanced editor uses a custom approach to defining profile metadata, intende
 | Location: Svalbard
 ```
 
-Each line above is its own _metadata item_, which is in turn rendered into HTML with a “metdata” class and a unique ID to aid in page styling and structure. For example, the metadata block above would be rendered into HTML as:
+Each line above is its own _metadata item_, which is in turn rendered into HTML with a “metadata” class and a unique ID to aid in page styling and structure. For example, the metadata block above would be rendered into HTML as:
 
 ```
 <div class="metadata" id="pronouns">they/them</div>
