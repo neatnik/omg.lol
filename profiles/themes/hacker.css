@@ -37,12 +37,12 @@ a {
   color: var(--green) !important;
 }
 
-.fa-badge-check {
+.fa-badge-check, .omg-verified {
   color: var(--green) !important;
 }
 
 a:hover,
-.fa-badge-check:hover {
+.fa-badge-check:hover, .omg-verified:hover {
   color: var(--dark-green) !important;
   text-decoration-color: var(--dark-green) !important;
 }
@@ -53,4 +53,11 @@ a:hover,
 
 #footer {
   margin-top: 1em;
+}
+
+/* Color for profile items list */
+.fa-li, .fas, .omg-icon, .omg-icon path {
+  color: var(--green);
+  fill: var(--green);
+  stroke: var(--green);
 }
