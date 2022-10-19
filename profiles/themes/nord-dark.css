@@ -9,7 +9,7 @@ CSS based on Dakota Chambers' Monokai theme.
 */
 
 body {
-	background-color: #2E3440;
+	background: #2E3440;
 	color: #d8dee9;
 }
 
@@ -55,7 +55,7 @@ a:active {
 	color: #ebcb8b;
 }
 
-.fa-badge-check {
+.fa-badge-check, .omg-verified {
 	color: #88c0d0 !important; /* important is needed to override inline style*/
 }
 
