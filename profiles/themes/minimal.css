@@ -78,3 +78,9 @@ main > ul > li > a:link, main > ul > li > a:visited {
 	border: 0;
 	opacity: 0.8;
 }
+
+.fa-li, .fas, .omg-icon, .omg-icon path {
+	color: var(--fg);
+	fill: var(--fg);
+	stroke: var(--fg);
+}
