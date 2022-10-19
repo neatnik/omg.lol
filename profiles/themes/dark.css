@@ -32,7 +32,7 @@ a:active {
 	border-bottom: 2px solid #fff;
 }
 
-.fa-badge-check {
+.fa-badge-check, .omg-verified {
 	color: #945B85 !important;
 }
 
