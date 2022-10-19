@@ -58,11 +58,11 @@ a:active {
 	text-decoration: none;
 	border-bottom: 2px solid #555;
 }
-.fa-badge-check {
+.fa-badge-check, .omg-verified {
   color: #F39519 !important;
 }
 
-.fa-badge-check:hover {
+.fa-badge-check:hover, .omg-verified:hover {
   color: #d17c00 !important;
   text-decoration-color: #d17c00 !important;
 }
