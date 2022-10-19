@@ -1,0 +1,41 @@
+/*
+Theme: Nothing but Red
+Author: Laker Turner (https://laker.gay)
+License: Public domain
+Version: 1.0
+Description: What happens when you put the cherry blossom theme through a dark mode extension.
+*/
+
+body {
+	background: #4e0313;
+	color: #333;
+}
+
+main {
+	background: #5e0012;
+}
+
+a:link,
+a:visited {
+	color: #333;
+	text-decoration-color: #333;
+	text-decoration: none;
+	border-bottom: 1px dotted #333;
+}
+a:hover,
+a:active {
+	color: #555;
+	text-decoration-color: #555;
+	text-decoration: none;
+	border-bottom: 2px solid #555;
+}
+
+#profile-picture {
+	border-radius: 100%;
+}
+
+.fa-li, .fas, .omg-icon {
+	color: #b53c54;
+	fill: #b53c54;
+	stroke: #b53c54;
+}
