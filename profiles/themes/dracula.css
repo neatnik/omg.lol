@@ -25,75 +25,26 @@ Description: Dark theme with a touch of purple. Adapted from the Dracula color s
 	--yellow:           #f1fa8c;
 }
 
-* {
-	box-sizing: border-box;
-}
-
 ::selection {
 	background: var(--purple);
 	color: var(--forground);
 }
 
 body {
-	font-size: 1.2em;
-	margin: 0;
-	padding: 2em;
-	font-family: 'Mint Grotesk', sans-serif;
-	font-weight: 300;
 	background: var(--background-color);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	height: 100%;
-	overflow-wrap: break-word;
 	color: var(--forground);
 }
 
 main {
-	display: block;
-	max-width: 30em;
-	border-radius: 1em;
-	margin: 0 auto;
-	text-align: center;
 	background: var(--main-color);
-	padding: 2em;
 }
-
-h1 {
-	margin: 0;
-}
-
-#profile-items {
-	/*border-top: 1px solid #666;*/
-	padding: .5em 0 0 0;
-	margin: 1.5em 0 0 0;
-}
-
-#profile-items :is(h1, h2, h3, h4, h5, h6) {
-	text-align: left;
-	margin: 0;
-}
-
-#profile-items h1 { font-size: 1.2em; }
-#profile-items h2 { font-size: 1.2em; }
-#profile-items h3 { font-size: 1.2em; }
-#profile-items h4 { font-size: 1.1em; }
-#profile-items h5 { font-size: 1.1em; }
-#profile-items h6 { font-size: 1.1em; }
 
 #profile-picture-container {
-	margin: auto;
 	color: var(--main-color);
-	margin-bottom: 1em;
 }
 
-#profile-picture {
-	border-radius: 0.25em;
-	height: 8.7em;
-}
 
 #pronouns {
-	margin: 0;
-	font-weight: 400;
 	color: var(--purple);
 }
 
@@ -104,34 +55,7 @@ h1 {
 	color: var(--comment);
 }
 
-#details {
-	margin: 1em 0;
-}
-
-#location {
-	display: inline-block;
-}
-
-#occupation {
-	display: inline-block;
-}
-
-#location, #occupation {
-	margin: .5em;
-	padding: 0 .5em;
-}
-
-#bio {
-	text-align: center;
-	font-size: 110%;
-	line-height: 140%;
-}
-
 #footer {
-	margin: 0;
-	margin-top: 5em;
-	font-size: 90%;
-	font-weight: 300;
 	color: var(--comment);
 }
 
@@ -140,26 +64,6 @@ h1 {
 #footer a:hover,
 #footer a:active {
 	color: var(--comment);
-	text-decoration: none;
-	border: 0;
-}
-
-#footer .fa-plug {
-	transform: rotate(0deg);
-	transition: all 0.3s ease;
-}
-
-#footer:hover .fa-plug {
-	transform: rotate(90deg);
-	transition: all 0.3s ease;
-}
-
-ul {
-	text-align: left;
-}
-
-li {
-	line-height: 170%;
 }
 
 a:link,
@@ -176,47 +80,9 @@ a:active {
 	text-decoration: none;
 	border-bottom: 2px solid var(--comment);
 }
-
-/*
-.omg-icon-li {
-	position: relative;
-	border: 0px solid var(--green);
-}
-
-.omg-icon {
-	display: inline-block;
-	width: 1em;
-	position: absolute;
-	top: -0.1em;
-	left: -1.5em;
-}
-
-.omg-icon::before {
-	display: none;
-}
-*/
-
-/*
-@media (prefers-color-scheme: dark) {
-	.omg-icon svg {
-		fill: #fff;
-	}
-}
-*/
-
 @media (prefers-color-scheme: dark) {
 	.omg-icon.rainbow-me svg {
 		fill: var(--forground);
-	}
-}
-
-@media (max-width: 500px) {
-	body {
-		font-size: 1em;
-		padding: 1em;
-	}
-	main {
-		padding: 1.5em;
 	}
 }
 
