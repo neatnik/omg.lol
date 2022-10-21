@@ -34,7 +34,7 @@ If you’re not already a Fastmail customer, you can [fix that in mere seconds](
 
 ### First: Point your omg.lol email to Fastmail
 
-1. From your [omg.lol account page](/account), click on your address.
+1. From your [omg.lol Dashboard](/dashboard), click on your address.
 2. Then click **Manage Forwarding** and set your forwarding address to your Fastmail address.
 3. Click the **Update** button and that’s that.
 
