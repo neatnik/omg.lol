@@ -4,7 +4,7 @@ Last Updated: 2022-10-22 6:53 PM EDT
 See Also: billing
 ---
 
-# Renewing & Expiration
+# Renewals & Expiration
 
 Renewing your omg.lol address is easy! You can add time to your address at any time. Just pull it up and you’ll see the option on your address page.
 
