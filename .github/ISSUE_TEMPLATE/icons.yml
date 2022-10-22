@@ -1,0 +1,24 @@
+name: Icon suggestion
+description: Suggest new icons for profiles
+title: "[Icon] "
+labels: [icon]
+body:
+- type: textarea
+  attributes:
+    label: What service is this for?
+  validations:
+    required: true
+    placeholder: OMG.LOL
+- type: textarea
+  attributes:
+    label: What are their domain names?
+    placeholder: omg.lol
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Do you have a link to a SVG of their logo?
+    description: If you do, please put the link in the box below.
+    placeholder: https://omg.cache.lol/img/prami.svg
+  validations:
+    required: false
