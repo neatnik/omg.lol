@@ -64,7 +64,7 @@ $overrides = file('defined_overrides.txt', FILE_IGNORE_NEW_LINES);
 foreach($overrides as $line) {
 	$bits = explode(' ', $line);
 	if(isset($icons[$bits[0]])) {
-		$icons[$bits[0]] = array_slice($bits, 1);
+		$icons[$bits[0]] = implode(' ', array_slice($bits, 1));
 	}
 }
 
