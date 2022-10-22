@@ -8,9 +8,6 @@
     "social.lol": "mastodon",
     "irc.social.lol": "message",
     "karma.social.lol": "dharmachakra",
-    "laker.": "laker",
-    "sus.omg.lol": "vukky",
-    "vukky.net": "vukky",
     "vukkybox.com": "vukky",
     "rvlt.gg": "revolt",
     "read.cv": "read.cv",
@@ -148,5 +145,8 @@
     "writeas.com": "writeas",
     "xbox.com": "xbox",
     "ycombinator.com": "y-combinator",
-    "youtube.com": "youtube"
+    "youtube.com": "youtube",
+    "laker.": "laker",
+    "sus.omg.lol": "vukky",
+    "vukky.net": "vukky"
 }
