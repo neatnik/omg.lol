@@ -2,6 +2,7 @@ name: Sync Icons
 on:
   push:
     paths: profiles/icons/**
+  workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
