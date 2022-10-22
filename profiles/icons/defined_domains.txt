@@ -18,6 +18,9 @@ social.lol mastodon
 irc.social.lol message
 karma.social.lol dharmachakra
 
+// Test
+ibm.com suitcase
+
 // Services
 vukkybox.com vukky
 rvlt.gg revolt
