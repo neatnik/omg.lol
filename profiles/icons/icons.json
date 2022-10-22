@@ -1916,5 +1916,12 @@
     "well": "omg-icon omg-well",
     "wikimedia-community": "omg-icon omg-wikimedia-community",
     "writeas": "omg-icon omg-writeas",
-    "xmpp": "omg-icon omg-xmpp"
+    "xmpp": "omg-icon omg-xmpp",
+    "codeberg": "omg-icon omg-codeberg",
+    "sudomemo": "omg-icon omg-sudomemo",
+    "rate-your-music": "omg-icon omg-rate-your-music",
+    "read.cv": "omg-icon omg-read.cv",
+    "revolt": "omg-icon omg-revolt",
+    "vukky": "omg-icon omg-vukky",
+    "laker": "omg-icon omg-laker"
 }
