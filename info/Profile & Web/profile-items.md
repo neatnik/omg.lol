@@ -1,21 +1,22 @@
 ---
 Description: How to manage the many beautiful items on your omg.lol profile  
-Last Updated: 2022-10-08 01:52 AM EDT
+Last Updated: 2022-10-22 6:40 PM EDT
 ---
 
 # Profile Items
 
 One of the best parts of an [omg.lol profile](/info/profiles) is the total flexibility you have in adding and managing your profile items.
 
-Your profile items can be just about anything: plain text, a link to something (like a personal website or a social media profile), or whatever. Add as many as you’d like! You can re-order them any time by dragging them around.
+Your profile items can be just about anything: plain text, a link to something (like a personal website or a social media profile), or whatever. Add as many as you’d like! You can re-order them any time (by dragging them around in the Classic editor, or just changing their text placement in the Advanced editor).
 
 ## Adding items
 
-Click the friendly green **Add an item** button to get a new field.
+ - In the Classic editor: Click the friendly **Add an item** button to get a new profile item field.
+ - In the Advanced editor: Just insert a new Markdown list item (starting with `-`) within the `--- Profile Items ---` section of your page.
 
 ## Removing items
 
-Want to nuke one of your items? Just clear the field, and when you save your profile it’ll be gone.
+If you want to remove a profile item in the Classic editor, just clear the contents of the field. When you save your profile, it’ll vanish. In the Advanced editor, just delete the text and list item.
 
 ## Using Markdown
 
@@ -25,26 +26,16 @@ Markdown is supported, so you can format text or add links as you see fit. For e
 
 ## Linking to social profiles or other sites
 
-When you link to a known social profile or website, we’ll try to clean up the display of that link for you by showing a nice icon and your username (taken from the URL). If you’re not seeing a certain icon that you’re expecting, [get in touch](/info/contact) or [add a GitHub issue](https://github.com/neatnik/omg.lol/issues/new) and we’ll add it for you.
+When you link to a known social profile or website, we’ll try to clean up the display of that link for you by showing a nice icon and your username (taken from the URL). If you’re not seeing a certain icon that you’re expecting, [get in touch](/info/contact) or [add an icon request on GitHub](https://github.com/neatnik/omg.lol/issues/new?assignees=&labels=icon&template=icons.yml&title=%5BIcon%5D+) and we’ll add it for you.
 
 ## Special Items
 
-- **PGP keys**. Drop your public key into a profile item field and we’ll display a fingerprint that links to the full key.
-- **Email addresses**. Enter an email address and we’ll turn it into a working email link.
+* `{pgp-key}` will pull in your PGP key if you’ve shared it previously. We’re working on an entirely new key management system, so stay tuned for an update on this!
+<!-- todo: provide update lol -->
 
-## Schemes
+## Choosing icons
 
-Schemes are ways to signal that your profile item is something specific, ensuring that they received the proper icon. Here are the schemes that you can use:
+If you’d like to have a specific icon appear on a profile item, just use an icon tag, like this: `{cat}`. You can put it anywhere you’d like on the profile item line (at the end works well), and when your profile is published, the tag is removed and the icon will be applied. You can use any icon in the Font Awesome free set, as well as any of the custom omg.lol icons.
+<!-- todo: link to catalog of icons -->
 
-- `book://` to indicate the title of a book
-- `game://` to indicate the title of a video game
-- `tv://` to indicate the title of a TV show/series
-- `film://` to indicate the title of a film
-- `movie://` to indicate the title of a movie
-- `cat://` to indicate the name of a pet cat
-- `dog://` to indicate the name of a pet dog
-- `discord://` for Discord usernames, e.g. `discord://Neatnik#9090`
-- `mastodon://` for Mastodon usernames, e.g. `mastodon://@newbold@mastodon.social`
-- `matrix://` for Matrix usernames, e.g. `matrix://@newbold:matrix.org`
-
-Want to add a new scheme? [Add an issue in GitHub](https://github.com/neatnik/omg.lol/issues/new) or just [get in touch](/info/contact) to request one.
+Want to add a new icon tag? [Add an issue in GitHub](https://github.com/neatnik/omg.lol/issues/new) or just [get in touch](/info/contact) to request one.
