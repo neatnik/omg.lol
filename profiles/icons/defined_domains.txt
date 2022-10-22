@@ -21,7 +21,7 @@ karma.social.lol dharmachakra
 // Test
 ibm.com suitcase
 
-// Services
+// Other
 vukkybox.com vukky
 rvlt.gg revolt
 read.cv read.cv
@@ -102,7 +102,6 @@ medium.com medium
 micro.blog microblog
 musicboard.app musicboard
 myanimelist.net myanimelist
-neatnik.net neatnik
 neocities.org cat
 notion. notion
 npmjs.com npm
