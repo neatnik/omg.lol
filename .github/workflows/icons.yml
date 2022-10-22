@@ -29,5 +29,6 @@ jobs:
           DO_SECRET: ${{ secrets.DO_SECRET }}
           DO_NAME: ${{ secrets.DO_NAME }}
           DO_DIR: profiles/icons
+          DELETE_UNTRACKED: false
           DO_REGION: nyc3
           LOCAL_DIR: profiles/icons
