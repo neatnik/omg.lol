@@ -89,7 +89,6 @@
     "micro.blog": "microblog",
     "musicboard.app": "musicboard",
     "myanimelist.net": "myanimelist",
-    "neatnik.net": "neatnik",
     "neocities.org": "cat",
     "notion.": "notion",
     "npmjs.com": "npm",
@@ -149,5 +148,6 @@
     "youtube.com": "youtube",
     "laker.": "laker",
     "sus.omg.lol": "vukky",
-    "vukky.net": "vukky"
+    "vukky.net": "vukky",
+    "neatnik.net": "neatnik"
 }
