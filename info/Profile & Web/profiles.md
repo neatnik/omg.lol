@@ -16,6 +16,4 @@ There’s a super powerful (we might even say _magical_) management process behi
 
 ## Verified Profiles
 
-If you see the official checkmark badge <i style="color: #0089cf;" class="fas fa-badge-check"></i> on a profile, it means that you’re viewing a verified profile. You can trust that the person is who they say they are! At least by our reasonable omg.lol standards, that is (lol).
-
-If you’d like to be verified, just [contact us](/info/contact/) to kick off the process. We also sometimes automatically verify people who we know to be real, so if that happened to you, congrats!
+We offer a simple process for [profile verification](/info/profile-verification). Want to show the world that you are in fact who you say you are? [Contact us](/info/contact) to start the verification process.
