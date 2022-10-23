@@ -5,13 +5,11 @@ Last Updated: 2022-10-08 01:52 AM EDT
 
 # Profiles
 
-You can have a super awesome profile page on omg.lol. Enable yours by pulling up your address, clicking **Manage Profile**, and switching it on.
+You can have a super awesome profile page on omg.lol. Enable yours by pulling up your address through the Dashboard, clicking **Web Page**, and you're all set!
 
 ## Getting Started
 
-First thing to know: all profile fields are 100% optional. Fill out as much or as little as you’d like!
-
-Your profile is broken down into two main sections. **The Basics** is where you can provide some simple information about yourself (name, pronouns, a picture, etc.). **Profile Items** is where you can go to town and have a blast adding as many things about yourself as you’d like.
+When you click **Web Page** for the first time, a screen asking if you want to use the [Advanced](info/advanced-editor) or [Classic](/info/classic-editor),
 
 There’s a super powerful (we might even say _magical_) management process behind [Profile Items](/info/profile-items), so they have their [very own support article over here](/info/profile-items).
 
