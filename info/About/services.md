@@ -29,7 +29,7 @@ Share text, code, recipies, ancient wisdom, or juicy gossup with anyone.
 
 ## <i class="fa-duotone fa-fw fa-square-rss"></i> Weblog (Coming soon!™) 
 
-Published serialized thoughts like in the early days of the web.
+Published serialized thoughts, just like in the early days of the web.
 
 ## <i class="fa-brands fa-fw fa-mastodon"></i> Mastodon
 
