@@ -30,6 +30,6 @@ jobs:
           DO_NAME: ${{ secrets.DO_NAME }}
           SPACE_DIR: profiles/icons
           DELETE_UNTRACKED: false
-          EXCLUDED_LIST: true
+          EXCLUDE_LIST: true
           DO_REGION: nyc3
           LOCAL_DIR: profiles/icons
