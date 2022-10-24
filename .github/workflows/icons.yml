@@ -22,7 +22,7 @@ jobs:
           cd ../../
           
       - name: Sync DigitalOcean Space, purge changes from the CDN
-        uses: laukstein/do-spaces@main
+        uses: mar0xy/do-spaces@main
         env:
           DO_TOKEN: ${{ secrets.DO_TOKEN }}
           DO_ACCESS: ${{ secrets.DO_ACCESS }}
@@ -30,5 +30,6 @@ jobs:
           DO_NAME: ${{ secrets.DO_NAME }}
           SPACE_DIR: profiles/icons
           DELETE_UNTRACKED: false
+          EXCLUDED_LIST: true
           DO_REGION: nyc3
           LOCAL_DIR: profiles/icons
