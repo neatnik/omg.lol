@@ -33,7 +33,7 @@ file_put_contents('domains.json', json_encode($domains, JSON_PRETTY_PRINT));
 
 // Next, we’ll create an array of the Font Awesome Free icons.
 
-$font_awesome_free = json_decode(file_get_contents('https://static.omg.lol/type/fontawesome-free/metadata/icons.json'));
+$font_awesome_free = json_decode(file_get_contents('https://omg.cache.lol/type/fontawesome-free/metadata/icons.json'));
 foreach($font_awesome_free as $icon => $obj) {
 	$font_awesome_icons[$icon] = 'fa-'.$obj->styles[0].' fa-'.$icon;
 }
