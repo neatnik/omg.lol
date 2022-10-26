@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   deploy:
+    if: github.repository_owner == 'neatnik'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
