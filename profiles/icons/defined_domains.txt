@@ -19,6 +19,7 @@ irc.social.lol message
 karma.social.lol dharmachakra
 
 // Other
+credly.com credly
 vukkybox.com vukky
 rvlt.gg revolt
 read.cv read.cv

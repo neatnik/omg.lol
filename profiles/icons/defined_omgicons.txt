@@ -72,3 +72,4 @@ revolt e070
 vukky e071
 laker e072
 neatnik e074
+credly e075
