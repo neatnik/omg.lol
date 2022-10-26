@@ -75,14 +75,17 @@ foreach($omg_icon_data as $line) {
 
 ksort($omg_lol_icons);
 
-$html = '<!DOCTYPE html><meta charset="utf8"><style>@import url(omg.lol-icons.css);div{font-family:sans-serif;border:1px solid #ccc;border-radius:.2em;width:10em;display:inline-block;margin:1em;padding:1em;text-align:center;}i{font-size: 5em;}</style>';
+$html = '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>omg.lol Icons</title><style>@import url(omg.lol-icons.css);body{font-family:sans-serif;text-align:center;}table{margin:auto;border-collapse:collapse;}td{font-size:2em;padding:.5em;border-top:1px solid #ccc;text-align:left;border-bottom:1px solid #ccc;text-align:left;}h1{text-align: center; margin: 2em;}a{margin:2em;display:block;}</style></head><body><h1>omg.lol icons generated '.date("c").'</h1><table><tbody>';
 foreach($omg_lol_icons as $name => $unicode) {
-	$html .= '<div>'.$name.'<br><i class="omg-icon omg-'.$name.'"></i></div>';
+	$html .= '<tr><td><i class="omg-icon omg-'.$name.'"></i></td><td>'.$name.'</td></tr>';
 }
+$html .= '</tbody></table><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fomg.cache.lol%2Fprofiles%2Ficons%2Fomg.lol-icons.html">
+<img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="63" height="64" alt="HTML5 Powered" title="HTML5 Powered">
+</a></body></html>';
+
+// Now we’ll save the omg.lol icon review and CSS files.
+
 file_put_contents('omg.lol-icons.html', $html);
-
-// Now we’ll save the omg.lol icon CSS file.
-
 file_put_contents('omg.lol-glyphs.css', $omg_css);
 
 // We’ll merge the Font Awesome and omg.lol icon arrays, and check for any icons that we’ve chosen to override.
