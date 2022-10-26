@@ -67,9 +67,8 @@ xmpp e041
 codeberg e073
 sudomemo e067
 rate-your-music e068
-read.cv e069
+read-cv e069
 revolt e070
 vukky e071
 laker e072
 neatnik e074
-credly e075
