@@ -39,7 +39,7 @@ jobs:
         run: |
            git config --local user.name "github-actions[bot]"
            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-           git add profiles/icons/.
+           git add profiles/icons
            git commit -m "${{ github.event.head_commit.message }}"
            
       - name: Push changes
