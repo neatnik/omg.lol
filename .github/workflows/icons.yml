@@ -31,6 +31,19 @@ jobs:
           DO_NAME: ${{ secrets.DO_NAME }}
           SPACE_DIR: profiles/icons
           DELETE_UNTRACKED: false
-          EXCLUDE_LIST: true
+          EXCLUDE_LIST: false
           DO_REGION: nyc3
           LOCAL_DIR: profiles/icons
+
+      - name: Commit Files
+        run: |
+           git config --local user.name "github-actions[bot]"
+           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+           git add profiles/icons
+           git commit -m "${{ github.event.head_commit.message }}"
+           
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
