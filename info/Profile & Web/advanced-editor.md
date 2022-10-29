@@ -56,3 +56,15 @@ If you have a `--- Profile Items ---` section indicator in your profile document
 ## Profile Picture
 
 Your profile picture will be rendered wherever the `{profile-picture}` indicator is placed within your document.
+
+## Custom Metadata
+
+You can fill in the custom metadata fields to define a page title and description (or leave them blank and we’ll do it for you).
+
+## Custom CSS
+
+Specify any amount of custom CSS you’d like. You can get creative here and really transform the entire look and feel of your page!
+
+## Custom `<head>` content
+
+Need to put some custom elements in your page head? Go for it!
