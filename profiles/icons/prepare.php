@@ -35,7 +35,7 @@ during this preparation process.
 
 The comments in the script explain the process in detail. */
 
-header("Content-Type: text/plain");
+//header("Content-Type: text/plain");
 
 // First, prepare our domain file, `domains.json`, which maps domains in omg.lol profiles to the appropriate icon. This is constructed from `defined_domains.txt`, because editing JSON directly can often be problematic (looking at you, @lxjv).
 
@@ -104,4 +104,5 @@ foreach($overrides as $line) {
 $icons = json_encode($icons, JSON_PRETTY_PRINT);
 file_put_contents('icons.json', $icons);
 
-echo "\n".'Icon preparation complete. Check icons: https://omg.cache.lol/profiles/icons/omg.lol-icons.html?v='.uniqid();
+$id = uniqid();
+echo "\n".'Icon preparation complete. Check icons: <a href="https://static.omg.lol/profiles/icons/omg.lol-icons.html?v='.$id.'">https://static.omg.lol/profiles/icons/omg.lol-icons.html?v='.$id.'</a>';
