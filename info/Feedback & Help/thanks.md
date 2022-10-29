@@ -20,7 +20,6 @@ Last Updated: 2022-10-08 01:52 AM EDT
 <li><a href="https://laker.omg.lol">Laker</a> for numerous profile page enhancements</li>
 <li><a href="https://tjwds.omg.lol">Joe</a> for profile page enhancements</li>
 <li><a href="https://sus.omg.lol">Vukky</a> for too many things to even list here as well as for being generally sus</li>
-<li><a href="https://skelly.omg.lol">Skelly</a> for identifying a bug with whitespace addresses and for the best hand-drawn ant artwork I have ever seen</li>
 <li><a href="https://omg.lol/stan">Stan</a> for icon support and helpful advice</li>
 <li><a href="https://profile.omg.lol/kakan">KAKAN</a> for countless technical suggestions</li>
 <li><a href="https://www.vincentlammens.be">k1l0bit</a> for a steady stream of advice and moral support</li>
