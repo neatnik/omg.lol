@@ -31,6 +31,9 @@ a:active {
 #profile-picture {
 	border-radius: 10%;
 }
+#pronouns {
+	color: #b8c0e0;
+}
 
 .fa-li, .fas, .omg-icon {
 	color: #b8c0e0;
