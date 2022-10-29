@@ -1,0 +1,39 @@
+/*
+Theme: Catpuccin Macchiato
+Author: mmatt (https://mm.omg.lol)
+Version: 0.1.0
+Description: An attempt at making a Catpuccin Macchiato theme. https://github.com/catppuccin/catppuccin
+*/
+
+
+body {
+	background: #24273a;
+	color: #cad3f5;
+}
+
+main {
+	background: #1e2030;
+}
+
+a:link,
+a:visited {
+	color: #b8c0e0;
+  text-decoration: dashed;
+  text-decoration-color: #b8c0e0;
+}
+a:hover,
+a:active {
+	color: #cad3f5;
+  text-decoration: #b8c0e0;
+
+}
+
+#profile-picture {
+	border-radius: 10%;
+}
+
+.fa-li, .fas, .omg-icon {
+	color: #b8c0e0;
+	fill: #b8c0e0;
+	stroke: #b8c0e0;
+}
