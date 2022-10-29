@@ -34,6 +34,12 @@ a:active {
 #pronouns {
 	color: #b8c0e0;
 }
+#pronouns a:link,
+#pronouns a:visited,
+#pronouns a:hover,
+#pronouns a:active {
+	color: #cad3f5
+}
 
 .fa-li, .fas, .omg-icon {
 	color: #b8c0e0;
