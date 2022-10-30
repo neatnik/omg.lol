@@ -14,7 +14,7 @@ Buying an omg.lol address is a lot like buying any other domain: it’s somethin
 
 ## Subscriptions
 
-We don’t use a traditional subscription model here. We don’t retain your billing information, and we don’t do automatic renewals. Honeslty, we think those things are kind of annoying. If you’ve ever had a subscription to something that you don’t want anymore (but that you’ve forgotten about) and it auto-renewed, it’s not a great feeling. We don’t want to make anyone feel that way.
+We don’t use a traditional subscription model here. We don’t retain your billing information, and we don’t do automatic renewals. Honestly, we think those things are kind of annoying. If you’ve ever had a subscription to something that you don’t want anymore (but that you’ve forgotten about) and it auto-renewed, it’s not a great feeling. We don’t want to make anyone feel that way.
 
 On the flip side, missing a renewal deadline can be stressful. We’ll contact you a few times before your address expires to ensure that you have ample opportunity to renew it if you wish to keep it.
 
