@@ -1,11 +1,11 @@
 ---
 Description: How much does this stuff cost, anyway?  
-Last Updated: 2022-10-14 9:19 PM EDT
+Last Updated: 2022-10-30 10:19 PM EDT
 ---
 
 # Pricing
 
-omg.lol addresses are just $5 per year. For now, anyway (the price is likely going up near the end of 2022). <small>So, stock up on time now while it’s cheap!</small>
+Currently, omg.lol addresses are just $5 per year. On October 30, 2022 we announced that addresses would cost $20 per year beginning on January 1, 2023.
 
 You can register an address for periods between one to ten years. You can also add between one and ten years of time to your address at any time (just visit your [billing page](/billing)).
 
