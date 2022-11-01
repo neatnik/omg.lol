@@ -1,6 +1,6 @@
 ---
 Description: Our policy on abuse is simple and clear: we don’t tolerate it, ever  
-Last Updated: 2022-10-08 01:52 AM EDT
+Last Updated: 2022-10-31 10:38 PM EDT
 ---
 
 # Abuse
@@ -15,4 +15,4 @@ You can contact [abuse@omg.lol](mailto:abuse@omg.lol) to report any kind of abus
 
 ## How we handle abuse
 
-When we receive a report of abuse, we investigate promptly and thoroughly. We want to address the issue fairly, and with compassion and dignity. We try to assume positive intent, and will work with everyone involved to take care of things in the right way.
+When we receive a report of abuse, we investigate promptly and thoroughly. We want to address the issue fairly, and with compassion and dignity for all involved. We try to assume positive intent (where it makes sense to do so), and will work with everyone involved to take care of things in the right way.
