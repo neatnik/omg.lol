@@ -19,6 +19,7 @@ irc.social.lol message
 karma.social.lol dharmachakra
 
 // Other
+ecosia.org ecosia
 pixelfed.social pixelfed
 credly.com credly
 vukkybox.com vukky
