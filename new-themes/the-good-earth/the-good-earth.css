@@ -1,0 +1,37 @@
+/* The Good Earth */
+
+body {
+	background: #A88C7D;
+	color: #54738E;
+}
+
+main {
+	background: #D6CDB8;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: #54738E;
+	text-decoration: #54738E;
+}
+
+.fas, .fa-solid, .fa-brands, .omg-icon {
+	color: #82AC7C;
+}
+
+.logotype {
+	color: #A88C7D;
+}
+
+.logotype.dot {
+	color: #7c6457 !important;
+}
+
+.prami-body { fill: #9DBA94 !important; }
+.prami-left-eye, .prami-right-eye { fill: #54738E !important; }
+.prami-left-eye-pupil, .prami-right-eye-pupil { stroke: #54738E !important; }
+.prami-left-cheek, .prami-right-cheek { fill: #7297A0 !important; }
+.prami-mouth { stroke: #54738E !important; }
+
+#profile-picture {
+	border-radius: 100%;
+}
