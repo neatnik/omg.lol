@@ -35,7 +35,13 @@ When you link to a known social profile or website, we’ll try to clean up the 
 
 ## Choosing icons
 
-If you’d like to have a specific icon appear on a profile item, just use an icon tag, like this: `{cat}`. You can put it anywhere you’d like on the profile item line (at the end works well), and when your profile is published, the tag is removed and the icon will be applied. You can use any icon in the Font Awesome free set, as well as any of the custom omg.lol icons.
+If you’d like to have a specific icon appear on a profile item, just use an icon tag, like this: `{cat}`. Put it at the end of the line, and when your profile is published, the tag will be removed and the icon will be applied. You can use any icon in the Font Awesome free set, as well as any of the custom omg.lol icons.
+
+For example:
+
+* ` - https://instagram.com/foobar` will show the Instagram icon by default
+* ` - https://instagram.com/foobar {cat}` will show the cat icon (useful for Instagram feeds dedicated to your cat)
+
 <!-- todo: link to catalog of icons -->
 
 Want to add a new icon tag? [Add an issue in GitHub](https://github.com/neatnik/omg.lol/issues/new) or just [get in touch](/info/contact) to request one.
