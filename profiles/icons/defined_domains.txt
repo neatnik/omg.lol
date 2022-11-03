@@ -18,6 +18,11 @@ social.lol mastodon
 irc.social.lol message
 karma.social.lol dharmachakra
 
+// Mastodon instances
+mas.to mastodon
+mastodon. mastodon
+fosstodon.org mastodon
+
 // Other
 ecosia.org ecosia
 pixelfed.social pixelfed
@@ -96,8 +101,7 @@ linkedin.com linkedin
 literal.club literal
 lobste.rs lobsters
 m.me facebook-messenger
-mas.to mastodon
-mastodon. mastodon
+
 medium.com medium
 micro.blog microblog
 musicboard.app musicboard
