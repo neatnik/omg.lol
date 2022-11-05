@@ -1,6 +1,6 @@
 ---
 Description: All about our awesome IRC server
-Last Updated: 2022-10-10 10:54 PM EDT
+Last Updated: 2022-11-05 02:24 AM EDT
 ---
 
 # Internet Relay Chat (IRC)
@@ -9,7 +9,7 @@ Internet Relay Chat (or IRC) is an open standard for live chat on the internet. 
 
 ### Getting Started
 
-To kick things off, visit your [Account Settings](https://home.omg.lol/account) page, scroll to the box that talks about IRC, select the address that you’d like to use as your username (or “nickname”/“nick” as they’re called on IRC), and then click the button. **You’ll then receive a password — don’t lose it!**
+To kick things off, visit your address's social.lol page and then click the "Create IRC Account" button. **You’ll then receive a password — don’t lose it!**
 
 ### Connecting
 
