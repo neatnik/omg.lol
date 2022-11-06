@@ -13,6 +13,8 @@ Fancy praise for the tech aside, passkeys are also a super simple replacement fo
 
 **omg.lol’s passkeys implementation is currently in beta**, or maybe even something more akin to a very rough alpha. It’s only been lightly tested in a minimum number of environments, so please proceed with caution if you opt to give it a try. Also, please [report any bugs](https://github.com/neatnik/omg.lol/issues/new?assignees=&labels=bug&template=bugs.yml&title=%5BBug%5D+) that you encounter when experimenting with passkeys on the site.
 
+If you’d like to dip your toes into the passkeys awesomeness, head on over to your [account page](/account) and add one there.
+
 ## Further reading
 
 - https://fidoalliance.org/fido2-2/fido2-web-authentication-webauthn/
