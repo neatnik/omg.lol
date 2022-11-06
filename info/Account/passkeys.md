@@ -1,6 +1,6 @@
 ---
 Description: Passkeys are secure, fast ways to access things online  
-Last Updated: 2022-11-06 6:27 PM EDT
+Last Updated: 2022-11-06 6:27 PM EST
 ---
 
 # Passkeys
