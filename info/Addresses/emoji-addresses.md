@@ -39,6 +39,10 @@ Jan  1 23:59:59 server postfix/srvc[1234]: ABCDEF0123: to=&lt;forwarded@destinat
 
 Here we can see that the emoji address survived intact when the message reached omg.lol, but the server to which the message was forwarded didn’t have support for emoji addresses and the email wasn’t delivered.
 
+## Mastodon
+
+Sadly, due to the ActivityPub protocol that Mastodon is based upon, emoji addresses aren't supported on Mastodon. :(
+
 ## What to do?
 
 There’s no way to guarantee how things will behave when using emoji in email or web addresses, so this is a classic case of buyer beware. When you register an emoji address, though, you’ll also receive the corresponding Punycode namespace for both email and web (and this will appear in the address configuration for your reference). So if you’re feeling brave, go for it!
