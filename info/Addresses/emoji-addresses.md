@@ -41,7 +41,7 @@ Here we can see that the emoji address survived intact when the message reached 
 
 ## Mastodon
 
-Sadly, due to the ActivityPub protocol that Mastodon is based upon, emoji addresses arent supported on Mastodon.
+Sadly, due to the ActivityPub protocol that Mastodon is based upon, emoji addresses aren't supported on Mastodon. :(
 
 ## What to do?
 
