@@ -9,9 +9,9 @@ Last Updated: 2022-11-06 6:27 PM EDT
 
 Fancy praise for the tech aside, passkeys are also a super simple replacement for passwords. And they can also replace usernames, too! omg.lol’s implementation allows you to sign in with the single click of a button, skipping username, password, and even your 2FA (if enabled). Because of the security involved in passkeys, these traditional authentication inputs are simply not needed. Welcome to the future.
 
-## Beta implementation
+## Status
 
-omg.lol’s passkeys implementation is in beta, or maybe even something more akin to a very rough alpha. It’s only been lightly tested in a minimum number of environments, so please proceed with caution if you opt to give it a try. Also, please [report any bugs](https://github.com/neatnik/omg.lol/issues/new?assignees=&labels=bug&template=bugs.yml&title=%5BBug%5D+) that you encounter when experimenting with passkeys on the site.
+**omg.lol’s passkeys implementation is currently in beta**, or maybe even something more akin to a very rough alpha. It’s only been lightly tested in a minimum number of environments, so please proceed with caution if you opt to give it a try. Also, please [report any bugs](https://github.com/neatnik/omg.lol/issues/new?assignees=&labels=bug&template=bugs.yml&title=%5BBug%5D+) that you encounter when experimenting with passkeys on the site.
 
 ## Further reading
 
