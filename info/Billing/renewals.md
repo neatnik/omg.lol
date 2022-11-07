@@ -6,7 +6,7 @@ See Also: billing
 
 # Renewals & Expiration
 
-Renewing your omg.lol address is easy! You can add time to your address whenever you’d like. You’ll see the option to add time via your [dashboard](/dashboard) page (click on addresses). You can renew for as long as you’d like, up to ten years at a time (but there’s nothing stopping you from adding ten years and then adding more time after that, if you’re determined to go in it for the long haul).
+Renewing your omg.lol address is easy! You can add time to your address whenever you’d like. You’ll see the option to add time via your [dashboard](/dashboard) page (click on your username then select add time from the purple strip). You can renew for as long as you’d like, up to ten years at a time (but there’s nothing stopping you from adding ten years and then adding more time after that, if you’re determined to go in it for the long haul).
 
 As we mention in our [Billing](/info/billing) article, there is no automatic renewal associated with your omg.lol address. We don’t retain your payment information, so you’re always in control with your renewals. But this also means that you need to remember to renew!
 
