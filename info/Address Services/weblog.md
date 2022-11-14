@@ -1,6 +1,6 @@
 ---
 Description: We’re building a weblog, hip-hip-hooray  
-Last Updated: 2022-10-15 12:58 AM EDT
+Last Updated: 2022-11-13 7:19 PM EST
 ---
 
 # Weblog
@@ -11,4 +11,4 @@ Last Updated: 2022-10-15 12:58 AM EDT
 
 We’re building a new weblog service. It’ll be simple and fun.
 
-More info is coming soon!
+Look for an early alpha of the service in December, and a mostly-safe-to-use beta by January 2023.
