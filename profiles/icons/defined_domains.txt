@@ -24,6 +24,7 @@ mastodon. mastodon
 fosstodon.org mastodon
 
 // Other
+mltshp.com mltshp
 ecosia.org ecosia
 pixelfed.social pixelfed
 credly.com credly
