@@ -21,6 +21,4 @@ The omg.lol community makes really cool stuff. Here’s a list of some great thi
 
 ## Found something else out there?
 
-If you've found something great relating to omg.lol, Add it [here](https://github.com/neatnik/omg.lol/discussions/242)! Anyone who does will win a prize.<sup>1</sup>
-
-<small><sup>1</sup> probably not, but hey we might!</small>
+If you've found something great relating to omg.lol, Add it [here](https://github.com/neatnik/omg.lol/discussions/242)!
