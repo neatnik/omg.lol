@@ -24,6 +24,8 @@ mastodon. mastodon
 fosstodon.org mastodon
 
 // Other
+status.lol prami
+kaggle.com kaggle
 mltshp.com mltshp
 ecosia.org ecosia
 pixelfed.social pixelfed
