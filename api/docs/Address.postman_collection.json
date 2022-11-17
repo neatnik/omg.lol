@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "Retrieve address avabilability",
+			"name": "Retrieve address availability",
 			"request": {
 				"auth": {
 					"type": "noauth"
@@ -549,7 +549,7 @@
 					"variable": [
 						{
 							"key": "address",
-							"value": "penelope"
+							"value": "foobar"
 						}
 					]
 				},
