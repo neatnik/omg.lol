@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "503b195f-ba36-4323-9cd9-00da416652f5",
+		"name": "Directory",
+		"description": "Retrieve the address directory, consisting of addresses that have opted in to be listed",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12532425"
+	},
+	"item": [
+		{
+			"name": "Retreive the address directory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/directory",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"directory"
+					]
+				},
+				"description": "Retrieve the address directory"
+			},
+			"response": []
+		}
+	]
+}
