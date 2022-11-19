@@ -27,12 +27,11 @@ You can also include some parameters that will control what and how things are d
  - `link` will turn the time into a hyperlink back to the status page on status.lol
  - `fluent` will include the Fluent emoji
  - `pretty` will style the status pretty closely to what’s shown on status.lol
+ - `no-emoji`will show no emoji in your status output
 
 So, if you’re looking for something that looks nice, you probably want to use this:
 
 `<script src="https://status.lol/[your-address].js?time&link&fluent&pretty"></script>`
-
-If you don’t want any emoji in your status output, include a `no-emoji` parameter in your script’s query string.
 
 ## Emoji
 
