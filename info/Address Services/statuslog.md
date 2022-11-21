@@ -43,9 +43,9 @@ You can configure an outgoing webhook with your Statuslog (just plop the webhook
 
 ```
 {
-    "status_emoji": "\u2728",
-    "status_text": "test",
-    "posted": 1669044453
+    "status_emoji": "\ud83e\ude9d",
+    "status_text": "Webhooks for the Statuslog? Why not! https:\/\/home.omg.lol\/info\/statuslog",
+    "posted": 1669044815
 }
 ```
 
