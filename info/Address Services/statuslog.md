@@ -36,3 +36,17 @@ So, if you’re looking for something that looks nice, you probably want to use 
 ## Emoji
 
 The amazing emoji used on [status.lol](https://status.lol) are from the [Fluent Emoji](https://github.com/microsoft/fluentui-emoji) project.
+
+## Webhook
+
+You can configure an outgoing webhook with your Statuslog (just plop the webhook URL into the field in the Statuslog preference panel). With an active webhook, this data will be POSTed to the webhook URL whenever you make a new Statuslog entry:
+
+```
+{
+    "status_emoji": "\u2728",
+    "status_text": "test",
+    "posted": 1669044453
+}
+```
+
+Where `status_emoji` is the emoji used, `status_text` is the statuslog entry text, and `posted` is the UNIX epoch timestamp.
