@@ -1,0 +1,62 @@
+/* Latte */
+
+
+:root {
+	--bg: #f7f0df;
+	--fg: #e9e2d1;
+	--fatxt: #655e4b;
+	--prambod:  #aa8c7d;
+	--pramcheek:  #7c6457;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #343026;
+		--fg: #635e51;
+		--fatxt: #ebe2c8;
+		--prambod:  #aa8c7d;
+		--pramcheek:  #7c6457;
+	}
+}
+
+body {
+	background: var(--bg);
+	color: var(--fatxt);
+}
+
+main {
+	background: var(--fg);
+	backdrop-filter: blur(10px);
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: var(--fatxt);
+	text-decoration: var(--fatxt);
+}
+
+#pronouns{
+	color: var(--fatxt);
+}
+
+.fas, .fa-solid, .fa-brands, .omg-icon {
+	color: var(--fatxt);
+}
+
+.logotype {
+	color: #A88C7D;
+}
+
+.logotype.dot {
+	color: #7c6457 !important;
+}
+
+
+.prami-body { fill: var(--prambod)  !important; }
+.prami-left-eye, .prami-right-eye { fill: #343026 !important; }
+.prami-left-eye-pupil, .prami-right-eye-pupil { stroke: #343026 !important; }
+.prami-left-cheek, .prami-right-cheek { fill: var(--pramcheek) !important; }
+.prami-mouth { stroke: #343026 !important; }
+
+#profile-picture {
+	border-radius: 100%;
+}
