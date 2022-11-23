@@ -1,13 +1,13 @@
 ---
 Description: All about storing and sharing public keys  
-Last Updated: 2022-11-22 10:35 PM EST
+Last Updated: 2022-11-22 11:22 PM EST
 ---
 
 # Keys
 
 You can store and share your public keys with omg.lol. Just click on the Keys item on your address page, and you can manage your keys there.
 
-As of this particular moment (a Tuesday evening), we support PGP keys—but will be adding other key types soon!
+As of this particular moment (a Tuesday evening), we support PGP and SSH keys—but will be adding other key types soon!
 
 ## Web Key Directory
 
