@@ -12,6 +12,7 @@ We support these keys:
 - PGP
 - SSH
 - age
+- Cosign
 - Minisign
 
 ## Web Key Directory
