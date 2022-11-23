@@ -40,6 +40,7 @@ You can easily share your [cryptographic public keys](/info/keys) on your profil
 * `{pgp-key}` for your PGP key
 * `{ssh-key}` for your SSH key
 * `{age-key}` for your age key
+* `{cosign-key}` for your Cosign key
 * `{minisign-key}` for your Minisign key
 
 ## Choosing icons
