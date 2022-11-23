@@ -30,10 +30,17 @@ When you link to a known social profile or website, we’ll try to clean up the 
 
 ## Special Items
 
-* `{pgp-key}` will pull in your PGP key if you’ve added one to your [address keys](/info/keys).
-* `{ssh-key}` does the same, but for your SSH key (if you have one).
+* {snowfall} will make it snow on your profile.
+* {norelme} will disable the global default `rel="me"` attribute applied to all profile page links.
 
-More special items and key types will be added soon!
+## Keys
+
+You can easily share your [cryptographic public keys](/info/keys) on your profile. These key types are supported:
+
+* `{pgp-key}` for your PGP key
+* `{ssh-key}` for your SSH key
+* `{age-key}` for your age key
+* `{minisign-key}` for your Minisign key
 
 ## Choosing icons
 
