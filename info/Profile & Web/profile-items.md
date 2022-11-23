@@ -30,8 +30,9 @@ When you link to a known social profile or website, we’ll try to clean up the 
 
 ## Special Items
 
-* `{pgp-key}` will pull in your PGP key if you’ve shared it previously. We’re working on an entirely new key management system, so stay tuned for an update on this!
-<!-- todo: provide update lol -->
+* `{pgp-key}` will pull in your PGP key if you’ve added one to your [address keys](/info/keys).
+
+More special items and key types will be added soon!
 
 ## Choosing icons
 
