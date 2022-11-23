@@ -31,6 +31,7 @@ When you link to a known social profile or website, we’ll try to clean up the 
 ## Special Items
 
 * `{pgp-key}` will pull in your PGP key if you’ve added one to your [address keys](/info/keys).
+* `{ssh-key}` does the same, but for your SSH key (if you have one).
 
 More special items and key types will be added soon!
 
