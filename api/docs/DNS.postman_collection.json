@@ -23,7 +23,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://{{base_url}}/address/:address/dns-dev",
+					"raw": "https://{{base_url}}/address/:address/dns",
 					"protocol": "https",
 					"host": [
 						"{{base_url}}"
@@ -31,7 +31,7 @@
 					"path": [
 						"address",
 						":address",
-						"dns-dev"
+						"dns"
 					],
 					"variable": [
 						{
@@ -133,7 +133,7 @@
 					"raw": "{\"type\": \"CNAME\", \"name\": \"cname\", \"data\": \"elsewhere.tld\"}"
 				},
 				"url": {
-					"raw": "https://{{base_url}}/address/:address/dns-dev",
+					"raw": "https://{{base_url}}/address/:address/dns",
 					"protocol": "https",
 					"host": [
 						"{{base_url}}"
@@ -141,7 +141,7 @@
 					"path": [
 						"address",
 						":address",
-						"dns-dev"
+						"dns"
 					],
 					"variable": [
 						{
@@ -247,7 +247,7 @@
 					"raw": "{\"type\": \"A\", \"name\": \"@\", \"data\": \"192.167.0.1\"}"
 				},
 				"url": {
-					"raw": "https://{{base_url}}/address/:address/dns-dev/:id",
+					"raw": "https://{{base_url}}/address/:address/dns/:id",
 					"protocol": "https",
 					"host": [
 						"{{base_url}}"
@@ -255,7 +255,7 @@
 					"path": [
 						"address",
 						":address",
-						"dns-dev",
+						"dns",
 						":id"
 					],
 					"variable": [
@@ -367,7 +367,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://{{base_url}}/address/:address/dns-dev/:id",
+					"raw": "https://{{base_url}}/address/:address/dns/:id",
 					"protocol": "https",
 					"host": [
 						"{{base_url}}"
@@ -375,7 +375,7 @@
 					"path": [
 						"address",
 						":address",
-						"dns-dev",
+						"dns",
 						":id"
 					],
 					"variable": [
