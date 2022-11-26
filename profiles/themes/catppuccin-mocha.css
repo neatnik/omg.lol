@@ -1,0 +1,48 @@
+/*
+Theme: Catppuccin Mocha
+Author: Jordan Warne (jw.omg.lol)
+License: Public domain
+Version: 1.0
+Description: Soothing pastel theme for the high-spirited! 
+*/
+
+body {
+	background: #1e1e2e;
+	color: #cdd6f4;
+}
+
+main {
+	background: #181825;
+}
+
+a:link,
+a:visited {
+	color: #bac2de;
+  text-decoration: dashed;
+  text-decoration-color: #bac2de;
+}
+a:hover,
+a:active {
+	color: #cdd6f4;
+  text-decoration: #bac2de;
+
+}
+
+#profile-picture {
+	border-radius: 10%;
+}
+#pronouns {
+	color: #bac2de;
+}
+#pronouns a:link,
+#pronouns a:visited,
+#pronouns a:hover,
+#pronouns a:active {
+	color: #cdd6f4
+}
+
+.fa-li, .fas, .omg-icon {
+	color: #bac2de;
+	fill: #bac2de;
+	stroke: #bac2de;
+}
