@@ -37,11 +37,11 @@ You can enter `@` to represent your root domain (e.g. `foobar.omg.lol`).
 
 ### CAA records
 
-When entering SRV records, ensure that the Data field contains your `flags` and `tag` values before the destination. For example, a valid entry might be `128 issue letsencrypt.org`.
+When entering CAA records, ensure that the Data field contains your `flags` and `tag` values before the destination. For example, a valid entry might be `128 issue "letsencrypt.org"`.
 
 ### SRV records
 
-When entering CAA records, ensure that the Data field contains the `weight` and `port` values before the destination. For example, a valid entry might be `0 5 25565 foobar.omg.lol`.
+When entering SRV records, ensure that the Data field contains the `weight` and `port` values before the destination. For example, a valid entry might be `5 25565 foobar.omg.lol`.
 
 ## DNS “Gotchas”
 
