@@ -7,7 +7,7 @@ Last Updated: 2022-11-26 1:35 AM EST
 
 DNS, or *domain name system*, is a system that maps domain names to IP addresses. (It does other things, too, but bear with me.)
 
-For example, omg.lol doesn’t really “live” at the domain omg.lol. It _really_ lives at the IP address 159.89.247.131, but it’s not practical to say things like “hey check out my web site at one five nine dot eight nine dot two four seven dot one three one,” so the internet needed a way to map domain names to IP addresses. And DNS is that very system.
+For example, omg.lol doesn’t really “live” at the domain omg.lol. It _really_ lives at the IP address 159.89.247.131, but it’s not practical to say things like _“hey check out my web site at one five nine dot eight nine dot two four seven dot one three one,”_ so the internet needed a way to map domain names to IP addresses. And DNS is that very system.
 
 ## DNS records
 
@@ -17,13 +17,13 @@ There are several types of DNS records, but the main ones that people care about
 * **AAAA records**: Just like A records, but for IPv6 addresses.
 * **CNAME records**: These are nifty records that let you map a hostname to another hostname, creating an alias.
 * **MX records**: These define special rules for mail handling for a hostname.
-* **TXT records**: These contain arbitrary chunks of text data, useful for a variety of purposes.
 * **NS records**: Used for directing traffic to external nameservers.
+* **TXT records**: These contain arbitrary chunks of text data, useful for a variety of purposes.
 * **SRV records**: Provides information on how to direct traffic to specific services (with specific protocols and ports) that live elsewhere.
 
 ## Managing DNS records
 
-To manage your DNS records, just pull up your address, and then click on the **Manage DNS** button. From there, you can t add new records, view your existing records, or delete unwanted records.
+To manage your DNS records, just pull up your address, and then click on the **Manage DNS** button. From there, you can add new records, view your existing records, or delete unwanted records.
 
 You can configure DNS records for your omg.lol subdomain directly (e.g. you.omg.lol), or any sub-subdomain (e.g. foo.you.omg.lol, foo.bar.you.omg.lol, etc.).
 
@@ -35,11 +35,11 @@ When adding a new record, whatever you put in the Name (hostname) field will bec
 
 You can enter `@` to represent your root domain (e.g. `foobar.omg.lol`). 
 
-### SRV records
+### CAA records
 
 When entering SRV records, ensure that the Data field contains your `flags` and `tag` values before the destination. For example, a valid entry might be `128 issue letsencrypt.org`.
 
-### CAA records
+### SRV records
 
 When entering CAA records, ensure that the Data field contains the `weight` and `port` values before the destination. For example, a valid entry might be `0 5 25565 foobar.omg.lol`.
 
