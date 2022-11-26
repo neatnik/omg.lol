@@ -1,6 +1,6 @@
 ---
-Description: DNS is complex, but we try to keep it simple  
-Last Updated: 2022-10-08 01:52 AM EDT
+Description: DNS can be complex, but we try to keep it simple  
+Last Updated: 2022-11-26 1:35 AM EST
 ---
 
 # DNS Guide
@@ -23,17 +23,31 @@ There are several types of DNS records, but the main ones that people care about
 
 ## Managing DNS records
 
-To manage your DNS records, from your [account screen](/account), just click the **Manage** button for your address, then click the **Manage DNS** button.
-
-You can then add new records, view your existing records, or delete existing records.
+To manage your DNS records, just pull up your address, and then click on the **Manage DNS** button. From there, you can t add new records, view your existing records, or delete unwanted records.
 
 You can configure DNS records for your omg.lol subdomain directly (e.g. you.omg.lol), or any sub-subdomain (e.g. foo.you.omg.lol, foo.bar.you.omg.lol, etc.).
+
+Some things to keep in mind:
+
+### Hostnames
+
+When adding a new record, whatever you put in the Name (hostname) field will become a sub-entry off of your root domain. For example, if your omg.lol address is @foobar and you enter `yeet`, the resulting record will be for `yeet.foobar.omg.lol`.
+
+You can enter `@` to represent your root domain (e.g. `foobar.omg.lol`). 
+
+### SRV records
+
+When entering SRV records, ensure that the Data field contains your `flags` and `tag` values before the destination. For example, a valid entry might be `128 issue letsencrypt.org`.
+
+### CAA records
+
+When entering CAA records, ensure that the Data field contains the `weight` and `port` values before the destination. For example, a valid entry might be `0 5 25565 foobar.omg.lol`.
 
 ## DNS “Gotchas”
 
 1. You can’t create a CNAME record on any hostname that has another type of active record.
 2. Similarly, you can't create any other type of record on a hostname that already has an active CNAME record.
 
-## DNS Propagation
+## DNS Caching
 
-It can take some time for DNS changes to be made, because of the way that DNS works. The moment you submit a change to your DNS, we make that change with our ISP—this is instantaneous. But downstream changes can take time as those changes are cloned across cached copies of the DNS database across the entire internet. In most cases, the delay is short—but in theory, it can take as long as 72 hours to fully complete. How long it takes in practice depends on multiple factors like your own ISP’s caching processes and even local device caching.
+DNS servers across the internet cache records for periods of time (this is related to the “TTL” or “time to live” value that you define with your records). When you add new records or make changes to existing records, it can take a while before you (and everyone else on the internet) can see those changes because of the caching in place across those servers. Everything will eventually be updated, but sometimes it just takes a little patience. One way to check the status of a DNS record is to use a site like [dnschecker.org](https://dnschecker.org), which will show how various DNS servers around the world are serving your DNS records.
