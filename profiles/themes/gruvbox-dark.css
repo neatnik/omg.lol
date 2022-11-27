@@ -11,8 +11,8 @@ Based on: https://github.com/morhetz/gruvbox
 	--external-background: 		#3c3836;
 	--internal-background:		#282828;
 	--foreground:        		#ebdbb2;
-    --foreground-light:         #fbf1c7;
-	--gray:		    		    #928374;
+	--foreground-light:			#fbf1c7;
+	--gray:						#928374;
 	--aqua:             		#8ec07c;
 	--green:            		#b8bb26;
 	--orange:           		#fe8019;
@@ -24,13 +24,13 @@ Based on: https://github.com/morhetz/gruvbox
 
 body {
 	padding-top: 1em;
-    padding-bottom: 1em;
-    background: var(--external-background);
+	padding-bottom: 1em;
+	background: var(--external-background);
 	color: var(--foreground);
 }
 
 main {
-    background: var(--internal-background);
+	background: var(--internal-background);
 }
 
 ::selection {
