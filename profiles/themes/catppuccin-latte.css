@@ -1,0 +1,48 @@
+/*
+Theme: Catppuccin Latte
+Author: Jordan Warne (jw.omg.lol)
+License: Public domain
+Version: 1.0
+Description: Soothing pastel theme for the high-spirited! 
+*/
+
+body {
+	background: #eff1f5;
+	color: #4c4f69;
+}
+
+main {
+	background: #e6e9ef;
+}
+
+a:link,
+a:visited {
+	color: #5c5f77;
+  text-decoration: dashed;
+  text-decoration-color: #5c5f77;
+}
+a:hover,
+a:active {
+	color: #4c4f69;
+  text-decoration: #5c5f77;
+
+}
+
+#profile-picture {
+	border-radius: 10%;
+}
+#pronouns {
+	color: #5c5f77;
+}
+#pronouns a:link,
+#pronouns a:visited,
+#pronouns a:hover,
+#pronouns a:active {
+	color: #4c4f69
+}
+
+.fa-li, .fas, .omg-icon {
+	color: #5c5f77;
+	fill: #5c5f77;
+	stroke: #5c5f77;
+}
