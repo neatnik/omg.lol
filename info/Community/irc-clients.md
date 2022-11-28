@@ -19,7 +19,7 @@ Since IRC has been around for a while, there are [a ton of clients](https://en.w
 
 ### Configuring WeeChat
 
-This will create a new server entry, configure it, and connect to it.
+This will create a new server entry, configure it, and connect to it. In this example, the nick is `foobar` and the password is `your-password-here` — be sure to change these values to your own nick and password, or Penelope will flap her wings angrily.
 
 ```
 /server add omg.lol irc.social.lol/6697 -ssl
