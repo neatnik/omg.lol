@@ -451,7 +451,7 @@
 					"variable": [
 						{
 							"key": "address",
-							"value": "penelope"
+							"value": "foobar"
 						}
 					]
 				},
@@ -477,7 +477,7 @@
 							"variable": [
 								{
 									"key": "address",
-									"value": "penelope"
+									"value": "foobar"
 								}
 							]
 						}
@@ -488,7 +488,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sun, 12 Dec 2021 22:53:57 GMT"
+							"value": "Mon, 28 Nov 2022 15:56:25 GMT"
 						},
 						{
 							"key": "Server",
@@ -499,8 +499,16 @@
 							"value": "*"
 						},
 						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
 							"key": "Content-Length",
-							"value": "998"
+							"value": "1138"
 						},
 						{
 							"key": "Keep-Alive",
@@ -512,11 +520,11 @@
 						},
 						{
 							"key": "Content-Type",
-							"value": "text/json;charset=UTF-8"
+							"value": "application/json; charset=utf-8"
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"address\": \"penelope\",\n        \"message\": \"This address was registered 2 years and 9 months ago and expires in 7 months, 3 days and 3 hours.\",\n        \"registration\": {\n            \"message\": \"This address was registered 2 years and 9 months ago.\",\n            \"unix_epoch_time\": \"1553358201\",\n            \"iso_8601_time\": \"2019-03-23T16:23:21+00:00\",\n            \"rfc_2822_time\": \"Sat, 23 Mar 2019 16:23:21 +0000\",\n            \"relative_time\": \"2 years and 9 months ago\"\n        },\n        \"expiration\": {\n            \"message\": \"This address expires in 7 months, 3 days and 3 hours.\",\n            \"expired\": false,\n            \"will_expire\": true,\n            \"unix_epoch_time\": \"1657766111\",\n            \"iso_8601_time\": \"2022-07-14T02:35:11+00:00\",\n            \"rfc_2822_time\": \"Thu, 14 Jul 2022 02:35:11 +0000\",\n            \"relative_time\": \"7 months, 3 days and 3 hours\"\n        }\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"address\": \"foobar\",\n        \"message\": \"This address was registered 3 years and 7 months ago and expires in 15 years, 1 month and 6 days.\",\n        \"registration\": {\n            \"message\": \"This address was registered 3 years, 7 months and 3 weeks ago.\",\n            \"unix_epoch_time\": \"1554448408\",\n            \"iso_8601_time\": \"2019-04-05T07:13:28+00:00\",\n            \"rfc_2822_time\": \"Fri, 05 Apr 2019 07:13:28 +0000\",\n            \"relative_time\": \"3 years, 7 months and 3 weeks ago\"\n        },\n        \"expiration\": {\n            \"message\": \"This address expires in 15 years, 1 month and 6 days.\",\n            \"expired\": false,\n            \"will_expire\": true,\n            \"unix_epoch_time\": \"2145916800\",\n            \"iso_8601_time\": \"2038-01-01T00:00:00+00:00\",\n            \"rfc_2822_time\": \"Fri, 01 Jan 2038 00:00:00 +0000\",\n            \"relative_time\": \"15 years, 1 month and 6 days\"\n        },\n        \"verification\": {\n            \"message\": \"This address has been verified.\",\n            \"verified\": true\n        }\n    }\n}"
 				}
 			]
 		},
@@ -575,7 +583,7 @@
 							"variable": [
 								{
 									"key": "address",
-									"value": "penelope"
+									"value": "foobar"
 								}
 							]
 						}
@@ -586,7 +594,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Sun, 12 Dec 2021 22:53:57 GMT"
+							"value": "Mon, 28 Nov 2022 15:57:01 GMT"
 						},
 						{
 							"key": "Server",
@@ -597,8 +605,16 @@
 							"value": "*"
 						},
 						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
 							"key": "Content-Length",
-							"value": "998"
+							"value": "1172"
 						},
 						{
 							"key": "Keep-Alive",
@@ -610,11 +626,11 @@
 						},
 						{
 							"key": "Content-Type",
-							"value": "text/json;charset=UTF-8"
+							"value": "application/json; charset=utf-8"
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"address\": \"penelope\",\n        \"message\": \"This address was registered 2 years and 9 months ago and expires in 7 months, 3 days and 3 hours.\",\n        \"registration\": {\n            \"message\": \"This address was registered 2 years and 9 months ago.\",\n            \"unix_epoch_time\": \"1553358201\",\n            \"iso_8601_time\": \"2019-03-23T16:23:21+00:00\",\n            \"rfc_2822_time\": \"Sat, 23 Mar 2019 16:23:21 +0000\",\n            \"relative_time\": \"2 years and 9 months ago\"\n        },\n        \"expiration\": {\n            \"message\": \"This address expires in 7 months, 3 days and 3 hours.\",\n            \"expired\": false,\n            \"will_expire\": true,\n            \"unix_epoch_time\": \"1657766111\",\n            \"iso_8601_time\": \"2022-07-14T02:35:11+00:00\",\n            \"rfc_2822_time\": \"Thu, 14 Jul 2022 02:35:11 +0000\",\n            \"relative_time\": \"7 months, 3 days and 3 hours\"\n        },\n        \"owner\": \"person@example.com\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"address\": \"foobar\",\n        \"message\": \"This address was registered 3 years and 7 months ago and expires in 15 years, 1 month and 6 days.\",\n        \"registration\": {\n            \"message\": \"This address was registered 3 years, 7 months and 3 weeks ago.\",\n            \"unix_epoch_time\": \"1554448408\",\n            \"iso_8601_time\": \"2019-04-05T07:13:28+00:00\",\n            \"rfc_2822_time\": \"Fri, 05 Apr 2019 07:13:28 +0000\",\n            \"relative_time\": \"3 years, 7 months and 3 weeks ago\"\n        },\n        \"expiration\": {\n            \"message\": \"This address expires in 15 years, 1 month and 6 days.\",\n            \"expired\": false,\n            \"will_expire\": true,\n            \"unix_epoch_time\": \"2145916800\",\n            \"iso_8601_time\": \"2038-01-01T00:00:00+00:00\",\n            \"rfc_2822_time\": \"Fri, 01 Jan 2038 00:00:00 +0000\",\n            \"relative_time\": \"15 years, 1 month and 6 days\"\n        },\n        \"verification\": {\n            \"message\": \"This address has been verified.\",\n            \"verified\": true\n        },\n        \"owner\": \"634b9e7a7fbce\"\n    }\n}"
 				}
 			]
 		}
