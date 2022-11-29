@@ -9,8 +9,8 @@ omg.lol is a loving and inclusive platform. When you use [our services](/info/se
 
 More specifically:
 
-- Don’t spread hate or negativity based on people’s fundamental differences, such as gender identity, sexual orientation, race, ethnicity, age, ability, and social class.
-- Don’t harass, troll, seek to offend, or otherwise bother anyone.
+- Don’t spread hate or negativity, especially based on people’s fundamental differences such as gender identity, sexual orientation, race, ethnicity, age, ability, and social class.
+- Don’t harass, troll, seek to offend, shitpost, or otherwise bother anyone.
 - Don’t lie, and don’t spread others’ lies or misinformation.
 	
 We believe that everyone has a right to the freedoms of speech and personal expression. We also believe that everyone has a right to live free of abuse, harassment, and harm. In specific situations where these two beliefs are at odds with one another, we prioritize the second over the first.
