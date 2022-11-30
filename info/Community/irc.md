@@ -17,7 +17,7 @@ To use IRC, you need a _client_ that can connect to the _server_. There are [man
 
 You can point any client at `irc.social.lol` (port `6667` for a plaintext connection, or port `6697` for a secure connection). Be sure to configure your connection with a server password (using the same password provided when you created your account) to authenticate when connecting. If you don’t include a password, Penelope will disconnect you. 😟
 
-<div class="container cyan-3-bg gray-9-fg">
+<div class="container yellow-2-bg gray-9-fg">
 
 **If you keep getting disconnected when you join**, be sure to confirm that you’re connecting with the correct name (your omg.lol address), and that you’re including the correct server password in your client configuration. Also note that you won’t be able to connect from two different clients at the same time (the second connection won’t be able to authenticate because your nick is in use by the first). So if you’re experimenting with different clients, be sure to disconnect from one before trying another! 
 
@@ -34,7 +34,7 @@ Here are some of the popular channels on the server:
   * **#general**, for general chatter about anything
   * **#random**, for random, off-the-wall stuff
   * **#help**, for customer service and support
-  * **#help**, for assistance with omg.lol or related services
+  * **#omg.lol**, for assistance with omg.lol or related services
   * **#web**, for web development, profile customization, or whatever other webby thing you might want to chat about
   * **#email**, for discussion of one of the best things about the internet
   * **#dns**, why would anyone want to join this channel?
