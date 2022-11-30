@@ -1,0 +1,79 @@
+/*
+Theme: gruvbox dark
+Author: Jordan Warne (jw.omg.lol)
+License: Public domain
+Version: 1.0
+Description: Retro groove color scheme
+Based on: https://github.com/morhetz/gruvbox
+*/
+
+:root {
+	--external-background: 		#3c3836;
+	--internal-background:		#282828;
+	--foreground:        		#ebdbb2;
+	--foreground-light:			#fbf1c7;
+	--gray:						#928374;
+	--aqua:             		#8ec07c;
+	--green:            		#b8bb26;
+	--orange:           		#fe8019;
+	--blue:             		#83a598;
+	--purple:           		#d3869b;
+	--red:              		#fb4934;
+	--yellow:           		#fabd2f;
+}
+
+body {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: var(--external-background);
+	color: var(--foreground);
+}
+
+main {
+	background: var(--internal-background);
+}
+
+::selection {
+	background: var(--green);
+	color: var(--foreground);
+}
+
+h1#name a i.fa-badge-check, .omg-verified {
+	color: var(--green) !important; 
+}
+
+#pronouns a:link,
+#pronouns a:visited,
+#pronouns a:hover,
+#pronouns a:active, 
+#pronouns {
+	color: var(--gray)
+}
+
+a:link,
+a:visited {
+	color: var(--foreground);
+	border-bottom: 2px dotted var(--foreground-light);
+}
+a:hover,
+a:active {
+	color: var(--foreground);
+	border-bottom: 2px solid var(--foreground-light);
+}
+
+.fa-li {
+	color: var(--gray)
+}
+.fa-location-dot {
+	color: var(--blue)
+}
+.fa-briefcase {
+	color: var(--purple)
+}
+.fa-solid.fa-fw.fa-plug {
+	color: var(--green)
+}
+
+#footer > a:nth-child(1), #footer {
+	color: var(--gray)
+}
