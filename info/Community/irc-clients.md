@@ -13,6 +13,17 @@ Since IRC has been around for a while, there are [a ton of clients](https://en.w
 
 [irssi](https://irssi.org) is a classic terminal-friendly client. Simple but powerful (as most terminal stuff goes).
 
+### Configuring irssi
+
+This will create a new server entry, configure it, and connect to it. In this example, the nick is `foobar` and the password is `your-password-here` — be sure to change these values to your own nick and password, or Penelope will flap her wings angrily.
+
+```
+/network add omg.lol
+/server add -tls -network omg.lol irc.social.lol 6697 your-password-here foobar
+/set nick foobar
+/connect omg.lol
+```
+
 ## WeeChat
 
 [WeeChat](https://weechat.org) is another terminal-friendly client that’s extremely flexible.
