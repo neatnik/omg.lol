@@ -24,6 +24,7 @@ mastodon. mastodon
 fosstodon.org mastodon
 
 // Other
+cohost.org cohost
 artstation.com artstation
 status.lol prami
 kaggle.com kaggle
