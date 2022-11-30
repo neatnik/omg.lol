@@ -17,6 +17,17 @@ Since IRC has been around for a while, there are [a ton of clients](https://en.w
 
 [WeeChat](https://weechat.org) is another terminal-friendly client that’s extremely flexible.
 
+### Configuring WeeChat
+
+This will create a new server entry, configure it, and connect to it. In this example, the nick is `foobar` and the password is `your-password-here` — be sure to change these values to your own nick and password, or Penelope will flap her wings angrily.
+
+```
+/server add omg.lol irc.social.lol/6697 -ssl
+/set irc.server_default.nicks "foobar"
+/set irc.server.omg.lol.password "your-password-here"
+/connect omg.lol
+```
+
 ## Quassel
 
 [Quassel](https://quassel-irc.org) is a cross-platform client with a unique client/core model. In addition to the client connecting directly to the IRC server, you can also set up a “core” that will maintain a connection to the server, and then your client(s) can connect to that core. This makes it easy to maintain a persistent connection and to easily use multiple different devices.
