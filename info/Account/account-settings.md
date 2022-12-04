@@ -13,8 +13,7 @@ Your account settings page is admittedly a bit busy (and we’ll do something ab
 2. After that, you’ll find two security items: your password and 2FA settings.
 3. Then, you’ll see some basic preference stuff: your contact preferences and preferred date format.
 4. Then there’s a list of your active sessions (which you can sign out if you need to).
-5. And then your settings for social.lol ([IRC](/info/irc) and [Mastodon](/info/mastodon)).
-6. Application authorizations come after that.
-7. And, finally, your API key.
+5. Application authorizations come after that.
+6. And, finally, your API key.
 
 Yeah, that really is a bit too much all in one space. Keep an eye out for a cleanup and reorganization soon!
