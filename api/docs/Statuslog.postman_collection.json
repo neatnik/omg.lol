@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "Retrieve an individual status",
+			"name": "Retrieve an individual status for an address",
 			"request": {
 				"auth": {
 					"type": "noauth"
@@ -42,7 +42,7 @@
 			},
 			"response": [
 				{
-					"name": "Retrieve an individual status",
+					"name": "Retrieve an individual status for an address",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
@@ -117,7 +117,7 @@
 			]
 		},
 		{
-			"name": "Retrieve all statuses",
+			"name": "Retrieve all statuses for an address",
 			"request": {
 				"auth": {
 					"type": "noauth"
@@ -234,7 +234,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"emoji\": \"😄test\", \"content\": \"Testing!\"}"
+					"raw": "{\"emoji\": \"👨🏻‍💻\", \"content\": \"Testing!\"}"
 				},
 				"url": {
 					"raw": "https://{{base_url}}/address/:address/statuses/",
@@ -251,7 +251,7 @@
 					"variable": [
 						{
 							"key": "address",
-							"value": "adam"
+							"value": "foo"
 						}
 					]
 				},
@@ -665,6 +665,173 @@
 					],
 					"cookie": [],
 					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, the bio on foo.status.lol has been saved. [View it live.](https://status.lol/foo)\",\n        \"url\": \"https://status.lol/foo\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve the entire statuslog",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/statuslog",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"statuslog"
+					]
+				},
+				"description": "Fetch someone’s entire Statuslog"
+			},
+			"response": [
+				{
+					"name": "Retrieve the entire statuslog",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/statuslog",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"statuslog"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 07 Dec 2022 16:36:34 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=99"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here’s the complete statuslog.\",\n        \"statuses\": [\n            {\n                \"id\": \"6390c0549dbcd\",\n                \"address\": \"munsta\",\n                \"created\": \"1670430804\",\n                \"emoji\": \"🤩\",\n                \"content\": \"Love the 25 days of omg.lol so much I thought I better grab a new address! Hello, world!\"\n            },\n            {\n                \"id\": \"6390be3a12c27\",\n                \"address\": \"ediz\",\n                \"created\": \"1670430266\",\n                \"emoji\": \"🖌️\",\n                \"content\": \"I’m customizing footer on my omg.lol page!\"\n            },\n            {\n                \"id\": \"6390b495906ee\",\n                \"address\": \"maique\",\n                \"created\": \"1670427797\",\n                \"emoji\": \"💞\",\n                \"content\": \"Time to pick up the movieStars!\"\n            },\n            ...\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve everyone’s latest status",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/statuslog",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"statuslog"
+					]
+				},
+				"description": "Fetch someone’s entire Statuslog"
+			},
+			"response": [
+				{
+					"name": "Retrieve everyone’s latest status",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/statuslog/latest",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"statuslog",
+								"latest"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 07 Dec 2022 16:41:14 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here are everyone’s latest statuses.\",\n        \"statuses\": [\n            {\n                \"id\": \"6390c0549dbcd\",\n                \"address\": \"munsta\",\n                \"created\": \"1670430804\",\n                \"MAX(created)\": \"1670430804\",\n                \"emoji\": \"🤩\",\n                \"content\": \"Love the 25 days of omg.lol so much I thought I better grab a new address! Hello, world!\"\n            },\n            {\n                \"id\": \"6390be3a12c27\",\n                \"address\": \"ediz\",\n                \"created\": \"1670430266\",\n                \"MAX(created)\": \"1670430266\",\n                \"emoji\": \"🖌️\",\n                \"content\": \"I’m customizing footer on my omg.lol page!\"\n            },\n            {\n                \"id\": \"6390b495906ee\",\n                \"address\": \"maique\",\n                \"created\": \"1670427797\",\n                \"MAX(created)\": \"1670427797\",\n                \"emoji\": \"💞\",\n                \"content\": \"Time to pick up the movieStars!\"\n            },\n            ...\n        ]\n    }\n}"
 				}
 			]
 		}
