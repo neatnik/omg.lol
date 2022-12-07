@@ -1,6 +1,6 @@
 ---
 Description: All about paste.lol, omg.lol’s awesome pastebin  
-Last Updated: 2022-10-08 01:52 AM EDT
+Last Updated: 2022-12-07 5:04 PM EST
 ---
 
 # Pastebin
@@ -30,6 +30,10 @@ You can also visit `paste.lol/yourname/my-paste` if you prefer. It works the sam
 If you want to access a paste in plain text format, just append `/raw` to the end of its URL.
 
 To view a list of listed pastes for any given address’s pastebin, just visit `youraddress.paste.lol`.
+
+## Embedding pastes
+
+<iframe style="width: 100%; height: 20em;" frameborder="0" onload="this.height=this.contentWindow.document.body.scrollHeight" src="https://adam.paste.lol/embedding-a-paste.md/embed"></iframe>
 
 ## Reporting abuse
 
