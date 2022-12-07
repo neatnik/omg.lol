@@ -1,5 +1,5 @@
 ---
-Description: All about the Dashboard, the heart your omg.lol services
+Description: All about the Dashboard, the heart of your omg.lol services
 Last Updated: 2022-10-14 9:58 PM EDT
 ---
 
