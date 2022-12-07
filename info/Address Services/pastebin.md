@@ -33,7 +33,7 @@ To view a list of listed pastes for any given address’s pastebin, just visit `
 
 ## Embedding pastes
 
-<iframe style="width: 100%; height: 20em;" frameborder="0" onload="this.height=this.contentWindow.document.body.scrollHeight" src="https://adam.paste.lol/embedding-a-paste.md/embed"></iframe>
+<iframe style="width: 100%; height: 25em;" frameborder="0" onload="this.height=this.contentWindow.document.body.scrollHeight" src="https://adam.paste.lol/embedding-a-paste.md/embed"></iframe>
 
 ## Reporting abuse
 
