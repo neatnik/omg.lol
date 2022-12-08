@@ -711,7 +711,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Wed, 07 Dec 2022 16:36:34 GMT"
+							"value": "Thu, 08 Dec 2022 02:12:15 GMT"
 						},
 						{
 							"key": "Server",
@@ -731,7 +731,7 @@
 						},
 						{
 							"key": "Keep-Alive",
-							"value": "timeout=5, max=99"
+							"value": "timeout=5, max=100"
 						},
 						{
 							"key": "Connection",
@@ -747,7 +747,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here’s the complete statuslog.\",\n        \"statuses\": [\n            {\n                \"id\": \"6390c0549dbcd\",\n                \"address\": \"munsta\",\n                \"created\": \"1670430804\",\n                \"emoji\": \"🤩\",\n                \"content\": \"Love the 25 days of omg.lol so much I thought I better grab a new address! Hello, world!\"\n            },\n            {\n                \"id\": \"6390be3a12c27\",\n                \"address\": \"ediz\",\n                \"created\": \"1670430266\",\n                \"emoji\": \"🖌️\",\n                \"content\": \"I’m customizing footer on my omg.lol page!\"\n            },\n            {\n                \"id\": \"6390b495906ee\",\n                \"address\": \"maique\",\n                \"created\": \"1670427797\",\n                \"emoji\": \"💞\",\n                \"content\": \"Time to pick up the movieStars!\"\n            },\n            ...\n        ]\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here’s the complete statuslog.\",\n        \"statuses\": [\n            {\n                \"id\": \"6391416a125e8\",\n                \"address\": \"dm\",\n                \"created\": \"1670463850\",\n                \"relative_time\": \"28 minutes ago\",\n                \"emoji\": \"☺\",\n                \"content\": \"Streamed a discussion on HRD's YouTube channel\"\n            },\n            {\n                \"id\": \"63913d4127ad9\",\n                \"address\": \"skoobz\",\n                \"created\": \"1670462785\",\n                \"relative_time\": \"45 minutes ago\",\n                \"emoji\": \"📺\",\n                \"content\": \"Watching Ink Master\"\n            },\n            ...\n        ]\n    }\n}"
 				}
 			]
 		},
@@ -795,7 +795,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Wed, 07 Dec 2022 16:41:14 GMT"
+							"value": "Thu, 08 Dec 2022 02:11:26 GMT"
 						},
 						{
 							"key": "Server",
@@ -831,7 +831,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here are everyone’s latest statuses.\",\n        \"statuses\": [\n            {\n                \"id\": \"6390c0549dbcd\",\n                \"address\": \"munsta\",\n                \"created\": \"1670430804\",\n                \"MAX(created)\": \"1670430804\",\n                \"emoji\": \"🤩\",\n                \"content\": \"Love the 25 days of omg.lol so much I thought I better grab a new address! Hello, world!\"\n            },\n            {\n                \"id\": \"6390be3a12c27\",\n                \"address\": \"ediz\",\n                \"created\": \"1670430266\",\n                \"MAX(created)\": \"1670430266\",\n                \"emoji\": \"🖌️\",\n                \"content\": \"I’m customizing footer on my omg.lol page!\"\n            },\n            {\n                \"id\": \"6390b495906ee\",\n                \"address\": \"maique\",\n                \"created\": \"1670427797\",\n                \"MAX(created)\": \"1670427797\",\n                \"emoji\": \"💞\",\n                \"content\": \"Time to pick up the movieStars!\"\n            },\n            ...\n        ]\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here are everyone’s latest statuses.\",\n        \"statuses\": [\n            {\n                \"id\": \"638ff5cfaa031\",\n                \"address\": \"cm\",\n                \"created\": \"1670378959\",\n                \"relative_time\": \"1 day ago\",\n                \"emoji\": \"🤔\",\n                \"content\": \"Excited about omg.lol!\"\n            },\n            {\n                \"id\": \"638ff59bd1be8\",\n                \"address\": \"moe\",\n                \"created\": \"1670378907\",\n                \"relative_time\": \"1 day ago\",\n                \"emoji\": \"👀\",\n                \"content\": \"Browsing [omg.lol - Statuslog](https://home.omg.lol/address/moe/statuslog).\"\n            },\n            ...\n        ]\n    }\n}"
 				}
 			]
 		}
