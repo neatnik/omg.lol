@@ -36,11 +36,11 @@ Here are some of the popular channels on the server:
   * **#help**, for customer service and support
   * **#omg.lol**, for assistance with omg.lol or related services
   * **#web**, for web development, profile customization, or whatever other webby thing you might want to chat about
+  * **#weblog**, for discussion of our weblog service
   * **#email**, for discussion of one of the best things about the internet
   * **#dns**, why would anyone want to join this channel?
   * **#mastodon**, for discussion about Mastodon (social.lol or anything else)
   * **#firehose**, for notices, announcements, inbound webhooks, and other noisy but interesting stuff
-  * **#weblog**, for updates, notices, announcements about new Weblog service
 
 You can also create your own channels or join some that other have created. To view a list of all channels in use, type `/list`.
 

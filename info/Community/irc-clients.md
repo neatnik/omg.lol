@@ -13,7 +13,7 @@ Since IRC has been around for a while, there are [a ton of clients](https://en.w
 
 [irssi](https://irssi.org) is a classic terminal-friendly client. Simple but powerful (as most terminal stuff goes).
 
-### Configuring irssi
+### Configuration
 
 This will create a new server entry, configure it, and connect to it. In this example, the nick is `foobar` and the password is `your-password-here` — be sure to change these values to your own nick and password, or Penelope will flap her wings angrily.
 
@@ -28,7 +28,7 @@ This will create a new server entry, configure it, and connect to it. In this ex
 
 [WeeChat](https://weechat.org) is another terminal-friendly client that’s extremely flexible.
 
-### Configuring WeeChat
+### Configuration
 
 This will create a new server entry, configure it, and connect to it. In this example, the nick is `foobar` and the password is `your-password-here` — be sure to change these values to your own nick and password, or Penelope will flap her wings angrily.
 
@@ -51,7 +51,8 @@ This will create a new server entry, configure it, and connect to it. In this ex
 
 [Convos](https://convos.chat/) is a open-source web-based IRC client that offers a persistent connection to the IRC server, video chatting via Jitsi and similar features to IRCCloud. It does require you to provide your own server to host the client, but the configuration is straightforward and should get you started with it within 5-10 minutes. Alternatively, you can join one hosted by the omg.lol community called [KAIFA](https://orc.kaifa.ch).
 
-### How to connect via Convos
+### Configuration
+
 Head to connections and click on add connection, use `irc.social.lol:6697` as the server and port, check *Secure Connection* then expand *Authentication Settings* and fill out the both fields with your IRC login credentials. Optionally you can also fill out the *Nickname* field to let the Client set a nickname for you.
 
 ## The Lounge
