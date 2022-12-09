@@ -1,0 +1,204 @@
+/* Gian Paolo Fontani Theme */
+/* A simple blue theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('/type/fontawesome-free/css/all.css');
+@import url('/profiles/icons/omg.lol-icons.css');
+
+@font-face {
+	font-family: 'omg.lol';
+	src: url('data:font/woff2;charset=utf-8;base64,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') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Courier Prime', monospace; !important;
+    font-weight: normal !important;
+    font-size: 15px !important;
+}
+
+body {
+	font-size: 1.2em;
+	margin: 0;
+	padding: 2em;
+	font-family: 'Courier Prime', monospace !important;
+	color: #ffffff !important;
+	background: #0089cf !important;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	overflow-wrap: break-word;
+	font-size: 15px !important;
+}
+
+main {
+	display: block;
+	max-width: 30em;
+	border-radius: 1em;
+	margin: 0 auto;
+	text-align: center;
+	background: #0089cf !important;
+	padding: 2em;
+	font-family: 'Courier Prime', monospace !important;
+	font-size: 15px !important;
+}
+
+h1 {
+	margin: 0;
+}
+
+h1 {
+    font-family: 'Courier Prime', monospace; !important;
+    font-weight: bold !important;
+    font-size: 22px !important;
+}
+
+#profile-items {
+	padding: .5em 0 0 0;
+	margin: 1.5em 0 0 0;
+}
+
+#profile-items :is(h1, h2, h3, h4, h5, h6) {
+	text-align: center;
+	margin: 0;
+}
+
+#profile-items h1 { font-size: 1.2em; }
+#profile-items h2 { font-size: 1.2em; }
+#profile-items h3 { font-size: 1.2em; }
+#profile-items h4 { font-size: 1.1em; }
+#profile-items h5 { font-size: 1.1em; }
+#profile-items h6 { font-size: 1.1em; }
+
+#profile-picture-container {
+	margin: auto;
+	color: #555;
+	margin-bottom: 1em;
+}
+
+#profile-picture {
+	border-radius: 0.25em;
+	height: 8.7em;
+}
+
+#pronouns {
+	margin: 0 0 1em 0;
+	color: #ffffff !important;
+}
+
+#pronouns a:link,
+#pronouns a:visited,
+#pronouns a:hover,
+#pronouns a:active {
+	color: #000000 !important;
+}
+
+#profile-picture {
+    border: 3px double #ffffff !important;
+    border-radius: 50% !important;
+}
+
+#name {
+    font-size: 28px !important;
+}
+
+#details {
+	margin: 1em 0;
+}
+
+#location {
+	display: inline-block;
+}
+
+#occupation {
+	display: inline-block;
+}
+
+#location, #occupation {
+	margin: .5em;
+	padding: 0 .5em;
+}
+
+#bio {
+	text-align: center;
+	font-size: 110%;
+	line-height: 140%;
+}
+
+#footer {
+	margin: 0;
+	margin-top: 5em;
+	color: #ffffff !important;
+	text-align: center;
+	font-size: 12px !important;
+}
+
+#footer a:link,
+#footer a:visited,
+#footer a:hover,
+#footer a:active {
+	color: #000000 !important;
+	text-decoration: none !important;
+	border: 0;
+}
+
+#prami {
+	width: 2em;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	line-height: 170%;
+}
+
+.fa-solid {
+    color: #ffffff !important;
+}
+.fa-brands {
+    color: #ffffff !important;
+}
+
+a:link,
+a:visited {
+	color: #000000 !important;
+	text-decoration-color: #000000 !important;
+	text-decoration: none;
+	border-bottom: none !important;
+}
+a:hover,
+a:active {
+	color: #000000 !important;
+	text-decoration-color: #000000 !important;
+	text-decoration: none;
+	border-bottom: none !important;
+}
+
+.logotype {
+	color: #f783ac;
+	font-family: 'omg.lol';
+}
+
+#verification {
+	font-size: 80%;
+	color: #ffffff !important;
+}
+
+@media (max-width: 500px) {
+	body {
+		font-size: 1em;
+		padding: 1em;
+	}
+	main {
+		padding: 1.5em;
+	}
+}
