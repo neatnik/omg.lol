@@ -40,6 +40,7 @@ Here are some of the popular channels on the server:
   * **#dns**, why would anyone want to join this channel?
   * **#mastodon**, for discussion about Mastodon (social.lol or anything else)
   * **#firehose**, for notices, announcements, inbound webhooks, and other noisy but interesting stuff
+  * **#weblog**, for updates, notices, announcements about new Weblog service
 
 You can also create your own channels or join some that other have created. To view a list of all channels in use, type `/list`.
 
