@@ -37,6 +37,7 @@ Here are some of the popular channels on the server:
   * **#omg.lol**, for assistance with omg.lol or related services
   * **#web**, for web development, profile customization, or whatever other webby thing you might want to chat about
   * **#weblog**, for discussion of our weblog service
+  * **#statuslog**, for discussion of our status.lol service
   * **#email**, for discussion of one of the best things about the internet
   * **#dns**, why would anyone want to join this channel?
   * **#mastodon**, for discussion about Mastodon (social.lol or anything else)
