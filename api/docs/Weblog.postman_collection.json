@@ -1,0 +1,363 @@
+{
+	"info": {
+		"_postman_id": "753c709f-c5a7-45b9-8739-896a7500ae7b",
+		"name": "Weblog",
+		"description": "Endpoints for managing your weblog.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12532425"
+	},
+	"item": [
+		{
+			"name": "Create a new weblog post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "Date: 2022-12-11 5:46 PM EDT\n\n# Test post\n\nThis is a test."
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/weblog/post/:filename",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"weblog",
+						"post",
+						":filename"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "adam"
+						},
+						{
+							"key": "filename",
+							"value": "test-post"
+						}
+					]
+				},
+				"description": "Create a new weblog post or page."
+			},
+			"response": [
+				{
+					"name": "Create a new weblog post",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "Date: 2022-12-11 5:46 PM EDT\n\n# Test post\n\nThis is a test."
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/weblog/post/:filename",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"weblog",
+								"post",
+								":filename"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								},
+								{
+									"key": "filename",
+									"value": "my-awesome-lunch"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 12 Dec 2022 02:12:12 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "164"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your post has been saved and published.\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Rebuild a weblog",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/weblog/rebuild",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"weblog",
+						"rebuild"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						}
+					]
+				},
+				"description": "Rebuild your weblog, re-generating all content from the source posts."
+			},
+			"response": [
+				{
+					"name": "Rebuild a weblog",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/weblog/rebuild",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"weblog",
+								"rebuild"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 11 Dec 2022 18:18:53 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "154"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your weblog has been rebuilt.\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete a weblog post",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/weblog/delete/:post_id",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"weblog",
+						"delete",
+						":post_id"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						},
+						{
+							"key": "post_id",
+							"value": "63961b11b0a7d"
+						}
+					]
+				},
+				"description": "Permanently delete a weblog post or page."
+			},
+			"response": [
+				{
+					"name": "Delete a weblog post",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/weblog/delete/:post_id",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"weblog",
+								"delete",
+								":post_id"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								},
+								{
+									"key": "post_id",
+									"value": "63961b11b0a7d"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 11 Dec 2022 18:18:28 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "158"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, your weblog post was deleted.\"\n    }\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{api_key}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
