@@ -19,7 +19,7 @@ Last Updated: 2022-10-08 01:52 AM EDT
 </div>
 <div class="box padded rounded cyan-3-bg gray-9-fg">
 	<h3><i class="fa-brands fa-mastodon"></i> Mastodon</h3>
-	<p>Message us on <a href="https://social.lol/@omgdotlol">Mastodon</a> and we’d be glad to help you there.</p>
+	<p>Message us on <a href="https://social.lol/@prami">Mastodon</a> and we’d be glad to help you there.</p>
 </div>
 
 </div>
