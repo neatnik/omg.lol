@@ -1,6 +1,6 @@
 ---
 Description: How to manage the many beautiful items on your omg.lol profile  
-Last Updated: 2022-10-22 6:40 PM EDT
+Last Updated: 2022-12-14 12:41 PM EDT
 ---
 
 # Profile Items
@@ -22,7 +22,15 @@ If you want to remove a profile item in the Classic editor, just clear the conte
 
 Markdown is supported, so you can format text or add links as you see fit. For example, you can add a link with custom text like this:
 
-`[My awesome link text](https://myawesomesite.example.com)`
+```markdown
+[My awesome link text](https://myawesomesite.example.com)
+```
+
+Setting links to be opened in a new tab (i.e., `target="_blank"`) can be achieved by appending `⧉` to the end of the link markdown, like this:
+
+```markdown
+[This opens in a new tab](https://example.com)⧉
+```
 
 ## Linking to social profiles or other sites
 
