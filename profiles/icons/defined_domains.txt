@@ -116,6 +116,7 @@ notion. notion
 npmjs.com npm
 omg.lol prami
 opensea.io opensea
+osekai.net osu
 osk.sh osk
 osu.ppy.sh osu
 patreon.com patreon
