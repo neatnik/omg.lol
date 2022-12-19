@@ -15,6 +15,7 @@ Here’s a list of all valid omg.lol service domains.
 - [paste.lol](https://paste.lol) is our Pastebin service.
 - [status.lol](https://status.lol) is our Statuslog service.
 - [url.lol](https://url.lol) is our PURL service.
+- [profile.lol](https://profile.lol) is our hosted provide service.
 - [weblog.lol](https://weblog.lol) is our Weblog service.
 - [staff.lol](https://staff.lol) redirects to our [Staff page](https://home.omg.lol/staff).
 - [charms.lol](https://charms.lol) will be where the Charms site lives, when it goes live.
