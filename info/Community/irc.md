@@ -25,7 +25,11 @@ You can point any client at `irc.social.lol` (port `6667` for a plaintext connec
 
 ### Hiding your IP address
 
-If you’d like to hide your connection details, you can request a _vhost_ or _virtual hostname_. Just ask our friendly bot, penelope, in any channel she’s in: `!vhost [vhost]`, where `[vhost]` is whatever virtual hostname you’d like to use. You can be pretty creative here.
+If you’d like to hide your connection details, you can request a _vhost_ or _virtual hostname_. Just pop into #general and type this:
+
+`!vhost omg.lol`
+
+You could use something else, if you’d like (anything will work as long as it looks like a valid hostname). Feel free to be creative.
 
 ### Channels
 
