@@ -1,6 +1,6 @@
 ---
 Description: Refer to this official list of service domains to ensure that you’re dealing with legit omg.lol stuff 
-Last Updated: 2022-11-20 7:22 PM EST
+Last Updated: 2022-12-19 5:43 PM EST
 ---
 
 # Service Domains
@@ -9,7 +9,7 @@ Here’s a list of all valid omg.lol service domains.
 
 - [omg.lol](https://omg.lol) is an eTLD registered on the Public Suffix List. The base address redirects to [home.omg.lol](https://home.omg.lol), while other subdomains redirect to either service pages (which would be listed below) or member addresses.
 - [home.omg.lol](https://home.omg.lol) is our canonical service domain, and the only domain used for account activity (registration, sign-in, account maintenance, etc.). There are no member-run services operating within this domain.
-- [status.omg.lol](https://status.omg.lol) is our service status page.
+- [broke.lol](https://broke.lol) is our service status page.
 - [social.lol](https://social.lol) is our Mastodon instance.
 - [irc.social.lol](https://social.lol) is our IRC server.
 - [paste.lol](https://paste.lol) is our Pastebin service.
@@ -17,6 +17,7 @@ Here’s a list of all valid omg.lol service domains.
 - [url.lol](https://url.lol) is our PURL service.
 - [weblog.lol](https://weblog.lol) is our Weblog service.
 - [staff.lol](https://staff.lol) redirects to our [Staff page](https://home.omg.lol/staff).
+- [charms.lol](https://charms.lol) will be where the Charms site lives, when it goes live.
 
 If you have found a location other than the ones above claiming to be affiliated with omg.lol, or if someone has asked you to log into omg.lol or share any personal information at a location other than home.omg.lol, please [email abuse@omg.lol](mailto:abuse@omg.lol) immediately.
 
