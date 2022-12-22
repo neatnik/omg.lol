@@ -1,29 +1,19 @@
 ---
-Description: Referring friends and family to omg.lol  
-Last Updated: 2022-12-14 9:51 PM EST
+Description: Referring friends and family to omg.lol is fun and rewarding
+Last Updated: 2022-12-22 12:20 AM EST
 ---
 
-# Referrals
+# Referral Program
 
-We’re launching a referral program very soon! The details of the program aren’t quite finalized yet, but you can expect two key things:
-
-1. You’ll be rewarded for every member that you refer to omg.lol.
-2. We’ll apply rewards retroactively, all the way back to when the service launched.
-
-<div class="container shadowed yellow-3-bg gray-9-fg">
-<h2><i class="fa-solid fa-square-exclamation"></i> Let’s keep things nice!</h2>
-<p>Hey, this is super important. <strong>The intent of the referral program is to reward members for referring new members to omg.lol.</strong> That’s it! This program isn’t designed to pursue aggressive growth or expand for the sake of expansion. We want every referral be a fun, happy, natural (<em>organic</em>, as they say) thing.</p>
-<p>We get it—people like rewards. You’re a person, so you probably like rewards too. But <em>please</em> do not make this program into something weird or gross for anyone. Don’t spam your referral URLs, don’t pressure or harass anyone to sign up for the service, and don’t do anything that anyone would find unpleasant in any way. We shouldn’t have to say this, but <em>definitely</em> don’t engage in any kind of cheating or exploitation in an attempt to reap extra rewards. We’ll catch it, and it won’t end well.</p>
-<p>So, one last time: please do your part to keep the program fun and wholesome. Enjoy getting rewarded, but don’t make it uncool. Don’t make Prami sad.</p>
-</div>
+Our referral program is super simple: for every person that you refer to omg.lol who signs up, we’ll give you three months of service credit. (See the “Program Details” section below for a little more info.)
 
 ## Your referrals page
 
-If you visit your [account settings](/account) page, you’ll see a new link at the top to access your [referrals page](/account/referrals). There, you can see and do the following:
+If you visit your [account settings](/account) page, you’ll see a new link at the top to access your [referrals page](/account/referrals). On that page, you can say who referred you to omg.lol, or if you’ve already done that, view confirmation of who referred you. You can also see and copy your referral URL(s), and see a list of everyone who you’ve referred to omg.lol. Finally, you’ll also see your Time Bank—this is where your referral rewards appear.
 
-1. Indicate who referred you to omg.lol, or if you’ve already done that, view confirmation of who referred you.
-2. See and copy your referral URL(s).
-3. See a list of everyone who you’ve referred to omg.lol.
+## Time Bank
+
+Your Time Bank shows the balance of credit that you’ve earned for referring people (three months per person). We’re still wrapping up the final bits of code on the bank, but when ready, you’ll be able to apply the time to your address(es), generate a gift code (in multiples of one year), or transfer the time to any other omg.lol member address.
 
 ## Referral URLs
 
@@ -38,3 +28,19 @@ If you have multiple addresses, you can use any of them for your referral URL. Y
 The list at the bottom of your referrals page shows everyone who has indicated that you’ve referred them to omg.lol, either by using your referral URL or by visiting their own referrals page and entering your address there (if you have more than one address, they could enter any of those addresses to give you credit).
 
 If you’ve referred people to omg.lol and they’ve signed up but you don’t see their name in your list, ask them to visit their [referrals page](/account/referrals) and enter your address there.
+
+## Program Details
+
+Here’s pretty much every detail about the program:
+
+* You’ll receive three months of service credit for each person who signs up for omg.lol and either uses your referrer URL or lists you as their referrer on their referrals page.
+
+* This program operates retroactively from the start of the service. You can receive credit for people who you referred years ago, as long as they sign in and list you as their referrer.
+
+* The three months of service per referral is calculated as 91.5 days, which is one quarter of a leap year. Weird, yeah, but super fair!
+
+* The balance in your Time Bank has no cash value. Your balance is surrendered when your omg.lol membership ends.
+
+* Please don’t spam your referrer URLs or pester people to sign up for the service. We want to reward you for friendly, low-pressure referrals. Members who engage in referral spam or other unpleasant behavior related to the referral program will likely not be members for long.
+
+* It should go without saying, but we have a zero-tolerance policy for any fraud or abuse related to the referral program. It won’t end well for anyone trying to game the system or engaging in any shenanigans. Please, just don’t.
