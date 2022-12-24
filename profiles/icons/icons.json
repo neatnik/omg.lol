@@ -137,6 +137,7 @@
     "ban-smoking": "fa-solid fa-ban-smoking",
     "bandage": "fa-solid fa-bandage",
     "bandcamp": "fa-brands fa-bandcamp",
+    "bangladeshi-taka-sign": "fa-solid fa-bangladeshi-taka-sign",
     "barcode": "fa-solid fa-barcode",
     "bars": "fa-solid fa-bars",
     "bars-progress": "fa-solid fa-bars-progress",
@@ -341,9 +342,9 @@
     "chevron-right": "fa-solid fa-chevron-right",
     "chevron-up": "fa-solid fa-chevron-up",
     "child": "fa-solid fa-child",
+    "child-combatant": "fa-solid fa-child-combatant",
     "child-dress": "fa-solid fa-child-dress",
     "child-reaching": "fa-solid fa-child-reaching",
-    "child-rifle": "fa-solid fa-child-rifle",
     "children": "fa-solid fa-children",
     "chrome": "fa-brands fa-chrome",
     "chromecast": "fa-brands fa-chromecast",
@@ -1126,6 +1127,7 @@
     "node": "fa-brands fa-node",
     "node-js": "fa-brands fa-node-js",
     "not-equal": "fa-solid fa-not-equal",
+    "notdef": "fa-solid fa-notdef",
     "note-sticky": "fa-solid fa-note-sticky",
     "notes-medical": "fa-solid fa-notes-medical",
     "npm": "fa-brands fa-npm",
@@ -1930,5 +1932,8 @@
     "passkey": "omg-icon omg-passkey",
     "ecosia": "omg-icon omg-ecosia",
     "mltshp": "omg-icon omg-mltshp",
-    "andycarolan": "omg-icon omg-andycarolan"
+    "andycarolan": "omg-icon omg-andycarolan",
+    "cohost": "omg-icon omg-cohost",
+    "json-feed": "omg-icon omg-json-feed",
+    "zioibi": "omg-icon omg-zioibi"
 }

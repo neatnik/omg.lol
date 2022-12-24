@@ -49,7 +49,7 @@ file_put_contents('domains.json', json_encode($domains, JSON_PRETTY_PRINT));
 
 // Next, we’ll create an array of the Font Awesome Free icons.
 
-$font_awesome_free = json_decode(file_get_contents('https://omg.cache.lol/type/fontawesome-free/metadata/icons.json'));
+$font_awesome_free = json_decode(file_get_contents('../../type/fontawesome-free/metadata/icons.json'));
 foreach($font_awesome_free as $icon => $obj) {
 	$font_awesome_icons[$icon] = 'fa-'.$obj->styles[0].' fa-'.$icon;
 }
@@ -105,4 +105,4 @@ $icons = json_encode($icons, JSON_PRETTY_PRINT);
 file_put_contents('icons.json', $icons);
 
 $id = uniqid();
-echo "\n".'Icon preparation complete. Check icons: <a href="https://static.omg.lol/profiles/icons/omg.lol-icons.html?v='.$id.'">https://static.omg.lol/profiles/icons/omg.lol-icons.html?v='.$id.'</a>';
+echo "\n".'Icon preparation complete. Check icons: <a href="https://omgalol.cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'">https://omgalol.cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'</a>';

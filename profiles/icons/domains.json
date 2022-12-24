@@ -11,6 +11,8 @@
     "mas.to": "mastodon",
     "mastodon.": "mastodon",
     "fosstodon.org": "mastodon",
+    "orcid.org": "orcid",
+    "cohost.org": "cohost",
     "artstation.com": "artstation",
     "status.lol": "prami",
     "kaggle.com": "kaggle",
@@ -101,6 +103,7 @@
     "npmjs.com": "npm",
     "omg.lol": "prami",
     "opensea.io": "opensea",
+    "osekai.net": "osu",
     "osk.sh": "osk",
     "osu.ppy.sh": "osu",
     "patreon.com": "patreon",
@@ -158,5 +161,6 @@
     "sus.omg.lol": "vukky",
     "vukky.net": "vukky",
     "neatnik.net": "neatnik",
-    "andycarolan.com": "andycarolan"
+    "andycarolan.com": "andycarolan",
+    "zioibi.com": "zioibi"
 }
