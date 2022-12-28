@@ -389,7 +389,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Wed, 28 Dec 2022 19:01:51 GMT"
+							"value": "Wed, 28 Dec 2022 19:09:07 GMT"
 						},
 						{
 							"key": "Server",
@@ -409,7 +409,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "719"
+							"value": "716"
 						},
 						{
 							"key": "Keep-Alive",
@@ -425,7 +425,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here is the latest post.\",\n        \"entries\": {\n            \"address\": \"foobar\",\n            \"location\": \"/2022/12/test-post\",\n            \"title\": \"Test post\",\n            \"date\": \"1670795160\",\n            \"type\": \"post\",\n            \"status\": \"live\",\n            \"source\": \"Date: 2022-12-11 5:46 PM EDT\\n\\n# Test post\\n\\nThis is a test.\",\n            \"body\": \"# Test post\\n\\nThis is a test.\",\n            \"output\": \"<h1>Test post</h1>\\n<p>This is a test.</p>\",\n            \"metadata\": \"{\\\"date\\\":\\\"2022-12-11 5:46 PM EDT\\\",\\\"slug\\\":\\\"test-post\\\"}\",\n            \"entry\": \"abc123\"\n        }\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here is the latest post.\",\n        \"post\": {\n            \"address\": \"foobar\",\n            \"location\": \"/2022/12/test-post\",\n            \"title\": \"Test post\",\n            \"date\": \"1670795160\",\n            \"type\": \"post\",\n            \"status\": \"live\",\n            \"source\": \"Date: 2022-12-11 5:46 PM EDT\\n\\n# Test post\\n\\nThis is a test.\",\n            \"body\": \"# Test post\\n\\nThis is a test.\",\n            \"output\": \"<h1>Test post</h1>\\n<p>This is a test.</p>\",\n            \"metadata\": \"{\\\"date\\\":\\\"2022-12-11 5:46 PM EDT\\\",\\\"slug\\\":\\\"test-post\\\"}\",\n            \"entry\": \"abc123\"\n        }\n    }\n}"
 				}
 			]
 		},
