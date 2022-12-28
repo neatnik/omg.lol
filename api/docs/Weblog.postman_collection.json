@@ -330,6 +330,106 @@
 			]
 		},
 		{
+			"name": "Retrieve the latest weblog post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/weblog/post/latest",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"weblog",
+						"post",
+						"latest"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						}
+					]
+				},
+				"description": "Retrieve the latest post from a weblog."
+			},
+			"response": [
+				{
+					"name": "Retrieve the latest weblog post",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/weblog/post/latest",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"weblog",
+								"post",
+								"latest"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 28 Dec 2022 19:01:51 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "719"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here is the latest post.\",\n        \"entries\": {\n            \"address\": \"foobar\",\n            \"location\": \"/2022/12/test-post\",\n            \"title\": \"Test post\",\n            \"date\": \"1670795160\",\n            \"type\": \"post\",\n            \"status\": \"live\",\n            \"source\": \"Date: 2022-12-11 5:46 PM EDT\\n\\n# Test post\\n\\nThis is a test.\",\n            \"body\": \"# Test post\\n\\nThis is a test.\",\n            \"output\": \"<h1>Test post</h1>\\n<p>This is a test.</p>\",\n            \"metadata\": \"{\\\"date\\\":\\\"2022-12-11 5:46 PM EDT\\\",\\\"slug\\\":\\\"test-post\\\"}\",\n            \"entry\": \"abc123\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
 			"name": "Delete a weblog entry",
 			"request": {
 				"method": "DELETE",
