@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(328deg, rgba(233, 52, 240, 1) 0%, rgba(234, 67, 135, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    background-attachment: fixed;
+}
+
+#profile-picture {
+    border: 3px solid #E93CB6;
+    box-shadow: 7px 7px black;
+    border-radius: 0;
+}
+
+main {
+    background: white;
+    box-shadow: 7px 7px black;
+    border-radius: 0;
+}
+
+#footer {
+    margin-top: 10px;
+}
