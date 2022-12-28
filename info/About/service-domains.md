@@ -17,6 +17,7 @@ Here’s a list of all valid omg.lol service domains.
 - [url.lol](https://url.lol) is our PURL service.
 - [profile.lol](https://profile.lol) is our hosted profile service.
 - [weblog.lol](https://weblog.lol) is our Weblog service.
+- [omglol.news](https://omglol.news) is our updates blog. It runs on weblog.lol.
 - [staff.lol](https://staff.lol) redirects to our [Staff page](https://home.omg.lol/staff).
 - [charms.lol](https://charms.lol) will be where the Charms site lives, when it goes live.
 
