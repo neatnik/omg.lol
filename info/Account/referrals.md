@@ -1,6 +1,6 @@
 ---
 Description: Referring friends and family to omg.lol is fun and rewarding
-Last Updated: 2022-12-22 12:20 AM EST
+Last Updated: 2022-12-29 4:20 PM EST
 ---
 
 # Referral Program
@@ -13,7 +13,7 @@ If you visit your [account settings](/account) page, you’ll see a new link at 
 
 ## Time Bank
 
-Your Time Bank shows the balance of credit that you’ve earned for referring people (three months per person). We’re still wrapping up the final bits of code on the bank, but when ready, you’ll be able to apply the time to your address(es), generate a gift code (in multiples of one year), or transfer the time to any other omg.lol member address.
+Your [Time Bank](/info/time-bank) shows the balance of credit that you’ve earned for referring people (three months per person). You can use the time in your Time Bank to generate omg.lol gift codes, and soon you’ll be able to use the time in other ways as well.
 
 ## Referral URLs
 
