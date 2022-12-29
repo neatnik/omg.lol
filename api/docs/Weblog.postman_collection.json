@@ -332,6 +332,9 @@
 		{
 			"name": "Retrieve the latest weblog post",
 			"request": {
+				"auth": {
+					"type": "noauth"
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
