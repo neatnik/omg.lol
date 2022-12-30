@@ -22,6 +22,7 @@ karma.social.lol dharmachakra
 mas.to mastodon
 mastodon. mastodon
 fosstodon.org mastodon
+tech.lgbt mastodon
 
 // Other
 fandom.com fandom
