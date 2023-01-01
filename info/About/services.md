@@ -27,9 +27,13 @@ Simple link redirection lets you share URLs that never, ever change.
 
 Share text, code, recipies, ancient wisdom, or juicy gossip with anyone.
 
-## <i class="fa-duotone fa-fw fa-square-rss"></i> Weblog (Coming soon!™) 
+## <i class="fa-duotone fa-fw fa-square-rss"></i> Weblog (Coming soon!™)
 
 Published serialized thoughts, just like in the early days of the web.
+
+## <i class="fa-duotone fa-fw fa-receipt"></i> Proofs (Coming soon!™)
+
+A super-simple (and hopefully kind of fun) digital proof system.
 
 ## <i class="fa-brands fa-fw fa-mastodon"></i> Mastodon
 
