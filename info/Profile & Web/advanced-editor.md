@@ -23,7 +23,7 @@ The Advanced editor uses a custom approach to defining profile metadata, intende
 
 Each line above is its own _metadata item_, which is in turn rendered into HTML with a “metadata” class and a unique ID to aid in page styling and structure. For example, the metadata block above would be rendered into HTML as:
 
-```
+```html
 <div class="metadata" id="pronouns">they/them</div>
 <div class="metadata" id="occupation">Seed Preservationist</div>
 <div class="metadata" id="location">Svalbard</div>
@@ -41,7 +41,7 @@ Sections can be added to pages with a special section indicator, like this:
 
 This would be rendered as:
 
-```
+```html
 <div id="bio">
 ...
 </div>
