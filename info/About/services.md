@@ -27,7 +27,7 @@ Simple link redirection lets you share URLs that never, ever change.
 
 Share text, code, recipies, ancient wisdom, or juicy gossip with anyone.
 
-## <i class="fa-duotone fa-fw fa-square-rss"></i> Weblog (Coming soon!™)
+## <i class="fa-duotone fa-fw fa-square-rss"></i> Weblog (Beta)
 
 Published serialized thoughts, just like in the early days of the web.
 
