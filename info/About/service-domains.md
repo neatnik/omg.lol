@@ -19,6 +19,7 @@ Here’s a list of all valid omg.lol service domains.
 - [weblog.lol](https://weblog.lol) is our Weblog service.
 - [omglol.news](https://omglol.news) is our updates blog. It runs on weblog.lol.
 - [staff.lol](https://staff.lol) redirects to our [Staff page](https://home.omg.lol/staff).
+- [proven.lol](https://proven.lol) will be where the Proofs site lives, when it goes live.
 - [charms.lol](https://charms.lol) will be where the Charms site lives, when it goes live.
 
 If you have found a location other than the ones above claiming to be affiliated with omg.lol, or if someone has asked you to log into omg.lol or share any personal information at a location other than home.omg.lol, please [email abuse@omg.lol](mailto:abuse@omg.lol) immediately.
