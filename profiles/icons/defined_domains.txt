@@ -23,6 +23,8 @@ mas.to mastodon
 mastodon. mastodon
 fosstodon.org mastodon
 tech.lgbt mastodon
+ruby.social mastodon
+dice.camp mastodon
 
 // Other
 fandom.com fandom
