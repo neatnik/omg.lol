@@ -22,7 +22,7 @@ By default, all of your PURLs work on two domains: `omg.lol` and `url.lol` (whic
 1. `you.omg.lol/purl`
 2. `omg.lol/you/purl`
 3. `you.url.lol/purl`
-4. `yourdomain.com/purl` (This only works if you have an external domain linked in the [Switchboard](https://home.omg.lol/info/switchboard))
+4. `yourdomain.tld/purl` (This only works if you have an external domain linked in the [Switchboard](https://home.omg.lol/info/switchboard))
 
 The `url.lol` domain exists for your convenience, in the event that your omg.lol domain is configured in such a way that you can’t use PURLs (e.g. DNS settings that point it away from our server).
 
