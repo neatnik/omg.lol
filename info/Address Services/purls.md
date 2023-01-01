@@ -1,6 +1,6 @@
 ---
 Description: Learn all about PURLs, also known as persistent uniform resource locators  
-Last Updated: 2022-10-08 01:52 AM EDT
+Last Updated: 2023-01-01 03:25 AM EDT
 ---
 
 # PURLs
