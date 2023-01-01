@@ -17,9 +17,9 @@ Last Updated: 2020-02-01 12:42 PM EST
 
 <p class="legal-summary"><i class="fa-solid fa-fw fa-circle-info"></i> Summary: When you use our Services you agree to all these terms. Your use of our Services is also subject to our Privacy Policy, which covers how we collect, use, share, and store your personal information.</p>
 
-<p id="tos-1-1"><span class="item-label">Section 1.1</span> You agree that by clicking “Buy it for $5”, “Pay” or similar, registering, accessing, or using our Services (described below), you are agreeing to enter a legally binding contract with Neatnik LLC (even if you are using our Services on behalf of an entity like a company or corporation etc.).</p>
+<p id="tos-1-1"><span class="item-label">Section 1.1</span> You agree that by clicking “Buy it for $20”, “Pay” or similar, registering, accessing, or using our Services (described below), you are agreeing to enter a legally binding contract with Neatnik LLC (even if you are using our Services on behalf of an entity like a company or corporation etc.).</p>
 
-<p id="tos-1-2"><span class="item-label">Section 1.2</span> If you do not agree to this contract (“Contract” or “User Agreement”), do not click “Buy it for $5”, “Pay” (or similar) and do not access or otherwise use any of our Services. If you wish to terminate this contract, at any time you can do so by closing your account and no longer accessing or using our Services.</p>
+<p id="tos-1-2"><span class="item-label">Section 1.2</span> If you do not agree to this contract (“Contract” or “User Agreement”), do not click “Buy it for $20”, “Pay” (or similar) and do not access or otherwise use any of our Services. If you wish to terminate this contract, at any time you can do so by closing your account and no longer accessing or using our Services.</p>
 
 <p id="tos-1-3"><span class="item-label">Section 1.3</span> omg.lol, Neatnik LLC, and you.</p>
 
