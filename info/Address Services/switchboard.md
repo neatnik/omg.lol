@@ -18,7 +18,7 @@ Every omg.lol address comes with six standard routes. Assuming your address is `
 3. `omg.lol/~foo`, your [Tildeverse address](/info/tildeverse)
 4. `omg.lol/@foo`, your “at” address
 5. `profile.omg.lol/foo`, your dedicated profile address
-6. `foo.profile.lol`, an additional dedicated profile address on the `profile.lol` domain.
+6. `foo.profile.lol`, an subdomain profile address, but on the `profile.lol` domain.
 
 You can also add as many external domains as you’d like, and they become routes as well.
 
