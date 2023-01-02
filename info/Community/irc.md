@@ -1,6 +1,6 @@
 ---
 Description: All about our awesome IRC server
-Last Updated: 2022-11-30 8:35 AM EST
+Last Updated: 2023-01-01 8:28 PM EST
 ---
 
 # Internet Relay Chat (IRC)
@@ -35,17 +35,15 @@ You could use something else, if you’d like (anything will work as long as it 
 
 Here are some of the popular channels on the server:
 
-  * **#general**, for general chatter about anything
-  * **#random**, for random, off-the-wall stuff
-  * **#help**, for customer service and support
-  * **#omg.lol**, for assistance with omg.lol or related services
-  * **#web**, for web development, profile customization, or whatever other webby thing you might want to chat about
-  * **#weblog**, for discussion of our weblog service
-  * **#statuslog**, for discussion of our status.lol service
-  * **#email**, for discussion of one of the best things about the internet
-  * **#dns**, why would anyone want to join this channel?
-  * **#mastodon**, for discussion about Mastodon (social.lol or anything else)
-  * **#firehose**, for notices, announcements, inbound webhooks, and other noisy but interesting stuff
+  * **#general**, general chatter about anything
+  * **#random**, random or off-the-wall stuff
+  * **#help**, customer service and support
+  * **#omg.lol**, chat about omg.lol services
+  * **#web**, web development stuff
+  * **#email**, all about email
+  * **#dns**, for the nerds
+  * **#mastodon**, discuss Mastodon (social.lol or in general)
+  * **#firehose**, notices, announcements, inbound webhooks, and other noisy (but interesting) stuff
 
 You can also create your own channels or join some that other have created. To view a list of all channels in use, type `/list`.
 
