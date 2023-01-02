@@ -1,6 +1,6 @@
 ---
 Description: How to route your web traffic and do stuff with external domains  
-Last Updated: 2022-10-16 09:30 AM EDT
+Last Updated: 2023-01-01 03:05 PM EST
 ---
 
 # Switchboard
@@ -11,13 +11,14 @@ On the Switchboard, you’ll see all of the different **routes** for your addres
 
 ## Routes
 
-Every omg.lol address comes with five standard routes. Assuming your address is `foo`:
+Every omg.lol address comes with six standard routes. Assuming your address is `foo`:
 
 1. `foo.omg.lol`, your subdomain
 2. `omg.lol/foo`, your path
 3. `omg.lol/~foo`, your [Tildeverse address](/info/tildeverse)
 4. `omg.lol/@foo`, your “at” address
 5. `profile.omg.lol/foo`, your dedicated profile address
+6. `foo.profile.lol`, a subdomain on the `profile.lol` domain. (This route has only two options: "Disabled" or "Web/Profile Page")
 
 You can also add as many external domains as you’d like, and they become routes as well.
 
@@ -31,6 +32,7 @@ Every route has a corresponding connection. Available connections are:
 4. **Pastebin**, which displays your list of [pastes](/info/pastebin) (available only on external domain routes -- see below)
 5. **PURLs**, brands your [PURLs](/info/purls) with your external domain
 6. **Disabled**, for when you just want to switch things off
+
 
 When a connection is disabled, a standard “resource unavailable” page will be displayed.
 
