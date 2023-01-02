@@ -20,3 +20,4 @@ omg.lol is unabashedly built with [PHP](https://www.php.net) on [DigitalOcean](h
 Penelope, our totally rad pigeon mascot, was illustrated by the incredibly talented [Bree Lundberg](https://breelundberg.com). Prami, our heart logo, was illustrated by the equally astounding [Momo](https://www.heyheymomo.com).
 
 The icons you see throughout the site are by [Font Awesome](https://fontawesome.com).
+
