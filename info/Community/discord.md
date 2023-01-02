@@ -5,7 +5,7 @@ Last Updated: 2023-01-02 02:43 AM EST
 
 # Discord
 
-omg.lol's primary form of social communication is the [social.lol IRC server](https://home.omg.lol/info/irc). We now have a Discord server that acts as a bridge to this IRC server. At the moment, this Discord server's functionality is purely as a bridge to the IRC server, with no unique channels or functionality at this time.
+We're big fans of our [social.lol IRC server](https://home.omg.lol/info/irc), but we know IRC is not for everybody. We've created this Discord server to act as a Bridge between IRC and Discord, so we can get the best of both worlds. 
 
 ### Joining
 
