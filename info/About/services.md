@@ -31,7 +31,7 @@ Share text, code, recipies, ancient wisdom, or juicy gossip with anyone.
 
 Published serialized thoughts, just like in the early days of the web.
 
-## <i class="fa-duotone fa-fw fa-receipt"></i> Proofs (Coming soon!™)
+## <i class="fa-duotone fa-fw fa-badge-check"></i> Proofs (Coming soon!™)
 
 A super-simple (and hopefully kind of fun) digital proof system.
 
