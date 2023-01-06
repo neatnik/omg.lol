@@ -62,3 +62,9 @@ If you somehow weren’t registered with NickServ when you first set things up (
 ### Rules
 
 Use common sense when chatting with others. Prioritize kindness. Show compassion. Remember that all omg.lol policies apply on irc.social.lol, like our [Code of Conduct](/info/code-of-conduct), [Terms of Use](/info/legal), and [Acceptable Use](/info/legal) policies. Just [don’t be an asshole](https://asshole.fyi) and you should be fine.
+
+### Discord
+
+If you can't or simply dont want to use IRC, you can still participate! We have a Discord bridge to the IRC server.
+
+If you’d like to hop on, just navigate over to your omg.lol address page and pull up your social.lol options. You’ll see a button to connect to Discord there.
