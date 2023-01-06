@@ -21,7 +21,7 @@ Last Updated: 2022-10-08 01:52 AM EDT
 	<h3><i class="fa-brands fa-mastodon"></i> Mastodon</h3>
 	<p>Message us on <a href="https://social.lol/@prami">Mastodon</a> and we’d be glad to help you there.</p>
 </div>
-<div class="box padded rounded indigo-6bg gray-9-fg">
+<div class="box padded rounded indigo-6-bg gray-9-fg">
 	<h3><i class="fa-brands fa-mastodon"></i> Discord</h3>
 	<p>Our <a href="https://home.omg.lol/info/irc">IRC Server</a> is bridged to our own Discord server. If you’d like to hop on, just navigate over to your omg.lol address page and pull up your social.lol options. You’ll see a button to connect to Discord there.</p>
 </div>
