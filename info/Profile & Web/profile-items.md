@@ -53,7 +53,7 @@ You can easily share your [cryptographic public keys](/info/keys) on your profil
 
 ## Choosing icons
 
-If you’d like to have a specific icon appear on a profile item, just use an icon tag, like this: `{cat}`. Put it at the end of the line, and when your profile is published, the tag will be removed and the icon will be applied. You can use any icon in the [Font Awesome free set](https://fontawesome.com/search?m=free&o=r), as well as any of the custom omg.lol icons.
+If you’d like to have a specific icon appear on a profile item, just use an icon tag, like this: `{cat}`. Put it at the end of the line, and when your profile is published, the tag will be removed and the icon will be applied. You can use any icon in the [Font Awesome free set](https://fontawesome.com/search?m=free&o=r), as well as any of the [custom omg.lol icons](https://omgalol.cache.lol/profiles/icons/omg.lol-icons.html).
 
 For example:
 
