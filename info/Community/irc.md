@@ -65,6 +65,6 @@ Use common sense when chatting with others. Prioritize kindness. Show compassion
 
 ### Discord
 
-If you can't or simply dont want to use IRC, you can still participate! We have a Discord bridge to the IRC server.
+If you can't or simply don't want to use IRC, you can still participate! We have a Discord bridge to the IRC server.
 
 If you’d like to hop on, just navigate over to your omg.lol address page and pull up your social.lol options. You’ll see a button to connect to Discord there.
