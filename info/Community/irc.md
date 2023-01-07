@@ -35,7 +35,7 @@ If you’d like to hop on, just navigate over to your omg.lol address page and p
 
 ### Hiding your IP address
 
-If connecting through IRC and you’d like to hide your connection details, you can request a _vhost_ or _virtual hostname_. Just pop into #general and type this:
+If you are connecting through IRC and you’d like to hide your connection details, you can request a _vhost_ or _virtual hostname_. Just pop into #general and type this:
 
 `!vhost omg.lol`
 
