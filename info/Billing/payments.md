@@ -27,7 +27,7 @@ We accept Visa, Mastercard, American Express, Discover, Diners Club, JCB, Alipay
 
 ## Payment processing
 
-We use Stripe to securely process your online payment. They’re the best.
+We use Stripe to securely process your online payment. They’re _the best_.
 
 ## Currencies
 
