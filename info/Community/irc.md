@@ -11,6 +11,10 @@ Internet Relay Chat (or IRC) is an open standard for chatting on the internet. I
 
 To kick things off, visit your address's social.lol page and then click the "Create IRC account" button. You’ll then receive a password that you can use when connecting.
 
+### Rules
+
+Use common sense when chatting with others. Prioritize kindness. Show compassion. Remember that all omg.lol policies apply on irc.social.lol, like our [Code of Conduct](/info/code-of-conduct), [Terms of Use](/info/legal), and [Acceptable Use](/info/legal) policies. Just [don’t be an asshole](https://asshole.fyi) and you should be fine.
+
 ### Connecting
 
 To use IRC, you need a _client_ that can connect to the _server_. There are [many clients](/info/extra/irc-clients) available, all with different features.
@@ -23,9 +27,15 @@ You can point any client at `irc.social.lol` (port `6667` for a plaintext connec
 
 </div>
 
+### Discord
+
+If you can't or simply dont want to use IRC, you can still participate! We have a Discord bridge to the IRC server.
+
+If you’d like to hop on, just navigate over to your omg.lol address page and pull up your social.lol options. You’ll see a button to connect to Discord there.
+
 ### Hiding your IP address
 
-If you’d like to hide your connection details, you can request a _vhost_ or _virtual hostname_. Just pop into #general and type this:
+If connecting through IRC and you’d like to hide your connection details, you can request a _vhost_ or _virtual hostname_. Just pop into #general and type this:
 
 `!vhost omg.lol`
 
@@ -58,13 +68,3 @@ IRC uses “slash commands” to do things. You can [view a complete list of com
 ### NickServ
 
 If you somehow weren’t registered with NickServ when you first set things up (maybe you joined before we set up this slick automatic setup thing), you can register by sending a message to NickServ like this: `/msg NickServ register [password] [email]`. NickServ will let you know if that worked.
-
-### Rules
-
-Use common sense when chatting with others. Prioritize kindness. Show compassion. Remember that all omg.lol policies apply on irc.social.lol, like our [Code of Conduct](/info/code-of-conduct), [Terms of Use](/info/legal), and [Acceptable Use](/info/legal) policies. Just [don’t be an asshole](https://asshole.fyi) and you should be fine.
-
-### Discord
-
-If you can't or simply don't want to use IRC, you can still participate! We have a Discord bridge to the IRC server.
-
-If you’d like to hop on, just navigate over to your omg.lol address page and pull up your social.lol options. You’ll see a button to connect to Discord there.
