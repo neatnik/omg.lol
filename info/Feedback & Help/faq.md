@@ -9,11 +9,7 @@ Here are the questions about omg.lol that we hear most often.
 
 ## How do I pay for this?
 
-We accept all major credit cards (and some minor ones too!), as well as Apple Pay and Google Pay, and for all of our EU friends, Bancontact, iDEAL, Przelewy24, giropay, EPS, SEPA, and Sofort.
-
-## What happened to the lifetime plans?
-
-We occasionally offer lifetime plans, but can’t offer them all the time. Keep an eye on our [Mastodon](https://social.lol/@omgdotlol) for notices about specials (including lifetime plans).
+We accept all major credit cards (and some minor ones too!), as well as Apple Pay and Google Pay. For all of our EU friends, there’s also Bancontact, iDEAL, Przelewy24, giropay, EPS, SEPA, and Sofort.
 
 ## I changed my mind and want a different address? Can you change it?
 
@@ -21,7 +17,7 @@ We’d prefer not, since addresses are a very personal thing and it’s best if 
 
 ## Is there a free version of the service?
 
-No, there isn’t. We offer a quality service to real people, not bots or drive-by users. The service incurrs real costs and needs real income to cover its expenses. We don’t want to run ads or monetize the service in other annoying ways. We also want our email and web namespaces to be clean, not full of random junk accounts.
+No, there isn’t. We offer a quality service to real people, not bots or drive-by users. The service incurs real costs and needs real income to cover its expenses. We don’t want to run ads or monetize the service in other annoying ways. We also want our email and web namespaces to be clean, not full of random junk accounts.
 
 ## I used to have an account, but I kinda forgot about it, and now I can’t log in. Help?
 
