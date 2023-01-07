@@ -9,7 +9,7 @@ So, how can you pay for all of this awesomeness? Read on for answers.
 
 ## Payment methods
 
-We accept via Visa, Mastercard, American Express, Discover, Diners Club, JCB, Alipay, Apple Pay, and Google Pay.
+We accept Visa, Mastercard, American Express, Discover, Diners Club, JCB, Alipay, Apple Pay, and Google Pay.
 
 <span style="font-size: 170%;" class="gray-7-fg">
 <i class="fa-brands fa-cc-visa"></i>
