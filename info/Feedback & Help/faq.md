@@ -1,15 +1,15 @@
 ---
 Description: These are the questions we hear the most, and we’ve answered them all in one place  
-Last Updated: 2022-10-08 01:52 AM EDT
+Last Updated: 2023-01-06 7:49 PM EST
 ---
 
 # Frequently Asked Questions
 
 Here are the questions about omg.lol that we hear most often.
 
-## Can I pay with something other than a credit card?
+## How do I pay for this?
 
-Absolutely! We can accept PayPal, Venmo, and Cash App. Just [contact us](mailto:help@omg.lol) to set something up.
+We accept all major credit cards (and some minor ones too!), as well as Apple Pay and Google Pay, and for all of our EU friends, Bancontact, iDEAL, Przelewy24, giropay, EPS, SEPA, and Sofort.
 
 ## What happened to the lifetime plans?
 
