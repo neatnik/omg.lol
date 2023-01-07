@@ -1,6 +1,6 @@
 ---
 Description: How to pay for all of this awesomeness  
-Last Updated: 2022-10-14 9:23 PM EDT
+Last Updated: 2023-01-06 7:49 PM EST
 ---
 
 # Payments
@@ -9,7 +9,7 @@ So, how can you pay for all of this awesomeness? Read on for answers.
 
 ## Payment methods
 
-We accept via Visa, Mastercard, American Express, Discover, Diners Club, JCB, Alipay, Apple Pay, and Google Pay.
+We accept Visa, Mastercard, American Express, Discover, Diners Club, JCB, Alipay, Apple Pay, and Google Pay.
 
 <span style="font-size: 170%;" class="gray-7-fg">
 <i class="fa-brands fa-cc-visa"></i>
@@ -27,12 +27,8 @@ We accept via Visa, Mastercard, American Express, Discover, Diners Club, JCB, Al
 
 ## Payment processing
 
-We use Stripe to securely process your online payment. They’re the best.
+We use Stripe to securely process your online payment. They’re _the best_.
 
 ## Currencies
 
-Stripe is rolling out a new automatic currency conversion program and are adding new currencies all the time. As of now, in addition to USD, payments can be made in EUR, GBP, and CAD. On October 20, 2022, payments can also be made in AUD, MXN, JPY and SGD.
-
-## Alternative payment methods
-
-We prefer to keep things simple and use the payment methods listed above. If you would like to discuss any special circumstances related to payments, you can [contact us](/info/contact) at any time.
+Stripe is rolling out a new automatic currency conversion program and are adding new currencies all the time. As of now, in addition to USD, payments can be made in EUR, GBP, CAD, AUD, MXN, JPY and SGD. WOW!
