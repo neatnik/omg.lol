@@ -36,7 +36,7 @@
 					"variable": [
 						{
 							"key": "address",
-							"value": "haydensato"
+							"value": "foobar"
 						}
 					]
 				},
@@ -62,7 +62,7 @@
 							"variable": [
 								{
 									"key": "address",
-									"value": "haydenmatsui"
+									"value": "foobar"
 								}
 							]
 						}
@@ -73,7 +73,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Fri, 24 Dec 2021 16:35:54 GMT"
+							"value": "Sun, 08 Jan 2023 15:44:53 GMT"
 						},
 						{
 							"key": "Server",
@@ -84,8 +84,16 @@
 							"value": "*"
 						},
 						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
 							"key": "Content-Length",
-							"value": "402"
+							"value": "958"
 						},
 						{
 							"key": "Keep-Alive",
@@ -97,16 +105,16 @@
 						},
 						{
 							"key": "Content-Type",
-							"value": "text/json;charset=UTF-8"
+							"value": "application/json; charset=utf-8"
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here is the web content for haydenmatsui.\",\n        \"content\": \"# Hayden Sato\\n\\n| Pronouns: they/them\\n| Location: Fiji\\n| Occupation: Arborist\\n\\nI take care of trees!\\n\\n--- Profile Items ---\\n\\n- [Twitter](https://twitter.com)\\n- [Instagram](https://instagram.com)\\n\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here is the web content for foobar.\",\n        \"content\": \"{profile-picture}\\r\\n\\r\\n# Foo Bar\\r\\n\\r\\n| Pronouns: they/them\\r\\n| Occupation: [Crop Trust](https://www.croptrust.org) \\r\\n| Location: Svalbard\\r\\n\\r\\n--- Bio ---\\r\\n\\r\\nOne thing about me is I once spilled coffee on a production server.\\r\\n\\r\\n--- Profile Items ---\\r\\n\\r\\n- [Twitter](https://twitter.com)\\r\\n- [Instagram](https://instagram.com)\\r\\n- [Mastodon](https://social.lol)\\r\\n- [Buy Me a Coffee](https://buymeacoffee.com) <small>(just don’t tell the server)</small>\\r\\n- https://geotastic.net/foobar\\r\\n\",\n        \"type\": \"profile\",\n        \"theme\": \"default\",\n        \"css\": \"\",\n        \"head\": \"\",\n        \"verified\": \"1\",\n        \"pfp\": \"foobar.jpg\",\n        \"metadata\": \"{\\\"title\\\":\\\"\\\",\\\"description\\\":\\\"\\\"}\",\n        \"branding\": \"default\"\n    }\n}"
 				}
 			]
 		},
 		{
-			"name": "Update web page content",
+			"name": "Update web page content and publish",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -122,7 +130,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"content\": \"# Hayden Matsui\\n\\n| Pronouns: they/them\\n| Location: Fiji\\n| Occupation: Arborist\\n\\nI take care of trees!\\n\\n--- Profile Items ---\\n\\n- [Twitter](https://twitter.com)\\n- [Instagram](https://instagram.com)\\n\"}"
+					"raw": "{\"publish\": true, \"content\": \"{profile-picture}\\r\\n\\r\\n# Foo Bar\\r\\n\\r\\n| Pronouns: they/them\\r\\n| Occupation: [Crop Trust](https://www.croptrust.org) \\r\\n| Location: Svalbard\\r\\n\\r\\n--- Bio ---\\r\\n\\r\\nOne thing about me is I once spilled coffee on a production server.\\r\\n\\r\\n--- Profile Items ---\\r\\n\\r\\n- [Twitter](https://twitter.com)\\r\\n- [Instagram](https://instagram.com)\\r\\n- [Mastodon](https://social.lol)\\r\\n- [Buy Me a Coffee](https://buymeacoffee.com) <small>(just don’t tell the server)</small>\\r\\n- https://geotastic.net/foobar\\r\\n\"}"
 				},
 				"url": {
 					"raw": "https://{{base_url}}/address/:address/web",
@@ -146,13 +154,13 @@
 			},
 			"response": [
 				{
-					"name": "Update web page content",
+					"name": "Update web page content and publish",
 					"originalRequest": {
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"content\": \"# Hayden Matsui\\n\\n| Pronouns: they/them\\n| Location: Fiji\\n| Occupation: Arborist\\n\\nI take care of trees!\\n\\n--- Profile Items ---\\n\\n- [Twitter](https://twitter.com)\\n- [Instagram](https://instagram.com)\\n\"}"
+							"raw": "{\"publish\": true, \"content\": \"{profile-picture}\\r\\n\\r\\n# Foo Bar\\r\\n\\r\\n| Pronouns: they/them\\r\\n| Occupation: [Crop Trust](https://www.croptrust.org) \\r\\n| Location: Svalbard\\r\\n\\r\\n--- Bio ---\\r\\n\\r\\nOne thing about me is I once spilled coffee on a production server.\\r\\n\\r\\n--- Profile Items ---\\r\\n\\r\\n- [Twitter](https://twitter.com)\\r\\n- [Instagram](https://instagram.com)\\r\\n- [Mastodon](https://social.lol)\\r\\n- [Buy Me a Coffee](https://buymeacoffee.com) <small>(just don’t tell the server)</small>\\r\\n- https://geotastic.net/foobar\\r\\n\"}"
 						},
 						"url": {
 							"raw": "https://{{base_url}}/address/:address/web",
@@ -168,7 +176,7 @@
 							"variable": [
 								{
 									"key": "address",
-									"value": "haydenmatsui"
+									"value": "haydensato"
 								}
 							]
 						}
@@ -179,7 +187,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Fri, 24 Dec 2021 16:37:12 GMT"
+							"value": "Sun, 08 Jan 2023 15:46:11 GMT"
 						},
 						{
 							"key": "Server",
@@ -188,6 +196,14 @@
 						{
 							"key": "Access-Control-Allow-Origin",
 							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
 						},
 						{
 							"key": "Content-Length",
@@ -203,11 +219,125 @@
 						},
 						{
 							"key": "Content-Type",
-							"value": "text/json;charset=UTF-8"
+							"value": "application/json; charset=utf-8"
 						}
 					],
 					"cookie": [],
 					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your web content has been saved and published.\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update web page content without publishing",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"content\": \"{profile-picture}\\r\\n\\r\\n# Foo Bar\\r\\n\\r\\n| Pronouns: they/them\\r\\n| Occupation: [Crop Trust](https://www.croptrust.org) \\r\\n| Location: Svalbard\\r\\n\\r\\n--- Bio ---\\r\\n\\r\\nOne thing about me is I once spilled coffee on a production server.\\r\\n\\r\\n--- Profile Items ---\\r\\n\\r\\n- [Twitter](https://twitter.com)\\r\\n- [Instagram](https://instagram.com)\\r\\n- [Mastodon](https://social.lol)\\r\\n- [Buy Me a Coffee](https://buymeacoffee.com) <small>(just don’t tell the server)</small>\\r\\n- https://geotastic.net/foobar\\r\\n\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/web",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"web"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "haydensato"
+						}
+					]
+				},
+				"description": "Update web content for an address"
+			},
+			"response": [
+				{
+					"name": "Update web page content without publishing",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"content\": \"{profile-picture}\\r\\n\\r\\n# Foo Bar\\r\\n\\r\\n| Pronouns: they/them\\r\\n| Occupation: [Crop Trust](https://www.croptrust.org) \\r\\n| Location: Svalbard\\r\\n\\r\\n--- Bio ---\\r\\n\\r\\nOne thing about me is I once spilled coffee on a production server.\\r\\n\\r\\n--- Profile Items ---\\r\\n\\r\\n- [Twitter](https://twitter.com)\\r\\n- [Instagram](https://instagram.com)\\r\\n- [Mastodon](https://social.lol)\\r\\n- [Buy Me a Coffee](https://buymeacoffee.com) <small>(just don’t tell the server)</small>\\r\\n- https://geotastic.net/foobar\\r\\n\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/web",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"web"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "haydensato"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 08 Jan 2023 15:45:54 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "157"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your web content has been saved.\"\n    }\n}"
 				}
 			]
 		},
