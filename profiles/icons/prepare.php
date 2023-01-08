@@ -105,4 +105,4 @@ $icons = json_encode($icons, JSON_PRETTY_PRINT);
 file_put_contents('icons.json', $icons);
 
 $id = uniqid();
-echo "\n".'Icon preparation complete. Check icons: <a href="https://omgalol.cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'">https://omgalol.cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'</a>';
+echo "\n".'Icon preparation complete. Check icons: <a href="https://cdn.cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'">https://cdn.cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'</a>';
