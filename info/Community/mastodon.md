@@ -13,7 +13,7 @@ You can follow us on Mastodon at [@omgdotlol@social.lol](https://social.lol/@omg
 
 ## If your address expires
 
-In the event of your address expiring, we will give you a window to move your Mastodon account and export your data.
+In the event of your address expiring, we’ll give you a window to move your Mastodon account and export your data.
 
 <div class="container yellow-2-bg gray-9-fg">
 
