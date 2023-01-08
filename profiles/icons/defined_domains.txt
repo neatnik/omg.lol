@@ -19,6 +19,7 @@ irc.social.lol message
 karma.social.lol dharmachakra
 
 // Mastodon instances
+bird.rodeo mastodon
 mas.to mastodon
 mastodon. mastodon
 fosstodon.org mastodon
@@ -66,6 +67,7 @@ coindrop.to coindrop
 deezer.com deezer
 deviantart.com deviantart
 discord. discord
+discordapp.com discord
 discourse.org discourse
 dribbble.com dribbble
 ebay. ebay
@@ -179,7 +181,7 @@ youtube.com youtube
 // People
 laker. laker
 sus.omg.lol vukky
-vukky. vukky
+vukky.net vukky
 neatnik.net neatnik
 andycarolan.com andycarolan
 zioibi.com zioibi
