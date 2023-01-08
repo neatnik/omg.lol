@@ -4,4 +4,6 @@ Welcome to the omg.lol repo! Here you’ll find stuff including: the [Info Cente
 
 You can learn more about omg.lol at https://home.omg.lol. Thanks for visiting!
 
+If you are looking for the weblog.lol GitHub Action, it's over at [neatnik/weblog.lol](https://github.com/neatnik/weblog.lol)
+
 ![omg.lol](https://static.omg.lol/img/social_card_2022-06-23.png)
