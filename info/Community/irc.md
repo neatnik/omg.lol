@@ -9,7 +9,7 @@ Internet Relay Chat (or IRC) is an open standard for chatting on the internet. I
 
 ### Getting Started
 
-To kick things off, visit your address's social.lol page and then click the "Create IRC account" button. You’ll then receive a password that you can use when connecting.
+To kick things off, visit your address’s social.lol page and then click the "Create IRC account" button. You’ll then receive a password that you can use to connect.
 
 ### Rules
 
@@ -29,7 +29,7 @@ You can point any client at `irc.social.lol` (port `6667` for a plaintext connec
 
 ### Discord
 
-If you can't or simply dont want to use IRC, you can still participate! We have a Discord bridge to the IRC server.
+If you can’t or simply don’t want to use IRC, you can still participate! We’ve set up a bridge that connects Discord to our IRC server, because we’re totally nerdy like that.
 
 If you’d like to hop on, just navigate over to your omg.lol address page and pull up your social.lol options. You’ll see a button to connect to Discord there.
 
