@@ -47,6 +47,6 @@ Connect and chat live with other omg.lol members on our private IRC server.
 
 A super-simple (and hopefully kind of fun) digital proof system.
 
-## <i class="fa-duotone fa-fw fa-badge-check"></i> Charms (Coming soon!™)
+## <i class="fa-duotone fa-fw fa-heart"></i> Charms (Coming soon!™)
 
 Digital charms for your accomplishments, skills, and traits. [Learn more](https://charms.lol).
