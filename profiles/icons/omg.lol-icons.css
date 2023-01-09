@@ -1,17 +1,17 @@
 /* omg.lol Icon Type */
 
-@import url('omg.lol-glyphs.css');
+@import url('https://cdn.cache.lol/profiles/icons/omg.lol-glyphs.css?v=63bc8592526f4');
 
 @font-face {
 	font-family: 'omg.lol Icons';
 	font-style: normal;
 	font-weight: 900;
 	font-display: block;
-	src: url("omg.lol-icons.woff2?v=20221224") format("woff2");
+	src: url('https://cdn.cache.lol/profiles/icons/omg.lol-icons.woff2?v=63bc8592526f4') format('woff2');
 }
 
 .omg-icon {
-	font-family: "omg.lol Icons";
+	font-family: 'omg.lol Icons';
 	font-weight: 900;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
@@ -31,5 +31,5 @@
 }
 
 :root, :host {
-	--omg-font-regular: normal 900 1em/1 "omg.lol Icons";
+	--omg-font-regular: normal 900 1em/1 'omg.lol Icons';
 }

@@ -15,6 +15,7 @@
     "tech.lgbt": "mastodon",
     "ruby.social": "mastodon",
     "dice.camp": "mastodon",
+    ".onion": "tor",
     "fandom.com": "fandom",
     "orcid.org": "orcid",
     "cohost.org": "cohost",
@@ -168,5 +169,6 @@
     "vukky.net": "vukky",
     "neatnik.net": "neatnik",
     "andycarolan.com": "andycarolan",
-    "zioibi.com": "zioibi"
+    "zioibi.com": "zioibi",
+    "bunny.omg.lol": "rabbit"
 }

@@ -3,7 +3,7 @@
 ║ omg.lol icon preparation utility ║
 ╚══════════════════════════════════╝
 
-Copyright 2022 Neatnik LLC
+Copyright 2023 Neatnik LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of 
 this software and associated documentation files (the "Software"), to deal in 
@@ -99,10 +99,16 @@ foreach($overrides as $line) {
 	}
 }
 
-// Finally, we’ll write the icon .json file.
+// Next, we’ll write the icon .json file.
 
 $icons = json_encode($icons, JSON_PRETTY_PRINT);
 file_put_contents('icons.json', $icons);
-
 $id = uniqid();
-echo "\n".'Icon preparation complete. Check icons: <a href="https://cdn.cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'">https://cdn.cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'</a>';
+echo "\n".'Icon preparation complete. Check icons: <a href="https://cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'">https://cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'</a>';
+
+// Finally, we’ll update omg.lol-icons.css with new version numbers to bypass the cache
+
+$css = file_get_contents('omg.lol-icons.css');
+preg_match_all("/\=(.*)'/mU", $css, $matches, PREG_SET_ORDER);
+$css = str_replace($matches[0][1], $id, $css);
+file_put_contents('omg.lol-icons.css', $css);
