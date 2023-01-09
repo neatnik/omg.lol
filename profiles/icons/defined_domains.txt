@@ -28,6 +28,7 @@ ruby.social mastodon
 dice.camp mastodon
 
 // Other
+.onion tor
 fandom.com fandom
 orcid.org orcid
 cohost.org cohost
