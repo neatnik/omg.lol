@@ -1,0 +1,982 @@
+{
+	"info": {
+		"_postman_id": "753c709f-c5a7-45b9-8739-896a7500ae7b",
+		"name": "Weblog",
+		"description": "Endpoints for managing your weblog.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12532425"
+	},
+	"item": [
+		{
+			"name": "Retrieve weblog entries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/weblog/entries",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"weblog",
+						"entries"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						}
+					]
+				},
+				"description": "Retrieve all of your weblog entries."
+			},
+			"response": [
+				{
+					"name": "Retrieve weblog entries",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/weblog/entries",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"weblog",
+								"entries"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 28 Dec 2022 15:07:14 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1656"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here are your weblog entries.\",\n        \"entries\": [\n            {\n                \"address\": \"foobar\",\n                \"location\": \"/2022/12/my-weblog-post\",\n                \"title\": \"My weblog post\",\n                \"date\": \"1670615520\",\n                \"type\": \"post\",\n                \"status\": \"live\",\n                \"source\": \"---\\nDate: 2022-12-09 19:52\\n---\\n\\n# My weblog post\\n\\nThis is a new blog post. You can author it in _Markdown_, which is **awesome**.\",\n                \"body\": \"# My weblog post\\n\\nThis is a new blog post. You can author it in _Markdown_, which is **awesome**.\",\n                \"output\": \"<h1>My weblog post</h1>\\n<p>This is a new blog post. You can author it in <em>Markdown</em>, which is <strong>awesome</strong>.</p>\",\n                \"metadata\": \"{\\\"date\\\":\\\"2022-12-09 19:52\\\",\\\"slug\\\":\\\"my-weblog-post\\\"}\",\n                \"entry\": \"63aa3df342ba2\"\n            },\n            {\n                \"address\": \"foobar\",\n                \"location\": \"/2022/12/test-post\",\n                \"title\": \"Test post\",\n                \"date\": \"1670795160\",\n                \"type\": \"post\",\n                \"status\": \"live\",\n                \"source\": \"Date: 2022-12-11 5:46 PM EDT\\n\\n# Test post\\n\\nThis is a test.\",\n                \"body\": \"# Test post\\n\\nThis is a test.\",\n                \"output\": \"<h1>Test post</h1>\\n<p>This is a test.</p>\",\n                \"metadata\": \"{\\\"date\\\":\\\"2022-12-11 5:46 PM EDT\\\",\\\"slug\\\":\\\"test-post\\\"}\",\n                \"entry\": \"abc123\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Create a new weblog entry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "Date: 2022-12-11 5:46 PM EDT\n\n# Test post\n\nThis is a test."
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/weblog/entry/:entry",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"weblog",
+						"entry",
+						":entry"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						},
+						{
+							"key": "entry",
+							"value": "abc123"
+						}
+					]
+				},
+				"description": "Create a new weblog entry."
+			},
+			"response": [
+				{
+					"name": "Create a new weblog entry",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "Date: 2022-12-11 5:46 PM EDT\n\n# Test post\n\nThis is a test."
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/weblog/entry/:entry",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"weblog",
+								"entry",
+								":entry"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								},
+								{
+									"key": "entry",
+									"value": "abc123"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 28 Dec 2022 15:07:03 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "723"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your entry has been saved.\",\n        \"entry\": {\n            \"location\": \"/2022/12/test-post\",\n            \"title\": \"Test post\",\n            \"date\": 1670795160,\n            \"type\": \"post\",\n            \"status\": \"live\",\n            \"body\": \"# Test post\\n\\nThis is a test.\",\n            \"source\": \"Date: 2022-12-11 5:46 PM EDT\\n\\n# Test post\\n\\nThis is a test.\",\n            \"metadata\": {\n                \"date\": \"2022-12-11 5:46 PM EDT\",\n                \"slug\": \"test-post\"\n            },\n            \"output\": \"<h1>Test post</h1>\\n<p>This is a test.</p>\",\n            \"entry\": \"abc123\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve a weblog entry",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/weblog/entry/:entry",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"weblog",
+						"entry",
+						":entry"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						},
+						{
+							"key": "entry",
+							"value": "63aa3df342ba2"
+						}
+					]
+				},
+				"description": "Retrieve a single weblog entry."
+			},
+			"response": [
+				{
+					"name": "Retrieve a weblog entry",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/weblog/entry/:entry",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"weblog",
+								"entry",
+								":entry"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								},
+								{
+									"key": "entry",
+									"value": "63aa3df342ba2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 28 Dec 2022 15:03:57 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1027"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=99"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here is your weblog entry.\",\n        \"entry\": {\n            \"address\": \"foobar\",\n            \"location\": \"/2022/12/my-weblog-post\",\n            \"title\": \"My weblog post\",\n            \"date\": \"1670615520\",\n            \"type\": \"post\",\n            \"status\": \"live\",\n            \"source\": \"---\\nDate: 2022-12-09 19:52\\n---\\n\\n# My weblog post\\n\\nThis is a new blog post. You can author it in _Markdown_, which is **awesome**.\",\n            \"body\": \"# My weblog post\\n\\nThis is a new blog post. You can author it in _Markdown_, which is **awesome**.\",\n            \"output\": \"<h1>My weblog post</h1>\\n<p>This is a new blog post. You can author it in <em>Markdown</em>, which is <strong>awesome</strong>.</p>\",\n            \"metadata\": \"{\\\"date\\\":\\\"2022-12-09 19:52\\\",\\\"slug\\\":\\\"my-weblog-post\\\"}\",\n            \"entry\": \"63aa3df342ba2\",\n            \"id\": \"fh3dyct1fhaurm5pxrszq3mnptzsqmmop73ze\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve the latest weblog post",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/weblog/post/latest",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"weblog",
+						"post",
+						"latest"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						}
+					]
+				},
+				"description": "Retrieve the latest post from a weblog."
+			},
+			"response": [
+				{
+					"name": "Retrieve the latest weblog post",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/weblog/post/latest",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"weblog",
+								"post",
+								"latest"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 28 Dec 2022 19:09:07 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "716"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here is the latest post.\",\n        \"post\": {\n            \"address\": \"foobar\",\n            \"location\": \"/2022/12/test-post\",\n            \"title\": \"Test post\",\n            \"date\": \"1670795160\",\n            \"type\": \"post\",\n            \"status\": \"live\",\n            \"source\": \"Date: 2022-12-11 5:46 PM EDT\\n\\n# Test post\\n\\nThis is a test.\",\n            \"body\": \"# Test post\\n\\nThis is a test.\",\n            \"output\": \"<h1>Test post</h1>\\n<p>This is a test.</p>\",\n            \"metadata\": \"{\\\"date\\\":\\\"2022-12-11 5:46 PM EDT\\\",\\\"slug\\\":\\\"test-post\\\"}\",\n            \"entry\": \"abc123\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete a weblog entry",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/weblog/delete/:entry",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"weblog",
+						"delete",
+						":entry"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						},
+						{
+							"key": "entry",
+							"value": "abc123"
+						}
+					]
+				},
+				"description": "Permanently delete a weblog entry."
+			},
+			"response": [
+				{
+					"name": "Delete a weblog entry",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/weblog/delete/:post_id",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"weblog",
+								"delete",
+								":post_id"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								},
+								{
+									"key": "post_id",
+									"value": "63961b11b0a7d"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 11 Dec 2022 18:18:28 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "158"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, your weblog post was deleted.\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve weblog configuration",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/weblog/configuration",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"weblog",
+						"configuration"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						}
+					]
+				},
+				"description": "Retrieve your weblog configuration."
+			},
+			"response": [
+				{
+					"name": "Retrieve weblog configuration",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/weblog/configuration",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"weblog",
+								"configuration"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 24 Dec 2022 17:09:12 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3593"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here is your weblog configuration.\",\n        \"configuration\": {\n            \"object\": {\n                \"weblog-title\": \"A Weblog\",\n                \"weblog-description\": \"This is a weblog.\",\n                \"author\": \"Your Name\",\n                \"separator\": \" · \",\n                \"tag-path\": \"/tag/\",\n                \"timezone\": \"UTC\",\n                \"date-format\": \"F j, Y g:i A\",\n                \"default-post\": \"---\\nDate: $date\\n---\\n\\n# Your new post\\n\\nThis is a new blog post. You can author it in _Markdown_, which is **awesome**.\",\n                \"feed-post-count\": \"25\",\n                \"post-path-format\": \"/Y/m/\",\n                \"recent-posts-count\": \"5\",\n                \"recent-posts-format\": \"\\n<ul>\\n[post:begin]<li><a href=\\\"$location\\\">$title</a></li>[post:end]\\n</ul>\",\n                \"post-list-format\": \"\\n<ul>\\n[post:begin]<li><a href=\\\"$location\\\">$title</a></li>[post:end]\\n</ul>\",\n                \"search-status\": \"enabled\",\n                \"search-results-success-message\": \"There [is|are] $count [result|results] for your search:\",\n                \"search-results-failure-message\": \"There were no results found for your search.\",\n                \"search-results-format\": \"\\n<h2>Results for “$search”</h2>\\n<p>$search_results_message</p>\\n[post:begin]<h3><a href=\\\"$location\\\">$title</a></h3>\\n<p>$date</p>\\n<p>$snippet</p>[post:end]\\n\"\n            },\n            \"json\": \"{\\n    \\\"weblog-title\\\": \\\"A Weblog\\\",\\n    \\\"weblog-description\\\": \\\"This is a weblog.\\\",\\n    \\\"author\\\": \\\"Your Name\\\",\\n    \\\"separator\\\": \\\" \\\\u00b7 \\\",\\n    \\\"tag-path\\\": \\\"\\\\/tag\\\\/\\\",\\n    \\\"timezone\\\": \\\"UTC\\\",\\n    \\\"date-format\\\": \\\"F j, Y g:i A\\\",\\n    \\\"default-post\\\": \\\"---\\\\nDate: $date\\\\n---\\\\n\\\\n# Your new post\\\\n\\\\nThis is a new blog post. You can author it in _Markdown_, which is **awesome**.\\\",\\n    \\\"feed-post-count\\\": \\\"25\\\",\\n    \\\"post-path-format\\\": \\\"\\\\/Y\\\\/m\\\\/\\\",\\n    \\\"recent-posts-count\\\": \\\"5\\\",\\n    \\\"recent-posts-format\\\": \\\"\\\\n<ul>\\\\n[post:begin]<li><a href=\\\\\\\"$location\\\\\\\">$title<\\\\/a><\\\\/li>[post:end]\\\\n<\\\\/ul>\\\",\\n    \\\"post-list-format\\\": \\\"\\\\n<ul>\\\\n[post:begin]<li><a href=\\\\\\\"$location\\\\\\\">$title<\\\\/a><\\\\/li>[post:end]\\\\n<\\\\/ul>\\\",\\n    \\\"search-status\\\": \\\"enabled\\\",\\n    \\\"search-results-success-message\\\": \\\"There [is|are] $count [result|results] for your search:\\\",\\n    \\\"search-results-failure-message\\\": \\\"There were no results found for your search.\\\",\\n    \\\"search-results-format\\\": \\\"\\\\n<h2>Results for \\\\u201c$search\\\\u201d<\\\\/h2>\\\\n<p>$search_results_message<\\\\/p>\\\\n[post:begin]<h3><a href=\\\\\\\"$location\\\\\\\">$title<\\\\/a><\\\\/h3>\\\\n<p>$date<\\\\/p>\\\\n<p>$snippet<\\\\/p>[post:end]\\\\n\\\"\\n}\",\n            \"raw\": \"// Weblog Configuration\\n\\n# About your weblog\\n\\nWeblog Title: A Weblog\\nWeblog Description: This is a weblog.\\nAuthor: Your Name\\n\\n# General config stuff\\n\\nSeparator:  · \\n// Navigation: about, another-page, <a href=\\\"https://example.com\\\">Example</a>, [Example](https://example.com)\\nTag path: /tag/\\n\\n# Time stuff\\n\\n; You can use a timezone value from the \\\"TZ database name\\\" column on this \\n; web page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones\\n\\nTimezone: UTC\\nDate format: F j, Y g:i A\\n\\n# Posts\\n\\n// Post path format: /Y/m/\\n\\nDefault post: <<[---\\nDate: $date\\n---\\n\\n# Your new post\\n\\nThis is a new blog post. You can author it in _Markdown_, which is **awesome**.]>>\\n\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update weblog configuration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// Weblog Configuration\n\n# About your weblog\n\nWeblog Title: A Weblog\nWeblog Description: This is a weblog.\nAuthor: Your Name\n\nLanding page: home\n\n# General config stuff\n\nSeparator:  · \n// Navigation: about, another-page, <a href=\"https://example.com\">Example</a>, [Example](https://example.com)\nTag path: /tag/\n\n# Time stuff\n\n; You can use a timezone value from the \"TZ database name\" column on this \n; web page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones\n\nTimezone: UTC\nDate format: F j, Y g:i A\n\n# Posts\n\nPost path format: /Y/m/\nDefault post: <<[---\nDate: $date\n---\n\n# Your new post\n\nThis is a new blog post. You can author it in _Markdown_, which is **awesome**.]>>\n\nNavigation: home, another-page\n# Navigation: home, [Profile](https://profile.omg.lol/rb/), 2022/12/apple-post, another-page\n"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/weblog/configuration",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"weblog",
+						"configuration"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "adam"
+						}
+					]
+				},
+				"description": "Update your weblog configuration."
+			},
+			"response": [
+				{
+					"name": "Update weblog configuration",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "// Weblog Configuration\n\n# About your weblog\n\nWeblog Title: A Weblog\nWeblog Description: This is a weblog.\nAuthor: Your Name\n\n..."
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/weblog/configuration",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"weblog",
+								"configuration"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 14 Dec 2022 02:02:56 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "168"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your weblog configuration has been updated.\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve weblog template",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/weblog/template",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"weblog",
+						"template"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						}
+					]
+				},
+				"description": "Retrieve your weblog template."
+			},
+			"response": [
+				{
+					"name": "Retrieve weblog template",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/weblog/template",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"weblog",
+								"template"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 24 Dec 2022 17:04:54 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3480"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here is your weblog template.\",\n        \"template\": \"<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n<title>{weblog-title}{separator}{post-title}</title>\\n<meta charset=\\\"utf-8\\\">\\n<meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1\\\">\\n{feeds}\\n<style>\\n@import url('https://static.omg.lol/type/font-honey.css');\\n@import url('https://static.omg.lol/type/font-lato-regular.css');\\n@import url('https://static.omg.lol/type/font-lato-bold.css');\\n@import url('https://static.omg.lol/type/font-lato-italic.css');\\n@import url('https://static.omg.lol/type/font-md-io.css');\\n@import url('https://static.omg.lol/type/fontawesome-free/css/all.css');\\n\\n:root {\\n\\t--foreground: #212529;\\n\\t--background: #f8f9fa;\\n\\t--link: #0b7285;\\n\\t--accent: #868e96;\\n}\\n\\n@media (prefers-color-scheme: dark) {\\n\\t:root {\\n\\t\\t--foreground: #eee;\\n\\t\\t--background: #222;\\n\\t\\t--link: #99e9f2;\\n\\t\\t--accent: #ced4da;\\n\\t}\\n}\\n\\n* {\\n\\tbox-sizing: border-box;\\n}\\n\\nbody {\\n\\tfont-family: 'Lato', sans-serif;\\n\\tfont-size: 120%;\\n\\tcolor: var(--foreground);\\n\\tbackground: var(--background);\\n}\\n\\nheader nav ul {\\n\\tlist-style-type: none;\\n\\tmargin: 0;\\n\\tpadding: 0;\\n}\\n\\nheader nav li {\\n\\tdisplay: inline-block;\\n}\\n\\nheader nav li a {\\n\\tdisplay: block;\\n\\ttext-decoration: none;\\n\\tmargin-right: 1em;\\n}\\n\\nh1, h2, h3, h4, h5, h6 {\\n\\tfont-family: 'VC Honey Deck', serif;\\n\\tmargin: 1rem 0;\\n}\\n\\np, li {\\n\\tline-height: 160%;\\n}\\n\\nheader, main, footer {\\n\\tmax-width: 60em;\\n\\tmargin: 2em auto;\\n\\tpadding: 0 1em;\\n}\\n\\nheader {\\n\\tmargin-top: 4em;\\n}\\n\\nfooter p {\\n\\tmargin-top: 5em;\\n\\tfont-size: 90%;\\n\\ttext-align: center;\\n}\\n\\na:link { color: var(--link); }\\na:visited { color: var(--link); }\\na:hover { color: var(--link); }\\na:active { color: var(--link); }\\n\\n.post-info, .post-tags {\\n\\tfont-size: 85%;\\n\\tcolor: var(--accent);\\n\\ttext-align: right;\\n}\\n\\n.post-info i:nth-child(2) {\\n\\tmargin-left: .75em;\\n}\\n\\n.tag {\\n\\tbackground: var(--accent);\\n\\tcolor: var(--background) !important;\\n\\tpadding: .3em .4em;\\n\\tmargin: .8em 0 0 .4em;\\n\\tborder-radius: .5em;\\n\\ttext-decoration: none;\\n\\tdisplay: inline-block;\\n}\\n\\nhr {\\n\\tborder: 0;\\n\\theight: 1px;\\n\\tbackground: #333;\\n\\tmargin: 2em 0;\\n}\\n\\ncode {\\n\\tpadding: .2em .3em;\\n\\tborder: 1px solid var(--accent);\\n\\twhite-space: pre-wrap;\\n\\tword-wrap: break-word; \\n}\\n\\npre, code {\\n\\tfont-family: 'MD IO 0.4';\\n\\tfont-size: 90%;\\n}\\n\\npre code {\\n\\tbackground:  #000;\\n\\tcolor:  #eee;\\n\\tdisplay: inline-block;\\n\\tpadding: 1em;\\n\\twhite-space: pre-wrap;\\n\\tword-wrap: break-word;   \\n}\\n\\nimg {\\n\\tmax-width: 100%;\\n}\\n\\ntable {\\n\\tborder-collapse: collapse;\\n}\\n\\ntd, th {\\n\\tpadding: .75em;\\n\\ttext-align: left;\\n\\tborder: 1px solid var(--accent);\\n}\\n\\t\\n.weblog-title a {\\n\\ttext-decoration: none;\\n\\tcolor: var(--foreground);\\n}\\n\\n</style>\\n</head>\\n<body>\\n\\n<header>\\n\\t<h1 class=\\\"weblog-title\\\"><a href=\\\"/\\\">{weblog-title}</a></h1>\\n\\t{navigation}\\n</header>\\n\\n<main>\\n\\n<article>\\n\\t{body}\\n\\t<aside class=\\\"post-info\\\">\\n\\t\\t<i class=\\\"fa-solid fa-clock\\\"></i> {date}\\n\\t</aside>\\n\\t<aside class=\\\"post-tags\\\">\\n\\t\\t{tags}\\n\\t</aside>\\n</article>\\n\\n<hr>\\n\\n<h2>Recent posts</h2>\\n\\n{recent-posts}\\n\\n</main>\\n\\n<footer>\\n\\t<p>Made with <a href=\\\"https://weblog.lol\\\">weblog.lol</a>.</p>\\n</footer>\\n\\n</body>\\n</html>\\n\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update weblog template",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<title>{weblog-title}{separator}{post-title}</title>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n{feeds}\n<style>\n@import url('https://static.omg.lol/type/font-honey.css');\n@import url('https://static.omg.lol/type/font-lato-regular.css');\n@import url('https://static.omg.lol/type/font-lato-bold.css');\n@import url('https://static.omg.lol/type/font-lato-italic.css');\n@import url('https://static.omg.lol/type/font-md-io.css');\n@import url('https://static.omg.lol/type/fontawesome-free/css/all.css');\n\n:root {\n\t--foreground: #212529;\n\t--background: #f8f9fa;\n\t--link: #0b7285;\n\t--accent: #868e96;\n}\n\n@media (prefers-color-scheme: dark) {\n\t:root {\n\t\t--foreground: #eee;\n\t\t--background: #222;\n\t\t--link: #99e9f2;\n\t\t--accent: #ced4da;\n\t}\n}\n\n* {\n\tbox-sizing: border-box;\n}\n\nbody {\n\tfont-family: 'Lato', sans-serif;\n\tfont-size: 120%;\n\tcolor: var(--foreground);\n\tbackground: var(--background);\n}\n\nheader nav ul {\n\tlist-style-type: none;\n\tmargin: 0;\n\tpadding: 0;\n}\n\nheader nav li {\n\tdisplay: inline-block;\n}\n\nheader nav li a {\n\tdisplay: block;\n\ttext-decoration: none;\n\tmargin-right: 1em;\n}\n\nh1, h2, h3, h4, h5, h6 {\n\tfont-family: 'VC Honey Deck', serif;\n\tmargin: 1rem 0;\n}\n\np, li {\n\tline-height: 160%;\n}\n\nheader, main, footer {\n\tmax-width: 60em;\n\tmargin: 2em auto;\n\tpadding: 0 1em;\n}\n\nheader {\n\tmargin-top: 4em;\n}\n\nfooter p {\n\tmargin-top: 5em;\n\tfont-size: 90%;\n\ttext-align: center;\n}\n\na:link { color: var(--link); }\na:visited { color: var(--link); }\na:hover { color: var(--link); }\na:active { color: var(--link); }\n\n.post-info, .post-tags {\n\tfont-size: 85%;\n\tcolor: var(--accent);\n\ttext-align: right;\n}\n\n.post-info i:nth-child(2) {\n\tmargin-left: .75em;\n}\n\n.tag {\n\tbackground: var(--accent);\n\tcolor: var(--background) !important;\n\tpadding: .3em .4em;\n\tmargin: .8em 0 0 .4em;\n\tborder-radius: .5em;\n\ttext-decoration: none;\n\tdisplay: inline-block;\n}\n\nhr {\n\tborder: 0;\n\theight: 1px;\n\tbackground: #333;\n\tmargin: 2em 0;\n}\n\ncode {\n\tpadding: .2em .3em;\n\tborder: 1px solid var(--accent);\n\twhite-space: pre-wrap;\n\tword-wrap: break-word; \n}\n\npre, code {\n\tfont-family: 'MD IO 0.4';\n\tfont-size: 90%;\n}\n\npre code {\n\tbackground:  #000;\n\tcolor:  #eee;\n\tdisplay: inline-block;\n\tpadding: 1em;\n\twhite-space: pre-wrap;\n\tword-wrap: break-word;   \n}\n\nimg {\n\tmax-width: 100%;\n}\n\ntable {\n\tborder-collapse: collapse;\n}\n\ntd, th {\n\tpadding: .75em;\n\ttext-align: left;\n\tborder: 1px solid var(--accent);\n}\n\t\n.weblog-title a {\n\ttext-decoration: none;\n\tcolor: var(--foreground);\n}\n\n</style>\n</head>\n<body>\n\n<header>\n\t<h1 class=\"weblog-title\"><a href=\"/\">{weblog-title}</a></h1>\n\t{navigation}\n</header>\n\n<main>\n\n<article>\n\t{body}\n\t<aside class=\"post-info\">\n\t\t<i class=\"fa-solid fa-clock\"></i> <a href=\"{permalink}\">{date}</a>\n\t</aside>\n\t<aside class=\"post-tags\">\n\t\t{tags}\n\t</aside>\n</article>\n\n<hr>\n\n<h2>Recent posts</h2>\n\n{recent-posts}\n\n</main>\n\n<footer>\n\t<p>Made with <a href=\"https://weblog.lol\">weblog.lol</a>.</p>\n</footer>\n\n</body>\n</html>\n"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/weblog/template",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"weblog",
+						"template"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "adam"
+						}
+					]
+				},
+				"description": "Update your weblog template."
+			},
+			"response": [
+				{
+					"name": "Update weblog template",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<title>{weblog-title}{separator}{post-title}</title>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n{feeds}\n..."
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/weblog/template",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"weblog",
+								"template"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 14 Dec 2022 02:09:34 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "163"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your weblog template has been updated.\"\n    }\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{api_key}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

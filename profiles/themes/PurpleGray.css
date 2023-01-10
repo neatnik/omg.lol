@@ -1,0 +1,56 @@
+/*
+ Theme: PurpleGray
+ Author: Mert Dogu (@rexulec)
+ License: MIT
+ Version: 1.0
+ Description: Purple.. and yeah, gray.
+ */
+
+ body {
+ 	background: #ac80ff;
+ 	color: #363636;
+ }
+
+ main {
+ 	background: unset;
+ }
+
+ #pronouns {
+ 	color: #1f1f1f;
+ }
+
+ a:link,
+ a:visited {
+ 	color: #3f3f3f;
+     font-weight: 500;
+ 	text-decoration-color: #F7F1FF;
+ 	text-decoration: none;
+ 	border-bottom: 1px dotted #F7F1FF;
+ }
+
+ a:hover,
+ a:active {
+ 	color: #181818;
+ 	text-decoration-color: #A5A5A5;
+ 	text-decoration: none;
+ 	border-bottom: 2px solid #A5A5A5;
+     transition: all 0.5s;
+ }
+
+ #profile-picture {
+ 	border-radius: 100%;
+ }
+
+ .fa-li, .fas, .omg-icon, .omg-icon path {
+ 	color: #2b2b2bb6;
+ 	fill: #2b2b2bb6;
+ 	stroke: #2b2b2bb6;
+ }
+
+ .fa-briefcase, .fa-map-marker-alt, .fa-plug, #footer a:link, #footer a:visited, #footer a:hover, #footer a:active {
+ 	color: #3d3d3d;
+ }
+
+ .fa-badge-check, .omg-verified {
+ 	color: #8133ff !important; /* important is needed to override inline style*/
+ }

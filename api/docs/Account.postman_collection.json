@@ -1,0 +1,868 @@
+{
+	"info": {
+		"_postman_id": "7d197171-6678-4842-a661-a5504d55efa1",
+		"name": "Account",
+		"description": "Obtain information about and make changes to your account",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12532425"
+	},
+	"item": [
+		{
+			"name": "Retrieve account information",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/account/:email/info",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						":email",
+						"info"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": "person@example.com"
+						}
+					]
+				},
+				"description": "Get information about your account"
+			},
+			"response": [
+				{
+					"name": "Retrieve account information",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/account/:email/info",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								":email",
+								"info"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 12 Dec 2021 22:48:44 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "566"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here is the account info that you requested.\",\n        \"email\": \"person@example.com\",\n        \"name\": \"Example\",\n        \"created\": {\n            \"unix_epoch_time\": \"1553358104\",\n            \"iso_8601_time\": \"2019-03-23T16:21:44+00:00\",\n            \"rfc_2822_time\": \"Sat, 23 Mar 2019 16:21:44 +0000\",\n            \"relative_time\": \"2 years and 9 months ago\"\n        },\n        \"settings\": {\n            \"communication\": \"email_everything\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve addresses for an account",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/account/:email/addresses",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						":email",
+						"addresses"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": "person@example.com"
+						}
+					]
+				},
+				"description": "Get all addresses associated with your account."
+			},
+			"response": [
+				{
+					"name": "Retrieve addresses for an account",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/account/:email/addresses",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								":email",
+								"addresses"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 06 Mar 2022 02:01:47 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5340"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": [\n        {\n            \"address\": \"lifetime-address\",\n            \"message\": \"This address does not expire.\",\n            \"registration\": {\n                \"message\": \"This address was registered 2 years and 11 months ago.\",\n                \"unix_epoch_time\": \"1553358201\",\n                \"iso_8601_time\": \"2019-03-23T16:23:21+00:00\",\n                \"rfc_2822_time\": \"Sat, 23 Mar 2019 16:23:21 +0000\",\n                \"relative_time\": \"2 years and 11 months ago\"\n            },\n            \"expiration\": {\n                \"expired\": false,\n                \"will_expire\": false\n            }\n        },\n        {\n            \"address\": \"compulsoryvotingiscool\",\n            \"message\": \"This address does not expire.\",\n            \"registration\": {\n                \"message\": \"This address was registered 1 week and 4 days ago.\",\n                \"unix_epoch_time\": \"1645552219\",\n                \"iso_8601_time\": \"2022-02-22T17:50:19+00:00\",\n                \"rfc_2822_time\": \"Tue, 22 Feb 2022 17:50:19 +0000\",\n                \"relative_time\": \"1 week and 4 days ago\"\n            },\n            \"expiration\": {\n                \"expired\": false,\n                \"will_expire\": false\n            }\n        },\n        {\n            \"address\": \"haydensato\",\n            \"message\": \"This address does not expire.\",\n            \"registration\": {\n                \"message\": \"This address was registered 6 months and 2 weeks ago.\",\n                \"unix_epoch_time\": \"1628978677\",\n                \"iso_8601_time\": \"2021-08-14T22:04:37+00:00\",\n                \"rfc_2822_time\": \"Sat, 14 Aug 2021 22:04:37 +0000\",\n                \"relative_time\": \"6 months and 2 weeks ago\"\n            },\n            \"expiration\": {\n                \"expired\": false,\n                \"will_expire\": false\n            }\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve the account name",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/account/:email/name",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						":email",
+						"name"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": "person@example.com"
+						}
+					]
+				},
+				"description": "Get the name associated with the account"
+			},
+			"response": [
+				{
+					"name": "Retrieve the account name",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/account/:email/name",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								":email",
+								"name"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 12 Dec 2021 22:41:14 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "202"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"The name on this account is Example Person.\",\n        \"name\": \"Example Person\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Set the account name",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"Example\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/account/:email/name",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						":email",
+						"name"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": "person@example.com"
+						}
+					]
+				},
+				"description": "Update the name associated with the account"
+			},
+			"response": [
+				{
+					"name": "Set the account name",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\": \"Example\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/account/:email/name",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								":email",
+								"name"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 12 Dec 2021 22:42:18 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "186"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your name has been set to Example.\",\n        \"name\": \"Example\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve active sessions",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/account/:email/sessions",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						":email",
+						"sessions"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": "person@example.com"
+						}
+					]
+				},
+				"description": "Get all sessions associated with the account"
+			},
+			"response": [
+				{
+					"name": "Retrieve active sessions",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/account/:email/sessions",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								":email",
+								"sessions"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 12 Dec 2021 22:45:23 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "834"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": [\n        {\n            \"session_id\": \"6040bebeac42816f5173ecd4821372d4\",\n            \"user_agent\": \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Mobile Safari/537.36\",\n            \"created_ip\": \"10.0.222.41\",\n            \"created_on\": \"1639341544\",\n            \"expires_on\": \"1670877544\"\n        },\n        {\n            \"session_id\": \"f3aa272bcf6c42d2b78ce096453d8e53\",\n            \"user_agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15\",\n            \"created_ip\": \"10.0.222.42\",\n            \"created_on\": \"1639349084\",\n            \"expires_on\": \"1670885084\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Remove a session",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/account/:email/sessions/:session_id",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						":email",
+						"sessions",
+						":session_id"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": "person@example.com"
+						},
+						{
+							"key": "session_id",
+							"value": "8138f2c3e845d5a094ec2a5b2ac0ab04"
+						}
+					]
+				},
+				"description": "Delete a session"
+			},
+			"response": [
+				{
+					"name": "Remove a session",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/account/:email/sessions/:session_id",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								":email",
+								"sessions",
+								":session_id"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								},
+								{
+									"key": "session_id",
+									"value": "8138f2c3e845d5a094ec2a5b2ac0ab04"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 12 Dec 2021 22:43:31 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Length",
+							"value": "161"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, we’ve deleted that session.\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve account settings",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/account/:email/settings",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						":email",
+						"settings"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": "person@example.com"
+						}
+					]
+				},
+				"description": "Get settings associated with the account"
+			},
+			"response": [
+				{
+					"name": "Retrieve account settings",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/account/:email/settings",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								":email",
+								"settings"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 08 Jan 2022 02:34:26 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
+							"key": "Content-Length",
+							"value": "343"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here are the settings for this account.\",\n        \"settings\": {\n            \"owner\": \"person@example.com\",\n            \"communication\": \"email_ok\",\n            \"date_format\": null,\n            \"web_editor\": null\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Set account settings",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"communication\": \"email_ok\", \"web_editor\": \"advanced\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/account/:email/settings",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"account",
+						":email",
+						"settings"
+					],
+					"variable": [
+						{
+							"key": "email",
+							"value": "person@example.com"
+						}
+					]
+				},
+				"description": "Update settings associated with the account"
+			},
+			"response": [
+				{
+					"name": "Set account settings",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"communication\": \"email_ok\", \"web_editor\": \"advanced\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/account/:email/settings",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"account",
+								":email",
+								"settings"
+							],
+							"variable": [
+								{
+									"key": "email",
+									"value": "person@example.com"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 08 Jan 2022 02:37:18 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
+							"key": "Content-Length",
+							"value": "159"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, your settings have been updated.\"\n    }\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

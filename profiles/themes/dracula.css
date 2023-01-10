@@ -1,0 +1,91 @@
+/*
+The original theme is under the MIT license. 
+MIT LICENSE (c) Dracula Theme, adapted by Bye for omg.lol
+
+Theme: Dracula
+Author: Bye (@_byemc)
+License: MIT (https://bye.url.lol/draculalicense)
+Version: 1.0
+Description: Dark theme with a touch of purple. Adapted from the Dracula color scheme by @zenorocha.
+*/
+
+@import url('https://omg.cache.lol/css/type.css');
+
+:root {
+	--background-color: #282a36;
+	--main-color:       #44475a;
+	--forground:        #f8f8f2;
+	--comment:          #6272a4;
+	--cyan:             #8be9fd;
+	--green:            #50fa7b;
+	--orange:           #ffb86c;
+	--pink:             #ff79c6;
+	--purple:           #bd93f9;
+	--red:              #ff5555;
+	--yellow:           #f1fa8c;
+}
+
+::selection {
+	background: var(--purple);
+	color: var(--forground);
+}
+
+body {
+	background: var(--background-color);
+	color: var(--forground);
+}
+
+main {
+	background: var(--main-color);
+}
+
+#profile-picture-container {
+	color: var(--main-color);
+}
+
+
+#pronouns {
+	color: var(--purple);
+}
+
+#pronouns a:link,
+#pronouns a:visited,
+#pronouns a:hover,
+#pronouns a:active {
+	color: var(--comment);
+}
+
+#footer {
+	color: var(--comment);
+}
+
+#footer a:link,
+#footer a:visited,
+#footer a:hover,
+#footer a:active {
+	color: var(--comment);
+}
+
+a:link,
+a:visited {
+	color: var(--forground);
+	text-decoration-color: var(--forground);
+	text-decoration: none;
+	border-bottom: 1px dotted var(--comment);
+}
+a:hover,
+a:active {
+	color: var(--forground);
+	text-decoration-color: var(--forground);
+	text-decoration: none;
+	border-bottom: 2px solid var(--comment);
+}
+@media (prefers-color-scheme: dark) {
+	.omg-icon.rainbow-me svg {
+		fill: var(--forground);
+	}
+}
+
+h1#name a i.fa-badge-check, .omg-verified {
+	color: var(--purple) !important; 
+}

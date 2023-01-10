@@ -1,0 +1,82 @@
+/*
+Theme: Nord (Dark)
+Author: Jason E. Kratz (@jasonekratz)
+License: MIT
+Version: 1.0
+Description: Dark theme based on the Nord color palette.
+See: https://www.nordtheme.com/docs/colors-and-palettes
+CSS based on Dakota Chambers' Monokai theme.
+*/
+
+body {
+	background: #2E3440;
+	color: #d8dee9;
+}
+
+main {
+	background: unset;
+}
+
+a:link,
+a:visited {
+	color: #5e81ac;
+	text-decoration-color: #5e81ac;
+	text-decoration: none;
+	border-bottom: 1px dotted #5e81ac;
+}
+
+a:hover,
+a:active {
+	color: #eceff4;
+	text-decoration-color: #eceff4;
+	text-decoration: none;
+	border-bottom: 2px solid #5e81ac;
+}
+
+#profile-picture {
+	border-radius: 100%;
+}
+
+#pronouns {
+	color: #d8dee9;
+}
+
+#footer a:link, #footer a:visited, #footer a:hover, #footer a:active {
+	color: #d8dee9;
+}
+
+/* Color for profile items list */
+.fa-li, .fas, .omg-icon {
+	color: #bf616a;
+}
+
+/* Specific colors for individual icons */
+.fa-plug {
+	color: #ebcb8b;
+}
+
+.fa-badge-check, .omg-verified {
+	color: #88c0d0 !important; /* important is needed to override inline style*/
+}
+
+.fa-briefcase {
+	color: #d08770;
+}
+
+.fa-map-marker-alt {
+	color: #b48ead;
+}
+
+/* Additional theming for OMGEX (https://github.com/litdevs/omgex) */
+
+.fa-clock {
+	color: #a3be8c;
+}
+
+.fa-smile-plus {
+	color: #88c0d0;
+}
+
+.fa-birthday-cake {
+	color: #bf616a;
+}

@@ -1,0 +1,43 @@
+/*
+
+Theme: Dark
+Author: Adam Newbold (@neatnikllc)
+License: Public domain
+Version: 1.0
+Description: Very, very dark.
+
+*/
+
+body {
+	background: #000;
+	color: #ccc;
+}
+
+main {
+	background: #222;
+}
+
+a:link,
+a:visited {
+	color: #ccc;
+	text-decoration-color: #ccc;
+	text-decoration: none;
+	border-bottom: 1px dotted #ccc;
+}
+a:hover,
+a:active {
+	color: #fff;
+	text-decoration-color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid #fff;
+}
+
+.fa-badge-check, .omg-verified {
+	color: #945B85 !important;
+}
+
+.omg-icon {
+	color: #ccc;
+	fill: #ccc;
+	stroke: #ccc;
+}

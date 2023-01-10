@@ -1,0 +1,10 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Feature Suggestions
+    about: Share an idea for the service!
+  - name: Major Bug Report
+    url: https://home.omg.lol/info/bugs
+    about: Report critical/major bugs or vulnerabilities
+  - name: Feedback and suggestions
+    url: https://github.com/neatnik/omg.lol/discussions/categories/ideas
+    about: Share ideas for omg.lol or feedback on the service

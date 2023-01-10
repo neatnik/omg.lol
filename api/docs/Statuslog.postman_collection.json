@@ -1,0 +1,839 @@
+{
+	"info": {
+		"_postman_id": "fbdbf185-ef14-47f5-b76a-0d9b7b85df2b",
+		"name": "Statuslog",
+		"description": "Manage the Statuslog for an omg.lol address",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12532425"
+	},
+	"item": [
+		{
+			"name": "Retrieve an individual status for an address",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/statuses/:status",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"statuses",
+						":status"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foo"
+						},
+						{
+							"key": "status",
+							"value": "6336318079242"
+						}
+					]
+				},
+				"description": "Fetch a single Stauslog entry"
+			},
+			"response": [
+				{
+					"name": "Retrieve an individual status for an address",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/statuses/:status",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"statuses",
+								":status"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foo"
+								},
+								{
+									"key": "status",
+									"value": "6336318079242"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 30 Sep 2022 00:18:19 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "393"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here’s the status at foo.status.lol/6336318079242.\",\n        \"status\": {\n            \"id\": \"6336318079242\",\n            \"address\": \"foo\",\n            \"created\": \"1664496000\",\n            \"emoji\": \"☕️\",\n            \"content\": \"Enjoying my coffee!\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve all statuses for an address",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/statuses/",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"statuses",
+						""
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foo"
+						}
+					]
+				},
+				"description": "Fetch someone’s entire Statuslog"
+			},
+			"response": [
+				{
+					"name": "Retrieve all statuses",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/statuses/",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"statuses",
+								""
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 29 Sep 2022 22:51:11 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4305"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here are foo’s statuses.\",\n        \"statuses\": [\n            {\n                \"id\": \"6335ec5bee31a\",\n                \"address\": \"foo\",\n                \"created\": \"1664478299\",\n                \"emoji\": \"😄\",\n                \"content\": \"I’m doing great!\"\n            },\n            {\n                \"id\": \"6334d1c11917a\",\n                \"address\": \"foo\",\n                \"created\": \"1664405953\",\n                \"emoji\": \"☕️\",\n                \"content\": \"Enjoying my coffee.\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Create a new status",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"emoji\": \"👨🏻‍💻\", \"content\": \"Testing!\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/statuses/",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"statuses",
+						""
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foo"
+						}
+					]
+				},
+				"description": "Create a new status in an address’s Statuslog"
+			},
+			"response": [
+				{
+					"name": "Create a new status",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"emoji\": \"😄\", \"content\": \"Testing!\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/statuses/",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"statuses",
+								""
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 29 Sep 2022 22:46:37 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "306"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, your status has been saved. [View it live.](https://status.lol/foo/6336204d247e4)\",\n        \"id\": \"6336204d247e4\",\n        \"url\": \"https://status.lol/foo/6336204d247e4\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update an existing status",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\": \"6336204d247e4\", \"emoji\": \"😄\", \"content\": \"I’m doing fine!\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/statuses/",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"statuses",
+						""
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foo"
+						}
+					]
+				},
+				"description": "Update a status in an address’s Statuslog"
+			},
+			"response": [
+				{
+					"name": "Update an existing status",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"id\": \"6336204d247e4\", \"emoji\": \"😄\", \"content\": \"I’m doing fine!\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/statuses/",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"statuses",
+								""
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 29 Sep 2022 22:48:30 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "306"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, your status has been saved. [View it live.](https://status.lol/foo/6336204d247e4)\",\n        \"id\": \"6336204d247e4\",\n        \"url\": \"https://status.lol/foo/6336204d247e4\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve a Statuslog bio",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/statuses/bio/",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"statuses",
+						"bio",
+						""
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foo"
+						}
+					]
+				},
+				"description": "Retrieve a Statuslog bio"
+			},
+			"response": [
+				{
+					"name": "Retrieve a statuslog bio",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/statuses/bio",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"statuses",
+								"bio"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 29 Sep 2022 22:42:34 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "362"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here’s the bio for foo’s Statuslog page.\",\n        \"bio\": \"# Foo\\nThis is my bio!\",\n        \"css\": \"\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update a Statuslog bio",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"content\": \"# Foo\\nThis is my bio!\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/statuses/bio/",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"statuses",
+						"bio",
+						""
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foo"
+						}
+					]
+				},
+				"description": "Update a Statuslog bio"
+			},
+			"response": [
+				{
+					"name": "Update a statuslog bio",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"content\": \"# Foo\\nThis is my bio!\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/statuses/bio",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"statuses",
+								"bio"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 29 Sep 2022 22:40:37 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "260"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, the bio on foo.status.lol has been saved. [View it live.](https://status.lol/foo)\",\n        \"url\": \"https://status.lol/foo\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve the entire statuslog",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/statuslog",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"statuslog"
+					]
+				},
+				"description": "Fetch someone’s entire Statuslog"
+			},
+			"response": [
+				{
+					"name": "Retrieve the entire statuslog",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/statuslog",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"statuslog"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 08 Dec 2022 02:12:15 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here’s the complete statuslog.\",\n        \"statuses\": [\n            {\n                \"id\": \"6391416a125e8\",\n                \"address\": \"dm\",\n                \"created\": \"1670463850\",\n                \"relative_time\": \"28 minutes ago\",\n                \"emoji\": \"☺\",\n                \"content\": \"Streamed a discussion on HRD's YouTube channel\"\n            },\n            {\n                \"id\": \"63913d4127ad9\",\n                \"address\": \"skoobz\",\n                \"created\": \"1670462785\",\n                \"relative_time\": \"45 minutes ago\",\n                \"emoji\": \"📺\",\n                \"content\": \"Watching Ink Master\"\n            },\n            ...\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve everyone’s latest status",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/statuslog",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"statuslog"
+					]
+				},
+				"description": "Fetch someone’s entire Statuslog"
+			},
+			"response": [
+				{
+					"name": "Retrieve everyone’s latest status",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/statuslog/latest",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"statuslog",
+								"latest"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 08 Dec 2022 02:11:26 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here are everyone’s latest statuses.\",\n        \"statuses\": [\n            {\n                \"id\": \"638ff5cfaa031\",\n                \"address\": \"cm\",\n                \"created\": \"1670378959\",\n                \"relative_time\": \"1 day ago\",\n                \"emoji\": \"🤔\",\n                \"content\": \"Excited about omg.lol!\"\n            },\n            {\n                \"id\": \"638ff59bd1be8\",\n                \"address\": \"moe\",\n                \"created\": \"1670378907\",\n                \"relative_time\": \"1 day ago\",\n                \"emoji\": \"👀\",\n                \"content\": \"Browsing [omg.lol - Statuslog](https://home.omg.lol/address/moe/statuslog).\"\n            },\n            ...\n        ]\n    }\n}"
+				}
+			]
+		}
+	]
+}

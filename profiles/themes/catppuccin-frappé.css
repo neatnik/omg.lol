@@ -1,0 +1,48 @@
+/*
+Theme: Catppuccin Frappé
+Author: Jordan Warne (jw.omg.lol)
+License: Public domain
+Version: 1.0
+Description: Soothing pastel theme for the high-spirited! 
+*/
+
+body {
+	background: #303446;
+	color: #c6d0f5;
+}
+
+main {
+	background: #292c3c;
+}
+
+a:link,
+a:visited {
+	color: #b5bfe2;
+  text-decoration: dashed;
+  text-decoration-color: #b5bfe2;
+}
+a:hover,
+a:active {
+	color: #c6d0f5;
+  text-decoration: #b5bfe2;
+
+}
+
+#profile-picture {
+	border-radius: 10%;
+}
+#pronouns {
+	color: #b5bfe2;
+}
+#pronouns a:link,
+#pronouns a:visited,
+#pronouns a:hover,
+#pronouns a:active {
+	color: #c6d0f5
+}
+
+.fa-li, .fas, .omg-icon {
+	color: #b5bfe2;
+	fill: #b5bfe2;
+	stroke: #b5bfe2;
+}

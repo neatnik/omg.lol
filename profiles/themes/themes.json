@@ -1,0 +1,158 @@
+{
+	"themes": {
+		"default": {
+			"name": "Default",
+			"author": "OMG.LOL",
+			"author_url": "https://omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "A friendly, simple look for your amazing profile.",
+			"url": "https://meta.omg.lol/meta/css/profile/profile.css",
+			"repo": "https://github.com/neatnik/omg.lol/tree/main/profiles/themes"
+		},
+		"cherry-blossom": {
+			"name": "Cherry Blossom",
+			"author": "OMG.LOL",
+			"author_url": "https://omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "Springtime, but all year long.",
+			"url": "https://meta.omg.lol/meta/profiles/themes/cherry-blossom.css",
+			"repo": "https://github.com/neatnik/omg.lol/tree/main/profiles/themes"
+		},
+		"dark": {
+			"name": "Dark",
+			"author": "OMG.LOL",
+			"author_url": "https://omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "It’s super dark!",
+			"url": "https://meta.omg.lol/meta/profiles/themes/dark.css",
+			"repo": "https://github.com/neatnik/omg.lol/tree/main/profiles/themes"
+		},
+		"gilded": {
+			"name": "Gilded",
+			"author": "Nima Owji",
+			"author_url": "https://nima.omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "Bold and dark with a touch of gold.",
+			"url": "https://meta.omg.lol/meta/profiles/themes/gilded.css",
+			"repo": "https://github.com/nimaowji/omglol-style"
+		},
+		"gradient": {
+			"name": "Gradient",
+			"author": "Jamie Thalacker",
+			"author_url": "https://jamiethalacker.omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "A nice theme with an animated, gradient background.",
+			"url": "https://gitlab.com/jamiethalacker/omg-lol-themes/-/raw/master/gradient.css",
+			"repo": "https://gitlab.com/jamiethalacker/omg-lol-themes"
+		},
+		"minimal": {
+			"name": "Minimal",
+			"author": "Jane Manchun Wong",
+			"author_url": "https://jane.omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "A minimal theme with automatic light/dark mode detection.",
+			"url": "https://meta.omg.lol/meta/profiles/themes/minimal.css",
+			"repo": "https://github.com/wongmjane/omglol-style"
+		},
+		"naked": {
+			"name": "Naked",
+			"author": "OMG.LOL",
+			"author_url": "https://omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "No style at all, for those who want to do their own thing!",
+			"url": "https://meta.omg.lol/meta/profiles/themes/naked.css",
+			"repo": "https://github.com/neatnik/omg.lol/tree/main/profiles/themes"
+		},
+		"monokai": {
+			"name": "Monokai",
+			"author": "Dakota Chambers",
+			"author_url": "https://dakota.omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "Your text editor's favorite color palette. Adapted from the Monokai color scheme by Wimer Hazenberg (@monokai).",
+			"url": "https://meta.omg.lol/meta/profiles/themes/monokai.css",
+			"repo": "https://github.com/dcchambers/omg.lol/tree/main/profiles/themes"
+		},
+		"nothing_but_red": {
+			"name": "Nothing but Red",
+			"author": "Laker Turner",
+			"author_url": "https://laker.gay",
+			"version": "1.0",
+			"license": "Public Domain",
+			"license_url": "https://creativecommons.org/share-your-work/public-domain/",
+			"description": " What happens when you put the cherry blossom theme through a dark mode extension.",
+			"url": "https://github.com/PurpleHeartLabs/omg.lol/blob/main/profiles/themes/Nothing%20but%20Red.css",
+			"repo": "https://github.com/PurpleHeartLabs/omg.lol/tree/main/profiles/themes"
+		},
+		"PurpleGray": {
+			"name": "PurpleGray",
+			"author": "Mert Dogu",
+			"author_url": "https://mert.omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "Purple.. and yeah, gray.",
+			"url": "https://meta.omg.lol/meta/profiles/themes/PurpleGray.css",
+			"repo": "https://github.com/rexulec/omg.lol/tree/main/profiles/themes"
+		},
+		"SpaceLatte": {
+			"name": "Space Latte",
+			"author": "Laker J.V Turner",
+			"author_url": "https://laker.tech",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "Cosmic Latte, as an OMG.LOL theme.",
+			"url": "https://meta.omg.lol/meta/profiles/themes/SpaceLatte.css",
+			"repo": "https://github.com/lxjv/omg.lol/blob/main/profiles/themes/SpaceLatte.css",
+    },
+		"dracula": {
+			"name": "Dracula",
+			"author": "Bye",
+			"author_url": "https://bye.omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "Dark theme with a touch of purple. Adapted from the Dracula color scheme by @zenorocha",
+			"url": "https://raw.githubusercontent.com/byemc/themes/master/css/profile/dracula.css",
+			"repo": "https://git.byemc.xyz/themes"
+		},
+		"emerald-isle": {
+			"name": "Emerald Isle",
+			"author": "Bye",
+			"author_url": "https://bye.omg.lol",
+			"version": "1.0",
+			"license": "MIT",
+			"license_url": "https://opensource.org/licenses/MIT",
+			"description": "island lol",
+			"url": "https://raw.githubusercontent.com/byemc/themes/master/css/profile/emerald-isle.css",
+			"repo": "https://git.byemc.xyz/themes"
+		},
+		"hotdog-stand": {
+			"name": "Hot Dog Stand",
+			"author": "Bye",
+			"author_url": "https://bye.omg.lol",
+			"version": "1.0",
+			"license": "Public Domain",
+			"license_url": "https://creativecommons.org/share-your-work/public-domain/",
+			"description": "MY EYES (included as a joke in Windows 3.1)",
+			"url": "https://raw.githubusercontent.com/byemc/themes/master/css/profile/hotdog-stand.css",
+			"repo": "https://git.byemc.xyz/themes"
+		}
+	}
+}

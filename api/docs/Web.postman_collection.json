@@ -1,0 +1,457 @@
+{
+	"info": {
+		"_postman_id": "3604e992-8713-438e-ac9c-b6e4e60fa40d",
+		"name": "Web",
+		"description": "Manage profile page and web stuff on an omg.lol address",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12532425"
+	},
+	"item": [
+		{
+			"name": "Retrieve web page content",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/web",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"web"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						}
+					]
+				},
+				"description": "Retrieve web content and information for an address"
+			},
+			"response": [
+				{
+					"name": "Retrieve web page content",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/web",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"web"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 08 Jan 2023 15:44:53 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "958"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here is the web content for foobar.\",\n        \"content\": \"{profile-picture}\\r\\n\\r\\n# Foo Bar\\r\\n\\r\\n| Pronouns: they/them\\r\\n| Occupation: [Crop Trust](https://www.croptrust.org) \\r\\n| Location: Svalbard\\r\\n\\r\\n--- Bio ---\\r\\n\\r\\nOne thing about me is I once spilled coffee on a production server.\\r\\n\\r\\n--- Profile Items ---\\r\\n\\r\\n- [Twitter](https://twitter.com)\\r\\n- [Instagram](https://instagram.com)\\r\\n- [Mastodon](https://social.lol)\\r\\n- [Buy Me a Coffee](https://buymeacoffee.com) <small>(just don’t tell the server)</small>\\r\\n- https://geotastic.net/foobar\\r\\n\",\n        \"type\": \"profile\",\n        \"theme\": \"default\",\n        \"css\": \"\",\n        \"head\": \"\",\n        \"verified\": \"1\",\n        \"pfp\": \"foobar.jpg\",\n        \"metadata\": \"{\\\"title\\\":\\\"\\\",\\\"description\\\":\\\"\\\"}\",\n        \"branding\": \"default\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update web page content and publish",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"publish\": true, \"content\": \"{profile-picture}\\r\\n\\r\\n# Foo Bar\\r\\n\\r\\n| Pronouns: they/them\\r\\n| Occupation: [Crop Trust](https://www.croptrust.org) \\r\\n| Location: Svalbard\\r\\n\\r\\n--- Bio ---\\r\\n\\r\\nOne thing about me is I once spilled coffee on a production server.\\r\\n\\r\\n--- Profile Items ---\\r\\n\\r\\n- [Twitter](https://twitter.com)\\r\\n- [Instagram](https://instagram.com)\\r\\n- [Mastodon](https://social.lol)\\r\\n- [Buy Me a Coffee](https://buymeacoffee.com) <small>(just don’t tell the server)</small>\\r\\n- https://geotastic.net/foobar\\r\\n\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/web",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"web"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "haydensato"
+						}
+					]
+				},
+				"description": "Update web content for an address"
+			},
+			"response": [
+				{
+					"name": "Update web page content and publish",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"publish\": true, \"content\": \"{profile-picture}\\r\\n\\r\\n# Foo Bar\\r\\n\\r\\n| Pronouns: they/them\\r\\n| Occupation: [Crop Trust](https://www.croptrust.org) \\r\\n| Location: Svalbard\\r\\n\\r\\n--- Bio ---\\r\\n\\r\\nOne thing about me is I once spilled coffee on a production server.\\r\\n\\r\\n--- Profile Items ---\\r\\n\\r\\n- [Twitter](https://twitter.com)\\r\\n- [Instagram](https://instagram.com)\\r\\n- [Mastodon](https://social.lol)\\r\\n- [Buy Me a Coffee](https://buymeacoffee.com) <small>(just don’t tell the server)</small>\\r\\n- https://geotastic.net/foobar\\r\\n\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/web",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"web"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "haydensato"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 08 Jan 2023 15:46:11 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "171"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your web content has been saved and published.\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update web page content without publishing",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"content\": \"{profile-picture}\\r\\n\\r\\n# Foo Bar\\r\\n\\r\\n| Pronouns: they/them\\r\\n| Occupation: [Crop Trust](https://www.croptrust.org) \\r\\n| Location: Svalbard\\r\\n\\r\\n--- Bio ---\\r\\n\\r\\nOne thing about me is I once spilled coffee on a production server.\\r\\n\\r\\n--- Profile Items ---\\r\\n\\r\\n- [Twitter](https://twitter.com)\\r\\n- [Instagram](https://instagram.com)\\r\\n- [Mastodon](https://social.lol)\\r\\n- [Buy Me a Coffee](https://buymeacoffee.com) <small>(just don’t tell the server)</small>\\r\\n- https://geotastic.net/foobar\\r\\n\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/web",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"web"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "haydensato"
+						}
+					]
+				},
+				"description": "Update web content for an address"
+			},
+			"response": [
+				{
+					"name": "Update web page content without publishing",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"content\": \"{profile-picture}\\r\\n\\r\\n# Foo Bar\\r\\n\\r\\n| Pronouns: they/them\\r\\n| Occupation: [Crop Trust](https://www.croptrust.org) \\r\\n| Location: Svalbard\\r\\n\\r\\n--- Bio ---\\r\\n\\r\\nOne thing about me is I once spilled coffee on a production server.\\r\\n\\r\\n--- Profile Items ---\\r\\n\\r\\n- [Twitter](https://twitter.com)\\r\\n- [Instagram](https://instagram.com)\\r\\n- [Mastodon](https://social.lol)\\r\\n- [Buy Me a Coffee](https://buymeacoffee.com) <small>(just don’t tell the server)</small>\\r\\n- https://geotastic.net/foobar\\r\\n\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/web",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"web"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "haydensato"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 08 Jan 2023 15:45:54 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "157"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your web content has been saved.\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Upload a profile picture",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "/Users/adam/Desktop/hi.svg"
+					}
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/pfp",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"pfp"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "adam"
+						}
+					]
+				},
+				"description": "Update web content for an address"
+			},
+			"response": [
+				{
+					"name": "Upload a profile picture",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/pfp",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"pfp"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 11 Sep 2022 16:20:30 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
+							"key": "Content-Length",
+							"value": "159"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"We received 2891341 bytes of data.\"\n    }\n}"
+				}
+			]
+		}
+	]
+}

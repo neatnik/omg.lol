@@ -1,0 +1,92 @@
+/* 
+Copyright (c) 2021 Trevor Thalacker. All rights reserved.
+
+Theme: Gradient
+Author: Trevor Thalacker (@trevorthalacker)
+License: MIT
+Version: 1.0
+Description: A nice theme with an animated, gradient background
+*/
+
+:root {
+  --box-shadow: 0 0 transparent, 0 0 transparent,
+	0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+body {
+  background: linear-gradient(
+	313deg,
+	#fecaca,
+	#fde68a,
+	#a7f3d0,
+	#bfdbfe,
+	#c7d2fe,
+	#ddd6fe,
+	#fbcfe8
+  );
+  background-size: 1400% 1400%;
+
+  -webkit-animation: colours 15s ease infinite;
+  -moz-animation: colours 15s ease infinite;
+  -o-animation: colours 15s ease infinite;
+  animation: colours 15s ease infinite;
+}
+
+main {
+  box-shadow: var(--box-shadow);
+}
+
+#pfp_preview {
+  border-radius: 100% !important;
+  box-shadow: var(--box-shadow);
+}
+
+#footer {
+  margin-top: 1em;
+}
+
+/* Keyframe Stuff */
+@-webkit-keyframes colours {
+  0% {
+	background-position: 0% 50%;
+  }
+  50% {
+	background-position: 100% 50%;
+  }
+  100% {
+	background-position: 0% 50%;
+  }
+}
+@-moz-keyframes colours {
+  0% {
+	background-position: 0% 50%;
+  }
+  50% {
+	background-position: 100% 50%;
+  }
+  100% {
+	background-position: 0% 50%;
+  }
+}
+@-o-keyframes colours {
+  0% {
+	background-position: 0% 50%;
+  }
+  50% {
+	background-position: 100% 50%;
+  }
+  100% {
+	background-position: 0% 50%;
+  }
+}
+@keyframes colours {
+  0% {
+	background-position: 0% 50%;
+  }
+  50% {
+	background-position: 100% 50%;
+  }
+  100% {
+	background-position: 0% 50%;
+  }
+}

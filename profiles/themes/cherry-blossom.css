@@ -1,0 +1,43 @@
+/*
+
+Theme: Cherry Blossom
+Author: Adam Newbold (@neatnikllc)
+License: Public domain
+Version: 1.0
+Description: Springtime, but all year long.
+
+*/
+
+body {
+	background: #ffb7c5;
+	color: #333;
+}
+
+main {
+	background: #fdced8;
+}
+
+a:link,
+a:visited {
+	color: #333;
+	text-decoration-color: #333;
+	text-decoration: none;
+	border-bottom: 1px dotted #333;
+}
+a:hover,
+a:active {
+	color: #555;
+	text-decoration-color: #555;
+	text-decoration: none;
+	border-bottom: 2px solid #555;
+}
+
+#profile-picture {
+	border-radius: 100%;
+}
+
+.fa-li, .fas, .omg-icon, .omg-icon path {
+	color: #b53c54;
+	fill: #b53c54;
+	stroke: #b53c54;
+}

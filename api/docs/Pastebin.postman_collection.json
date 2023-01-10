@@ -1,0 +1,565 @@
+{
+	"info": {
+		"_postman_id": "c0f69fb7-2cd7-422f-b6a6-5b62dd8108ba",
+		"name": "Pastebin",
+		"description": "Manage the Pastebin for an omg.lol address",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12532425"
+	},
+	"item": [
+		{
+			"name": "Retrieve a specific paste",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/pastebin/:paste",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"pastebin",
+						":paste"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "adam"
+						},
+						{
+							"key": "paste",
+							"value": "api"
+						}
+					]
+				},
+				"description": "Retrieve a specific paste"
+			},
+			"response": [
+				{
+					"name": "Retrieve a specific paste",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/pastebin/:paste",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"pastebin",
+								":paste"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								},
+								{
+									"key": "paste",
+									"value": "api"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 30 Jun 2022 06:24:25 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
+							"key": "Content-Length",
+							"value": "366"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here’s the paste at adam.paste.lol/api.\",\n        \"paste\": {\n            \"title\": \"api\",\n            \"content\": \"This paste, like all others, can be fully managed with the omg.lol API.\",\n            \"modified_on\": \"1656569579\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve an entire Pastebin",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/pastebin",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"pastebin"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "adam"
+						}
+					]
+				},
+				"description": "Retrieve an entire Pastebin"
+			},
+			"response": [
+				{
+					"name": "Retrieve an entire pastebin",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/pastebin",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"pastebin"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 30 Jun 2022 06:21:43 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
+							"key": "Content-Length",
+							"value": "947"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here’s the pastebin for adam.\",\n        \"pastebin\": [\n            {\n                \"title\": \"api\",\n                \"content\": \"This paste, like all others, can be fully managed with the omg.lol API.\",\n                \"modified_on\": \"1656569579\"\n            },\n            {\n                \"title\": \"hello-world\",\n                \"content\": \"^_^\",\n                \"modified_on\": \"1656569562\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Retrieve listed pastes in a Pastebin",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/pastebin",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"pastebin"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "adam"
+						}
+					]
+				},
+				"description": "Retrieve listed pastes in a Pastebin"
+			},
+			"response": [
+				{
+					"name": "Retrieve listed pastes in a pastebin",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/pastebin",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"pastebin"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 30 Aug 2022 22:56:54 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5030"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here are the listed pastes for adam.\",\n        \"pastebin\": [\n            {\n                \"title\": \"hello-world\",\n                \"content\": \"yo world, sup\",\n                \"modified_on\": \"1656897567\"\n            },\n            {\n                \"title\": \"api\",\n                \"content\": \"This paste, like all others, can be fully managed with the omg.lol API.\",\n                \"modified_on\": \"1656569579\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Create or update a paste in a Pastebin",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"title\": \"new-paste\", \"content\": \"This is a new paste.\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/pastebin/",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"pastebin",
+						""
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "adam"
+						}
+					]
+				},
+				"description": "Create or update a paste in a Pastebin"
+			},
+			"response": [
+				{
+					"name": "Create or update a paste in a pastebin",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"title\": \"new-paste\", \"content\": \"This is a new paste.\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/pastebin/",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"pastebin",
+								""
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 30 Jun 2022 06:30:11 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
+							"key": "Content-Length",
+							"value": "185"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, your paste has been saved.\",\n        \"title\": \"new-paste\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete a paste from a Pastebin",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"title\": \"new-paste\", \"content\": \"This is a new paste.\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/pastebin/:paste",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"pastebin",
+						":paste"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "adam"
+						},
+						{
+							"key": "paste",
+							"value": "delete-me"
+						}
+					]
+				},
+				"description": "Delete a paste from a Pastebin"
+			},
+			"response": [
+				{
+					"name": "Delete a paste from a pastebin",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"title\": \"new-paste\", \"content\": \"This is a new paste.\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/pastebin/:paste",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"pastebin",
+								":paste"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								},
+								{
+									"key": "paste",
+									"value": "delete-me"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 01 Jul 2022 04:12:03 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
+							"key": "Content-Length",
+							"value": "157"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, that paste has been deleted.\"\n    }\n}"
+				}
+			]
+		}
+	]
+}

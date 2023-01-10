@@ -1,0 +1,84 @@
+/*
+
+Theme: Sun Kissed
+Author: Catnatsuki (https://twitter.com/catnatsuki)
+License: MIT
+Version: 1.0
+Description: A theme which will remind you of a calm and beautiful sunrise.
+
+*/
+
+body {
+	background: #fde3b3;
+	color: #1F1B15;
+}
+
+main {
+	background: #ffffed;
+}
+
+h1 {
+	color: #f39519;
+}
+
+#pronouns {
+	margin: 0;
+	font-weight: 400;
+	color: #ffb86a;
+}
+
+#pronouns a:link,
+#pronouns a:visited,
+#pronouns a:hover,
+#pronouns a:active {
+	color: #ffb86a;
+}
+
+
+#location, #occupation{
+	color: #725a42;
+}
+	
+
+#bio {
+	color: #725a42;
+}
+
+a:link,
+a:visited {
+	color: #725a42;
+	text-decoration-color: #333;
+	text-decoration: none;
+	border-bottom: 1px dotted #333;
+}
+a:hover,
+a:active {
+	color: #f39519;
+	text-decoration-color: #F8c453;
+	text-decoration: none;
+	border-bottom: 2px solid #555;
+}
+.fa-badge-check, .omg-verified {
+  color: #F39519 !important;
+}
+
+.fa-badge-check:hover, .omg-verified:hover {
+  color: #d17c00 !important;
+  text-decoration-color: #d17c00 !important;
+}
+
+#profile-picture {
+	border-radius: 100%;
+	height: 8.7em;
+	transition: 0.6s;
+}
+
+#profile-picture:hover {
+	border-radius: 0.25em;
+}
+
+.fa-li, .fas, .omg-icon, .omg-icon path {
+	color: #f39519;
+	fill: #f39519;
+	stroke: #f39519;
+}

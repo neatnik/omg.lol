@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "71cd737d-246e-4125-a421-3188d2ab6670",
+		"name": "Service",
+		"description": "Obtain service information about omg.lol",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12532425"
+	},
+	"item": [
+		{
+			"name": "Retrieve service information and statistics",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/service/info",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"service",
+						"info"
+					]
+				},
+				"description": "Get information and statistics about the omg.lol service"
+			},
+			"response": [
+				{
+					"name": "Retrieve service information and statistics",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/service/info",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"service",
+								"info"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jun 2022 04:53:45 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization"
+						},
+						{
+							"key": "Content-Length",
+							"value": "343"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/json;charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"As of 2022-10-05T03:13:14+00:00, omg.lol has 1,811 members and hosts 1,685 active addresses. Of those, 888 have active profiles or web pages.\",\n        \"members\": 1811,\n        \"addresses\": 1685,\n        \"profiles\": 888\n    }\n}"
+				}
+			]
+		}
+	]
+}

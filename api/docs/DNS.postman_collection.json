@@ -1,0 +1,471 @@
+{
+	"info": {
+		"_postman_id": "7f90b825-ba39-4c3c-a875-b9a3c0797c17",
+		"name": "DNS",
+		"description": "Requests for managing DNS.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12532425"
+	},
+	"item": [
+		{
+			"name": "Retrieve DNS records for an address",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/dns",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"dns"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						}
+					]
+				},
+				"description": "Get a list of all of your DNS records."
+			},
+			"response": [
+				{
+					"name": "Retrieve DNS records for an address",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/dns",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"dns"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 26 Nov 2022 04:34:37 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "872"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here are the DNS records for foobar.\",\n        \"dns\": [\n            {\n                \"id\": \"2857074\",\n                \"type\": \"A\",\n                \"name\": \"foobar\",\n                \"data\": \"192.167.0.1\",\n                \"priority\": null,\n                \"ttl\": \"3600\",\n                \"created_at\": \"2022-11-26T04:30:13Z\",\n                \"updated_at\": \"2022-11-26T04:31:33Z\"\n            },\n            {\n                \"id\": \"2857075\",\n                \"type\": \"CNAME\",\n                \"name\": \"cname.foobar\",\n                \"data\": \"elsewhere.tld\",\n                \"priority\": null,\n                \"ttl\": \"3600\",\n                \"created_at\": \"2022-11-26T04:34:24Z\",\n                \"updated_at\": \"2022-11-26T04:34:24Z\"\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Create a new DNS record",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"type\": \"CNAME\", \"name\": \"cname\", \"data\": \"elsewhere.tld\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/dns",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"dns"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						}
+					]
+				},
+				"description": "Add a new DNS record."
+			},
+			"response": [
+				{
+					"name": "Create a new DNS record",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"type\": \"A\", \"name\": \"@\", \"data\": \"10.0.0.1\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/dns",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"dns"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 26 Nov 2022 04:30:13 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "725"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your DNS record was created successfully.\",\n        \"data_sent\": {\n            \"type\": \"A\",\n            \"priority\": null,\n            \"ttl\": null,\n            \"name\": \"foobar\",\n            \"content\": \"10.0.0.1\"\n        },\n        \"response_received\": {\n            \"data\": {\n                \"id\": 2857074,\n                \"name\": \"foobar\",\n                \"content\": \"10.0.0.1\",\n                \"ttl\": 3600,\n                \"priority\": null,\n                \"type\": \"A\",\n                \"created_at\": \"2022-11-26T04:30:13Z\",\n                \"updated_at\": \"2022-11-26T04:30:13Z\"\n            }\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Edit an existing DNS record",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"type\": \"A\", \"name\": \"@\", \"data\": \"192.167.0.1\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/dns/:id",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"dns",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						},
+						{
+							"key": "id",
+							"value": "2857074"
+						}
+					]
+				},
+				"description": "Update an existing DNS record."
+			},
+			"response": [
+				{
+					"name": "Edit an existing DNS record",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"type\": \"A\", \"name\": \"@\", \"data\": \"192.167.0.1\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/dns/:id",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"dns",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								},
+								{
+									"key": "id",
+									"value": "2857074"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 26 Nov 2022 04:31:33 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "731"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Your DNS record was updated successfully.\",\n        \"data_sent\": {\n            \"type\": \"A\",\n            \"priority\": null,\n            \"ttl\": null,\n            \"name\": \"foobar\",\n            \"content\": \"192.167.0.1\"\n        },\n        \"response_received\": {\n            \"data\": {\n                \"id\": 2857074,\n                \"name\": \"foobar\",\n                \"content\": \"192.167.0.1\",\n                \"ttl\": 3600,\n                \"priority\": null,\n                \"type\": \"A\",\n                \"created_at\": \"2022-11-26T04:30:13Z\",\n                \"updated_at\": \"2022-11-26T04:31:33Z\"\n            }\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete a DNS record",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/dns/:id",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"dns",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						},
+						{
+							"key": "id",
+							"value": "2857073"
+						}
+					]
+				},
+				"description": "Delete a DNS record."
+			},
+			"response": [
+				{
+					"name": "Delete a DNS record",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/dns/:id",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"dns",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								},
+								{
+									"key": "id",
+									"value": "2857073"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 26 Nov 2022 04:27:44 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "162"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, your DNS record has been deleted.\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
