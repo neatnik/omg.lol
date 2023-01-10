@@ -1,0 +1,66 @@
+body {
+	background: #000;
+	color: #ccc;
+}
+
+main {
+  position: relative;
+  background: #222;
+}
+
+main:before, main:after {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(45deg, #fb0094, #00ff00, #00ff00,#ffff00, #ff0000, #fb0094, 
+          #0000ff, #00ff00,#ffff00, #ff0000);
+  background-size: 300%;
+  width: calc(100% + 3px);
+  height: calc(100% + 3px);
+  z-index: -1;
+  animation: glow 30s linear infinite;
+  border-radius: 1em;
+}
+
+@keyframes glow {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+main:after {
+  filter: blur(50px);
+}
+
+
+a:link,
+a:visited {
+	color: #ccc;
+	text-decoration-color: #ccc;
+	text-decoration: none;
+	border-bottom: 1px dotted #ccc;
+}
+a:hover,
+a:active {
+	color: #fff;
+	text-decoration-color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid #fff;
+}
+
+.fa-badge-check, .omg-verified {
+	color: #945B85 !important;
+}
+
+.omg-icon {
+	color: #ccc;
+	fill: #ccc;
+	stroke: #ccc;
+}    
