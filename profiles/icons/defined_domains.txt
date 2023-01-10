@@ -28,6 +28,7 @@ ruby.social mastodon
 dice.camp mastodon
 
 // Other
+nicovideo.jp niconico
 .onion tor
 fandom.com fandom
 orcid.org orcid
