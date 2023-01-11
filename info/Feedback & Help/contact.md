@@ -1,6 +1,6 @@
 ---
 Description: You can contact us at any time, for any reason, and we’re always glad to help  
-Last Updated: 2022-10-08 01:52 AM EDT
+Last Updated: 2023-01-11 11:30 AM EST
 ---
 
 # Contact Us
@@ -34,7 +34,7 @@ No matter how you choose to contact us, we’ll do our best to respond swiftly. 
 
 ## Keeping things secure?
 
-You can use these PGPs key to communicate with us securely:
+You can use this PGPs key to communicate with us securely:
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
