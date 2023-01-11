@@ -34,7 +34,7 @@ No matter how you choose to contact us, we’ll do our best to respond swiftly. 
 
 ## Keeping things secure?
 
-You can use this PGPs key to communicate with us securely:
+You can use this PGP key to communicate with us securely:
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
