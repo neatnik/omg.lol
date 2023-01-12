@@ -240,7 +240,7 @@
 					"variable": [
 						{
 							"key": "address",
-							"value": "penelope"
+							"value": "foobar"
 						}
 					]
 				},
@@ -266,7 +266,7 @@
 							"variable": [
 								{
 									"key": "address",
-									"value": "penelope"
+									"value": "future-expiration"
 								}
 							]
 						}
@@ -277,7 +277,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Tue, 30 Nov 2021 15:37:58 GMT"
+							"value": "Thu, 12 Jan 2023 16:02:23 GMT"
 						},
 						{
 							"key": "Server",
@@ -288,8 +288,16 @@
 							"value": "*"
 						},
 						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
 							"key": "Content-Length",
-							"value": "392"
+							"value": "433"
 						},
 						{
 							"key": "Keep-Alive",
@@ -301,11 +309,11 @@
 						},
 						{
 							"key": "Content-Type",
-							"value": "text/json;charset=UTF-8"
+							"value": "application/json; charset=utf-8"
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"expiration\": {\n        \"address\": \"penelope\",\n        \"message\": \"This address expires in 21 years.\",\n        \"unix_epoch_time\": \"2300941010\",\n        \"iso_8601_time\": \"2042-11-30T06:16:50+00:00\",\n        \"rfc_2822_time\": \"Sun, 30 Nov 2042 06:16:50 +0000\",\n        \"relative_time\": \"21 years from now\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"This address expires in 14 years and 11 months.\",\n        \"expired\": false,\n        \"will_expire\": true,\n        \"unix_epoch_time\": \"2145916800\",\n        \"iso_8601_time\": \"2038-01-01T00:00:00+00:00\",\n        \"rfc_2822_time\": \"Fri, 01 Jan 2038 00:00:00 +0000\",\n        \"relative_time\": \"14 years and 11 months\"\n    }\n}"
 				},
 				{
 					"name": "Address does not expire",
@@ -326,7 +334,7 @@
 							"variable": [
 								{
 									"key": "address",
-									"value": "lifetime-address"
+									"value": "never-expires"
 								}
 							]
 						}
@@ -337,7 +345,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Tue, 30 Nov 2021 15:29:01 GMT"
+							"value": "Thu, 12 Jan 2023 16:04:05 GMT"
 						},
 						{
 							"key": "Server",
@@ -348,8 +356,16 @@
 							"value": "*"
 						},
 						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
 							"key": "Content-Length",
-							"value": "195"
+							"value": "210"
 						},
 						{
 							"key": "Keep-Alive",
@@ -361,11 +377,11 @@
 						},
 						{
 							"key": "Content-Type",
-							"value": "text/json;charset=UTF-8"
+							"value": "application/json; charset=utf-8"
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"expiration\": {\n        \"address\": \"lifetime-address\",\n        \"message\": \"This address does not expire.\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"This address does not expire.\",\n        \"expired\": false,\n        \"will_expire\": false\n    }\n}"
 				},
 				{
 					"name": "Address has expired",
@@ -386,7 +402,7 @@
 							"variable": [
 								{
 									"key": "address",
-									"value": "expired-address"
+									"value": "expired"
 								}
 							]
 						}
@@ -397,7 +413,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Tue, 30 Nov 2021 15:36:59 GMT"
+							"value": "Thu, 12 Jan 2023 16:03:19 GMT"
 						},
 						{
 							"key": "Server",
@@ -408,8 +424,16 @@
 							"value": "*"
 						},
 						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
 							"key": "Content-Length",
-							"value": "397"
+							"value": "403"
 						},
 						{
 							"key": "Keep-Alive",
@@ -421,11 +445,11 @@
 						},
 						{
 							"key": "Content-Type",
-							"value": "text/json;charset=UTF-8"
+							"value": "application/json; charset=utf-8"
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"expiration\": {\n        \"address\": \"expired-address\",\n        \"message\": \"This address expired 4 minutes ago.\",\n        \"unix_epoch_time\": \"1638286377\",\n        \"iso_8601_time\": \"2021-11-30T15:32:57+00:00\",\n        \"rfc_2822_time\": \"Tue, 30 Nov 2021 15:32:57 +0000\",\n        \"relative_time\": \"4 minutes ago\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"This address expired 1 month and 3 weeks ago.\",\n        \"address\": \"zio\",\n        \"unix_epoch_time\": \"1668868224\",\n        \"iso_8601_time\": \"2022-11-19T14:30:24+00:00\",\n        \"rfc_2822_time\": \"Sat, 19 Nov 2022 14:30:24 +0000\",\n        \"relative_time\": \"1 month and 3 weeks ago\"\n    }\n}"
 				}
 			]
 		},
