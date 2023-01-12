@@ -334,6 +334,122 @@
 					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here are the PURLs for foo.\",\n        \"purls\": [\n            {\n                \"name\": \"awesome\",\n                \"url\": \"https://www.youtube.com/watch?v=dQw4w9WgXcQ\",\n                \"counter\": \"872\"\n            },\n            {\n                \"name\": \"💚\",\n                \"url\": \"https://example.com\",\n                \"counter\": \"33\"\n            }\n        ]\n    }\n}"
 				}
 			]
+		},
+		{
+			"name": "Delete a PURL",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/purl/:purl",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"purl",
+						":purl"
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
+						},
+						{
+							"key": "purl",
+							"value": "example"
+						}
+					]
+				},
+				"description": "Permanently delete a PURL"
+			},
+			"response": [
+				{
+					"name": "Delete a PURL",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/purl/:purl",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"purl",
+								":purl"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "foobar"
+								},
+								{
+									"key": "purl",
+									"value": "example"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 12 Jan 2023 02:01:44 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "156"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, that PURL has been deleted.\"\n    }\n}"
+				}
+			]
 		}
 	]
 }
