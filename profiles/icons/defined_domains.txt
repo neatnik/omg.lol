@@ -28,6 +28,7 @@ ruby.social mastodon
 dice.camp mastodon
 
 // Other
+lazer.ppy.sh osu
 nicovideo.jp niconico
 .onion tor
 fandom.com fandom
