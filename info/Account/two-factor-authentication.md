@@ -19,7 +19,7 @@ We use one-time password (OTP) codes for 2FA at omg.lol. Specifically, TOTP (or 
 
 To get started, you’ll need an authenticator app. There are plenty out there for all platforms. (We recommend using the one that’s built into 1Password, our favorite password manager.)
 
-Then, in the _Two-factor authentication_ section of the [account setings](/account/settings#two-factor-authentication) screen:
+Then, in the _Two-factor authentication_ section of the [account settings](/account/settings#two-factor-authentication) screen:
 
 1. Scan the QR code with your authenticator app. (If you can’t scan it for some reason, you can use the code instead.)
 2. When your authenticator app provides a six digit code, enter it in the provided field on the account settings screen and then click the button.
