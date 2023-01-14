@@ -1,6 +1,6 @@
 ---
 Description: Emoji addresses are fun, but can be finicky  
-Last Updated: 2022-10-08 01:52 AM EDT
+Last Updated: 2023-01-14 3:46 PM EST
 ---
 
 # Emoji addresses
@@ -41,8 +41,8 @@ Here we can see that the emoji address survived intact when the message reached 
 
 ## Mastodon
 
-Sadly, due to the ActivityPub protocol that Mastodon is based upon, emoji addresses aren't supported on Mastodon. :(
+Sadly, due to the ActivityPub protocol that Mastodon is based upon, emoji addresses aren't supported on Mastodon.
 
 ## What to do?
 
-There’s no way to guarantee how things will behave when using emoji in email or web addresses, so this is a classic case of buyer beware. When you register an emoji address, though, you’ll also receive the corresponding Punycode namespace for both email and web (and this will appear in the address configuration for your reference). So if you’re feeling brave, go for it!
+There’s no way to guarantee how things will behave when using emoji in email or web addresses, so this is a classic case of _buyer beware_. When you register an emoji address, though, you’ll also receive the corresponding Punycode namespace for both email and web (and this will appear in the address configuration for your reference). So if you’re feeling brave, and don’t mind all of the inconveniences explained above, go for it!
