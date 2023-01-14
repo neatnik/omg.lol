@@ -1,6 +1,6 @@
 ---
 Description: The advanced web editor is our most advanced editor yet, as the name would suggest
-Last Updated: 2022-10-15 1:03 PM EDT
+Last Updated: 2023-01-14 4:11 PM EST
 ---
 
 # Advanced Web Editor
@@ -13,7 +13,7 @@ The Advanced editor can be used to edit and publish [Profile](/info/profiles) pa
 
 ## Profile Metadata
 
-The Advanced editor uses a custom approach to defining profile metadata, intended to preserve the beauty of the underlying Markdown document. You can define a metadata block like this:
+The Advanced editor uses a custom process for defining and including profile metadata, intended to preserve the beauty of the underlying Markdown document. You can define a metadata block like this:
 
 ```
 | Pronouns: they/them
@@ -29,7 +29,11 @@ Each line above is its own _metadata item_, which is in turn rendered into HTML 
 <div class="metadata" id="location">Svalbard</div>
 ```
 
-Certain metadata items also receive icons automatically, but this can be disabled if desired.
+Certain metadata items also receive icons automatically, and you can add your own icons to your own custom metadata. For example, if you wanted to share that you have a 2300 rating in Chess, you might add `{chess}` to use the [chess icon](https://fontawesome.com/icons/chess?s=solid&f=classic). Like this:
+
+```
+| Chess Rating: 2300 {chess}
+```
 
 ## Profile Sections
 
@@ -51,11 +55,11 @@ The contents of this `<div>` would consist of whatever comes after the section i
 
 ## Profile Items
 
-If you have a `--- Profile Items ---` section indicator in your profile document, you’ll receive a special section that intelligently applies icons to whatever lists to include within that section. Learn more about how this works in our [Profile Items](/info/profile-items) article.
+If you have a `--- Profile Items ---` section indicator in your profile document, you’ll create a special section that intelligently applies icons to whatever lists to include within that section. Learn more about how this works in our [Profile Items](/info/profile-items) article.
 
 ## Profile Picture
 
-Your profile picture will be rendered wherever the `{profile-picture}` indicator is placed within your document.
+Your profile picture will be rendered wherever the `{profile-picture}` tag is placed within your document.
 
 ## Custom Metadata
 
