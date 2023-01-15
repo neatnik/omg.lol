@@ -2,6 +2,7 @@
 	"info": {
 		"_postman_id": "eebc84dc-f2eb-470b-a583-177f523a93c6",
 		"name": "Now Page",
+		"description": "Manage your /now page.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "12532425"
 	},
