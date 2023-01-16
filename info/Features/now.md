@@ -1,13 +1,13 @@
 ---
 Description: All about your /now page
-Last Updated: 2023-01-15 12:48 PM EST
+Last Updated: 2023-01-16 12:29 AM EST
 ---
 
 # /now Page
 
 A /now page is a wonderful way to share what’s going on in your life “now”—though what _now_ means is entirely up to you. Could be the past month, six months, whatever you want. It’s your /now page, so you can run it the way you want to!
 
-The idea behind the /now page comes from the brilliant [Derek Sivers](https://sive.rs), who started the movement and [wrote about it here](https://sive.rs/nowff).
+The idea behind for /now pages comes from the brilliant [Derek Sivers](https://sive.rs), who started the movement and [wrote about it here](https://sive.rs/nowff).
 
 ## Updating your /now page
 
