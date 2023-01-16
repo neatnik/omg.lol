@@ -17,7 +17,7 @@ You can view a helpful logfile of your recent email activity on your address’s
 
 ## Address Delimiters
 
-Some of the fancier email services out there let you use a `+` plus sign to extend your address, e.g. `foobar+thing@example.com`. That works with omg.lol as well, of course. But we’ve gone the extra mile and have opened up the range of characters that you can use to ``'*+/=?^_`{|}~.``, which means that addresses like `foobar/beep@omg.lol` and `foobar=bazbat@omg.lol` are perfectly valid. Have fun with those. (Note that messages sent to addresses extended with delimeters will not appear in your mail log due to the way the logs are parsed.)
+Some of the fancier email services out there let you use a `+` plus sign to extend your address, e.g. `foobar+thing@example.com`. That works with omg.lol as well, of course. But we’ve gone the extra mile and have opened up the range of characters that you can use to ``'*+/=?^_`{|}~.``, which means that addresses like `foobar/beep@omg.lol` and `foobar=bazbat@omg.lol` are perfectly valid. Have fun with those. (Note that messages sent to addresses extended with delimiters will not appear in your mail log due to the way the logs are parsed.)
 
 ## Sending
 
