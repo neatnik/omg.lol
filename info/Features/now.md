@@ -21,7 +21,7 @@ You can access your /now page via your omg.lol address by simply appending `/now
 
 ## Keeping your /now page updated
 
-If you’d like a periodic nudge to keep your /now page up to date, just enter the frequency for reminders at the bottom of your /now editor. If you haven’t updated your /now page within that amount of time, you’ll receive an email reminder to do so. You can actually make your updates in the reply to that email, and they’ll go live as soon as you hit “send”.
+If you’d like a periodic nudge to keep your /now page up to date, just enter the frequency for reminders at the bottom of your /now editor. If you haven’t updated your /now page within that amount of time, you’ll receive an email reminder to do so. You can actually make your updates in the reply to that email, and they’ll go live a moment or two after you hit “send”.
 
 ## Now Garden
 
