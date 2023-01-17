@@ -107,6 +107,91 @@
 			]
 		},
 		{
+			"name": "Retrieve the now.garden listing",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{base_url}}/now/garden",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"now",
+						"garden"
+					]
+				},
+				"description": "Retrieve all listed /now pages."
+			},
+			"response": [
+				{
+					"name": "Retrieve the now.garden listing",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/now/garden",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"now",
+								"garden"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 17 Jan 2023 04:44:15 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"Here are all of the /now pages in the Now Garden.\",\n        \"garden\": [\n            {\n                \"address\": \"drudge\",\n                \"url\": \"https://penree.com/now\",\n                \"updated\": {\n                    \"unix_epoch_time\": \"1673929294\",\n                    \"iso_8601_time\": \"2023-01-17T04:21:34+00:00\",\n                    \"rfc_2822_time\": \"Tue, 17 Jan 2023 04:21:34 +0000\",\n                    \"relative_time\": \"22 minutes and 41 seconds ago\"\n                }\n            },\n            ...\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
 			"name": "Update /now Page",
 			"request": {
 				"auth": {
