@@ -14,11 +14,12 @@ On the Switchboard, you’ll see all of the different **routes** for your addres
 Every omg.lol address comes with six standard routes. Assuming your address is `foo`:
 
 1. `foo.omg.lol`, your subdomain
-2. `omg.lol/foo`, your path
-3. `omg.lol/~foo`, your [Tildeverse address](/info/tildeverse)
-4. `omg.lol/@foo`, your “at” address
-5. `profile.omg.lol/foo`, your dedicated profile address
-6. `foo.profile.lol`, a subdomain on the `profile.lol` domain. (This route has only two options: "Disabled" or "Web/Profile Page")
+2. `foo.omg.lol/now`, your [/now page](/info/now)
+3. `omg.lol/foo`, your path
+4. `omg.lol/~foo`, your [Tildeverse address](/info/tildeverse)
+5. `omg.lol/@foo`, your “at” address
+6. `profile.omg.lol/foo`, your dedicated profile address
+7. `foo.profile.lol`, a subdomain on the `profile.lol` domain.
 
 You can also add as many external domains as you’d like, and they become routes as well.
 
@@ -27,11 +28,12 @@ You can also add as many external domains as you’d like, and they become route
 Every route has a corresponding connection. Available connections are:
 
 1. **Profile Page**, which (unsurprisingly) displays your profile page
-2. **Tildverse Profile Page**, which (also unsurprisingly, but nevertheless awesomely) displays your [Tildeverse](/info/tildeverse) profile page
-3. **Redirect to a URL**, which easily directs traffic to any other web address (using a `302 Found` response and location header)
-4. **Pastebin**, which displays your list of [pastes](/info/pastebin) (available only on external domain routes -- see below)
-5. **PURLs**, brands your [PURLs](/info/purls) with your external domain
-6. **Disabled**, for when you just want to switch things off
+2. **Weblog**, which displays your [weblog](/info/weblog)
+3. **Now Page**, which displays your [/now page](/info/now)
+4. **Tildverse Profile Page**, which (also unsurprisingly, but nevertheless awesomely) displays your [Tildeverse](/info/tildeverse) profile page
+5. **Redirect to a URL**, which easily directs traffic to any other web address (using a `302 Found` response and location header)
+6. **Statuslog**, which displays your [statuslog](/info/statuslog)
+7. **Disabled**, for when you just want to switch things off
 
 
 When a connection is disabled, a standard “resource unavailable” page will be displayed.
