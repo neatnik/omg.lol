@@ -8,6 +8,7 @@
 	font-weight: 900;
 	font-display: block;
 	src: url('https://cdn.cache.lol/profiles/icons/omg.lol-icons.woff2') format('woff2');
+	/*src: url('https://cdn.cache.lol/profiles/icons/omg.lol-icons.woff') format('woff'); */
 }
 
 .omg-icon {
