@@ -104,11 +104,8 @@ foreach($overrides as $line) {
 $icons = json_encode($icons, JSON_PRETTY_PRINT);
 file_put_contents('icons.json', $icons);
 $id = uniqid();
-echo "\n".'Icon preparation complete. Check icons: <a href="https://cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'">https://cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'</a>';
+//echo "\n".'Icon preparation complete. Check icons: <a href="https://cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'">https://cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'</a>';
 
-// Finally, we’ll update omg.lol-icons.css with new version numbers to bypass the cache
+echo "\n".'Icon preparation complete. Check icons: <a href="https://cache.lol/profiles/icons/omg.lol-icons.html">https://cache.lol/profiles/icons/omg.lol-icons.html</a>';
 
-$css = file_get_contents('omg.lol-icons.css');
-preg_match_all("/\=(.*)'/mU", $css, $matches, PREG_SET_ORDER);
-$css = str_replace($matches[0][1], $id, $css);
-file_put_contents('omg.lol-icons.css', $css);
+// Finally, we’ll flush the bunny.net cache

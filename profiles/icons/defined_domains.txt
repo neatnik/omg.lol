@@ -28,6 +28,7 @@ ruby.social mastodon
 dice.camp mastodon
 
 // Other
+strava.com strava
 lazer.ppy.sh osu
 nicovideo.jp niconico
 .onion tor
