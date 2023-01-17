@@ -15,7 +15,6 @@
     "tech.lgbt": "mastodon",
     "ruby.social": "mastodon",
     "dice.camp": "mastodon",
-    "bunny.omg.lol": "rabbit",
     "strava.com": "strava",
     "lazer.ppy.sh": "osu",
     "nicovideo.jp": "niconico",
@@ -175,5 +174,6 @@
     "vukky.net": "vukky",
     "neatnik.net": "neatnik",
     "andycarolan.com": "andycarolan",
-    "zioibi.com": "zioibi"
+    "zioibi.com": "zioibi",
+    "bunny.omg.lol": "bunny-omg-lol"
 }

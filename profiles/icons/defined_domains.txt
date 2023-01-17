@@ -28,7 +28,6 @@ ruby.social mastodon
 dice.camp mastodon
 
 // Other
-bunny.omg.lol bunny-omg-lol
 strava.com strava
 lazer.ppy.sh osu
 nicovideo.jp niconico
@@ -191,4 +190,4 @@ vukky.net vukky
 neatnik.net neatnik
 andycarolan.com andycarolan
 zioibi.com zioibi
-bunny.omg.lol rabbit
+bunny.omg.lol bunny-omg-lol
