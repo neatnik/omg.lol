@@ -7,16 +7,11 @@ Last Updated: 2022-12-14 12:41 PM EDT
 
 One of the best parts of an [omg.lol profile](/info/profiles) is the total flexibility you have in adding and managing your profile items.
 
-Your profile items can be just about anything: plain text, a link to something (like a personal website or a social media profile), or whatever. Add as many as you’d like! You can re-order them any time (by dragging them around in the Classic editor, or just changing their text placement in the Advanced editor).
+Your profile items can be just about anything: plain text, a link to something (like a personal website or a social media profile), or whatever. Add as many as you’d like! You can re-order them any time.
 
 ## Adding items
 
- - In the Classic editor: Click the friendly **Add an item** button to get a new profile item field.
- - In the Advanced editor: Just insert a new Markdown list item (starting with `-`) within the `--- Profile Items ---` section of your page.
-
-## Removing items
-
-If you want to remove a profile item in the Classic editor, just clear the contents of the field. When you save your profile, it’ll vanish. In the Advanced editor, just delete the text and list item.
+ - Just insert a new Markdown list item (starting with `-`) within the `--- Profile Items ---` section of your page.
 
 ## Using Markdown
 
