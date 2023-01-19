@@ -1,6 +1,6 @@
 ---
 Description: Read all about our Mastodon instance  
-Last Updated: 2023-01-19 3:25 PM EDT
+Last Updated: 2023-01-19 3:48 PM EST
 ---
 
 # Mastodon
