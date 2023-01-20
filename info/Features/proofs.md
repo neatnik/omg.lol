@@ -33,7 +33,7 @@ Here’s the cool part—you can delete your claim once your assertion has been 
 
 All of the proofs on proven.lol are timestamped, and the assertions are proven _as of that timestamp_. Unlike Keybase or other services that require you to make a post with your claim and keep it posted indefinitely, proven.lol isn’t going to keep checking for that stuff over and over (and hound you if it vanishes). Simply put, we’re only interested in documenting proof of something at a particular point in time.
 
-You’re welcome to refresh your proof as often as you’d like, or to let your proofs age. Ultimately it’s up you to decide what’s “fresh” enough when it comes ot a proof, or if it even matters. Life is short and everything is temporary, so maybe don’t overthink it.
+You’re welcome to refresh your proof as often as you’d like, or to let your proofs age. Ultimately it’s up you to decide what’s “fresh” enough when it comes to a proof, or if it even matters. Life is short and everything is temporary, so maybe don’t overthink it.
 
 But yeah, the upside to a point-in-time proof system is that you can easily prove ownership of third-party pages where you only have limited space to post a claim (like in a “bio” field). We can check for that claim, prove the assertion, and then you can remove the weird string from your bio and go back to normal.
 
