@@ -11,7 +11,7 @@ Here at omg.lol, we’re not interested in re-inventing social media. We are how
 
 ### Membership
 
-social.lol is available to omg.lol members.
+social.lol is available to omg.lol members by going to https://home.omg.lol/address/$YOURUSERNAME/social.lol.
 
 ### Live chat
 
