@@ -41,7 +41,7 @@ The amazing emoji used on [status.lol](https://status.lol) are from the [Fluent 
 
 You can configure an outgoing webhook with your Statuslog (just plop the webhook URL into the field in the Statuslog preference panel). With an active webhook, this data will be POSTed to the webhook URL whenever you make a new Statuslog entry:
 
-```
+```json
 {
     "status_emoji": "\ud83e\ude9d",
     "status_text": "Webhooks for the Statuslog? Why not! https:\/\/home.omg.lol\/info\/statuslog",
