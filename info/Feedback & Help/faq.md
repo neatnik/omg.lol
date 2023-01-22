@@ -18,3 +18,7 @@ No, this service sustains itself with money. We would never resort to the kinds 
 ## I used to have an account, but I kinda forgot about it, and now I can’t log in. Help?
 
 If you didn’t renew your address before it expired, and you didn’t have any other active addresses associated with your account, then your account would have been removed at the time of your address’s expiration. If you register a new address, you’ll get a new account along with it.
+
+## I just want to buy one or two of the services, not all of them. Can I do this?
+
+No, all of our services are bundled together and come under the one annual price. Because all services are tied to the "address", if you were to just use one or two services, the other ones would still be locked under that address. 
