@@ -3,6 +3,12 @@ Description: Follow our Code of Conduct to keep our community awesome
 Last Updated: 2022-10-08 01:52 AM EDT
 ---
 
+<style>
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+</style>
+
 # Code of Conduct
 
 omg.lol is a loving and inclusive platform. When you use [our services](/info/services), we ask that you always be kind and respectful—or, at the very least, that you strive to simply do no harm. 
@@ -18,3 +24,9 @@ We believe that everyone has a right to the freedoms of speech and personal expr
 We’re super serious about this: our platform *will not* be a vehicle for abuse, harassment, or harm of any kind. We do not tolerate people who cause harm to others. If you can’t play nice here, you will have to go play somewhere else.
 
 If you encounter any kind of abuse of our services, please contact [abuse@omg.lol](mailto:abuse@omg.lol). [Learn more about how we respond to abuse complaints.](/info/omg.lol/abuse)
+
+## Video summary
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VQYLYrCRH4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
