@@ -43,7 +43,7 @@ You could use something else, if you’d like (anything will work as long as it 
 
 ### Channels
 
-Here are some of the popular channels on the server:
+Here are some of the popular channels on the server (these are also the channels bridged to Discord):
 
   * **#general**, general chatter about anything
   * **#random**, random or off-the-wall stuff
