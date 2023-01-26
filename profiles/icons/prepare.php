@@ -109,3 +109,22 @@ $id = uniqid();
 echo "\n".'Icon preparation complete. Check icons: <a href="https://cache.lol/profiles/icons/omg.lol-icons.html">https://cache.lol/profiles/icons/omg.lol-icons.html</a>';
 
 // Finally, we’ll flush the bunny.net cache
+$access_key = file_get_contents('/var/www/html/secret/bunny_access_key');
+$url = 'https://cdn.cache.lol/profiles/icons/*';
+$tmp = shell_exec("curl --request GET \
+ --url 'https://api.bunny.net/purge?url=".urlencode($url)."&async=false' \
+ --header 'AccessKey: $access_key' \
+ --header 'accept: application/json'");
+
+// And recache key resources
+$recache[] = 'https://cdn.cache.lol/profiles/icons/omg.lol-glyphs.css';
+$recache[] = 'https://cdn.cache.lol/profiles/icons/omg.lol-icons.css';
+$recache[] = 'https://cdn.cache.lol/profiles/icons/omg.lol-icons.html';
+$recache[] = 'https://cdn.cache.lol/profiles/icons/omg.lol-icons.otf';
+$recache[] = 'https://cdn.cache.lol/profiles/icons/omg.lol-icons.woff';
+$recache[] = 'https://cdn.cache.lol/profiles/icons/omg.lol-icons.woff2';
+$recache[] = 'https://cdn.cache.lol/profiles/icons/domains.json';
+$recache[] = 'https://cdn.cache.lol/profiles/icons/icons.json';
+foreach($recache as $url) {
+	file_get_contents($url);
+}
