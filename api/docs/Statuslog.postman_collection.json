@@ -38,7 +38,7 @@
 						}
 					]
 				},
-				"description": "Fetch a single Stauslog entry"
+				"description": "Fetch a single Statuslog entry"
 			},
 			"response": [
 				{
@@ -252,6 +252,122 @@
 						{
 							"key": "address",
 							"value": "foo"
+						}
+					]
+				},
+				"description": "Create a new status in an address’s Statuslog"
+			},
+			"response": [
+				{
+					"name": "Create a new status",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"emoji\": \"😄\", \"content\": \"Testing!\"}"
+						},
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/statuses/",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"statuses",
+								""
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "adam"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 29 Sep 2022 22:46:37 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "306"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, your status has been saved. [View it live.](https://status.lol/foo/6336204d247e4)\",\n        \"id\": \"6336204d247e4\",\n        \"url\": \"https://status.lol/foo/6336204d247e4\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Create a new status from a single status string",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{api_key}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"status\": \"🎄 Testing Statuslog!\"}"
+				},
+				"url": {
+					"raw": "https://{{base_url}}/address/:address/statuses/",
+					"protocol": "https",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"address",
+						":address",
+						"statuses",
+						""
+					],
+					"variable": [
+						{
+							"key": "address",
+							"value": "foobar"
 						}
 					]
 				},
@@ -760,13 +876,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://{{base_url}}/statuslog",
+					"raw": "https://{{base_url}}/statuslog/latest",
 					"protocol": "https",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"statuslog"
+						"statuslog",
+						"latest"
 					]
 				},
 				"description": "Fetch someone’s entire Statuslog"
