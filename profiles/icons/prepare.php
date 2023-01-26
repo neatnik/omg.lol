@@ -35,7 +35,9 @@ during this preparation process.
 
 The comments in the script explain the process in detail. */
 
-//header("Content-Type: text/plain");
+// Set a version for this run
+
+$version = microtime(1);
 
 // First, prepare our domain file, `domains.json`, which maps domains in omg.lol profiles to the appropriate icon. This is constructed from `defined_domains.txt`, because editing JSON directly can often be problematic (looking at you, @lxjv).
 
@@ -88,6 +90,13 @@ $html .= '</tbody></table><a href="https://validator.w3.org/nu/?doc=https%3A%2F%
 file_put_contents('omg.lol-icons.html', $html);
 file_put_contents('omg.lol-glyphs.css', $omg_css);
 
+// And update omg.lol-icons.css with the latest version in the query strings
+
+$css = file_get_contents('omg.lol-icons.css');
+preg_match_all("/\?v=(.*)'/m", $css, $matches, PREG_SET_ORDER);
+$css = str_replace($matches[0][1], $version, $css);
+file_put_contents('omg.lol-icons.css', $css);
+
 // We’ll merge the Font Awesome and omg.lol icon arrays, and check for any icons that we’ve chosen to override.
 
 $icons = array_merge($font_awesome_icons, $omg_icons);
@@ -104,11 +113,11 @@ foreach($overrides as $line) {
 $icons = json_encode($icons, JSON_PRETTY_PRINT);
 file_put_contents('icons.json', $icons);
 $id = uniqid();
-//echo "\n".'Icon preparation complete. Check icons: <a href="https://cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'">https://cache.lol/profiles/icons/omg.lol-icons.html?v='.$id.'</a>';
 
-echo "\n".'Icon preparation complete. Check icons: <a href="https://cache.lol/profiles/icons/omg.lol-icons.html">https://cache.lol/profiles/icons/omg.lol-icons.html</a>';
+echo "\n".'Icon preparation complete. Check icons: <a href="https://cdn.cache.lol/profiles/icons/omg.lol-icons.html?v='.$version.'">https://cdn.cache.lol/profiles/icons/omg.lol-icons.html?v='.$version.'</a>';
 
 // Finally, we’ll flush the bunny.net cache
+
 $access_key = file_get_contents('/var/www/html/secret/bunny_access_key');
 $url = 'https://cdn.cache.lol/profiles/icons/*';
 $tmp = shell_exec("curl --request GET \
@@ -117,6 +126,7 @@ $tmp = shell_exec("curl --request GET \
  --header 'accept: application/json'");
 
 // And recache key resources
+
 $recache[] = 'https://cdn.cache.lol/profiles/icons/omg.lol-glyphs.css';
 $recache[] = 'https://cdn.cache.lol/profiles/icons/omg.lol-icons.css';
 $recache[] = 'https://cdn.cache.lol/profiles/icons/omg.lol-icons.html';
@@ -125,6 +135,7 @@ $recache[] = 'https://cdn.cache.lol/profiles/icons/omg.lol-icons.woff';
 $recache[] = 'https://cdn.cache.lol/profiles/icons/omg.lol-icons.woff2';
 $recache[] = 'https://cdn.cache.lol/profiles/icons/domains.json';
 $recache[] = 'https://cdn.cache.lol/profiles/icons/icons.json';
+$recache[] = 'https://cdn.cache.lol/profiles/icons/omg.lol-icons.html';
 foreach($recache as $url) {
 	file_get_contents($url);
 }
