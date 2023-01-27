@@ -12,3 +12,7 @@ These verifications can also be verified (pun intended) by typing the address in
 If you’d like to be verified, just [contact us](/info/contact/) to kick off the process. We also sometimes automatically verify people who we know to be real, so if that happened to you, congrats!
 
 [Read more about profiles on omg.lol](/info/profiles).
+
+## The PramiMark
+
+If you see the PramiMark <i style="color: #0089cf;" class="omg-icon omg-prami-staff"></i> on a profile, it means that you’re viewing an omg.lol staff member’s profile. As this is intended to be an indicator of trust, we ask that you please not attempt to render the PramiMark or any related icon or variant on your own profile page. Doing so will make Prami sad.
