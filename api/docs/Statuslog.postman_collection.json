@@ -139,7 +139,7 @@
 					"variable": [
 						{
 							"key": "address",
-							"value": "foo"
+							"value": "foobar"
 						}
 					]
 				},
@@ -218,7 +218,7 @@
 			]
 		},
 		{
-			"name": "Create a new status",
+			"name": "Share a new status",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -234,7 +234,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"emoji\": \"👨🏻‍💻\", \"content\": \"Testing!\"}"
+					"raw": "{\"emoji\": \"🧪\", \"content\": \"Testing the omg.lol API!\", \"external_url\": \"mailto:foobar@omg.lol\"}"
 				},
 				"url": {
 					"raw": "https://{{base_url}}/address/:address/statuses/",
@@ -251,7 +251,7 @@
 					"variable": [
 						{
 							"key": "address",
-							"value": "foo"
+							"value": "foobar"
 						}
 					]
 				},
@@ -259,13 +259,13 @@
 			},
 			"response": [
 				{
-					"name": "Create a new status",
+					"name": "Share a new status",
 					"originalRequest": {
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"emoji\": \"😄\", \"content\": \"Testing!\"}"
+							"raw": "{\"emoji\": \"🧪\", \"content\": \"Testing the omg.lol API!\", \"external_url\": \"mailto:foobar@omg.lol\"}"
 						},
 						"url": {
 							"raw": "https://{{base_url}}/address/:address/statuses/",
@@ -282,7 +282,7 @@
 							"variable": [
 								{
 									"key": "address",
-									"value": "adam"
+									"value": "foobar"
 								}
 							]
 						}
@@ -293,7 +293,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Thu, 29 Sep 2022 22:46:37 GMT"
+							"value": "Fri, 27 Jan 2023 17:51:39 GMT"
 						},
 						{
 							"key": "Server",
@@ -305,7 +305,7 @@
 						},
 						{
 							"key": "Access-Control-Allow-Methods",
-							"value": "GET,POST,OPTIONS,DELETE,PUT"
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
 						},
 						{
 							"key": "Access-Control-Allow-Headers",
@@ -313,7 +313,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "306"
+							"value": "418"
 						},
 						{
 							"key": "Keep-Alive",
@@ -329,12 +329,12 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, your status has been saved. [View it live.](https://status.lol/foo/6336204d247e4)\",\n        \"id\": \"6336204d247e4\",\n        \"url\": \"https://status.lol/foo/6336204d247e4\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, your status has been saved. [View it live.](https://status.lol/foobar/63d40f2b35314)\",\n        \"id\": \"63d40f2b35314\",\n        \"status\": \"🧪 Testing the omg.lol API!\",\n        \"url\": \"https://status.lol/foobar/63d40f2b35314\",\n        \"external_url\": \"mailto:foobar@omg.lol\"\n    }\n}"
 				}
 			]
 		},
 		{
-			"name": "Create a new status from a single status string",
+			"name": "Share a new status from a single status string",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -375,13 +375,13 @@
 			},
 			"response": [
 				{
-					"name": "Create a new status",
+					"name": "Share a new status from a single status string",
 					"originalRequest": {
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"emoji\": \"😄\", \"content\": \"Testing!\"}"
+							"raw": "{\"status\": \"🧪 Testing the omg.lol API!\", \"external_url\": \"https://example.com\"}"
 						},
 						"url": {
 							"raw": "https://{{base_url}}/address/:address/statuses/",
@@ -398,7 +398,7 @@
 							"variable": [
 								{
 									"key": "address",
-									"value": "adam"
+									"value": "foobar"
 								}
 							]
 						}
@@ -409,7 +409,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Thu, 29 Sep 2022 22:46:37 GMT"
+							"value": "Fri, 27 Jan 2023 17:52:29 GMT"
 						},
 						{
 							"key": "Server",
@@ -421,7 +421,7 @@
 						},
 						{
 							"key": "Access-Control-Allow-Methods",
-							"value": "GET,POST,OPTIONS,DELETE,PUT"
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
 						},
 						{
 							"key": "Access-Control-Allow-Headers",
@@ -429,7 +429,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "306"
+							"value": "425"
 						},
 						{
 							"key": "Keep-Alive",
@@ -445,7 +445,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, your status has been saved. [View it live.](https://status.lol/foo/6336204d247e4)\",\n        \"id\": \"6336204d247e4\",\n        \"url\": \"https://status.lol/foo/6336204d247e4\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"OK, your status has been saved. [View it live.](https://status.lol/foobar/63d40f5db114b)\",\n        \"id\": \"63d40f5db114b\",\n        \"status\": \"✨ 🧪 Testing the omg.lol API!\",\n        \"url\": \"https://status.lol/foobar/63d40f5db114b\",\n        \"external_url\": \"https://example.com\"\n    }\n}"
 				}
 			]
 		},
