@@ -92,10 +92,21 @@ file_put_contents('omg.lol-glyphs.css', $omg_css);
 
 // And update omg.lol-icons.css with the latest version in the query strings
 
+/*
 $css = file_get_contents('omg.lol-icons.css');
 preg_match_all("/\?v=(.*)'/m", $css, $matches, PREG_SET_ORDER);
 $css = str_replace($matches[0][1], $version, $css);
 file_put_contents('omg.lol-icons.css', $css);
+*/
+
+// As well as /themes/css/base.css
+
+/*
+$css = file_get_contents('../themes/css/base.css');
+preg_match_all("/\?v=(.*)'/m", $css, $matches, PREG_SET_ORDER);
+$css = str_replace($matches[0][1], $version, $css);
+file_put_contents('../themes/css/base.css', $css);
+*/
 
 // We’ll merge the Font Awesome and omg.lol icon arrays, and check for any icons that we’ve chosen to override.
 
@@ -116,14 +127,32 @@ $id = uniqid();
 
 echo "\n".'Icon preparation complete. Check icons: <a href="https://cdn.cache.lol/profiles/icons/omg.lol-icons.html?v='.$version.'">https://cdn.cache.lol/profiles/icons/omg.lol-icons.html?v='.$version.'</a>';
 
-// Finally, we’ll flush the bunny.net cache
+// Finally, we’ll flush the bunny.net cache for icons
 
 $access_key = file_get_contents('/var/www/html/secret/bunny_access_key');
 $url = 'https://cdn.cache.lol/profiles/icons/*';
 $tmp = shell_exec("curl --request GET \
- --url 'https://api.bunny.net/purge?url=".urlencode($url)."&async=false' \
- --header 'AccessKey: $access_key' \
- --header 'accept: application/json'");
+--url 'https://api.bunny.net/purge?url=".urlencode($url)."&async=false' \
+--header 'AccessKey: $access_key' \
+--header 'accept: application/json'");
+
+// And for the base theme
+
+$access_key = file_get_contents('/var/www/html/secret/bunny_access_key');
+$url = 'https://cdn.cache.lol/themes/css/base.css';
+$tmp = shell_exec("curl --request GET \
+--url 'https://api.bunny.net/purge?url=".urlencode($url)."&async=false' \
+--header 'AccessKey: $access_key' \
+--header 'accept: application/json'");
+
+// And for custom emoji
+
+$access_key = file_get_contents('/var/www/html/secret/bunny_access_key');
+$url = 'https://cdn.cache.lol/type/emoji/*';
+$tmp = shell_exec("curl --request GET \
+--url 'https://api.bunny.net/purge?url=".urlencode($url)."&async=false' \
+--header 'AccessKey: $access_key' \
+--header 'accept: application/json'");
 
 // And recache key resources
 
@@ -136,6 +165,7 @@ $recache[] = 'https://cdn.cache.lol/profiles/icons/omg.lol-icons.woff2';
 $recache[] = 'https://cdn.cache.lol/profiles/icons/domains.json';
 $recache[] = 'https://cdn.cache.lol/profiles/icons/icons.json';
 $recache[] = 'https://cdn.cache.lol/profiles/icons/omg.lol-icons.html';
+$recache[] = 'https://cdn.cache.lol/profiles/themes/css/base.css';
 foreach($recache as $url) {
 	file_get_contents($url);
 }

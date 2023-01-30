@@ -28,7 +28,14 @@ tech.lgbt mastodon
 ruby.social mastodon
 dice.camp mastodon
 
+// Peertube
+peertube.tv peertube
+peertube.social peertube
+diode.zone peertube
+tilvids.com peertube
+
 // Other
+trakt.tx trakt
 strava.com strava
 lazer.ppy.sh osu
 nicovideo.jp niconico
