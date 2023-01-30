@@ -35,7 +35,7 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
-trakt.tx trakt
+trakt.tv trakt
 strava.com strava
 lazer.ppy.sh osu
 nicovideo.jp niconico
