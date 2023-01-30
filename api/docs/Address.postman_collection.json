@@ -240,7 +240,7 @@
 					"variable": [
 						{
 							"key": "address",
-							"value": "foobar"
+							"value": "prami"
 						}
 					]
 				},
@@ -248,7 +248,7 @@
 			},
 			"response": [
 				{
-					"name": "Address expires in the future",
+					"name": "Address is not near expiration",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
@@ -266,7 +266,7 @@
 							"variable": [
 								{
 									"key": "address",
-									"value": "future-expiration"
+									"value": "foobar"
 								}
 							]
 						}
@@ -277,7 +277,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Thu, 12 Jan 2023 16:02:23 GMT"
+							"value": "Mon, 30 Jan 2023 05:14:30 GMT"
 						},
 						{
 							"key": "Server",
@@ -297,7 +297,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "433"
+							"value": "187"
 						},
 						{
 							"key": "Keep-Alive",
@@ -313,10 +313,10 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"This address expires in 14 years and 11 months.\",\n        \"expired\": false,\n        \"will_expire\": true,\n        \"unix_epoch_time\": \"2145916800\",\n        \"iso_8601_time\": \"2038-01-01T00:00:00+00:00\",\n        \"rfc_2822_time\": \"Fri, 01 Jan 2038 00:00:00 +0000\",\n        \"relative_time\": \"14 years and 11 months\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"This address is not near expiration.\",\n        \"expired\": false\n    }\n}"
 				},
 				{
-					"name": "Address does not expire",
+					"name": "Address expires within the next six months",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
@@ -334,7 +334,7 @@
 							"variable": [
 								{
 									"key": "address",
-									"value": "never-expires"
+									"value": "prami"
 								}
 							]
 						}
@@ -345,7 +345,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Thu, 12 Jan 2023 16:04:05 GMT"
+							"value": "Mon, 30 Jan 2023 05:15:24 GMT"
 						},
 						{
 							"key": "Server",
@@ -365,7 +365,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "210"
+							"value": "187"
 						},
 						{
 							"key": "Keep-Alive",
@@ -381,75 +381,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"This address does not expire.\",\n        \"expired\": false,\n        \"will_expire\": false\n    }\n}"
-				},
-				{
-					"name": "Address has expired",
-					"originalRequest": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "https://{{base_url}}/address/:address/expiration",
-							"protocol": "https",
-							"host": [
-								"{{base_url}}"
-							],
-							"path": [
-								"address",
-								":address",
-								"expiration"
-							],
-							"variable": [
-								{
-									"key": "address",
-									"value": "expired"
-								}
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "json",
-					"header": [
-						{
-							"key": "Date",
-							"value": "Thu, 12 Jan 2023 16:03:19 GMT"
-						},
-						{
-							"key": "Server",
-							"value": "Apache"
-						},
-						{
-							"key": "Access-Control-Allow-Origin",
-							"value": "*"
-						},
-						{
-							"key": "Access-Control-Allow-Methods",
-							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
-						},
-						{
-							"key": "Access-Control-Allow-Headers",
-							"value": "Authorization,Content-Type"
-						},
-						{
-							"key": "Content-Length",
-							"value": "403"
-						},
-						{
-							"key": "Keep-Alive",
-							"value": "timeout=5, max=100"
-						},
-						{
-							"key": "Connection",
-							"value": "Keep-Alive"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json; charset=utf-8"
-						}
-					],
-					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"This address expired 1 month and 3 weeks ago.\",\n        \"address\": \"zio\",\n        \"unix_epoch_time\": \"1668868224\",\n        \"iso_8601_time\": \"2022-11-19T14:30:24+00:00\",\n        \"rfc_2822_time\": \"Sat, 19 Nov 2022 14:30:24 +0000\",\n        \"relative_time\": \"1 month and 3 weeks ago\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"This address expires within the next six months.\",\n        \"expired\": false\n    }\n}"
 				}
 			]
 		},
@@ -512,7 +444,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Mon, 28 Nov 2022 15:56:25 GMT"
+							"value": "Mon, 30 Jan 2023 05:17:21 GMT"
 						},
 						{
 							"key": "Server",
@@ -532,7 +464,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "1138"
+							"value": "862"
 						},
 						{
 							"key": "Keep-Alive",
@@ -548,7 +480,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"address\": \"foobar\",\n        \"message\": \"This address was registered 3 years and 7 months ago and expires in 15 years, 1 month and 6 days.\",\n        \"registration\": {\n            \"message\": \"This address was registered 3 years, 7 months and 3 weeks ago.\",\n            \"unix_epoch_time\": \"1554448408\",\n            \"iso_8601_time\": \"2019-04-05T07:13:28+00:00\",\n            \"rfc_2822_time\": \"Fri, 05 Apr 2019 07:13:28 +0000\",\n            \"relative_time\": \"3 years, 7 months and 3 weeks ago\"\n        },\n        \"expiration\": {\n            \"message\": \"This address expires in 15 years, 1 month and 6 days.\",\n            \"expired\": false,\n            \"will_expire\": true,\n            \"unix_epoch_time\": \"2145916800\",\n            \"iso_8601_time\": \"2038-01-01T00:00:00+00:00\",\n            \"rfc_2822_time\": \"Fri, 01 Jan 2038 00:00:00 +0000\",\n            \"relative_time\": \"15 years, 1 month and 6 days\"\n        },\n        \"verification\": {\n            \"message\": \"This address has been verified.\",\n            \"verified\": true\n        }\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"address\": \"foobar\",\n        \"message\": \"This address was registered 3 years and 9 months ago and expires in 14 years, 11 months and 5 days.\",\n        \"registration\": {\n            \"message\": \"This address was registered 3 years, 9 months and 3 weeks ago.\",\n            \"unix_epoch_time\": \"1554448408\",\n            \"iso_8601_time\": \"2019-04-05T07:13:28+00:00\",\n            \"rfc_2822_time\": \"Fri, 05 Apr 2019 07:13:28 +0000\",\n            \"relative_time\": \"3 years, 9 months and 3 weeks ago\"\n        },\n        \"expiration\": {\n            \"message\": \"This address is not near expiration.\",\n            \"expired\": false\n        },\n        \"verification\": {\n            \"message\": \"This address has been verified.\",\n            \"verified\": true\n        }\n    }\n}"
 				}
 			]
 		},
@@ -618,7 +550,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Mon, 28 Nov 2022 15:57:01 GMT"
+							"value": "Mon, 30 Jan 2023 05:18:23 GMT"
 						},
 						{
 							"key": "Server",
@@ -638,7 +570,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "1172"
+							"value": "1178"
 						},
 						{
 							"key": "Keep-Alive",
@@ -654,7 +586,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"address\": \"foobar\",\n        \"message\": \"This address was registered 3 years and 7 months ago and expires in 15 years, 1 month and 6 days.\",\n        \"registration\": {\n            \"message\": \"This address was registered 3 years, 7 months and 3 weeks ago.\",\n            \"unix_epoch_time\": \"1554448408\",\n            \"iso_8601_time\": \"2019-04-05T07:13:28+00:00\",\n            \"rfc_2822_time\": \"Fri, 05 Apr 2019 07:13:28 +0000\",\n            \"relative_time\": \"3 years, 7 months and 3 weeks ago\"\n        },\n        \"expiration\": {\n            \"message\": \"This address expires in 15 years, 1 month and 6 days.\",\n            \"expired\": false,\n            \"will_expire\": true,\n            \"unix_epoch_time\": \"2145916800\",\n            \"iso_8601_time\": \"2038-01-01T00:00:00+00:00\",\n            \"rfc_2822_time\": \"Fri, 01 Jan 2038 00:00:00 +0000\",\n            \"relative_time\": \"15 years, 1 month and 6 days\"\n        },\n        \"verification\": {\n            \"message\": \"This address has been verified.\",\n            \"verified\": true\n        },\n        \"owner\": \"634b9e7a7fbce\"\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"address\": \"foobar\",\n        \"message\": \"This address was registered 3 years and 9 months ago and expires in 14 years, 11 months and 5 days.\",\n        \"registration\": {\n            \"message\": \"This address was registered 3 years, 9 months and 3 weeks ago.\",\n            \"unix_epoch_time\": \"1554448408\",\n            \"iso_8601_time\": \"2019-04-05T07:13:28+00:00\",\n            \"rfc_2822_time\": \"Fri, 05 Apr 2019 07:13:28 +0000\",\n            \"relative_time\": \"3 years, 9 months and 3 weeks ago\"\n        },\n        \"expiration\": {\n            \"message\": \"This address expires in 14 years, 11 months and 5 days.\",\n            \"expired\": false,\n            \"will_expire\": true,\n            \"unix_epoch_time\": \"2145916800\",\n            \"iso_8601_time\": \"2038-01-01T00:00:00+00:00\",\n            \"rfc_2822_time\": \"Fri, 01 Jan 2038 00:00:00 +0000\",\n            \"relative_time\": \"14 years, 11 months and 5 days\"\n        },\n        \"verification\": {\n            \"message\": \"This address has been verified.\",\n            \"verified\": true\n        },\n        \"owner\": \"634b9e7a7fbce\"\n    }\n}"
 				}
 			]
 		}
