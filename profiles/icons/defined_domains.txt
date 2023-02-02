@@ -35,6 +35,10 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+oku.club oku
+savvycal.com savvycal
+tellonym.me tellonym
+buttondown.email buttondown
 trakt.tv trakt
 strava.com strava
 lazer.ppy.sh osu
