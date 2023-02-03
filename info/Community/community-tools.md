@@ -14,7 +14,7 @@ The omg.lol community makes really cool stuff. Here’s a list of some great thi
 
 ## Statuslog updaters
 
-- [Status.log for iOS (Beta)](https://testflight.apple.com/join/kdjGVwP7) by [Joanna](https://jmj.omg.lol)
+- [Status.log for iOS](https://apps.apple.com/us/app/status-log/id6444921793) by [Joanna](https://jmj.omg.lol)
 - [Statuslog Mobile for Android](https://play.google.com/store/apps/details?id=lol.omg.skelly.statuslog) by [Skelly](https://skelly.omg.lol)
 - [Drafts Action](https://actions.getdrafts.com/a/2DT) by [podiboq](https://podiboq.omg.lol)
 - [Discord Bot](https://github.com/mmattbtw/discord-status.lol) by [mmatt](https://mm.omg.lol)
