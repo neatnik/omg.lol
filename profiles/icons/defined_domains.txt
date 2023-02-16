@@ -35,6 +35,7 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+bunny.net bunny-net
 oku.club oku
 savvycal.com savvycal
 tellonym.me tellonym
