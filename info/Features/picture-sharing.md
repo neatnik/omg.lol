@@ -1,6 +1,6 @@
 ---
 Description: Share some pics and have fun!
-Last Updated: 2023-02-01 6:03 PM EST
+Last Updated: 2023-02-23 12:15 AM EST
 ---
 
 # Picture Sharing
@@ -32,7 +32,7 @@ The focus is on simple public image sharing. If you want to put a picture on the
 
 ## Community Guidelines
 
-Please note that our guidelines will evolve as this service matures. What you see below was last updated on February 1, 2023.
+Please note that our guidelines will evolve as this service matures. What you see below was last updated on February 23, 2023.
 
 - Our [Code of Conduct](https://home.omg.lol/info/code-of-conduct) applies here (as well as everywhere else on omg.lol).
 - We’re passionate about accessibility, so all pictures must have a description. These descriptions are how some people will “see” your pictures, so you shouldn’t half-ass them! [Learn how to write good image descriptions](https://supercooldesign.co.uk/blog/how-to-write-good-alt-text).
