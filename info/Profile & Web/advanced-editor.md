@@ -3,17 +3,17 @@ Description: The advanced web editor is our most advanced editor yet, as the nam
 Last Updated: 2023-01-14 4:11 PM EST
 ---
 
-# Advanced Web Editor
+# Web Editor
 
-Our Advanced web editor is a major improvement over the [Classic editor](/info/classic-editor), offering a unique Markdown-powered approach to managing your profile page. With this editor, your profile page is essentially a Markdown document, making it easy to add content and rearrange things however you wish.
+Our new web editor is a major improvement over the [Classic editor](/info/classic-editor), offering a unique Markdown-powered approach to managing your profile page. With this editor, your profile page is essentially a Markdown document, making it easy to add content and rearrange things however you wish.
 
 ## Profile or Web pages
 
-The Advanced editor can be used to edit and publish [Profile](/info/profiles) pages (with the aforementioned Markdown document approach), or to manage a simple web page (just set your **Page type** to **Raw HTML only**).
+The editor can be used to edit and publish [Profile](/info/profiles) pages (with the aforementioned Markdown document approach), or to manage a simple web page (just set your **Page type** to **Raw HTML only**).
 
 ## Profile Metadata
 
-The Advanced editor uses a custom process for defining and including profile metadata, intended to preserve the beauty of the underlying Markdown document. You can define a metadata block like this:
+The editor uses a custom process for defining and including profile metadata, intended to preserve the beauty of the underlying Markdown document. You can define a metadata block like this:
 
 ```
 | Pronouns: they/them

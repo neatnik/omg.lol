@@ -9,7 +9,7 @@ You can have a super awesome profile page on omg.lol. Enable yours by pulling up
 
 ## Getting Started
 
-To get started with your profile page, use the [Advanced Editor](/info/advanced-editor). 
+To get started with your profile page, use the [Editor](/info/advanced-editor). 
 
 There’s a super powerful (we might even say _magical_) management process behind [Profile Items](/info/profile-items), so they have their [very own support article over here](/info/profile-items).
 
