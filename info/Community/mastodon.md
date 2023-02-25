@@ -15,6 +15,6 @@ We fully commit to all points of the [Mastodon Server Covenant](https://joinmast
 
 ## If your address expires
 
-If your omg.lol address, you’ll have 14 days to export your data and migrate your Mastodon account to another instance (if you want to, that is).
+If your omg.lol address expires, you’ll have 14 days to export your data and migrate your Mastodon account to another instance (if you want to, that is).
 
 After 14 days, your Mastodon account will be defederated and all data will be deleted. At that point, it will become available to the next person who purchases that particular omg.lol address.
