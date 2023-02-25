@@ -9,7 +9,7 @@ omg.lol offers a couple of different ways to manage and host a web page with you
 
 ## Profile Page
 
-Profile pages are a fun and easy way to maintain a web presence. You can share as much or as little information about yourself as you wish, and you’ll still wind up with a really nice-looking page. You can use either the [Classic Editor](/info/classic-editor) or the [Advanced Editor](/info/advanced-editor) to manage your profile. (We’re partial to the Advanced one, though!)
+Profile pages are a fun and easy way to maintain a web presence. You can share as much or as little information about yourself as you wish, and you’ll still wind up with a really nice-looking page. Use the [Advanced Editor](/info/advanced-editor) to manage your profile.
 
 ## Web Page
 
