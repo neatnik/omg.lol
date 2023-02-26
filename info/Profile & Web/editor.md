@@ -5,7 +5,7 @@ Last Updated: 2023-01-14 4:11 PM EST
 
 # Web Editor
 
-Our new web editor is a major improvement over the [Classic editor](/info/classic-editor), offering a unique Markdown-powered approach to managing your profile page. With this editor, your profile page is essentially a Markdown document, making it easy to add content and rearrange things however you wish.
+Our web editor offers a unique Markdown-based approach to managing your profile page. Your profile page is essentially a Markdown document, making it easy to add content and rearrange things however you wish.
 
 ## Profile or Web pages
 
