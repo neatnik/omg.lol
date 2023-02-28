@@ -1,6 +1,6 @@
 ---
 Description: How to route your web traffic and do stuff with external domains  
-Last Updated: 2023-01-17 12:30 AM EST
+Last Updated: 2023-02-27 11:07 PM EST
 ---
 
 # Switchboard
@@ -56,7 +56,7 @@ The first step in making an external domain work with omg.lol is to configure it
 
 There are two ways you can configure your domain’s DNS to point to omg.lol. You only need to do _one_ of these:
 	
-1. Add an **A** record that points to `159.89.247.131`
+1. Add an **A** record that points to `5.78.160.207`
 2. Or, add a **CNAME** record that points to your address (e.g. `foo.omg.lol`).
 
 Either of those will do the trick. Just refresh your Switchboard to see the latest info on what our server sees for your domain. DNS changes can take a while to _propagate_ across the internet, so occasionally you’ll have to wait a bit for our server to see the changes that you’ve made.
