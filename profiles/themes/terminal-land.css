@@ -1,0 +1,109 @@
+/*
+
+Theme: Terminal Land
+Author: Ediz Baha (@edizbaha)
+License: MIT
+Version: 1.0
+Description: Terminal Land - This theme is inspired by the design of the terminal.land.
+
+*/
+
+@import url('https://cdn.cache.lol/type/berkeley-mono/berkeley-mono.css');
+
+:root {
+		--verified: #B2F2BB !important;
+}
+
+
+* {
+		color: #B2F2BB;
+		font-family: 'Berkeley Mono';
+}
+
+h1, h2, h3 {
+		color: #B2F2BB;
+		font-family: 'Berkeley Mono';
+}
+
+body {
+	background: #212529;
+	color: #B2F2BB;
+	font-family: 'Berkeley Mono';
+	font-weight: 100;
+	text-shadow: rgba(140, 233, 154, 0.5) 0px 0px 30px;
+}
+
+main {
+	background: unset;
+}
+
+a:link,
+a:visited {
+	color: #B2F2BB;
+	text-decoration-color: #F1F3F5;
+	text-decoration: none;
+	border-bottom: 1px dotted #F1F3F5;
+}
+
+a:hover,
+a:active {
+	color: #A5A5A5;
+	text-decoration-color: #A5A5A5;
+	text-decoration: none;
+	border-bottom: 2px solid #A5A5A5;
+}
+
+#profile-picture {
+	border-radius: 100%;
+	box-shadow: rgba(140, 233, 154, 0.5) 0px 0px 30px;
+}
+
+#pronouns {
+	color: #A5A5A5;
+}
+
+hr {
+		background: #495057;
+}
+
+#footer a:link, #footer a:visited, #footer a:hover, #footer a:active {
+	color: #A5A5A5;
+}
+
+/* Now Page Style */
+#now {
+	margin-top: 2em;
+	text-align: left !important;
+}
+
+/* Color for profile items list */
+.fa-li, .fas, .omg-icon, .omg-icon path {
+	color: #B2F2BB;
+	fill: #B2F2BB;
+	stroke: #B2F2BB;
+}
+
+/* Specific colors for individual icons */
+.fa-plug {
+	color: #B2F2BB;
+}
+
+.fa-badge-check {
+	color: #B2F2BB !important; /* important is needed to override inline style*/
+}
+
+.omg-verified {
+	color: #B2F2BB !important; /* important is needed to override inline style*/
+}
+
+.fa-briefcase {
+	color: #B2F2BB;
+}
+
+.fa-map-marker-alt {
+	color: #B2F2BB;
+}
+
+.fa-location-dot {
+	color: #B2F2BB;
+}
