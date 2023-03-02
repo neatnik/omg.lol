@@ -7,7 +7,7 @@ Last Updated: 2023-02-27 11:08 PM EST
 
 DNS, or *domain name system*, is a system that maps domain names to IP addresses. (It does other things, too, but bear with me.)
 
-For example, omg.lol doesn’t really “live” at the domain omg.lol. It _really_ lives at the IP address 5.78.160.207, but it’s not practical to say things like _“hey check out my web site at 5 dot seven eight dot one six zero dot two oh seven,”_ so the internet needed a way to map domain names to IP addresses. And DNS is that very system.
+For example, omg.lol doesn’t really “live” at the domain omg.lol. It _really_ lives at the IP address 5.78.24.5, but it’s not practical to say things like _“hey check out my web site at 5 dot seven eight dot one six zero dot two oh seven,”_ so the internet needed a way to map domain names to IP addresses. And DNS is that very system.
 
 ## DNS records
 

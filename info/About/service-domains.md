@@ -21,8 +21,8 @@ Here’s a list of all valid omg.lol service domains.
 - [staff.lol](https://staff.lol) redirects to our [Staff page](https://home.omg.lol/staff).
 - [proven.lol](https://proven.lol) will be where the Proofs site lives, when it goes live.
 - [charms.lol](https://charms.lol) will be where the Charms site lives, when it goes live.
-- [timeline.lol](https://charms.lol) will be where the omg.lol timeline site lives, when it goes live.
-- [some.pics](https://charms.lol) will be where our picture sharing site lives, when it goes live.
+- [timeline.lol](https://timeline.lol) will be where the omg.lol timeline site lives, when it goes live.
+- [some.pics](https://some.pics) will be where our picture sharing site lives, when it goes live.
 
 If you have found a location other than the ones above claiming to be affiliated with omg.lol, or if someone has asked you to log into omg.lol or share any personal information at a location other than home.omg.lol, please [email abuse@omg.lol](mailto:abuse@omg.lol) immediately.
 
