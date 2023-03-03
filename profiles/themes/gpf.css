@@ -1,5 +1,12 @@
-/* Gian Paolo Fontani Theme */
-/* A simple blue theme */
+/* 
+
+Theme: Gian Paolo Fontani Theme
+Author: Gian Paolo Fontani (@GianPaoloFontani)
+License: Public domain
+Version: 2.0
+Description: A simple blue theme
+
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 @import url('/type/fontawesome-free/css/all.css');
@@ -63,6 +70,10 @@ h1 {
 #profile-items {
 	padding: .5em 0 0 0;
 	margin: 1.5em 0 0 0;
+	background: #000000;
+        border: 3px double #ffffff;
+        border-radius: 0.5em;
+        box-shadow: 10px 10px #000000;
 }
 
 #profile-items :is(h1, h2, h3, h4, h5, h6) {
@@ -97,7 +108,7 @@ h1 {
 #pronouns a:visited,
 #pronouns a:hover,
 #pronouns a:active {
-	color: #000000 !important;
+	color: #90ee90 !important;
 }
 
 #profile-picture {
@@ -107,6 +118,12 @@ h1 {
 
 #name {
     font-size: 28px !important;
+    animation: gpfmove 5s infinite;
+}
+
+@keyframes gpfmove {
+  from {color: #90ee90;}
+  to {color: #ffffff;}
 }
 
 #details {
@@ -130,6 +147,10 @@ h1 {
 	text-align: center;
 	font-size: 110%;
 	line-height: 140%;
+	background: #000000;
+        border: 3px double #ffffff;
+        border-radius: 0.5em;
+        box-shadow: 10px 10px #000000;
 }
 
 #footer {
@@ -144,9 +165,11 @@ h1 {
 #footer a:visited,
 #footer a:hover,
 #footer a:active {
-	color: #000000 !important;
+	color: #90ee90 !important;
 	text-decoration: none !important;
 	border: 0;
+	background: transparent !important;
+        cursor: pointer;
 }
 
 #prami {
@@ -170,17 +193,22 @@ li {
 
 a:link,
 a:visited {
-	color: #000000 !important;
-	text-decoration-color: #000000 !important;
+	color: #90ee90 !important;
+	text-decoration-color: none;
 	text-decoration: none;
 	border-bottom: none !important;
+	padding: .3em .4em;
+	margin: .8em 0 0 .4em;
+	border-radius: .5em;
+	display: inline-block;
 }
 a:hover,
 a:active {
 	color: #000000 !important;
-	text-decoration-color: #000000 !important;
+	text-decoration-color: none;
 	text-decoration: none;
 	border-bottom: none !important;
+	cursor: pointer;
 }
 
 .logotype {
@@ -190,7 +218,11 @@ a:active {
 
 #verification {
 	font-size: 80%;
-	color: #ffffff !important;
+	color: #ffff00 !important;
+}
+
+#verification:hover {
+  background: transparent !important;
 }
 
 @media (max-width: 500px) {
