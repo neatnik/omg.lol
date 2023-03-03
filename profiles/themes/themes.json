@@ -154,5 +154,16 @@
 			"url": "https://raw.githubusercontent.com/byemc/themes/master/css/profile/hotdog-stand.css",
 			"repo": "https://git.byemc.xyz/themes"
 		}
+	}, 
+	"byecorps": {
+		"name": "ByeCorps",
+		"author": "Bye",
+		"author_url": "https://bye.omg.lol",
+		"license": "MIT",
+		"license_url": "https://opensource.org/licenses/MIT",
+		"description": "Theme based on the [ByeCorps color scheme](https://byecorps.com/branding.html)",
+		"url": "https://raw.githubusercontent.com/neatnik/omg.lol/profiles/themes/byecorps.css",
+		"repo": "https://git.byemc.xyz/themes"
+	},
 	}
 }
