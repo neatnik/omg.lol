@@ -1,6 +1,6 @@
 ---
 Description: Share some pics and have fun!
-Last Updated: 2023-02-23 12:26 AM EST
+Last Updated: 2023-03-06 12:50 AM EST
 ---
 
 # Picture Sharing
@@ -16,23 +16,26 @@ Our picture sharing service, [some.pics](https://some.pics), does two things:
 1. Makes it easy to share your favorite pictures on the internet.
 2. Offers a way to add pictures to your weblog.lol site.
 
-The service will soon be in _**extreme beta**_, and when it launches we’d love your feedback (and [bug reports](https://github.com/neatnik/omg.lol/issues/new?assignees=&labels=bug&template=bugs.yml&title=%5BBug%5D+)).
-
-Currently there aren’t any specific limits associated with the service (in terms of image size or quantity shared), but this will likely change during the beta.
-
 ## Features
 
-The focus is on simple public image sharing. If you want to put a picture on the internet and let people see it, this is the service for you! If you want to limit who can see your pictures, this is _not_ the service for you. Features may expand over time, but the core intention of the service is to facilitate sharing nice pictures openly and simply.
+The focus is on simple public image sharing. If you want to put a picture on the internet and let people see it, this is the service for you! If you want to limit who can see your pictures, this is _not_ the service for you. Features may expand over time, but the core intention of the service is to make it easy to share pictures with ease.
 
 ## What it isn’t
 
 - It’s not a general cloud photo storage solution.
 - It’s not a place to back-up or store an entire photo library.
-- It’s not intended for sharing transient screenshots or other temporary/throwaway stuff.
+- It’s not really intended for sharing transient screenshots or other temporary/throwaway stuff.
+
+## How it works
+
+- You can upload pictures up to 8 MB in size, in any of these formats: GIF, HEIC, JPG, PNG, SVG, and WEBP.
+- All images need to have a description (for alt text) to be shared publicly.
+- We’ll generate a lower-res preview image to display on the landing page, but the full un-messed-with version of your uploaded picture will be shown on the picture’s individual page.
+- We strip all geolocation metadata from the EXIF of all uploaded pictures.
 
 ## Community Guidelines
 
-Please note that our guidelines will evolve as this service matures. What you see below was last updated on February 23, 2023.
+Please note that our guidelines will evolve as the service matures. What you see below was last updated on February 23, 2023.
 
 - Our [Code of Conduct](https://home.omg.lol/info/code-of-conduct) applies here (as well as everywhere else on omg.lol).
 - We’re passionate about accessibility, so all pictures must have a description. These descriptions are how some people will “see” your pictures, so you shouldn’t half-ass them! [Learn how to write good image descriptions](https://supercooldesign.co.uk/blog/how-to-write-good-alt-text).
