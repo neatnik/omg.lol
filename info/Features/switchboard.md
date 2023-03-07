@@ -1,6 +1,6 @@
 ---
 Description: How to route your web traffic and do stuff with external domains  
-Last Updated: 2023-03-06 8:45 PM EST
+Last Updated: 2023-03-06 10:56 PM EST
 ---
 
 # Switchboard
@@ -43,6 +43,8 @@ When a connection is disabled, a standard “resource unavailable” page will b
 You can add as many of your own domains to your omg.lol address as you’d like. Since your external domains are treated as routes, you can easily direct them to your profile page, or to anywhere else.
 
 To add a domain, just plop it into the field at the bottom of the Switchboard and click the Save button. Once you do that, we’ll check the DNS settings, and if everything looks good, we’ll provision a TLS certificate to keep your web traffic secure. You’ll see the status of these items on the Switchboard, just beneath your domain.
+
+Note: We’ll only provision certificates and route traffic for domains that are explicitly added to the Switchboard. This means that if you add foobar.tld but expect www.foobar.tld to work, you’ll need to add www.foobar.tld separately.
 
 ### DNS
 
