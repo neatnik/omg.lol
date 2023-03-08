@@ -1,6 +1,6 @@
 /* 
 
-Theme: Gian Paolo Fontani Theme
+Theme: A Simple Blue Theme
 Author: Gian Paolo Fontani (@GianPaoloFontani)
 License: Public domain
 Version: 2.0
@@ -105,10 +105,24 @@ h1 {
 }
 
 #pronouns a:link,
-#pronouns a:visited,
+#pronouns a:visited {
+	color: #90ee90 !important;
+	text-decoration-color: none;
+	text-decoration: none;
+	border-bottom: none !important;
+	padding: .3em .4em;
+	margin: .8em 0 0 .4em;
+	border-radius: .5em;
+	display: inline-block;
+}
 #pronouns a:hover,
 #pronouns a:active {
-	color: #90ee90 !important;
+	background: #000000 !important;
+	color: #0089cf !important;
+	text-decoration-color: none;
+	text-decoration: none;
+	border-bottom: none !important;
+	cursor: pointer;
 }
 
 #profile-picture {
@@ -162,14 +176,24 @@ h1 {
 }
 
 #footer a:link,
-#footer a:visited,
+#footer a:visited {
+	color: #90ee90 !important;
+	text-decoration-color: none;
+	text-decoration: none;
+	border-bottom: none !important;
+	padding: .3em .4em;
+	margin: .8em 0 0 .4em;
+	border-radius: .5em;
+	display: inline-block;
+}
 #footer a:hover,
 #footer a:active {
-	color: #90ee90 !important;
-	text-decoration: none !important;
-	border: 0;
 	background: transparent !important;
-        cursor: pointer;
+	color: #0089cf !important;
+	text-decoration-color: none;
+	text-decoration: none;
+	border-bottom: none !important;
+	cursor: pointer;
 }
 
 #prami {
@@ -204,7 +228,8 @@ a:visited {
 }
 a:hover,
 a:active {
-	color: #000000 !important;
+	background: #000000 !important;
+	color: #0089cf !important;
 	text-decoration-color: none;
 	text-decoration: none;
 	border-bottom: none !important;
