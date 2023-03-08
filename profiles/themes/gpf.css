@@ -67,6 +67,10 @@ h1 {
     font-size: 22px !important;
 }
 
+h3 {
+    color: #90ee90 !important;
+}
+
 #profile-items {
 	padding: .5em 0 0 0;
 	margin: 1.5em 0 0 0;
