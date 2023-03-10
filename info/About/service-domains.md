@@ -1,6 +1,6 @@
 ---
 Description: Refer to this official list of service domains to ensure that you’re dealing with legit omg.lol stuff 
-Last Updated: 2023-02-28 5:28 PM EST
+Last Updated: 2023-03-09 1:41 PM EST
 ---
 
 # Service Domains
@@ -19,10 +19,11 @@ Here’s a list of all valid omg.lol service domains.
 - [weblog.lol](https://weblog.lol) is our Weblog service.
 - [omglol.news](https://omglol.news) is our updates blog. It runs on weblog.lol.
 - [staff.lol](https://staff.lol) redirects to our [Staff page](https://home.omg.lol/staff).
+- [some.pics](https://some.pics) is our picture sharing service.
+- [discourse.lol](https://discourse.lol) is our Discourse forum.
 - [proven.lol](https://proven.lol) will be where the Proofs site lives, when it goes live.
 - [charms.lol](https://charms.lol) will be where the Charms site lives, when it goes live.
 - [timeline.lol](https://timeline.lol) will be where the omg.lol timeline site lives, when it goes live.
-- [some.pics](https://some.pics) will be where our picture sharing site lives, when it goes live.
 
 If you have found a location other than the ones above claiming to be affiliated with omg.lol, or if someone has asked you to log into omg.lol or share any personal information at a location other than home.omg.lol, please [email abuse@omg.lol](mailto:abuse@omg.lol) immediately.
 
