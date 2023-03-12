@@ -11,12 +11,12 @@ Last Updated: 2023-03-12 4:13 PM EDT
 
 <div class="box padded rounded blue-3-bg gray-9-fg" style="flex-basis: 100%;">
 	<h3><i class="fas fa-messages"></i> Forum</h3>
-	<p>Post on our <a href="https://discourse.lol">Discourse forum</a> for maximum reach! Get help from omg.lol staff and other helpful community members, round the clock.</p>
+	<p>Post on our <a href="https://discourse.lol">Discourse forum</a> for maximum reach! Get help from omg.lol staff and other helpful community members, round the clock. <em>This is the best way to get fast help.</em></p>
 </div>
 
 <div class="box padded rounded green-3-bg gray-9-fg">
 	<h3><i class="fas fa-envelope"></i> Email</h3>
-	<p>Send a message to <a href="mailto:help@omg.lol">help@omg.lol</a> and we’ll respond soon. (This is the best way to get private, 1-on-1 help.)</p>
+	<p>Send a message to <a href="mailto:help@omg.lol">help@omg.lol</a> and we’ll respond soon. <em>This is the best way to get private, 1-on-1 help—but it isn’t as fast as the forum!</em></p>
 </div>
 <div class="box padded rounded teal-3-bg gray-9-fg">
 	<h3><i class="fa-solid fa-rectangle-terminal"></i> IRC</h3>
