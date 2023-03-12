@@ -9,7 +9,7 @@ Last Updated: 2023-03-12 4:13 PM EDT
 
 <div class="flex">
 
-<div class="box padded rounded blue-3-bg gray-9-fg" style="basis: 100%;">
+<div class="box padded rounded blue-3-bg gray-9-fg" style="flex-basis: 100%;">
 	<h3><i class="fas fa-messages"></i> Forum</h3>
 	<p>Post on our <a href="https://discourse.lol">Discourse forum</a> for maximum reach! Get help from omg.lol staff and other helpful community members, round the clock.</p>
 </div>
