@@ -1,6 +1,6 @@
 ---
 Description: You can contact us at any time, for any reason, and we’re always glad to help  
-Last Updated: 2023-01-11 11:30 AM EST
+Last Updated: 2023-03-12 4:13 PM EDT
 ---
 
 # Contact Us
@@ -8,6 +8,11 @@ Last Updated: 2023-01-11 11:30 AM EST
 <p>Get help from a real human, whenever you need it. Try one of these options:</p>
 
 <div class="flex">
+
+<div class="box padded rounded blue-3-bg gray-9-fg" style="basis: 100%;">
+	<h3><i class="fas fa-messages"></i> Forum</h3>
+	<p>Post on our <a href="https://discourse.lol">Discourse forum</a> for maximum reach! Get help from omg.lol staff and other helpful community members, round the clock.</p>
+</div>
 
 <div class="box padded rounded green-3-bg gray-9-fg">
 	<h3><i class="fas fa-envelope"></i> Email</h3>
