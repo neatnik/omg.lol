@@ -8,7 +8,7 @@ Last Updated: 2023-03-13 8:32 AM EDT
 <p>We sincerely appreciate these amazing folks who have helped OMG.LOL with their <a href="/info/bugs">responsible disclosure of bugs, vulnerabilities</a>, and so much other stuff. <i class="fa-solid fa-heart"></i></p>
 
 <ul>
-<li><a href="https://foxie.gay">Mae</a> for identifying a multiple XSS vulnerabilities, including and an XSS injection vulnerability.</li>	
+<li><a href="https://foxie.gay">Mae</a> for identifying a multiple XSS vulnerabilities, including and an XSS injection vulnerability</li>	
 <li><a href="https://nath.omg.lol">Nathan</a> for identifying a CSRF vulnerability</li>
 <li><a href="https://hackerone.com/alp">Alp</a> for identifying a reflected XSS vulnerability</li>
 <li><a href="https://marie.omg.lol">Marie</a> for catching a glitch with removing PURLs with special characters</li>
