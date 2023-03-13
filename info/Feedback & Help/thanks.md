@@ -1,6 +1,6 @@
 ---
 Description: Thanks to all of the awesome people who have helped us out!  
-Last Updated: 2022-10-08 01:52 AM EDT
+Last Updated: 2023-03-13 8:32 AM EDT
 ---
 
 # Thanks / Hall of Fame
@@ -8,9 +8,11 @@ Last Updated: 2022-10-08 01:52 AM EDT
 <p>We sincerely appreciate these amazing folks who have helped OMG.LOL with their <a href="/info/bugs">responsible disclosure of bugs, vulnerabilities</a>, and so much other stuff. <i class="fa-solid fa-heart"></i></p>
 
 <ul>
+<li><a href="https://foxie.gay">Mae</a> for identifying a multiple XSS vulnerabilities, including and an XSS injection vulnerability.</li>	
 <li><a href="https://nath.omg.lol">Nathan</a> for identifying a CSRF vulnerability</li>
 <li><a href="https://hackerone.com/alp">Alp</a> for identifying a reflected XSS vulnerability</li>
 <li><a href="https://marie.omg.lol">Marie</a> for catching a glitch with removing PURLs with special characters</li>
+<li><a href="https://jack.omg.lol">Jack</a> for his ongoing expertise with Caddy and so much else</li>
 <li><a href="https://faisal.omg.lol">Faisal</a> for spotting some embarrassing MX/SPF record issues</li>
 <li><a href="https://niek.omg.lol">Niek</a> for identifying a bug with DNS record management</li>
 <li><a href="https://www.daan.fyi">Daan</a> for identifying a bug in new address registrations</li>
