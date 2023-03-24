@@ -35,6 +35,7 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+frame.work framework
 bunny.net bunny-net
 oku.club oku
 savvycal.com savvycal
