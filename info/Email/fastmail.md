@@ -1,6 +1,6 @@
 ---
 Description: omg.lol loves Fastmail, and you can too  
-Last Updated: 2022-10-14 3:18 PM EDT
+Last Updated: 2023-04-03 2:02 PM EDT
 ---
 
 # omg.lol & Fastmail
@@ -40,14 +40,14 @@ If you’re not already a Fastmail customer, you can [fix that in mere seconds](
 
 ### Then: Add your omg.lol email address to Fastmail
 
-In Fastmail, click the Mail menu in the upper left corner and then click **Settings**. Then:
-	
-1. Click **Sending Identities** (in the “Customize” section).
-2. Click **Add Identity**.
-3. Enter your full omg.lol email address and click **Next**.
-4. You can enter your name and custom signature, or just click **Save** (you can always change these later).
-5. In your list of sending identities, you’ll see that the identity is unverified. Click **Verify**, and then **Send Verification Code**.
-6. Now, check your email. The verification email is probably already waiting for you, because Fastmail is _fast_.
-7. Grab the code from the email, flip back over to Fastmail, put it in the verificartion field, and click **Verify**.
+In Fastmail, add your omg.lol email address from the **Settings → Migration** screen.
 
-And with that, you’re good to go! At the top of the Sending Identities screen in Fastmail, you can select your desired default “From” address that you’d like to use for outgoing email. (You can also choose from any of your addreses and sending identities on an individual basis when composing an email.)
+1. Click **Migration** (in the “Set up” section)
+2. In the **Import** tab, click the link that reads **"Add alumni email forwarding address or other limited sending identity."**
+3. Enter your full omg.lol email address and click **Next**.
+4. You can enter your name and custom signature, or just click **Save** (you can always change these later in **Settings → My email addresses**).
+5. In your list of email addresses, you’ll see that the email address is unverified. Click **Verify**, and then **Send Verification Code**.
+6. Now, check your email. The verification email is probably already waiting for you because Fastmail is _fast_.
+7. Grab the code from the email, go back to your settings, put it in the verification field, and click **Verify**.
+
+And with that, you’re good to go! On the **My email addresses** screen in Fastmail, you can select your desired default “From” address that you’d like to use for outgoing email. (You can also choose from any of your favorite addresses on an individual basis when composing an email.)
