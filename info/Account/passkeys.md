@@ -1,6 +1,6 @@
 ---
 Description: Passkeys are secure, fast ways to access things online  
-Last Updated: 2022-11-22 9:13 PM EST
+Last Updated: 2023-04-03 8:20 PM EST
 ---
 
 # Passkeys
@@ -13,6 +13,6 @@ If you’d like to dip your toes into the passkeys awesomeness, head on over to 
 
 ## Further reading
 
-- https://fidoalliance.org/fido2-2/fido2-web-authentication-webauthn/
-- https://webauthn.guide
-- https://www.passkeys.io
++- [FIDO2: Web Authentication (WebAuthn)](https://fidoalliance.org/fido2-2/fido2-web-authentication-webauthn/)
++- [webauthn.guide](https://webauthn.guide)
++- [passkeys.io](https://www.passkeys.io)
