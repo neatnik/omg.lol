@@ -13,6 +13,6 @@ If you’d like to dip your toes into the passkeys awesomeness, head on over to 
 
 ## Further reading
 
-+- [FIDO2: Web Authentication (WebAuthn)](https://fidoalliance.org/fido2-2/fido2-web-authentication-webauthn/)
-+- [webauthn.guide](https://webauthn.guide)
-+- [passkeys.io](https://www.passkeys.io)
+- [FIDO2: Web Authentication (WebAuthn)](https://fidoalliance.org/fido2-2/fido2-web-authentication-webauthn/)
+- [webauthn.guide](https://webauthn.guide)
+- [passkeys.io](https://www.passkeys.io)
