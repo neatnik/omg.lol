@@ -1,6 +1,6 @@
 ---
 Description: You don’t have to prove yourself to anyone, but proving that your stuff is yours is pretty sweet  
-Last Updated: 2023-04-05 1:12 AM EDT
+Last Updated: 2023-04-05 11:44 AM EDT
 ---
 
 # Proofs
@@ -38,6 +38,10 @@ Another feature (that’s coming soon) is that we’ll allow you to post _negati
 ### omg.lol integration
 
 “This all sounds nice, but I already have all of my stuff listed on my omg.lol page” is something you might be thinking. Well, cool, we’ve thought about that too! proven.lol will eventually work in tandem with omg.lol, and the URLs you have on your omg.lol profile will automatically receive a visual designation of their proofs if you’ve proven them on proven.lol. Or, you can set up all of your stuff on proven.lol and easily bring it all into your omg.lol profile without having to duplicate anything. It’ll all be possible, and easy.
+
+## Aren’t you just a random untrusted party, though?
+
+Yeah, we are. Also, the domain ends in .lol, so that probably should have been your first clue that you’re not getting government-level RFC3161-compliant Time Stamp Authority service here or anything even remotely close. This is for fun! If it’s not fun to you, don’t use it.
 
 ## Questions?
 
