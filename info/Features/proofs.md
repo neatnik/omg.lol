@@ -1,6 +1,6 @@
 ---
 Description: You don’t have to prove yourself to anyone, but proving that your stuff is yours is pretty sweet  
-Last Updated: 2023-04-04 9:42 PM EST
+Last Updated: 2023-04-04 9:42 PM EDT
 ---
 
 # Proofs
