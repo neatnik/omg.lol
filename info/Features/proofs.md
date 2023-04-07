@@ -1,6 +1,6 @@
 ---
 Description: You don’t have to prove yourself to anyone, but proving that your stuff is yours is pretty sweet  
-Last Updated: 2023-04-05 11:44 AM EDT
+Last Updated: 2023-04-06 10:29 PM EDT
 ---
 
 # Proofs
@@ -41,8 +41,8 @@ Another feature (that’s coming soon) is that we’ll allow you to post _negati
 
 ## Aren’t you just a random untrusted party, though?
 
-Yeah, we are. Also, the domain ends in .lol, so that probably should have been your first clue that you’re not getting government-level RFC3161-compliant Time Stamp Authority service here or anything even remotely close. This is for fun! If it’s not fun to you, don’t use it.
+Yeah, we are. Also, the domain ends in .lol, so that probably should have been your first clue that you’re not getting government-level RFC3161-compliant Time Stamp Authority service here or anything even remotely close. This is for fun! If you don’t think it’s fun, then don’t use it.
 
 ## Questions?
 
-Ping [@adam@social.lol](https://social.lol/@adam) with any questions, thoughts, early ideas, or feedback.
+Visit the [Proofs category on Discourse](https://discourse.lol/c/proofs/18) to ask questions or share any feedback.
