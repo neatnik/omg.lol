@@ -35,6 +35,11 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+banano.cc banano
+gog.com gog
+home-assistant.io home-assistant
+dreamwidth.org dreamwidth
+boardgamegeek.com boardgamegeek
 proven.lol proven
 songish.app songish
 frame.work framework

@@ -98,3 +98,10 @@
 .omg-framework:before { content: "\e099"; }
 .omg-songish:before { content: "\e100"; }
 .omg-proven:before { content: "\e101"; }
+.omg-boardgamegeek:before { content: "\e102"; }
+.omg-home-assistant:before { content: "\e103"; }
+.omg-dreamwidth:before { content: "\e104"; }
+.omg-gog:before { content: "\e105"; }
+.omg-bananas:before { content: "\e106"; }
+.omg-banana:before { content: "\e107"; }
+.omg-banano:before { content: "\e108"; }
