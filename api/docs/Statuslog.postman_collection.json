@@ -139,7 +139,7 @@
 					"variable": [
 						{
 							"key": "address",
-							"value": "foobar"
+							"value": "adam"
 						}
 					]
 				},
@@ -234,7 +234,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"emoji\": \"🧪\", \"content\": \"Testing the omg.lol API!\", \"external_url\": \"mailto:foobar@omg.lol\"}"
+					"raw": "{\"emoji\": \"🧪\", \"content\": \"Testing the omg.lol API!\", \"external_url\": \"mailto:foobar@omg.lol\", \"skip_mastodon_post\": true}"
 				},
 				"url": {
 					"raw": "https://{{base_url}}/address/:address/statuses/",
@@ -350,7 +350,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"status\": \"🎄 Testing Statuslog!\"}"
+					"raw": "{\"status\": \"🧪 Testing the omg.lol API!\", \"external_url\": \"https://example.com\"}"
 				},
 				"url": {
 					"raw": "https://{{base_url}}/address/:address/statuses/",
