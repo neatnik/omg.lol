@@ -380,7 +380,7 @@
 						}
 					]
 				},
-				"description": "Update web content for an address"
+				"description": "Upload (or replace) a profile picture / avatar."
 			},
 			"response": [
 				{
