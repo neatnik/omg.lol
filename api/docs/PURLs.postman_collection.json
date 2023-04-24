@@ -24,7 +24,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"name\": \"example\", \"url\": \"https://example.com\"}"
+					"raw": "{\"name\": \"example-purl\", \"url\": \"https://example.com\", \"listed\": true}"
 				},
 				"url": {
 					"raw": "https://{{base_url}}/address/:address/purl",
@@ -40,7 +40,7 @@
 					"variable": [
 						{
 							"key": "address",
-							"value": "foo"
+							"value": "foobar"
 						}
 					]
 				},
@@ -155,7 +155,7 @@
 						}
 					]
 				},
-				"description": "Retrieve a list of PURLs associated with an address"
+				"description": "Retrieve a specific PURL"
 			},
 			"response": [
 				{
@@ -258,7 +258,7 @@
 					"variable": [
 						{
 							"key": "address",
-							"value": "foo"
+							"value": "foobar"
 						}
 					]
 				},
