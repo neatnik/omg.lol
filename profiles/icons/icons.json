@@ -1138,6 +1138,7 @@
     "object-ungroup": "fa-solid fa-object-ungroup",
     "octopus-deploy": "fa-brands fa-octopus-deploy",
     "odnoklassniki": "fa-brands fa-odnoklassniki",
+    "odysee": "fa-brands fa-odysee",
     "oil-can": "fa-solid fa-oil-can",
     "oil-well": "fa-solid fa-oil-well",
     "old-republic": "fa-brands fa-old-republic",
@@ -1559,6 +1560,7 @@
     "stripe": "fa-brands fa-stripe",
     "stripe-s": "fa-brands fa-stripe-s",
     "stroopwafel": "fa-solid fa-stroopwafel",
+    "stubber": "fa-brands fa-stubber",
     "studiovinari": "fa-brands fa-studiovinari",
     "stumbleupon": "fa-brands fa-stumbleupon",
     "stumbleupon-circle": "fa-brands fa-stumbleupon-circle",
@@ -1959,5 +1961,7 @@
     "gog": "omg-icon omg-gog",
     "bananas": "omg-icon omg-bananas",
     "banana": "omg-icon omg-banana",
-    "banano": "omg-icon omg-banano"
+    "banano": "omg-icon omg-banano",
+    "vsco": "omg-icon omg-vsco",
+    "byemc": "omg-icon omg-byemc"
 }

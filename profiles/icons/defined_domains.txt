@@ -35,6 +35,7 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+vsco.co vsco
 banano.cc banano
 gog.com gog
 home-assistant.io home-assistant
@@ -203,6 +204,7 @@ ycombinator.com y-combinator
 youtube.com youtube
 
 // People
+byemc. byemc
 rknight.me robb
 robb.omg.lol robb
 laker. laker
