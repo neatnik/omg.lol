@@ -19,6 +19,7 @@ irc.social.lol message
 karma.social.lol dharmachakra
 
 // Mastodon instances
+sfba.social mastodon
 mstdn.games mastodon
 bird.rodeo mastodon
 mas.to mastodon
