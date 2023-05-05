@@ -107,3 +107,6 @@ banana e107
 banano e108
 vsco e109
 byemc e110
+lemmy e111
+bookwyrm e112
+funkwhale e113

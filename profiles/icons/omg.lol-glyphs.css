@@ -107,3 +107,6 @@
 .omg-banano:before { content: "\e108"; }
 .omg-vsco:before { content: "\e109"; }
 .omg-byemc:before { content: "\e110"; }
+.omg-lemmy:before { content: "\e111"; }
+.omg-bookwyrm:before { content: "\e112"; }
+.omg-funkwhale:before { content: "\e113"; }

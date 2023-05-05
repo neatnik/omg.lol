@@ -1963,5 +1963,8 @@
     "banana": "omg-icon omg-banana",
     "banano": "omg-icon omg-banano",
     "vsco": "omg-icon omg-vsco",
-    "byemc": "omg-icon omg-byemc"
+    "byemc": "omg-icon omg-byemc",
+    "lemmy": "omg-icon omg-lemmy",
+    "bookwyrm": "omg-icon omg-bookwyrm",
+    "funkwhale": "omg-icon omg-funkwhale"
 }
