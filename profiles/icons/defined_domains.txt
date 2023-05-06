@@ -36,6 +36,8 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+bsky.app at
+hipstamatic.app camera-retro
 vsco.co vsco
 banano.cc banano
 gog.com gog
