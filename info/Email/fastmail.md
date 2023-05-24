@@ -42,12 +42,13 @@ If you’re not already a Fastmail customer, you can [fix that in mere seconds](
 
 In Fastmail, add your omg.lol email address from the **Settings → Migration** screen.
 
-1. Click **Migration** (in the “Set up” section)
-2. In the **Import** tab, click the link that reads **"Add alumni email forwarding address or other limited sending identity."**
-3. Enter your full omg.lol email address and click **Next**.
-4. You can enter your name and custom signature, or just click **Save** (you can always change these later in **Settings → My email addresses**).
-5. In your list of email addresses, you’ll see that the email address is unverified. Click **Verify**, and then **Send Verification Code**.
-6. Now, check your email. The verification email is probably already waiting for you because Fastmail is _fast_.
-7. Grab the code from the email, go back to your settings, put it in the verification field, and click **Verify**.
+1. Click **Settings**, and then **Migration**.
+2. Click **Add external sending address (SMTP) without importing mail**.
+3. In the Email field, enter your full omg.lol email address and click **Next**.
+4. Set your name and signature as desired, and click **Save**.
+5. Then, click **View and edit** in the "Connected Services" area.
+6. Locate the email address you just added in the list. It should say "Unverified" beside it. Click the **Fix it** button.
+7. Ignore the warning about not being able to send messages, and click the **Verify** button. Then click the **Send verification code** button.
+8. You’ll receive a code via email within a second or two; place that code in the field and click **Verify**. You’ll then be ready to send email from the address!
 
 And with that, you’re good to go! On the **My email addresses** screen in Fastmail, you can select your desired default “From” address that you’d like to use for outgoing email. (You can also choose from any of your favorite addresses on an individual basis when composing an email.)
