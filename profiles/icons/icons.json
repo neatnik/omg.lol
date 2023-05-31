@@ -1967,5 +1967,9 @@
     "lemmy": "omg-icon omg-lemmy",
     "bookwyrm": "omg-icon omg-bookwyrm",
     "funkwhale": "omg-icon omg-funkwhale",
-    "sarajoy": "omg-icon omg-sarajoy"
+    "sarajoy": "omg-icon omg-sarajoy",
+    "discord-online": "omg-icon omg-discord-online",
+    "discord-offline": "omg-icon omg-discord-offline",
+    "discord-idle": "omg-icon omg-discord-idle",
+    "discord-dnd": "omg-icon omg-discord-dnd"
 }

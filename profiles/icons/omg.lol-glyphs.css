@@ -111,3 +111,7 @@
 .omg-bookwyrm:before { content: "\e112"; }
 .omg-funkwhale:before { content: "\e113"; }
 .omg-sarajoy:before { content: "\e114"; }
+.omg-discord-online:before { content: "\e115"; }
+.omg-discord-offline:before { content: "\e116"; }
+.omg-discord-idle:before { content: "\e117"; }
+.omg-discord-dnd:before { content: "\e118"; }

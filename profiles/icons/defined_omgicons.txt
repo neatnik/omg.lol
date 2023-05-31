@@ -111,3 +111,7 @@ lemmy e111
 bookwyrm e112
 funkwhale e113
 sarajoy e114
+discord-online e115
+discord-offline e116
+discord-idle e117
+discord-dnd e118
