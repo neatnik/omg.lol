@@ -3,7 +3,7 @@ Description: Emoji addresses are fun, but can be finicky
 Last Updated: 2023-01-14 3:46 PM EST
 ---
 
-# Emoji addresses
+# Emoji Addresses
 
 We’re happy to offer emoji addresses at omg.lol. Emoji are fun and cool, but they can pose some technical challenges in different contexts. You should understand these issues before purchasing an emoji address on omg.lol.
 

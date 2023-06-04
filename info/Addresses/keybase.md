@@ -3,7 +3,7 @@ Description: You can prove your omg.lol address identity on Keybase, if you want
 Last Updated: 2022-10-08 01:52 AM EDT
 ---
 
-# Keybase proofs
+# Keybase Proofs
 
 You can confirm your omg.lol address on [Keybase](https://keybase.io) through their proof system. It’s a pretty cool thing to do.
 

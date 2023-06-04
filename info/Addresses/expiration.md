@@ -4,7 +4,7 @@ Last Updated: 2023-01-19 3:23 PM EST
 See Also: billing, renewals
 ---
 
-# Address expiration
+# Address Expiration
 
 If you choose not to renew your omg.lol address, it will expire and be returned to the available pool of omg.lol addresses.
 
