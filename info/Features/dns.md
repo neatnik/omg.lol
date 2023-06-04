@@ -1,13 +1,13 @@
 ---
 Description: DNS can be complex, but we try to keep it simple  
-Last Updated: 2023-02-27 11:08 PM EST
+Last Updated: 2023-06-04 12:55 PM EST
 ---
 
 # DNS Guide
 
 DNS, or *domain name system*, is a system that maps domain names to IP addresses. (It does other things, too, but bear with me.)
 
-For example, omg.lol doesn’t really “live” at the domain omg.lol. It _really_ lives at the IP address 5.78.24.5, but it’s not practical to say things like _“hey check out my web site at 5 dot seven eight dot one six zero dot two oh seven,”_ so the internet needed a way to map domain names to IP addresses. And DNS is that very system.
+For example, omg.lol doesn’t really “live” at the domain omg.lol. It _really_ lives at the IP address 5.78.24.5, but it’s not practical to say things like _“hey check out my web site at five dot seven eight dot two four dot five,”_ so the internet needed a way to map domain names to IP addresses. And DNS is that very system.
 
 ## DNS records
 
@@ -17,7 +17,7 @@ There are several types of DNS records, but the main ones that people care about
 * **AAAA records**: Just like A records, but for IPv6 addresses.
 * **CNAME records**: These are nifty records that let you map a hostname to another hostname, creating an alias.
 * **MX records**: These define special rules for mail handling for a hostname.
-* **NS records**: Used for directing traffic to external nameservers.
+* **NS records**: Used for directing queries to external name servers.
 * **TXT records**: These contain arbitrary chunks of text data, useful for a variety of purposes.
 * **SRV records**: Provides information on how to direct traffic to specific services (with specific protocols and ports) that live elsewhere.
 
