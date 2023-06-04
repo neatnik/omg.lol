@@ -4,7 +4,7 @@ Last Updated: 2022-10-15 12:08 PM EDT
 See Also: address-requirements, emoji-addresses
 ---
 
-# About Addresses
+# About addresses
 
 Addresses are what omg.lol is all about. Your address is your identity, your chunk of real estate in the omg.lol namespace. You’ll see them sometimes referred to with the <i class="fa-solid fa-at"></i> prefix, like <i class="fa-solid fa-fw fa-at"></i>foobar, but they can also be represented as subdomains (foobar.omg.lol) and email addresses (foobar@omg.lol).
 
