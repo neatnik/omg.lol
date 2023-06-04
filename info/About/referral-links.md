@@ -3,7 +3,7 @@ Description: Referral links help support omg.lol!
 Last Updated: 2023-01-19 01:17 AM EST
 ---
 
-# Referral links
+# Referral Links
 
 Referral links are an easy way to support omg.lol! We’ve put all of ours together on this page so that we’re not spamming them all over the place like some kind of rude internet jackal.
 
