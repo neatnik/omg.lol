@@ -115,3 +115,7 @@ discord-online e115
 discord-offline e116
 discord-idle e117
 discord-dnd e118
+threads e119
+atari e120
+kbin e121
+os2 e122

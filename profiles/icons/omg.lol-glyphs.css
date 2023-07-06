@@ -115,3 +115,7 @@
 .omg-discord-offline:before { content: "\e116"; }
 .omg-discord-idle:before { content: "\e117"; }
 .omg-discord-dnd:before { content: "\e118"; }
+.omg-threads:before { content: "\e119"; }
+.omg-atari:before { content: "\e120"; }
+.omg-kbin:before { content: "\e121"; }
+.omg-os2:before { content: "\e122"; }

@@ -1971,5 +1971,9 @@
     "discord-online": "omg-icon omg-discord-online",
     "discord-offline": "omg-icon omg-discord-offline",
     "discord-idle": "omg-icon omg-discord-idle",
-    "discord-dnd": "omg-icon omg-discord-dnd"
+    "discord-dnd": "omg-icon omg-discord-dnd",
+    "threads": "omg-icon omg-threads",
+    "atari": "omg-icon omg-atari",
+    "kbin": "omg-icon omg-kbin",
+    "os2": "omg-icon omg-os2"
 }
