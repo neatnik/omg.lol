@@ -1,6 +1,6 @@
 ---
 Description: Refer to this official list of service domains to ensure that you’re dealing with legit omg.lol stuff 
-Last Updated: 2023-03-28 2:07 PM EST
+Last Updated: 2023-07-24 11:45 AM EDT
 ---
 
 # Service Domains
