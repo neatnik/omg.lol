@@ -10,7 +10,6 @@ Here’s a list of all valid omg.lol service domains.
 - [omg.lol](https://omg.lol) is an eTLD registered on the Public Suffix List. The base address redirects to [home.omg.lol](https://home.omg.lol), while other subdomains redirect to either service pages (which would be listed below) or member addresses.
 - [home.omg.lol](https://home.omg.lol) is our canonical service domain, and the only domain used for account activity (registration, sign-in, account maintenance, etc.). There are no member-run services operating within this domain.
 - [omglol.news](https://omglol.news) is our updates blog. It runs on weblog.lol.
-
 - [broke.lol](https://broke.lol) is our service status page.
 - [charms.lol](https://charms.lol) will be where the Charms site lives, when it goes live.
 - [discourse.lol](https://discourse.lol) is our Discourse forum.
@@ -25,6 +24,9 @@ Here’s a list of all valid omg.lol service domains.
 - [timeline.lol](https://timeline.lol) will be where the omg.lol timeline site lives, when it goes live.
 - [url.lol](https://url.lol) is our PURL service.
 - [weblog.lol](https://weblog.lol) is our Weblog service.
+- [terminal.land](https://terminal.land) is our upcoming multiplayer text adventure game.
+
+We also operate [lol.directory](https://lol.directory), an unofficial directory of .LOL domains.
 
 If you have found a location other than the ones above claiming to be affiliated with omg.lol, or if someone has asked you to log into omg.lol or share any personal information at a location other than home.omg.lol, please [email abuse@omg.lol](mailto:abuse@omg.lol) immediately.
 
