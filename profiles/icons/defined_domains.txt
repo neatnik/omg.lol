@@ -36,6 +36,7 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+
 threads.net threads
 bsky.app at
 hipstamatic.app camera-retro
@@ -189,7 +190,7 @@ tinyletter.com tinyletter
 toss.me toss
 tumblr.com tumblr
 twitch.tv twitch
-twitter.com twitter
+twitter.com x-com
 unsplash.com unsplash
 uptimerobot.com status
 venmo.com venmo
