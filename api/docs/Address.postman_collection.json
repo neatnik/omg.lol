@@ -240,7 +240,7 @@
 					"variable": [
 						{
 							"key": "address",
-							"value": "prami"
+							"value": "foobar"
 						}
 					]
 				},
@@ -382,6 +382,74 @@
 					],
 					"cookie": [],
 					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"This address expires within the next six months.\",\n        \"expired\": false\n    }\n}"
+				},
+				{
+					"name": "Address has expired",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/expiration",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"expiration"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "expired-address"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 30 Aug 2023 13:17:35 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"message\": \"This address expired 3 weeks and 4 days ago.\",\n        \"expired\": true\n    }\n}"
 				}
 			]
 		},
@@ -480,7 +548,75 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"address\": \"foobar\",\n        \"message\": \"This address was registered 3 years and 9 months ago and expires in 14 years, 11 months and 5 days.\",\n        \"registration\": {\n            \"message\": \"This address was registered 3 years, 9 months and 3 weeks ago.\",\n            \"unix_epoch_time\": \"1554448408\",\n            \"iso_8601_time\": \"2019-04-05T07:13:28+00:00\",\n            \"rfc_2822_time\": \"Fri, 05 Apr 2019 07:13:28 +0000\",\n            \"relative_time\": \"3 years, 9 months and 3 weeks ago\"\n        },\n        \"expiration\": {\n            \"message\": \"This address is not near expiration.\",\n            \"expired\": false\n        },\n        \"verification\": {\n            \"message\": \"This address has been verified.\",\n            \"verified\": true\n        }\n    }\n}"
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"address\": \"foobar\",\n        \"message\": \"This address was registered 4 years and 4 months ago.\",\n        \"registration\": {\n            \"message\": \"This address was registered 4 years, 4 months and 3 weeks ago.\",\n            \"unix_epoch_time\": 1554448408,\n            \"iso_8601_time\": \"2019-04-05T07:13:28+00:00\",\n            \"rfc_2822_time\": \"Fri, 05 Apr 2019 07:13:28 +0000\",\n            \"relative_time\": \"4 years, 4 months and 3 weeks ago\"\n        },\n        \"expiration\": {\n            \"message\": \"This address is not near expiration.\",\n            \"expired\": false\n        },\n        \"verification\": {\n            \"message\": \"This address has been verified.\",\n            \"verified\": true\n        }\n    }\n}"
+				},
+				{
+					"name": "Retrieve public information about an expired address",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://{{base_url}}/address/:address/info",
+							"protocol": "https",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"address",
+								":address",
+								"info"
+							],
+							"variable": [
+								{
+									"key": "address",
+									"value": "expired-address"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 30 Jan 2023 05:17:21 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST,OPTIONS,DELETE,PUT,PATCH"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization,Content-Type"
+						},
+						{
+							"key": "Content-Length",
+							"value": "862"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"request\": {\n        \"status_code\": 200,\n        \"success\": true\n    },\n    \"response\": {\n        \"address\": \"expired-address\",\n        \"message\": \"This address was registered 1 year and 3 weeks ago.\",\n        \"registration\": {\n            \"message\": \"This address was registered 1 year, 3 weeks and 4 days ago.\",\n            \"unix_epoch_time\": 1659647768,\n            \"iso_8601_time\": \"2022-08-04T21:16:08+00:00\",\n            \"rfc_2822_time\": \"Thu, 04 Aug 2022 21:16:08 +0000\",\n            \"relative_time\": \"1 year, 3 weeks and 4 days ago\"\n        },\n        \"expiration\": {\n            \"message\": \"This address expired 3 weeks and 4 days ago.\",\n            \"expired\": true,\n            \"unix_epoch_time\": 1691183768,\n            \"iso_8601_time\": \"2023-08-04T21:16:08+00:00\",\n            \"rfc_2822_time\": \"Fri, 04 Aug 2023 21:16:08 +0000\",\n            \"relative_time\": \"3 weeks, 4 days and 14 hours ago\"\n        }\n    }\n}"
 				}
 			]
 		},
