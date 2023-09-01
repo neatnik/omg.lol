@@ -191,6 +191,7 @@ toss.me toss
 tumblr.com tumblr
 twitch.tv twitch
 twitter.com x-com
+x.com x-com
 unsplash.com unsplash
 uptimerobot.com status
 venmo.com venmo
@@ -204,6 +205,7 @@ whatsapp.com whatsapp
 wordpress.com wordpress
 write.as writeas
 writeas.com writeas
+x.com x-com
 xbox.com xbox
 ycombinator.com y-combinator
 youtube.com youtube
