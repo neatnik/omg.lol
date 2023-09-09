@@ -1,13 +1,13 @@
 ---
 Description: All about our stellar Matrix homeserver
-Last Updated: 2023-09-09 1:28 AM EDT
+Last Updated: 2023-09-09 5:02 PM EDT
 ---
 
 # Matrix
 
 Matrix is <a href="https://matrix.org">an open network for secure, decentralised communication</a>. It’s a really nice chat protocol based on a federation model, and there are <a href="https://matrix.org/ecosystem/clients/">a number of clients</a> available.
 
-We run out own homeserver, which lives at matrix.omg.lol (but accounts use the omg.lol hostname). You can have an account on our homeserver, or use an existing account on another server. We have an omg.lol “space” with a bunch of rooms (see below), all of which are bridged to our IRC and Discord servers.
+We run our own homeserver, which lives at matrix.omg.lol (but accounts use the omg.lol hostname). You can have an account on our homeserver, or use an existing account on another server. We have an omg.lol “space” with a bunch of rooms (see below), all of which are bridged to our IRC and Discord servers.
 
 ### Getting Started
 
