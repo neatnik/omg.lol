@@ -1,6 +1,6 @@
 ---
 Description: All about our awesome IRC server
-Last Updated: 2023-01-01 8:28 PM EST
+Last Updated: 2023-09-09 1:39 PM EST
 ---
 
 # Internet Relay Chat (IRC)
@@ -55,7 +55,7 @@ Here are some of the popular channels on the server:
   * **#mastodon**, discuss Mastodon (social.lol or in general)
   * **#firehose**, notices, announcements, inbound webhooks, and other noisy (but interesting) stuff
 
-You can also create your own channels or join some that other have created. To view a list of all channels in use, type `/list`.
+You can also create your own channels or join some that others have created. To view a list of all channels in use, type `/list`.
 
 ### Commands
 
