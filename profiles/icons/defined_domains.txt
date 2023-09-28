@@ -36,6 +36,7 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+pebble.is pebble
 firefish.social firefish
 creativepool.com creativepool
 threads.net threads

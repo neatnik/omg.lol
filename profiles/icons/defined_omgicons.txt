@@ -123,3 +123,5 @@ misskey e123
 x-com e124
 firefish e125
 creativepool e126
+pebble e127
+pokeball e128
