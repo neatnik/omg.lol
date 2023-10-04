@@ -36,6 +36,7 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+ooni.org ooni
 pebble.is pebble
 firefish.social firefish
 creativepool.com creativepool
