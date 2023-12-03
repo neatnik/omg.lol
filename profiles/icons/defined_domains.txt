@@ -36,6 +36,7 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+nebula.tv nebula
 ooni.org ooni
 pebble.is pebble
 firefish.social firefish
