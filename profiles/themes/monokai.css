@@ -17,6 +17,10 @@ main {
 	background: unset;
 }
 
+hr {
+  background: #F7F1FF;
+}
+
 a:link,
 a:visited {
 	color: #F7F1FF;
