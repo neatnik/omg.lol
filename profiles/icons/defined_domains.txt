@@ -42,7 +42,8 @@ pebble.is pebble
 firefish.social firefish
 creativepool.com creativepool
 threads.net threads
-bsky.app at
+bsky.app bluesky
+blueskyweb.xyz bluesky
 hipstamatic.app camera-retro
 vsco.co vsco
 banano.cc banano
