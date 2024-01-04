@@ -36,6 +36,7 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+onepeloton.com peloton
 nebula.tv nebula
 ooni.org ooni
 pebble.is pebble
