@@ -133,3 +133,15 @@ nuthatch e133
 bluesky e134
 playdate e135
 peloton e136
+eighteen-plus e137
+bento e138
+sewing-machine e139
+thread-needle e140
+thread-spool e141
+yarn-ball e142
+knitting-needle e143
+crochet-hook e144
+neovim e145
+laravel e146
+statamic e147
+obsidian e148

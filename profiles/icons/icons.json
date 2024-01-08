@@ -1989,5 +1989,16 @@
     "nuthatch": "omg-icon omg-nuthatch",
     "bluesky": "omg-icon omg-bluesky",
     "playdate": "omg-icon omg-playdate",
-    "peloton": "omg-icon omg-peloton"
+    "peloton": "omg-icon omg-peloton",
+    "eighteen-plus": "omg-icon omg-eighteen-plus",
+    "bento": "omg-icon omg-bento",
+    "sewing-machine": "omg-icon omg-sewing-machine",
+    "thread-needle": "omg-icon omg-thread-needle",
+    "thread-spool": "omg-icon omg-thread-spool",
+    "yarn-ball": "omg-icon omg-yarn-ball",
+    "knitting-needle": "omg-icon omg-knitting-needle",
+    "crochet-hook": "omg-icon omg-crochet-hook",
+    "neovim": "omg-icon omg-neovim",
+    "statamic": "omg-icon omg-statamic",
+    "obsidian": "omg-icon omg-obsidian"
 }
