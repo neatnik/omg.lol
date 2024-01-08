@@ -145,3 +145,9 @@ neovim e145
 laravel e146
 statamic e147
 obsidian e148
+three-arrows e149
+onepassword e150
+daisydisk e151
+raycast e152
+arc-browser e153
+pro-tools e154

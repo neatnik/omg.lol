@@ -77,9 +77,9 @@ foreach($omg_icon_data as $line) {
 
 ksort($omg_lol_icons);
 
-$html = '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>omg.lol Icons</title><style>@import url(omg.lol-icons.css);body{font-family:sans-serif;text-align:center;}table{margin:auto;border-collapse:collapse;}td{font-size:2em;padding:.5em;border-top:1px solid #ccc;text-align:left;border-bottom:1px solid #ccc;text-align:left;}h1{text-align: center; margin: 2em;}a{margin:2em;display:block;}</style></head><body><h1>omg.lol icons generated '.date("c").'</h1><table><tbody>';
+$html = '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>omg.lol Icons</title><style>@import url(omg.lol-icons.css);body{font-family:sans-serif;text-align:center;}table{margin:auto;border-collapse:collapse;}td{font-size:2em;padding:.5em;border-top:1px solid #ccc;text-align:left;border-bottom:1px solid #ccc;text-align:left;}h1{text-align: center; margin: 2em;}a{margin:2em;display:block;}.unicode{font-family:monospace;font-size:60%;color:#777;}</style></head><body><h1>omg.lol icons generated '.date("c").'</h1><table><tbody>';
 foreach($omg_lol_icons as $name => $unicode) {
-	$html .= '<tr><td><i class="omg-icon omg-'.$name.'"></i></td><td>'.$name.'</td></tr>';
+	$html .= '<tr><td><i class="omg-icon omg-'.$name.'"></i></td><td>'.$name.' <span class="unicode">&bsol;'.$unicode.'</span></td></tr>';
 }
 $html .= '</tbody></table><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fomg.cache.lol%2Fprofiles%2Ficons%2Fomg.lol-icons.html">
 <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="63" height="64" alt="HTML5 Powered" title="HTML5 Powered">

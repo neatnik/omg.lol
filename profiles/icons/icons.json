@@ -2000,5 +2000,11 @@
     "crochet-hook": "omg-icon omg-crochet-hook",
     "neovim": "omg-icon omg-neovim",
     "statamic": "omg-icon omg-statamic",
-    "obsidian": "omg-icon omg-obsidian"
+    "obsidian": "omg-icon omg-obsidian",
+    "three-arrows": "omg-icon omg-three-arrows",
+    "onepassword": "omg-icon omg-onepassword",
+    "daisydisk": "omg-icon omg-daisydisk",
+    "raycast": "omg-icon omg-raycast",
+    "arc-browser": "omg-icon omg-arc-browser",
+    "pro-tools": "omg-icon omg-pro-tools"
 }
