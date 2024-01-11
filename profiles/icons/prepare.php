@@ -67,7 +67,7 @@ foreach($omg_icon_data as $line) {
 	$omg_lol_icons[$bits[0]] = $bits[1];
 	
 	if(isset($font_awesome_icons[$bits[0]])) {
-		echo "\n".'There is an existing Font Awesome icon: '.$bits[0]."\n";
+		echo "\n".'There is an existing Font Awesome icon: '.$bits[0]."<br>\n";
 	}
 	else {
 		$omg_icons[$bits[0]] = 'omg-icon omg-'.$bits[0];
@@ -131,10 +131,11 @@ echo "\n".'Icon preparation complete. Check icons: <a href="https://cdn.cache.lo
 
 $access_key = file_get_contents('/var/www/html/secret/bunny_access_key');
 $url = 'https://cdn.cache.lol/profiles/icons/*';
-$tmp = shell_exec("curl --request GET \
---url 'https://api.bunny.net/purge?url=".urlencode($url)."&async=false' \
---header 'AccessKey: $access_key' \
---header 'accept: application/json'");
+$tmp = shell_exec("curl --request GET --url 'https://api.bunny.net/purge?url=".urlencode($url)."&async=false' --header 'AccessKey: $access_key' --header 'accept: application/json'");
+
+echo '<pre>Result: ';
+var_dump($tmp);
+exit;
 
 // And for the base theme
 
