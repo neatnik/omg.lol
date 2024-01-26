@@ -1,0 +1,68 @@
+/*
+Theme: Nord Winter (https://www.nordtheme.com)
+Author: BinaryDigit (binarydigit.omg.lol)
+License: Public domain
+Version: 1.0
+Description: An arctic, north-bluish color palette based on Nord
+*/
+
+/*Looks great with {snowfall}*/
+
+@import url(https://fonts.bunny.net/css?family=albert-sans);
+
+* {
+   font-family: 'Albert Sans', sans-serif;
+}
+
+body {
+    background: #2e3440;
+    color: #2e3440;
+}
+
+#profile-picture {
+    border: 3px solid #2e3440;
+    box-shadow: 2px 2px #2e3440;
+    border-radius: 10px;
+}
+
+main {
+    background: #eceff4;
+    box-shadow: 4px 4px #4c566a;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #3b4252;
+}
+
+p{
+    color: #3b4252;
+}
+
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #4c566a;
+  transition: background 0.2s linear;
+}
+
+a:hover {
+    background: #d8dee9;
+}
+
+a:active {
+    color: #3b4252;
+}
+
+.omg-icon svg {
+    fill: #4c566a;
+}
+
+i {
+    color: #5e81ac;
+}
+
+#footer {
+    margin-top: 10px;
+}
