@@ -36,13 +36,16 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+bento.me bento
+onepeloton.com peloton
 nebula.tv nebula
 ooni.org ooni
 pebble.is pebble
 firefish.social firefish
 creativepool.com creativepool
 threads.net threads
-bsky.app at
+bsky.app bluesky
+blueskyweb.xyz bluesky
 hipstamatic.app camera-retro
 vsco.co vsco
 banano.cc banano
@@ -216,7 +219,7 @@ youtube.com youtube
 
 // People
 probably.fm probably-fm
-proably.blog probably-blog
+probably.blog probably-blog
 sarajoy.dev sarajoy
 byemc. byemc
 rknight.me robb
