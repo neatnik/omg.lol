@@ -1,6 +1,6 @@
 ---
 Description: omg.lol loves Fastmail, and you can too  
-Last Updated: 2023-04-03 2:06 PM EDT
+Last Updated: 2024-02-15 9:10 AM EST
 ---
 
 # omg.lol & Fastmail
@@ -42,13 +42,12 @@ If you’re not already a Fastmail customer, you can [fix that in mere seconds](
 
 In Fastmail, add your omg.lol email address from the **Settings → Migration** screen.
 
-1. Click **Settings**, and then **Migration**.
-2. Click **Add external sending address (SMTP) without importing mail**.
-3. In the Email field, enter your full omg.lol email address and click **Next**.
-4. Set your name and signature as desired, and click **Save**.
-5. Then, click **View and edit** in the "Connected Services" area.
-6. Locate the email address you just added in the list. It should say "Unverified" beside it. Click the **Fix it** button.
-7. Ignore the warning about not being able to send messages, and click the **Verify** button. Then click the **Send verification code** button.
-8. You’ll receive a code via email within a second or two; place that code in the field and click **Verify**. You’ll then be ready to send email from the address!
+1. Click **Settings**, and then click **My email addresses**.
+2. Click **Add address**, and then **Add an address you already own**.
+3. In the Email field, enter your full omg.lol email address (e.g. foobar@omg.lol) and click **Next**.
+4. Set your delivery preferences (if any), and adjust your name and signature as desired, and click **Save**.
+5. Locate the email address you just added in the list. It should say "Unverified" beside it. Click the **Fix it** button.
+6. Ignore the warning about not being able to send messages, and click the **Verify** button. Then click the **Send verification code** button.
+7. You’ll receive a code via email within a second or two; place that code in the field and click **Verify**. You’ll then be ready to send email from the address!
 
 And with that, you’re good to go! On the **My email addresses** screen in Fastmail, you can select your desired default “From” address that you’d like to use for outgoing email. (You can also choose from any of your favorite addresses on an individual basis when composing an email.)
