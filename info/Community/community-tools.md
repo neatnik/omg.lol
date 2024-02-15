@@ -10,7 +10,7 @@ The omg.lol community makes really cool stuff. Here’s a list of some great thi
 ## Now page things
 
 - [omgnow.js](https://omgnow.rknight.me/), for showing your omg.lol now page on any site you want! by [Robb Knight](https://robb.omg.lol).
-- If you want to add your last played song on Last.fm to your profile, [Robb Knight](https://robb.omg.lol)'s got you covered with [].
+- If you want to add your last played song on Last.fm to your profile, [Robb Knight](https://robb.omg.lol)'s got you covered with [recentfm.js](https://recentfm.rknight.me/).
 
 ## Statuslog updaters
 
