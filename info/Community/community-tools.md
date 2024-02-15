@@ -16,7 +16,6 @@ The omg.lol community makes really cool stuff. Here’s a list of some great thi
 
 - [Status.log for iOS](https://apps.apple.com/us/app/status-log/id6444921793) by [Joanna](https://jmj.omg.lol).
 - [Drafts Action](https://actions.getdrafts.com/a/2DT) by [podiboq](https://podiboq.omg.lol).
-- [Discord Bot](https://github.com/mmattbtw/discord-status.lol) by [mmatt](https://mm.omg.lol).
 - [Raycast extension](https://paste.lol/bentsai/raycast-status-lol) by [bentsai](https://bentsai.omg.lol).
 
 ## API tools
