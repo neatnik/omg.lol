@@ -151,3 +151,8 @@ daisydisk e151
 raycast e152
 arc-browser e153
 pro-tools e154
+bereal e155
+puzzmo e156
+joplin e157
+mahjong e158
+crunchyroll e159

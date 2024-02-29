@@ -19,7 +19,6 @@
 .omg-instapaper:before { content: "\e055"; }
 .omg-keyoxide:before { content: "\e006"; }
 .omg-ko-fi:before { content: "\e060"; }
-.omg-letterboxd:before { content: "\e007"; }
 .omg-liberapay:before { content: "\e008"; }
 .omg-lichess:before { content: "\e009"; }
 .omg-litecoin:before { content: "\e010"; }
@@ -115,7 +114,6 @@
 .omg-discord-offline:before { content: "\e116"; }
 .omg-discord-idle:before { content: "\e117"; }
 .omg-discord-dnd:before { content: "\e118"; }
-.omg-threads:before { content: "\e119"; }
 .omg-atari:before { content: "\e120"; }
 .omg-kbin:before { content: "\e121"; }
 .omg-os2:before { content: "\e122"; }
@@ -150,3 +148,8 @@
 .omg-raycast:before { content: "\e152"; }
 .omg-arc-browser:before { content: "\e153"; }
 .omg-pro-tools:before { content: "\e154"; }
+.omg-bereal:before { content: "\e155"; }
+.omg-puzzmo:before { content: "\e156"; }
+.omg-joplin:before { content: "\e157"; }
+.omg-mahjong:before { content: "\e158"; }
+.omg-crunchyroll:before { content: "\e159"; }
