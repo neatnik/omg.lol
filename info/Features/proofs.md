@@ -1,6 +1,6 @@
 ---
 Description: You don’t have to prove yourself to anyone, but proving that your stuff is yours is pretty sweet  
-Last Updated: 2023-04-06 10:29 PM EDT
+Last Updated: 2024-02-29 02:07 AM EDT
 ---
 
 # Proofs
@@ -14,8 +14,11 @@ First, it’s really important to make this point clear: proven.lol isn’t aimi
 With that out of the way, here’s how it operates in a nutshell:
 
 1. You claim ownership of something, like https://example.com/jabberwocky.
-2. proven.lol tells you to add a verification snippet like `proven.lol/a0c1b2` to https://example.com/jabberwocky in order to prove your claim.
-3. You add the snippet and tell proven.lol that you’ve done so, and then proven.lol checks the page for the snippet. If the claim is present, your claim is turned into a timestamped proof. Yay!
+2. proven.lol provides you a verification snippet like `proven.lol/a0c1b2`
+3. There are currently two ways to add the snippit:
+   - Page: Add the snippit somewhere on the page you're trying to prove ownership of. This method can be used for any URL claim.
+   - DNS: Add the snippit as a TXT record. This method is only for if you're claiming ownership of a domain.
+5. You add the snippet and tell proven.lol that you’ve done so, and then proven.lol checks the page for the snippet. If the claim is present, your claim is turned into a timestamped proof. Yay!
 
 **Note: You should only attempt to prove ownership over things that you actually “own”—that is, things that are wholly for or about you (like a social profile page), or that you created or maintain, and that would fit any reasonable definition of something that you “own”. Don’t claim shared spaces or things that you know you do not own.**
 
