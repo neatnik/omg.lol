@@ -156,3 +156,4 @@ puzzmo e156
 joplin e157
 mahjong e158
 crunchyroll e159
+lego e160
