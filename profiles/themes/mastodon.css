@@ -4,6 +4,8 @@
    Version: 1.0 */
 /* -- General Styles -- */
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope');
+
 :root {
   --bg: #edf1f3;
   /* Mastodon light background */
@@ -37,7 +39,7 @@ body {
   padding-bottom: 0.5em;
   background: var(--bg);
   color: var(--fg);
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Manrope", Arial, sans-serif;
 }
 
 main {
