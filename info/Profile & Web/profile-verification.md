@@ -1,6 +1,6 @@
 ---
 Description: Verified profiles are the best profiles  
-Last Updated: 2023-01-27 05:44 PM EST
+Last Updated: 2024-02-29 05:44 PM EST
 ---
 
 # Profile Verification
@@ -15,4 +15,4 @@ If you’d like to be verified, just [contact us](/info/contact/) to kick off th
 
 ## The PramiMark
 
-If you see the PramiMark <i style="color: #0089cf;" class="omg-icon omg-prami-staff"></i> on a profile, it means that you’re viewing an omg.lol staff member’s profile. As this is intended to be an indicator of trust, we ask that you please not attempt to render the PramiMark or any related icon or variant on your own profile page. Doing so will make Prami sad.
+If you see the PramiMark <i style="color: #0089cf;" class="omg-icon omg-prami-staff"></i> on a profile, it means that you’re viewing the profile of an [omg.lol staff member](https://staff.lol). As this is intended to be an indicator of trust, we ask that you please not attempt to render the PramiMark or any related icon or variant on your own profile page. Doing so will make Prami sad.
