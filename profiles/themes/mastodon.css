@@ -1,0 +1,91 @@
+/* Theme: Mastodon Inspired (https://joinmastodon.org)
+   Author: Jordan Warne (jw.omg.lol)
+   License: Public domain
+   Version: 1.0 */
+/* -- General Styles -- */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope');
+
+:root {
+  --bg: #edf1f3;
+  /* Mastodon light background */
+  --fg: #24292e;
+  /* Dark Text */
+  --profile: #ffffff;
+  /* Inner profile background */
+  --verified: #6364FF;
+  /* Verified checkmark and location dot color */
+  --border: #b8c6d3
+    /* Border around profile */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181c;
+    /*  Mastodon dark background */
+    --fg: #e1e1e1;
+    /* Light text */
+    --profile: #242730;
+    /* Inner profile background */
+    --verified: #6364FF;
+    /* Verified checkmark and location dot color */
+    --border: #323745;
+    /* Border around profile */
+  }
+}
+
+body {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "Manrope", Arial, sans-serif;
+}
+
+main {
+  background: var(--profile);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 25px;
+  margin: 30px auto;
+}
+
+h1#name a i.fa-badge-check,
+.omg-verified {
+  color: var(--verified) !important;
+}
+
+#pronouns a:link,
+#pronouns a:visited,
+#pronouns a:hover,
+#pronouns a:active,
+#pronouns {
+  color: var(--fg);
+  opacity: 0.7;
+}
+
+a:link,
+a:visited {
+  color: #8082fa;
+  border-bottom: 2px solid var(--profile);
+}
+
+a:hover,
+a:active {
+  color: #8082fa;
+  border-bottom: 2px solid #8082fa;
+}
+
+.fa-li,
+.fas,
+.omg-icon,
+.omg-icon path {
+  color: #858AFA;
+  fill: #858AFA;
+  stroke: #858AFA;
+}
+
+.fa-location-dot {
+  color: var(--verified);
+  /* Location stays Mastodon blue */
+}
