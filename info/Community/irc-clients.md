@@ -1,6 +1,6 @@
 ---
 Description: IRC clients used by the community  
-Last Updated: 2022-10-11 01:03 AM EDT
+Last Updated: 2024-08-17 03:15 AM EDT
 ---
 
 # IRC Clients
@@ -49,7 +49,7 @@ This will create a new server entry, configure it, and connect to it. In this ex
 
 ## Convos
 
-[Convos](https://convos.chat/) is a open-source web-based IRC client that offers a persistent connection to the IRC server, video chatting via Jitsi and similar features to IRCCloud. It does require you to provide your own server to host the client, but the configuration is straightforward and should get you started with it within 5-10 minutes. Alternatively, you can join one hosted by the omg.lol community called [KAIFA](https://orc.kaifa.ch).
+[Convos](https://convos.chat/) is a open-source web-based IRC client that offers a persistent connection to the IRC server, video chatting via Jitsi and similar features to IRCCloud. It does require you to provide your own server to host the client, but the configuration is straightforward and should get you started with it within 5-10 minutes.
 
 ### Configuration
 
