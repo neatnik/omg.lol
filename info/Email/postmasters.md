@@ -1,6 +1,6 @@
 ---
 Description: Postmaster information for omg.lol  
-Last Updated: 2024-06-08 6:46 PM EDT
+Last Updated: 2022-10-16 4:49 PM EDT
 ---
 
 # Postmaster Information
@@ -19,13 +19,14 @@ Mail originates from the omg.lol mail server, `mail.omg.lol`, which operates at 
 
 The omg.lol mail server, besides being devastatingly handsome, employs the use of multiple technologies to ensure safe, compliant delivery of email messages as well as to thwart abuse and manage the transmission of unsolicited bulk emails (or ‘spam’). These technologies include:
 
-* IP & domain reputation analysis with [Abusix Mail Intelligence](https://www.abusix.com)
-* Greylisting with [Postgrey](https://postgrey.schweikert.ch)
-* [SRS](https://en.wikipedia.org/wiki/Sender_Rewriting_Scheme)
 * [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework)
 * [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail)
-* [DMARC](https://dmarc.org) with report analysis courtesy of [Red Sift OnDMARC](https://redsift.com/products/ondmarc)
+* [SRS](https://en.wikipedia.org/wiki/Sender_Rewriting_Scheme)
+* [DMARC](https://dmarc.org) with report analysis courtesy of [OnDMARC](https://redsift.com/products/ondmarc)
+* Greylisting with [Postgrey](https://postgrey.schweikert.ch)
+* Spam identification with [Spamhaus](https://www.spamhaus.org/zen/)
+* Spam mitigation with [Rspamd](https://rspamd.com)
 
 ## Contact
 
-If you would like to reach the omg.lol postmaster, please send an email to postmaster@omg.lol. _(Yes, we’re RFC2142-compliant!)_
+If you would like to reach the omg.lol postmaster, please send an email to postmaster@omg.lol. (Yes, we’re RFC2142-compliant!)

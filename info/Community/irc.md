@@ -1,19 +1,15 @@
 ---
 Description: All about our awesome IRC server
-Last Updated: 2023-09-09 1:39 PM EST
+Last Updated: 2024-04-19 6:50 PM EDT
 ---
 
 # Internet Relay Chat (IRC)
 
-Internet Relay Chat (or IRC) is an open standard for chatting on the internet. It’s [been around forever](https://en.wikipedia.org/wiki/Internet_Relay_Chat), and it’s great! And we’re using it here as part of our [social.lol](/help/social.lol) platform.
+Internet Relay Chat (or IRC) is an open standard for chatting on the internet. It’s [been around forever](https://en.wikipedia.org/wiki/Internet_Relay_Chat), and it’s great! And we’re using it here as part of our [chat services](/info/chat).
 
 ### Getting Started
 
 To kick things off, visit your address’s social.lol page and then click the "Create IRC account" button. You’ll then receive a password that you can use to connect.
-
-### Rules
-
-Use common sense when chatting with others. Prioritize kindness. Show compassion. Remember that all omg.lol policies apply on irc.social.lol, like our [Code of Conduct](/info/code-of-conduct), [Terms of Use](/info/legal), and [Acceptable Use](/info/legal) policies. Just [don’t be an asshole](https://asshole.fyi) and you should be fine.
 
 ### Connecting
 
@@ -40,22 +36,6 @@ If you are connecting through IRC and you’d like to hide your connection detai
 `!vhost omg.lol`
 
 You could use something else, if you’d like (anything will work as long as it looks like a valid hostname). Feel free to be creative.
-
-### Channels
-
-Here are some of the popular channels on the server:
-
-  * **#general**, general chatter about anything
-  * **#random**, random or off-the-wall stuff
-  * **#help**, customer service and support
-  * **#omg.lol**, chat about omg.lol services
-  * **#web**, web development stuff
-  * **#email**, all about email
-  * **#dns**, for the nerds
-  * **#mastodon**, discuss Mastodon (social.lol or in general)
-  * **#firehose**, notices, announcements, inbound webhooks, and other noisy (but interesting) stuff
-
-You can also create your own channels or join some that others have created. To view a list of all channels in use, type `/list`.
 
 ### Commands
 

@@ -1,4 +1,4 @@
-# omg.lol/info
+# home.omg.lol/info
 
 You can find all kinds of information about omg.lol in our [Info Center](https://home.omg.lol/info).
 
