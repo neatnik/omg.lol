@@ -1,0 +1,127 @@
+/*
+ Theme: NeoBrutalism
+ Author: Ryan McGovern (@tekgadgt)
+ License: MIT
+ Version: 1.0
+ Description: NeoBrutalist theme, based on color palette from JoseATD on Figma.  Super straightforward to change color theme using existing variables or new CSS.
+ */
+
+:root {
+	--white:			#FFFFFF;
+	--black:			#000000;
+	--cyan:				#69D2E7;
+	--green:			#2FFF2F;
+	--orange:			#E3A018;
+	--pink:				#FF00F5;
+	--purple:			#9723C9;
+	--red:				#FF4911;
+	--yellow:			#FFFF00;
+}
+
+::selection {
+	background: var(--purple);
+	color: var(--white);
+}
+
+body {
+	background: var(--yellow);
+	color: var(--black);
+}
+
+main {
+	background: var(--white);
+	border: 3px solid var(--black);
+	border-radius: 0.375rem;
+	box-shadow: 8px 8px 0px rgba(0,0,0,1);
+}
+
+#profile-picture-container {
+	color: var(--white);
+}
+
+
+#pronouns {
+	color: var(--purple);
+	font-weight: bold;
+}
+
+#pronouns a:link,
+#pronouns a:visited,
+#pronouns a:hover,
+#pronouns a:active {
+	color: var(--purple);
+}
+
+#footer {
+	color: var(--purple);
+}
+
+#footer a:link,
+#footer a:visited,
+#footer a:hover,
+#footer a:active {
+	color: var(--purple);
+}
+
+a:link,
+a:visited {
+	color: var(--black);
+  text-decoration: none;
+	text-decoration-color: var(--black);
+	border-bottom: 1px dotted var(--purple);
+}
+a:hover,
+a:active {
+	color: var(--black);
+	text-decoration: none;
+	text-decoration-color: var(--black);
+	border-bottom: 2px solid var(--purple);
+}
+@media (prefers-color-scheme: dark) {
+	.omg-icon.rainbow-me svg {
+		fill: var(--black);
+	}
+}
+
+h1#name a i.fa-badge-check, .omg-verified {
+	color: var(--purple) !important; 
+}
+
+.statuslol_container {
+	border: 5px solid var(--black);
+	border-radius: 0.375rem !important;
+}
+
+.statuslol {
+	border-radius: 0 !important;
+	background-color: var(--purple) !important;
+}
+
+.statuslol_content {
+	color: var(--white) !important;
+	::selection {
+		background-color: var(--white) !important;
+		color: var(--black) !important;
+	}
+}
+
+.statuslol_time {
+	a, small {
+		opacity: .75 !important;
+		color: var(--white) !important;
+		::selection {
+			background-color: var(--white) !important;
+			color: var(--black) !important;
+		}
+	}
+	a:link, a:visited {
+		text-decoration: none !important;
+		text-decoration-color: var(--white) !important;
+		border-bottom: 1px dotted var(--white) !important;
+	}
+	a:hover, a:active {
+		text-decoration: none !important;
+		text-decoration-color: var(--white) !important;
+		border-bottom: 2px solid var(--white) !important;
+	}
+}
