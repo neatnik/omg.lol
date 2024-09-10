@@ -28,6 +28,7 @@ fosstodon.org mastodon
 tech.lgbt mastodon
 ruby.social mastodon
 dice.camp mastodon
+allthingstech.social mastodon
 
 // Peertube
 peertube.tv peertube
@@ -36,6 +37,7 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+raindrop.io raindrop-io
 puzzmo.com puzzmo
 bere.al bereal
 bereal.com bereal
@@ -219,6 +221,7 @@ x.com x-com
 xbox.com xbox
 ycombinator.com y-combinator
 youtube.com youtube
+rec.net rec-room
 
 // People
 probably.fm probably-fm
