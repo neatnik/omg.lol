@@ -158,3 +158,6 @@
 .omg-rec-room:before { content: "\e162"; }
 .omg-byecorps-id:before { content: "\e163"; }
 .omg-raindrop-io:before { content: "\e164"; }
+.omg-letterboxd:before { content: "\e007"; }
+.omg-threads:before { content: "\e119"; }
+.omg-laravel:before { content: "\e146"; }
