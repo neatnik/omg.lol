@@ -34224,6 +34224,10 @@ value = "Copyright (c) omg.lol";
 );
 },
 {
+key = description;
+value = "The web's most popular icon set and toolkit.";
+},
+{
 key = familyNames;
 values = (
 {
