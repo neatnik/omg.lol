@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "Retreive the address directory",
+			"name": "Retrieve the address directory",
 			"request": {
 				"auth": {
 					"type": "noauth"
@@ -29,7 +29,7 @@
 			},
 			"response": [
 				{
-					"name": "Retreive the address directory",
+					"name": "Retrieve the address directory",
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
