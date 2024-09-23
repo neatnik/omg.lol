@@ -981,7 +981,7 @@
     "laptop-code": "fa-solid fa-laptop-code",
     "laptop-file": "fa-solid fa-laptop-file",
     "laptop-medical": "fa-solid fa-laptop-medical",
-    "laravel": "fa-brands fa-laravel",
+    "laravel": "omg-icon omg-laravel",
     "lari-sign": "fa-solid fa-lari-sign",
     "lastfm": "fa-brands fa-lastfm",
     "layer-group": "fa-solid fa-layer-group",
@@ -993,7 +993,7 @@
     "less": "fa-brands fa-less",
     "less-than": "fa-solid fa-less-than",
     "less-than-equal": "fa-solid fa-less-than-equal",
-    "letterboxd": "fa-brands fa-letterboxd",
+    "letterboxd": "omg-icon omg-letterboxd",
     "life-ring": "fa-solid fa-life-ring",
     "lightbulb": "fa-solid fa-lightbulb",
     "line": "fa-brands fa-line",
@@ -1640,7 +1640,7 @@
     "themeisle": "fa-brands fa-themeisle",
     "thermometer": "fa-solid fa-thermometer",
     "think-peaks": "fa-brands fa-think-peaks",
-    "threads": "fa-brands fa-threads",
+    "threads": "omg-icon omg-threads",
     "thumbs-down": "fa-solid fa-thumbs-down",
     "thumbs-up": "fa-solid fa-thumbs-up",
     "thumbtack": "fa-solid fa-thumbtack",
@@ -2027,5 +2027,9 @@
     "joplin": "omg-icon omg-joplin",
     "mahjong": "omg-icon omg-mahjong",
     "crunchyroll": "omg-icon omg-crunchyroll",
-    "lego": "omg-icon omg-lego"
+    "lego": "omg-icon omg-lego",
+    "fediverse-alt": "omg-icon omg-fediverse-alt",
+    "rec-room": "omg-icon omg-rec-room",
+    "byecorps-id": "omg-icon omg-byecorps-id",
+    "raindrop-io": "omg-icon omg-raindrop-io"
 }

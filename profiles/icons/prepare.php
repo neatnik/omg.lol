@@ -69,10 +69,11 @@ foreach($omg_icon_data as $line) {
 	if(isset($font_awesome_icons[$bits[0]])) {
 		echo "\n".'There is an existing Font Awesome icon: '.$bits[0]."<br>\n";
 	}
-	else {
+	
+	//else {
 		$omg_icons[$bits[0]] = 'omg-icon omg-'.$bits[0];
 		$omg_css .= '.omg-'.$bits[0].':before { content: "\\'.$bits[1].'"; }'."\n";
-	}
+	//}
 }
 
 ksort($omg_lol_icons);

@@ -19,7 +19,6 @@ honk e005
 instapaper e055
 keyoxide e006
 ko-fi e060
-letterboxd e007
 liberapay e008
 lichess e009
 litecoin e010
@@ -115,7 +114,6 @@ discord-online e115
 discord-offline e116
 discord-idle e117
 discord-dnd e118
-threads e119
 atari e120
 kbin e121
 os2 e122
@@ -142,7 +140,6 @@ yarn-ball e142
 knitting-needle e143
 crochet-hook e144
 neovim e145
-laravel e146
 statamic e147
 obsidian e148
 three-arrows e149
@@ -157,3 +154,10 @@ joplin e157
 mahjong e158
 crunchyroll e159
 lego e160
+fediverse-alt e161
+rec-room e162
+byecorps-id e163
+raindrop-io e164
+letterboxd e007
+threads e119
+laravel e146

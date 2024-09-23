@@ -1,13 +1,13 @@
 /* omg.lol Icon Type */
 
-@import url('https://cdn.cache.lol/profiles/icons/omg.lol-glyphs.css?v=2024-01-09d');
+@import url('https://cdn.cache.lol/profiles/icons/omg.lol-glyphs.css?v=2024-09-10');
 
 @font-face {
 	font-family: 'omg.lol Icons';
 	font-style: normal;
 	font-weight: 900;
 	font-display: block;
-	src: url('https://cdn.cache.lol/profiles/icons/omg.lol-icons.woff2?v=2024-01-09d') format('woff2');
+	src: url('https://cdn.cache.lol/profiles/icons/omg.lol-icons.woff2?v=2024-09-10') format('woff2');
 }
 
 .omg-icon {

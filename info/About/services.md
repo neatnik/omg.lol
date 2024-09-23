@@ -1,6 +1,6 @@
 ---
 Description: All about what we offer  
-Last Updated: 2023-01-08 9:38 PM EST
+Last Updated: 2024-09-17 9:41 AM EDT
 ---
 
 # Services Overview
@@ -39,13 +39,17 @@ Published serialized thoughts, just like in the early days of the web.
 
 Our fun social network with kind, smart people.
 
-## <i class="fa-duotone fa-fw fa-message-smile"></i> IRC
+## <i class="fa-duotone fa-fw fa-message-smile"></i> IRC, Discord, Matrix, and XMPP
 
-Connect and chat live with other omg.lol members on our private IRC server.
+Connect and chat live with other omg.lol members on our fully-bridged chat platforms.
 
-## <i class="fa-duotone fa-fw fa-badge-check"></i> Proofs (Coming soon!™)
+## <i class="fa-duotone fa-fw fa-badge-check"></i> Proofs
 
 A super-simple (and hopefully kind of fun) digital proof system.
+
+## <i class="fa-duotone fa-fw fa-camera-retro"></i> Photo Sharing
+
+Upload and share photos on https://some.pics.
 
 ## <i class="fa-duotone fa-fw fa-heart"></i> Charms (Coming soon!™)
 
