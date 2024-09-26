@@ -23,6 +23,10 @@
 	color: var(--white);
 }
 
+img {
+	width: 100%;
+}
+
 body {
 	background: var(--yellow);
 	color: var(--black);
