@@ -1,6 +1,6 @@
 ---
 Description: Chat with friends on omg.lol!
-Last Updated: 2024-04-19 8:07 PM EDT
+Last Updated: 2024-11-27 1:08 PM EST
 ---
 
 # Chat
@@ -31,13 +31,13 @@ Here are the channels you’ll find within the omg.lol Chat Network:
   * **#analogue**, Pens, pencils, paper, or other low-tech things
   * **#nature**, The great outdoors
   * **#food**, Food and cooking
-  * **#gaming**, Video games and the like
-  * **#sports**, Balls, fast cars, and bikes
+  * **#gaming**, Everything about video games
+  * **#sports**, Balls, bicycles, and fast cars
   * **#art**, Drawing, painting, sculpture, collage, etc.
-  * **#media**, TV and movies!
-  * **#books**, Literature discussion
-  * **#music**, Tunes and jams
-  * **#podcasts**, Podcast discussion
+  * **#media**, TV and movies
+  * **#books**, Literature discussion and recommendations
+  * **#music**, Tunes, jams, and links to cool songs
+  * **#podcasts**, Podcast discussions
   * **#productivity**, Techniques and solutions for personal productivity
   * **#gratitude**, [Expressing gratitude feels good!](https://www.mindful.org/the-science-of-gratitude/)
   * **#venting**, A space to complain, gripe, or just let it all out
