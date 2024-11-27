@@ -38,7 +38,7 @@ Here are the channels you’ll find within the omg.lol Chat Network:
   * **#books**, Literature discussion
   * **#music**, Tunes and jams
   * **#podcasts**, Podcast discussion
-  * **#productivity**, 
+  * **#productivity**, Techniques and solutions for personal productivity
   * **#gratitude**, [Expressing gratitude feels good!](https://www.mindful.org/the-science-of-gratitude/)
   * **#venting**, A space to complain, gripe, or just let it all out
   
