@@ -15,28 +15,31 @@ You’ll need a chat client for whatever chat thing you want to use. Click on an
 
 ### Rules
 
-Our [Code of Conduct](/info/code-of-conduct), [Terms of Use](/info/legal), and [Acceptable Use](/info/legal) policies apply when using omg.lol’s chat rooms. If you only remember one thing, it should be to prioritize kindness and show compassion. 
+Our [Code of Conduct](/info/code-of-conduct), [Terms of Use](/info/legal), and [Acceptable Use](/info/legal) policies apply when using omg.lol’s chat rooms. Be cool!
 
 ### Bridging & Channels
 
-There are a handful of nice channels covering different topics, all of which are bridged across all of the chat services. This means that you can be on XMPP and chat with people who are on Discord, and people on IRC and Matrix will see those messages too. Bridging isn’t perfect, but it’s a pretty nice way to keep everyone connected despite personal preferences with chat apps/services.
+There are a handful of channels covering different topics, all of which are bridged across all of the chat services. This means that you can be on XMPP and chat with people who are on Discord, and people on IRC and Matrix will see those messages too. Bridging isn’t perfect, but it’s a pretty nice way to keep everyone connected despite personal preferences with chat apps/services.
 
-Here are the channels you’ll find in the omg.lol chatrooms:
+Here are the channels you’ll find within the omg.lol Chat Network:
 
-  * **#general**, general chatter about anything
-  * **#random**, random or off-the-wall stuff
-  * **#web**, web development stuff
-  * **#email**, all about email
-  * **#dns**, for the nerds
-  * **#gaming**, fun and games
-  * **#sports**, fun and games but the boring kind
-  * **#mastodon**, discuss Mastodon (social.lol or in general)
-  * **#firehose**, notices, announcements, inbound webhooks, and other noisy (but interesting) stuff
-
-And these omg.lol-specific channels:
-
-  * **#omg.lol**, chat about omg.lol services
-  * **#help**, omg.lol customer service and support
-  * **#api**, all about the omg.lol API
-
-In addition, Discord also offers a voice chat room.
+  * **#general**, General chatter on just about anything
+  * **#help**, Get help with omg.lol (or other stuff)
+  * **#internet**, Web, email, DNS, protocols, etc.
+  * **#hardware**, Computers, devices, and gadgets
+  * **#software**, Operating systems and apps 
+  * **#analogue**, Pens, pencils, paper, or other low-tech things
+  * **#nature**, The great outdoors
+  * **#food**, Food and cooking
+  * **#gaming**, Video games and the like
+  * **#sports**, Balls, fast cars, and bikes
+  * **#art**, Drawing, painting, sculpture, collage, etc.
+  * **#media**, TV and movies!
+  * **#books**, Literature discussion
+  * **#music**, Tunes and jams
+  * **#podcasts**, Podcast discussion
+  * **#productivity**, 
+  * **#gratitude**, [Expressing gratitude feels good!](https://www.mindful.org/the-science-of-gratitude/)
+  * **#venting**, A space to complain, gripe, or just let it all out
+  
+In addition, Discord also offers a voice chat rooms and a couple of co-working spaces.
