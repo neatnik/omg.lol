@@ -28,7 +28,7 @@ You can also include some optional parameters that will control what and how thi
  - `fluent` will include the Fluent emoji
  - `pretty` will style the status pretty closely to what’s shown on status.lol
  - `no-emoji`will show no emoji in your status output
- - `since` will fetch all of the statuses since the specified date/time; you can specify an exact or relative dates (e.g. "24 hours ago" or "3 months ago")
+ - `since` will fetch all of the statuses since the specified date/time; you can specify an exact or relative dates (e.g. "2024-01-01 23:00", 24 hours ago" or "3 months ago")
 
 So, if you’re looking for something that looks nice, you probably want to use this:
 
