@@ -3,6 +3,9 @@
 // Partial domains may be used for more expansive matching (e.g. `discord.` instead of `discord.com` and `discord.gg`).
 // Domains and paths can be used for a finer degree of specificity (e.g. `example.com/service` as distinct from `example.com`).
 
+// omg.lol
+some.pics image
+
 // Apple
 apple.com apple
 podcasts.apple.com microphone
