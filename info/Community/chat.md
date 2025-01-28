@@ -1,6 +1,6 @@
 ---
 Description: Chat with friends on omg.lol!
-Last Updated: 2024-11-27 1:08 PM EST
+Last Updated: 2025-01-28 5:17 PM EST
 ---
 
 # Chat
@@ -27,7 +27,8 @@ Here are the channels you’ll find within the omg.lol Chat Network:
   * **#help**, Get help with omg.lol (or other stuff)
   * **#internet**, Web, email, DNS, protocols, etc.
   * **#hardware**, Computers, devices, and gadgets
-  * **#software**, Operating systems and apps 
+  * **#software**, Operating systems and apps
+  * **#design**, Design across various disciplines
   * **#analogue**, Pens, pencils, paper, or other low-tech things
   * **#nature**, The great outdoors
   * **#food**, Food and cooking
