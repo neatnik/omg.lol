@@ -1,6 +1,6 @@
 ---
 Description: Chat with friends on omg.lol!
-Last Updated: 2025-01-28 5:17 PM EST
+Last Updated: 2025-01-31 6:57 PM EST
 ---
 
 # Chat
@@ -9,7 +9,7 @@ Connect with your friends (or make new ones) in our awesome omg.lol chat rooms! 
 
 ### Getting Started
 
-To kick things off, just visit your address’s social.lol page (look for the button that says “socialize, lol”). That’s where you can get set up with [IRC](/info/irc), [Discord](/info/irc), [Matrix](/info/matrix), or [XMPP](/info/xmpp). (Mastodon is on there, too, but it’s not typically considered a real-time/live chat thing.)
+To kick things off, just visit your address’s social.lol page (look for the button that says “socialize, lol”). That’s where you can get set up with [IRC](/info/irc), [Discord](/info/discord), [Matrix](/info/matrix), or [XMPP](/info/xmpp). (Mastodon is on there, too, but it’s not typically considered a real-time/live chat thing.)
 
 You’ll need a chat client for whatever chat thing you want to use. Click on any of the links above to learn more.
 
