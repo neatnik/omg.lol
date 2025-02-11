@@ -1894,6 +1894,7 @@
     "youtube": "fa-brands fa-youtube",
     "z": "fa-solid fa-z",
     "zhihu": "fa-brands fa-zhihu",
+    "_test": "omg-icon omg-_test",
     "anilist": "omg-icon omg-anilist",
     "archiveofourown": "omg-icon omg-archiveofourown",
     "basic-attention-token": "omg-icon omg-basic-attention-token",
@@ -2052,5 +2053,6 @@
     "fediverse-alt": "omg-icon omg-fediverse-alt",
     "rec-room": "omg-icon omg-rec-room",
     "byecorps-id": "omg-icon omg-byecorps-id",
-    "raindrop-io": "omg-icon omg-raindrop-io"
+    "raindrop-io": "omg-icon omg-raindrop-io",
+    "epic-games": "omg-icon omg-epic-games"
 }
