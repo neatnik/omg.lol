@@ -1,0 +1,145 @@
+/*
+Theme: Seamless Future
+Author: Kielen King (monarkie.omg.lol)
+License: Public domain
+Version: 1.0
+Description: Smoothly lit for easing into the future! 
+*/
+
+body {
+	background-image: linear-gradient(-45deg, #aaa, #fff);
+	background-size: cover;
+	height: 100%;
+	font-size: 1em;
+}
+main {
+	background-color: rgb(255,255,255,0.7);
+	border: solid;
+	border-width: 2px;
+	border-color: #7dd9ff;
+	border-radius: 10px;
+	display: block;
+	margin:0 auto;
+	width: 70%;
+	color: grey;
+	animation: mymove 5s infinite;
+}
+@keyframes mymove {
+	50% {
+		border-color: white;
+	}
+}
+h1 {
+	margin: 0;
+}
+#profile-items {
+	border-top: 1px solid #666;
+	padding: .5em 0 0 0;
+	margin: 1.5em 0 0 0;
+}
+#profile-items :is(h1, h2, h3, h4, h5, h6) {
+	text-align: left;
+	margin: 0;
+}
+#profile-items h1 {
+	font-size: 1.2em;
+}
+#profile-items h2 {
+	font-size: 1.2em;
+}
+#profile-items h3 {
+	font-size: 1.2em;
+}
+#profile-items h4 {
+	font-size: 1.1em;
+}
+#profile-items h5 {
+	font-size: 1.1em;
+}
+#profile-items h6 {
+	font-size: 1.1em;
+}
+#profile-picture-container {
+	margin: auto;
+	color: #555;
+	margin-bottom: 1em;
+}
+#profile-picture {
+	border-radius: 20px;
+	height: 8.7em;
+}
+a:link,a:visited {
+	color: grey;
+	text-decoration: dotted;
+	text-decoration-color: #7dd9ff;
+}
+a:hover,a:active {
+	color: #7dd9ff;
+	text-decoration: dotted;
+	text-decoration-color: #7dd9ff;
+	text-shadow: 1px 1px grey;
+	border-bottom:unset;
+}
+#pronouns {
+	color: grey;
+	font-weight: 500;
+	text-shadow: 1px 1px #7dd9ff;
+	display: block;
+	margin: 25px auto;
+	width: 75%;
+	text-align: center;
+}
+#pronouns a:link,#pronouns a:visited,#pronouns a:hover,#pronouns a:active {
+	color: #7dd9ff;
+	text-shadow: 1px 1px grey;
+}
+#details {
+	margin: 1em 0;
+}
+#location {
+	display: inline-block;
+}
+#occupation {
+	display: inline-block;
+}
+#location, #occupation {
+	margin: .5em;
+}
+#bio {
+	text-align: center;
+	font-size: 1em;
+	line-height: 140%;
+}
+#footer {
+	margin: 0;
+	margin-top: 5em;
+	color: #555;
+	text-align: center;
+}
+#prami {
+	width: 2em;
+}
+ul {
+	text-align: left;
+}
+li {
+	line-height: 170%;
+}
+#verification {
+	font-size: 80%;
+	color: #0089cf;
+}
+.fa-li, .fas, .omg-icon {
+	color: grey;
+	fill: grey;
+	stroke: #7dd9ff;
+}
+@media (max-width: 500px) {
+	body {
+		font-size: 1em;
+		padding: 1em;
+	}
+	main {
+		padding: 1.5em;
+	}
+}
