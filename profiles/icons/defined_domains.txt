@@ -3,6 +3,9 @@
 // Partial domains may be used for more expansive matching (e.g. `discord.` instead of `discord.com` and `discord.gg`).
 // Domains and paths can be used for a finer degree of specificity (e.g. `example.com/service` as distinct from `example.com`).
 
+// omg.lol
+some.pics image
+
 // Apple
 apple.com apple
 podcasts.apple.com microphone
@@ -17,6 +20,11 @@ polywork.com polywork
 social.lol mastodon
 irc.social.lol message
 karma.social.lol dharmachakra
+
+// Epic Games
+epicgames.com epic-games
+fortnite.com epic-games
+rocketleague.com epic-games
 
 // Mastodon instances
 sfba.social mastodon
@@ -184,7 +192,7 @@ rarible.com rarible
 reddit.com reddit
 rep.ly rep.ly
 roblox.com roblox
-signal. signal.org
+signal. signal-messenger
 snapchat.com snapchat
 soundcloud.com soundcloud
 spacehey. spacehey
