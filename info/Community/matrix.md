@@ -1,22 +1,18 @@
 ---
-Description: All about our stellar Matrix homeserver
-Last Updated: 2024-04-19 6:50 PM EDT
+Description: The omg.lol Matrix homeserver will shut down on April 30, 2025
+Last Updated: 2025-02-12 8:34 AM EST
 ---
 
 # Matrix
 
-Matrix is <a href="https://matrix.org">an open network for secure, decentralised communication</a>. It’s a really nice chat protocol based on a federation model, and there are <a href="https://matrix.org/ecosystem/clients/">a number of clients</a> available.
+For the past couple of years, omg.lol hosted a Matrix homeserver for our members. Sadly, **the omg.lol Matrix homeserver will shut down on April 30, 2025**.
 
-We run our own homeserver, which lives at matrix.omg.lol (but accounts use the omg.lol hostname). You can have an account on our homeserver, or use an existing account on another server. We have an omg.lol “space” with a bunch of rooms (see below), all of which are bridged to our IRC and Discord servers.
+Matrix is a technically sophisticated federated chat protocol, but, frankly, it’s also a major _pain in the ass_. While its design is elegant in many ways, in practice it often feels like an unwieldy mess. It can be devastatingly resource-intensive, especially when doing something as simple as trying to join a large chat room somewhere. And it is also notoriously buggy, with experience-breaking glitches that have no clear path to resolution. The server requires constant maintenance and attention, to the point where it has consumed a disproportionate amount of time and resources within the omg.lol ecosystem. It’s not really sustainable.
 
-### Getting Started
+We’ve puttered along with this setup for a while, duct-taping the cracks in the walls and bailing the rising flood waters as best we could, but we ultimately ran into the “final boss” of technical hurdles when we lost the ability to reliably add new people to the homeserver due to a glitch with the way Spaces operate.
 
-To join, visit your address’s social.lol page. In the Matrix section, you’ll see two options: you can create a Matrix account on our homeserver for your omg.lol address, or you can invite your existing account from another instance to the omg.lol space. Click whichever button you wish, wait a couple of moments, and you’ll be good to go.
+So, it’s time to bid farewell to this interesting (but weird (and frustrating)) slice of the omg.lol tech stack. The Matrix server will remain operational through April for the handful of people who are still using it, but new accounts are no longer being provisioned.
 
-### Connecting
+[IRC](/info/irc), [XMPP](/info/xmpp), and [Discord](/info/discord) remain available for staying plugged into the omg.lol community with real-time chat, along with [Discourse](https://discourse.lol) and [Mastodon](/info/mastodon) for less synchronous stuff.
 
-To use Matrix, you need a [clients](https://matrix.org/ecosystem/clients). You might try a few different ones until you land on one that you enjoy.
-
-When connecting to our homeserver, be sure to use the address `matrix.omg.lol`. Your address will be `@username:omg.lol`, but if you enter `omg.lol` your client probably won’t be able to find the server (since it technically lives at `matrix.omg.lol`).
-
-You can see the full list of [chat channels](/info/chat), all of which are bridged across our other chat services. You can also create your own channels too, if you’d like!
+While our usage of the Matrix server is exceptionally low compared to the other chat platforms we offer, I do recognize the disruption that this causes to those who use it regularly. Please feel free to [get in touch](mailto:help@omg.lol) if you have any questions, comments, or need help with anything related to the change.
