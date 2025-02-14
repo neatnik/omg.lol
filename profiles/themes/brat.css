@@ -1,0 +1,40 @@
+/*
+
+Theme: brat
+Author: Ediz Baha (@ediz)
+License: MIT
+Version: 1.0
+Description: brat - This theme is inspired by the design of the brat album.
+
+*/
+
+main {
+    background: none ! important;
+}
+
+body {
+    background: #8ACF00;
+    font-weight: 500;
+    font-family: "Arial Narrow", sans-serif;
+    filter: blur(1px);
+}
+
+#name {
+    filter: blur(1.5px);
+    font-size: 2.8em;
+    text-transform: lowercase;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center !important;
+}
+
+
+.omg-verified {
+    color: #000 !important;
+    font-size: 0.7em;
+}
+
+#profile-picture {
+    border-radius: 100%;
+}

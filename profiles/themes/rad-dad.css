@@ -1,0 +1,155 @@
+/*
+
+Theme: Rad.Dad
+Author: Ediz Baha (@ediz)
+License: MIT
+Version: 1.0
+Description: Rad.Dad - This theme is inspired by the design of the rad.dad.
+
+*/
+
+@import url('https://cdn.cache.lol/type/konsole/konsole.css');
+
+:root {
+    --bg: #eee;
+    --fg: #ddd;
+    --text: #444;
+    --verified: #444;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #444;
+        --fg: #333;
+        --text: #eee;
+        --verified: #eee;
+    }
+}
+
+* {
+    font-family: 'Konsole', sans-serif;
+}
+
+h2, h3 {
+    color: var(--text);
+    font-family: 'Konsole', sans-serif;
+}
+
+#name {
+    font-family: 'Konsole Wide', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: -0.065em;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Konsole', sans-serif;
+}
+
+main {
+    background: var(--fg);
+    border-radius: 0%;
+}
+
+a:link,
+a:visited {
+    color: var(--text);
+    text-decoration-color: var(--text);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--text);
+}
+
+a:hover,
+a:active {
+    color: var(--text);
+    text-decoration-color: var(--text);
+    text-decoration: none;
+    border-bottom: 2px solid var(--text);
+}
+
+#profile-picture {
+    border-radius: 100%;
+}
+
+#pronouns {
+    color: var(--text);
+}
+
+hr {
+    background: var(--text);
+}
+
+#footer a:link,
+#footer a:visited,
+#footer a:hover,
+#footer a:active {
+    color: var(--text);
+}
+
+/* Now Page Style */
+#now {
+    margin-top: 2em;
+    text-align: left !important;
+}
+
+/* Color for profile items list */
+.fa-li,
+.fas,
+.omg-icon,
+.omg-icon path {
+    color: var(--text);
+    fill: var(--text);
+    stroke: var(--text);
+}
+
+/* Specific colors for individual icons */
+.fa-plug {
+    color: var(--text);
+}
+
+.fa-badge-check {
+    color: var(--verified) !important;
+    /* important is needed to override inline style */
+}
+
+.omg-verified {
+    color: var(--verified) !important;
+    /* important is needed to override inline style */
+    font-size: 1.2em !important;
+}
+
+
+/* Footer Style */
+.logotype,
+.logotype dot {
+    color: var(--text) !important;
+    font-family: 'Konsole Wide' !important;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+.prami-body {
+    fill: var(--text) !important;
+}
+
+.prami-left-eye,
+.prami-right-eye {
+    fill: var(--fg) !important;
+}
+
+.prami-left-eye-pupil,
+.prami-right-eye-pupil {
+    stroke: var(--fg) !important;
+}
+
+.prami-left-cheek,
+.prami-right-cheek {
+    fill: var(--bg) !important;
+}
+
+.prami-mouth {
+    stroke: var(--fg) !important;
+}
