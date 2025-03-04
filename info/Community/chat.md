@@ -1,6 +1,6 @@
 ---
 Description: Chat with friends on omg.lol!
-Last Updated: 2025-02-12 8:32 AM EST
+Last Updated: 2025-03-04 12:30 AM EST
 ---
 
 # Chat
@@ -43,4 +43,4 @@ Here are the channels you’ll find within the omg.lol Chat Network:
   * **#gratitude**, [Expressing gratitude feels good!](https://www.mindful.org/the-science-of-gratitude/)
   * **#venting**, A space to complain, gripe, or just let it all out
   
-In addition, Discord also offers a voice chat rooms and a couple of co-working spaces.
+In addition, Discord also offers voice channels and a couple of co-working spaces.
