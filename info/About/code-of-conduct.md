@@ -1,6 +1,6 @@
 ---
 Description: Follow our Code of Conduct to keep our community awesome  
-Last Updated: 2024-09-25 04:13 PM EDT
+Last Updated: 2025-03-09 05:21 PM EDT
 ---
 
 # Code of Conduct
@@ -9,7 +9,7 @@ omg.lol is a loving and inclusive platform. When you use [our services](/info/se
 
 More specifically, and most importantly:
 
-- Don’t spread hate or negativity, especially based on people’s fundamental differences such as gender identity, sexual orientation, race, ethnicity, age, ability, and social class.
+- Don’t spread hate or negativity, especially based on people’s fundamental differences such as gender identity, sexual orientation, race, ethnicity, nationality, age, ability, and social class.
 - Don’t harass, troll, seek to offend, shitpost, or otherwise bother anyone.
 - Don’t lie, and don’t spread others’ lies or misinformation.
 
