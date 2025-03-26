@@ -88,6 +88,7 @@ kaggle.com kaggle
 mltshp.com mltshp
 ecosia.org ecosia
 pixelfed.social pixelfed
+pixelfed.art pixelfed
 credly.com credly
 vukkybox.com vukky
 rvlt.gg revolt
