@@ -2054,5 +2054,22 @@
     "rec-room": "omg-icon omg-rec-room",
     "byecorps-id": "omg-icon omg-byecorps-id",
     "raindrop-io": "omg-icon omg-raindrop-io",
-    "epic-games": "omg-icon omg-epic-games"
+    "epic-games": "omg-icon omg-epic-games",
+    "pinksea": "omg-icon omg-pinksea",
+    "musicbrainz": "omg-icon omg-musicbrainz",
+    "wire-messenger": "omg-icon omg-wire-messenger",
+    "loops": "omg-icon omg-loops",
+    "openstreetmap": "omg-icon omg-openstreetmap",
+    "storygraph": "omg-icon omg-storygraph",
+    "runescape": "omg-icon omg-runescape",
+    "gotosocial": "omg-icon omg-gotosocial",
+    "nuget": "omg-icon omg-nuget",
+    "osf": "omg-icon omg-osf",
+    "simplex": "omg-icon omg-simplex",
+    "metafilter": "omg-icon omg-metafilter",
+    "hardcover": "omg-icon omg-hardcover",
+    "akkoma": "omg-icon omg-akkoma",
+    "friendica": "omg-icon omg-friendica",
+    "spoutible": "omg-icon omg-spoutible",
+    "cwtch": "omg-icon omg-cwtch"
 }

@@ -230,6 +230,18 @@ xbox.com xbox
 ycombinator.com y-combinator
 youtube.com youtube
 rec.net rec-room
+pinksea.art pinksea
+musicbrainz.org musicbrainz
+listenbrainz.org musicbrainz
+wire.com wire-messenger
+loops.video loops
+openstreetmap.org openstreetmap
+thestorygraph.com storygraph
+runescape.com runescape
+nuget.org nuget
+metafilter.com metafilter
+hardcover.app hardcover
+spoutible.com spoutible
 
 // People
 probably.fm probably-fm
