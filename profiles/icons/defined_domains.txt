@@ -243,6 +243,7 @@ nuget.org nuget
 metafilter.com metafilter
 hardcover.app hardcover
 spoutible.com spoutible
+glass.photo glass
 
 // People
 probably.fm probably-fm
