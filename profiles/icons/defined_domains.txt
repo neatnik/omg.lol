@@ -244,6 +244,7 @@ metafilter.com metafilter
 hardcover.app hardcover
 spoutible.com spoutible
 glass.photo glass
+crucialtracks.org crucial-tracks
 
 // People
 probably.fm probably-fm
