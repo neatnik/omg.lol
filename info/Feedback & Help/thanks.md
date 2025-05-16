@@ -1,6 +1,6 @@
 ---
 Description: Thanks to all of the awesome people who have helped us out!  
-Last Updated: 2023-03-13 8:32 AM EDT
+Last Updated: 2025-05-16 11:36 AM EDT
 ---
 
 # Thanks / Hall of Fame
@@ -19,7 +19,7 @@ Last Updated: 2023-03-13 8:32 AM EDT
 <li><a href="https://zer0.omg.lol">zer0</a> for identifying a bug with referral checking as well as catching the same registration bug above</li>
 <li><a href="https://matsevh.omg.lol">MatseVH</a> for huge contributions to profile themes</li>
 <li><a href="https://ch.omg.lol">Chase</a> for identifying a bug with the 404 page</li>
-<li><a href="https://laker.omg.lol">Laker</a> for numerous profile page enhancements</li>
+<li><a href="https://hi.ivy.rs">Ivy</a> for numerous profile page enhancements</li>
 <li><a href="https://tjwds.omg.lol">Joe</a> for profile page enhancements</li>
 <li><a href="https://sus.omg.lol">Vukky</a> for too many things to even list here as well as for being generally sus</li>
 <li><a href="https://omg.lol/stan">Stan</a> for icon support and helpful advice</li>
