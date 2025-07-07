@@ -245,6 +245,8 @@ hardcover.app hardcover
 spoutible.com spoutible
 glass.photo glass
 crucialtracks.org crucial-tracks
+are.na arena
+delta.chat delta-chat
 
 // People
 probably.fm probably-fm
