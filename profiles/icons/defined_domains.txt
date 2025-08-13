@@ -45,6 +45,7 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+discogs.com discogs
 raindrop.io raindrop-io
 puzzmo.com puzzmo
 bere.al bereal
