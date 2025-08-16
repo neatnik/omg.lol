@@ -1,6 +1,6 @@
 ---
 Description: How to pay for all of this awesomeness
-Last Updated: 2025-08-16 10:35 AM EST
+Last Updated: 2025-08-16 10:35 AM EDT
 ---
 
 # Payments
@@ -11,7 +11,7 @@ So, how can you pay for all of this awesomeness? Read on for answers.
 
 We accept most credit/debit cards and digital/mobile payment methods.
 
-<span style="font-size: 170%;" class="gray-7-fg">
+<p><span style="font-size: 170%;" class="gray-7-fg">
 <i class="fa-brands fa-cc-visa"></i>
 <i class="fa-brands fa-cc-mastercard"></i>
 <i class="fa-brands fa-cc-amex"></i>
@@ -21,7 +21,7 @@ We accept most credit/debit cards and digital/mobile payment methods.
 <i class="fa-brands fa-alipay"></i>
 <i class="fa-brands fa-apple-pay"></i>
 <i class="fa-brands fa-google-pay"></i>
-</span>
+</span></p>
 
 <p>As of August 2025, we no longer accept bank transfers or other delayed payment methods due to abuse.</p>
 
