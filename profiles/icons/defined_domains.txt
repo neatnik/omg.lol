@@ -46,6 +46,7 @@ diode.zone peertube
 tilvids.com peertube
 
 // Other
+discogs.com discogs
 raindrop.io raindrop-io
 puzzmo.com puzzmo
 bere.al bereal
@@ -244,6 +245,10 @@ nuget.org nuget
 metafilter.com metafilter
 hardcover.app hardcover
 spoutible.com spoutible
+glass.photo glass
+crucialtracks.org crucial-tracks
+are.na arena
+delta.chat delta-chat
 
 // People
 probably.fm probably-fm
