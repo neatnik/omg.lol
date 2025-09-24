@@ -37,6 +37,7 @@ tech.lgbt mastodon
 ruby.social mastodon
 dice.camp mastodon
 allthingstech.social mastodon
+metalhead.club mastodon
 
 // Peertube
 peertube.tv peertube
