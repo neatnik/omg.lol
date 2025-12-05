@@ -34,8 +34,8 @@ This will create a new server entry, configure it, and connect to it. In this ex
 
 ```
 /server add omg.lol irc.social.lol/6697 -ssl
-/set irc.server_default.nicks "foobar"
-/set irc.server.omg.lol.password "your-password-here"
+/set irc.server.omg.lol.sasl_username "foobar"
+/set irc.server.omg.lol.sasl_password "your-password-here"
 /connect omg.lol
 ```
 
