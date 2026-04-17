@@ -1,6 +1,8 @@
 # omg.lol
 
-Welcome to the omg.lol repo! Here you’ll find stuff including: the [Info Center](https://github.com/neatnik/omg.lol/tree/main/info), [themes](https://github.com/neatnik/omg.lol/tree/main/profiles/themes) and [icons](https://github.com/neatnik/omg.lol/tree/main/profiles/icons), as well as our [API schema](https://github.com/neatnik/omg.lol/tree/main/api) (and, soon API examples).
+Welcome to the omg.lol repo! We’re in the process of moving things over to https://source.tube. Over there you’ll find our [icons]([https://github.com/neatnik/omg.lol/tree/main/profiles/icons](https://source.tube/neatnik/omg.lol-icons)).
+
+Here, you’ll find the stuff that hasn’t yet moved, including: the [Info Center](https://github.com/neatnik/omg.lol/tree/main/info), [themes](https://github.com/neatnik/omg.lol/tree/main/profiles/themes) and our [API schema](https://github.com/neatnik/omg.lol/tree/main/api) (and, soon API examples).
 
 You can learn more about omg.lol at https://home.omg.lol. Thanks for visiting!
 
